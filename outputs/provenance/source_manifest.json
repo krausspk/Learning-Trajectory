@@ -1,0 +1,122 @@
+[
+  {
+    "path": "src/learning_trajectory/__init__.py",
+    "sha256": "065bf54cc40fe01372db9983f63b058d770457bcf9d517d73c20d0632bf6becb"
+  },
+  {
+    "path": "src/learning_trajectory/analysis.py",
+    "sha256": "6c2a3e36855844558626d49e156b27e4e573773c032b2a90ba5cd93e8102a661"
+  },
+  {
+    "path": "src/learning_trajectory/checkpoints.py",
+    "sha256": "baa485c055315b67e4d4b3d1d071fb21a6e98ff611813bfb6d3f2387247bbbc4"
+  },
+  {
+    "path": "src/learning_trajectory/cli.py",
+    "sha256": "4d3c1171744a51f55cdc517fbd36a6203edc71dae9957ae71896fa293d3b8d35"
+  },
+  {
+    "path": "src/learning_trajectory/data.py",
+    "sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+  },
+  {
+    "path": "src/learning_trajectory/figures.py",
+    "sha256": "d63e3aa1e7af8856f834051660070803699d914781b5025bedfbbf9169a6ca20"
+  },
+  {
+    "path": "src/learning_trajectory/metrics.py",
+    "sha256": "c14505dcdfabdc006fb982d8d7f4dd18d17538845ad658146944851cb3eb4be7"
+  },
+  {
+    "path": "src/learning_trajectory/report.py",
+    "sha256": "5f01235222dad606a6db9c4a2f3ccf144704e0f2f97b45f914f800da74cfb990"
+  },
+  {
+    "path": "src/learning_trajectory/sensitivity.py",
+    "sha256": "b8f7013a5960811e874b7a6277aba53f84f191c9f4fd66c78f2ef1b43b8759fd"
+  },
+  {
+    "path": "src/learning_trajectory/statistics.py",
+    "sha256": "0e22a58eb370327e43f473f71b804d112f78c98d324e80622e6e8f1c2dc67070"
+  },
+  {
+    "path": "src/learning_trajectory/training.py",
+    "sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06"
+  },
+  {
+    "path": "src/learning_trajectory/validation.py",
+    "sha256": "ac08d34b0db8b3d7ee8704fd2cfba08f976e1f9e0daac58b8a3bea6fd49d6269"
+  },
+  {
+    "path": "src/learning_trajectory.egg-info/PKG-INFO",
+    "sha256": "083405a235fd22d0ea4d8440689d31ded3441bdc8529ad4479a5183ddd0bbb28"
+  },
+  {
+    "path": "src/learning_trajectory.egg-info/SOURCES.txt",
+    "sha256": "8bba84bd07ff86bdec7877ad5868cd8a54b1b55b2af9864568ae21eeaf000701"
+  },
+  {
+    "path": "src/learning_trajectory.egg-info/dependency_links.txt",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "src/learning_trajectory.egg-info/entry_points.txt",
+    "sha256": "ac095ec537180da99afa701961e2d9798319d95d5c7fa7313f1dc3c4e164f88e"
+  },
+  {
+    "path": "src/learning_trajectory.egg-info/requires.txt",
+    "sha256": "973ddd54c86537d1c75eba4b431a91178436481d244739a095ed37657684d2cb"
+  },
+  {
+    "path": "src/learning_trajectory.egg-info/top_level.txt",
+    "sha256": "2f8ab7d3d67fbd9a382dd1166f70978e7e510e86254023da5e6216e9e40ab130"
+  },
+  {
+    "path": "configs/analysis_plan.json",
+    "sha256": "a9befa4df4e59c474849d85c62be3294cf2123438d85a7393750d6f23548a331"
+  },
+  {
+    "path": "configs/paper_targets.json",
+    "sha256": "7ca7af254deb580fac34650b6c27d5d31293b10c7caf441d494df0ee0c6ffba5"
+  },
+  {
+    "path": "tests/test_figures.py",
+    "sha256": "026779a9442139993a1edfdd63be584ef2b2790902a4501b832e7076753c1ef4"
+  },
+  {
+    "path": "tests/test_metrics.py",
+    "sha256": "ea0e5fb6a2b2cf957b091fbb374e0cd264d10cb6d63b0c02844c6df1f587d3a6"
+  },
+  {
+    "path": "tests/test_statistics.py",
+    "sha256": "1a8fc01f6b1b9aaa3d397cd2a44c2e723a3e5d55f96db70ffd96e4eb5bd366df"
+  },
+  {
+    "path": "tests/test_training.py",
+    "sha256": "5fc0bce91a548a5736751515f2bcab643a45dd1d5e35576a45a73736da3faf05"
+  },
+  {
+    "path": "tests/test_validation.py",
+    "sha256": "715c09d1fdc815b110dbe6c45251fe9fdce9de9d7faed09e7f5dc696e06685ab"
+  },
+  {
+    "path": "docs/figure_inventory.md",
+    "sha256": "466586bf8b12b6ebbcc03b0a4090478ea2d218a433d0e5324ec9d758cc9d3aed"
+  },
+  {
+    "path": "docs/reproduction_spec.md",
+    "sha256": "21f0556e618f15cd8cbd2d84da5da29b4f1c4146f43a5ade0634bec57e9b3e78"
+  },
+  {
+    "path": "scripts/audit_results.py",
+    "sha256": "f4d84eecc061a604ff49369cb5e8a3243bb53175d8e4ec22b7d1c302fb2fb8da"
+  },
+  {
+    "path": "scripts/reproduce.sh",
+    "sha256": "ef278f1019f73a879a59a6f1c3dd45ea252a75fb20c9d8acdd9bfd48aad53a58"
+  },
+  {
+    "path": "scripts/setup.sh",
+    "sha256": "7cd66ef1fe0156953b34e86bfb0873785b5a3a25f6b5d09f5312a8ab21ac97a9"
+  }
+]

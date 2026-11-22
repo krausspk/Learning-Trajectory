@@ -1,0 +1,11 @@
+Starting finalize
+{
+  "passed": true,
+  "preserved_files": 703,
+  "training_runs": 150,
+  "checkpoints": 3150,
+  "artifact_files": 386,
+  "artifact_manifest_sha256": "645a539f9dd3c0cbb833cc87c317a2a89e00ab761a078a18d46e78e38de026f5",
+  "results_pdf_present": true
+}
+Completed finalize

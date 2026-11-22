@@ -1,0 +1,10 @@
+key,cohort,checkpoint,metric,group,alignment,expected,ci_low,ci_high,source,source_section,figure,table,page,notes,layer,statistic,mapping_status,computed,computed_ci_low,computed_ci_high,difference,status,error,base_metric,envelope,comparison,source_cohort,comparison_pair
+main.mnist.test_accuracy_mean,main,20,accuracy,mnist,none,0.9737,,,supplement,S1,S1,S1,2,,total,mean,training,0.97218,,,-0.00151999999999997,computed,,,,,,
+main.mnist.test_accuracy_sd,main,20,accuracy,mnist,none,0.0024,,,supplement,S1,S1,S1,2,,total,std,training,0.000802496105909539,,,-0.00159750389409046,computed,,,,,,
+main.mnist.test_loss_mean,main,20,loss,mnist,none,0.1127,,,supplement,S1,S1,S1,2,,total,mean,training,0.120481042022705,,,0.00778104202270509,computed,,,,,,
+main.fashion_mnist.test_accuracy_mean,main,20,accuracy,fashion_mnist,none,0.8637,,,supplement,S1,S1,S1,2,,total,mean,training,0.86708,,,0.00337999999999994,computed,,,,,,
+main.fashion_mnist.test_accuracy_sd,main,20,accuracy,fashion_mnist,none,0.0047,,,supplement,S1,S1,S1,2,,total,std,training,0.00523297238670338,,,0.000532972386703382,computed,,,,,,
+main.fashion_mnist.test_loss_mean,main,20,loss,fashion_mnist,none,0.4046,,,supplement,S1,S1,S1,2,,total,mean,training,0.393592979736328,,,-0.0110070202636719,computed,,,,,,
+main.kmnist.test_accuracy_mean,main,20,accuracy,kmnist,none,0.8599,,,supplement,S1,S1,S1,2,,total,mean,training,0.86145,,,0.00155000000000016,computed,,,,,,
+main.kmnist.test_accuracy_sd,main,20,accuracy,kmnist,none,0.007,,,supplement,S1,S1,S1,2,,total,std,training,0.00247891105124813,,,-0.00452108894875187,computed,,,,,,
+main.kmnist.test_loss_mean,main,20,loss,kmnist,none,0.7992,,,supplement,S1,S1,S1,2,,total,mean,training,0.775510051269531,,,-0.0236899487304688,computed,,,,,,

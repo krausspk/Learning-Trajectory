@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-11-16T10:56:57.532410+00:00",
+  "source_manifest": "outputs/manifests/main.json",
+  "source_manifest_sha256": "c3ee4683156d6814307844596806e57f50fddca76263315e56fe54876f3972a9",
+  "cohort": "main",
+  "datasets": [
+    "mnist",
+    "fashion_mnist",
+    "kmnist"
+  ],
+  "runs_per_dataset": 10,
+  "checkpoints": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "direction": "query=current network i; candidate=initial network j",
+  "matrix_shape_per_dataset": [
+    21,
+    10,
+    10
+  ],
+  "primary_metric_key": "normalized_frobenius|total|optimal|canonical",
+  "primary_endpoint": "mean rank of true initial candidate at E20; smaller is better",
+  "chance_mean_rank": 5.5,
+  "chance_top1": 0.1,
+  "null_test": "10000 bijective global permutations of candidate identity labels, independent within each dataset; do not shuffle individual distances",
+  "inferential_unit": "complete network trajectory; no independent-weight or independent-pair tests",
+  "e0_role": "sanity only; no p values",
+  "metric_selection": "fixed before computation, no outcome-dependent tuning",
+  "initialization_shuffle_confounding": "one run seed determines both initial weights and minibatch shuffle; identifies training lineage, not a causal separation of initialization and SGD order",
+  "new_training": false,
+  "point3_functional_fingerprint": false,
+  "point4_crossed_training": false,
+  "original_files_read_only": true,
+  "experiment": 3,
+  "base_seed": 2026111800,
+  "dataset_permutation_seeds": {
+    "mnist": 2026111801,
+    "fashion_mnist": 2026111802,
+    "kmnist": 2026111803
+  },
+  "primary_family": "all controls exploratory; the point1 protocol is a reference only",
+  "control_plan": {
+    "coordinate_gauge": "raw/canonical x identity/shared optimal permutation",
+    "metrics": "Frobenius and normalized Frobenius, W0/W1/total; absolute initial/current norm differences",
+    "residual_quantiles": "candidate-specific bottom/top25% residuals, same rule for all100pairs; diagnostic metric sensitivity, not causal ablation",
+    "activity": "query-only low/high hidden activity quartiles on fixed saved probe; masked cost and new Hungarian for every candidate; inactive counts saved",
+    "forbidden_leakage": "no true-parent-derived feature mask in blind retrieval"
+  }
+}

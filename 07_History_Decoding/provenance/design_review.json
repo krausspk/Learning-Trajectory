@@ -1,0 +1,57 @@
+{
+  "review_status": "complete_source_numeric_and_visual_review",
+  "primary_endpoint": "reset momentum, both final canonical aligned weight matrices, C10, held-out seed-block balanced accuracy",
+  "conclusions": [
+    "The paired 200-seed design identifies whether the two specified task-order labels can be decoded for new initialization seeds.",
+    "Each seed's two histories must remain together in every train, validation and test partition.",
+    "Permutation tests must independently swap the two labels within each seed block across all partitions and refit plus reselect the regularization parameter. Label-independent preprocessing may be cached.",
+    "The reference must be selected solely from training final weights without optimizing historical labels; final-test weights may only be aligned to that frozen reference.",
+    "Canonical equal-incoming/outgoing-norm gauge and one-hidden-layer Git Re-Basin assignment use the validated local metrics implementation.",
+    "Test block-bootstrap intervals condition on the already trained and selected probe, and do not include new training-split or reference-selection variability.",
+    "Perfect test decoding can produce a degenerate bootstrap interval; this is not a guarantee for the population of unseen networks.",
+    "Similar average final task accuracy does not establish equivalence. Report paired accuracy and loss differences, diagnostic-only probes and train-only covariate adjustment.",
+    "Holm correction should transparently cover the declared family of secondary horizon, layer, diagnostic, functional and momentum endpoints.",
+    "A functional-logit probe tests residual behavioral distinguishability on the fixed inputs, not the whole input distribution.",
+    "Negative-control accuracy need not equal 50 percent exactly in a finite sample; assess its interval and permutation calibration.",
+    "A positive weight-space endpoint establishes recoverable information about these two task orders; it does not identify all SGD updates or establish an attractor."
+  ],
+  "implementation_checks_pending": [],
+  "implementation_review": {
+    "status": "source inspected before full analysis",
+    "files": {
+      "training.py": "5b62d28a1443ec8fd44460c242399bceac2ef05a7cd6268a07d48f14ca29729c",
+      "probes.py": "48138fcc47946a9175876270c4245ec00faa00201aca4c2a16fb89f9e2f21bce",
+      "reporting.py": "b1a4825c1f8ba0cd169afba1b4cce32168f692bedbee92a0d3aea27a97d2f255"
+    },
+    "passed_source_checks": [
+      "Training clones complete identical initial model state for both history arms.",
+      "Both history arms use the same precomputed seed-specific epoch-order arrays.",
+      "Reset condition creates a fresh SGD optimizer at both phase transitions; continued condition retains state.",
+      "Probe loading explicitly takes final W0/W1, diagnostics and logits only; initial weights and metadata cannot enter weight features.",
+      "Train-only canonical C10 weight-hash reference is frozen across horizons.",
+      "Scaling, diagnostic standardization, residualization and Gram projection use training indices only.",
+      "Exact linear train-Gram map is tested against original-feature L2 logistic regression.",
+      "Within-seed pair labels are swapped across all split blocks, followed by logistic refitting and validation selection.",
+      "Block-bootstrap indices retain both histories and all split indices are constructed in adjacent pairs.",
+      "Every aligned feature row is checked after hidden reindexing and positive gauge rescaling."
+    ],
+    "issues_reported": [
+      "With 18 secondary endpoints and 199 permutations, minimum Holm-adjusted p=.09, making any secondary rejection impossible. Suggested raising secondary permutations before outcomes.",
+      "The frozen plan should explicitly exclude the random-label calibration endpoint from the confirmatory-secondary Holm family if the code does so."
+    ],
+    "issue_resolution": "Both issues resolved by documented pre-analysis amendment: 999 secondary permutations and negative-control inclusion in the 19-endpoint Holm family."
+  },
+  "final_review": {
+    "source_hashes_current": true,
+    "all_training_archives_audit_passed": true,
+    "full_endpoint_count": 20,
+    "visual_and_numeric_qa": "provenance/report_visual_qa.json",
+    "important_limitations": [
+      "Final C performance differs: approximately -0.81 percentage points for H1 minus H0; no equal-performance claim.",
+      "Raw logits decode the histories too; differences in softmax probabilities or predicted classes were not isolated.",
+      "Layer ablations use joint gauge and alignment; not independent raw-layer-only evidence.",
+      "Perfect held-out results yield degenerate conditional empirical bootstrap intervals; no population perfection guarantee."
+    ],
+    "protocol_changed_after_results": false
+  }
+}

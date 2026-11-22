@@ -1,0 +1,106 @@
+{
+  "created_utc": "2026-11-16T11:19:30.746072+00:00",
+  "source_manifest": "outputs/manifests/main.json",
+  "datasets": [
+    "mnist",
+    "fashion_mnist",
+    "kmnist"
+  ],
+  "checkpoints": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "runs_per_dataset": 10,
+  "n_permutations": 10000,
+  "previous_files_read_only": true,
+  "experiment": 5,
+  "design": "complete factorial initialization x minibatch order within each dataset",
+  "initializations": {
+    "mnist": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "fashion_mnist": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210
+    ],
+    "kmnist": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310
+    ]
+  },
+  "shuffle_base_seeds": [
+    11001,
+    12001,
+    13001,
+    14001,
+    15001
+  ],
+  "shuffle_schedule": "torch.randperm(N, Generator.manual_seed(shuffle_base_seed + zero_based_epoch))",
+  "expected_runs": 150,
+  "training": {
+    "architecture": [
+      784,
+      64,
+      10
+    ],
+    "activation": "ReLU",
+    "biases": "zero and frozen",
+    "optimizer": "SGD",
+    "lr": 0.1,
+    "momentum": 0.9,
+    "batch_size": 256,
+    "epochs": 10,
+    "threads_per_worker": 1,
+    "workers": 4,
+    "weight_decay": 0
+  },
+  "checkpoint_storage": "all 21 NPZ arrays plus PT full optimizer/RNG/model/order states",
+  "initial_source": "exact existing E0 weights, checked bitwise for both layers",
+  "new_training": true,
+  "analysis_design": "primary design to be fixed in a separate analysis_design.json before training outcomes are examined",
+  "primary_intent": "initialization identity retrieval across independently manipulated shuffle levels, conditional on dataset"
+}

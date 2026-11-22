@@ -1,0 +1,5 @@
+key,cohort,checkpoint,metric,group,alignment,expected,ci_low,ci_high,source,source_section,figure,table,page,notes,layer,statistic,mapping_status,computed,computed_ci_low,computed_ci_high,difference,status,error,base_metric,envelope,comparison,source_cohort,comparison_pair
+task.euclidean.contrast,task,20,euclidean,contrast,incoming,0.01152,0.01114,0.01191,supplement,S4,S4,S3,7,,W0,mean,estimates,0.0111720244726263,0.0107727431233861,0.0115713058218666,-0.000347975527373701,computed,,,,,,
+task.snd.contrast,task,20,snd,contrast,incoming,0.02602,0.02503,0.02702,supplement,S4,S4,S3,7,,W0,mean,estimates,0.0249321101739572,0.0234256628299515,0.026438557517963,-0.0010878898260428,computed,,,,,,
+task.alpha.contrast,task,20,raw_alpha,contrast,incoming,0.04452,0.0411,0.04793,supplement,S4,S4,S3,7,,W0,mean,estimates,0.0431981521859139,0.0410189855568149,0.0453773188150129,-0.0013218478140861,computed,,,,,,
+task.one_minus_cka.contrast,task,20,one_minus_cka,contrast,none,0.13658,0.12445,0.14872,supplement,S4,S4,S3,7,,hidden,mean,estimates,0.133402723748168,0.125285718726024,0.141519728770311,-0.00317727625183201,computed,,,,,,

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "review_type": "independent post-hoc norm-rank calibration review",
+  "code_sha256": {
+    "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/code/norm_rank_control.py": "76fa1d5c9e7df5c91e55f12f28bd53e437d34010f85e3f9075404c185ed349d0",
+    "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/code/norm_rank_inference.py": "39473ec768dbc54ddedc993b16adb177fdd73676bde0b394ec786d7a04f179e1",
+    "/home/patrick/projects/Learning-Trajectory/02_Initialization_Retrieval/code/inference.py": "6a78b62661e9b3b7183028f9c7aed3bf4db11e416416296a2d94cccff83bac26"
+  },
+  "findings": [],
+  "checks": {
+    "costs": "Current and candidate norms ranked independently within their own cohorts; no true-parent pairing enters cost construction.",
+    "jackknife": "Delete the same trajectory from both cohorts, recompute both sets of nine ranks, divide by eight, then recompute candidate ranks.",
+    "independent_saved_jackknife_matrices_checked": 3780,
+    "max_calibration_error": 0.0,
+    "adapter": "Module-local temporary hooks restore the unchanged original inference module; verified dataset/K/T call order chooses each precomputed deletion tensor, avoiding identical-matrix key collisions.",
+    "inference": "Unchanged global bijective label null, chance-adjusted jackknife scales and stratum-level aggregation; no confirmatory primary family.",
+    "deletion_index_metadata": "Final wrapper additionally validates optional saved axes, deleted indices, and remaining-index order against the expected paired deletion convention."
+  },
+  "interpretation_limits": [
+    "Post hoc exploratory control motivated by degeneracy of absolute norm-gap rankings.",
+    "Transductive cohort-level calibration; this does not represent independent retrieval from an isolated query network."
+  ],
+  "source_files_modified": false
+}

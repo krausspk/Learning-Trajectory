@@ -1,0 +1,30 @@
+{
+  "checkpoints": 15,
+  "elapsed_seconds": 5.80203745900144,
+  "failure": null,
+  "final_accuracy": 0.9744,
+  "final_loss": 0.13444245986938477,
+  "final_recovery_update": 2350,
+  "fingerprint": "6300ba8beb926fcf8cac024dc5f2d9117e587a5ad9551df4c107c4d3ad35ee01",
+  "job": {
+    "checkpoint": 20,
+    "dataset": "mnist",
+    "direction": 0,
+    "epsilon": 0.0,
+    "job_id": "benchmark_M1_E20_preserve_repeat",
+    "layer": "both",
+    "momentum": "preserve",
+    "order_seed": 101,
+    "perturb_seed": 200001,
+    "run_id": "M1",
+    "seed": 101,
+    "source": "outputs/checkpoints/main/M1.pt"
+  },
+  "job_id": "benchmark_M1_E20_preserve_repeat",
+  "npz_path": "/home/patrick/projects/Learning-Trajectory/06_Attractor_Perturbation/validation/benchmark/checkpoints/benchmark_M1_E20_preserve_repeat.npz",
+  "npz_sha256": "03abe32367379e5ddfbab92306b16e1a33ab75ef0819216427f7a2e5e3c280a7",
+  "pt_path": "/home/patrick/projects/Learning-Trajectory/06_Attractor_Perturbation/validation/benchmark/checkpoints/benchmark_M1_E20_preserve_repeat.pt",
+  "pt_sha256": "fdb833393f8838bdeb638641aaac2c5008f3986556667028873b56c184e7d461",
+  "reused": false,
+  "status": "complete"
+}

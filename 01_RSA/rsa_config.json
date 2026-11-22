@@ -1,0 +1,95 @@
+{
+  "experiment": "01_RSA",
+  "version": "1.0.0",
+  "created_utc": "2026-11-16T09:55:03.849062+00:00",
+  "specification": {
+    "path": "01_RSA_Initialisierung_Endzustand.md",
+    "sha256": "9dc4514a255f038e8b328697b67fb15e74e7ba44fe9a6f7043ba43a1ed548c42"
+  },
+  "source_manifest": {
+    "path": "outputs/manifests/main.json",
+    "sha256": "c3ee4683156d6814307844596806e57f50fddca76263315e56fe54876f3972a9"
+  },
+  "source_inventory": "provenance/source_inventory_before.json",
+  "cohort": "main",
+  "n_runs": 30,
+  "runs_per_dataset": 10,
+  "pairs_per_dataset": 45,
+  "datasets": [
+    "mnist",
+    "fashion_mnist",
+    "kmnist"
+  ],
+  "checkpoints": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "checkpoint_units": "half epochs; E20 = 10 epochs",
+  "arithmetic": "float64 from saved float32 weights",
+  "primary_metric_key": "frobenius|total|optimal|canonical",
+  "primary_distance": "sqrt(||canonical_A0-canonical_B0[:,p]||_F^2 + ||canonical_A1-canonical_B1[p,:]||_F^2)",
+  "gauge": "s_h=sqrt(||out_h||_2/||in_h||_2); in*=s_h, out/=s_h; analysis-only",
+  "alignment": "single-hidden-layer global Hungarian maximizes common W0/W1 inner product after canonicalization; recomputed per pair and checkpoint",
+  "fixed_alignment_sensitivity": "For fixed_E0/fixed_E20, use that pair assignment at every checkpoint including the baseline RDM",
+  "all_distance_definitions": "data/distance_definitions.json",
+  "statistic": "Spearman rank correlation of within-dataset upper triangles, no diagonal",
+  "replication_unit": "network identity; 10 independent training runs and 45 dependent pairs per dataset",
+  "n_permutations": 10000,
+  "base_seed": 2026111600,
+  "dataset_permutation_seeds": {
+    "mnist": 2026111601,
+    "fashion_mnist": 2026111602,
+    "kmnist": 2026111603
+  },
+  "null_test": "simultaneous row/column permutation of target RDM within dataset; independent permutations per stratum; plus-one Monte Carlo p",
+  "primary_test": "one-sided positive association at E20; additionally two-sided p; Holm family correction over three dataset endpoints",
+  "uncertainty": "delete-one-network jackknife; normal 95% intervals; raw bounds saved, clipped to [-1,1] only in plots",
+  "aggregate": "equal-weight mean Fisher z, inverse tanh for presentation; independent-stratum permutation null and stratified run-level jackknife",
+  "e0": "identity sanity check only, p omitted",
+  "exploratory": "all other checkpoints, metric/layer/alignment/norm/neighbor controls; no family-wide error control claimed",
+  "optional_early_replication": false,
+  "optional_neighbor_retention": true,
+  "new_training": false,
+  "original_pipeline_written": false,
+  "software": {
+    "python": "3.11.18",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "pandas": "2.0.3",
+    "matplotlib": "3.7.5"
+  },
+  "source_code_sha256": {
+    "01_RSA/code/audit.py": "ecfdf9baf7c7d7ab0d2feb037e0cc1e102e305c9986221714c09193fc0e59e5e",
+    "01_RSA/code/distances.py": "59f71359166cab0fea857270383b7b97d2bf01c51be6f66ae5e3f89694fbecad",
+    "01_RSA/code/inference.py": "d630a134199201abeaf76e24920c221e313e9d81ae7f4e215f26cc0af0046fc2",
+    "01_RSA/code/plots.py": "f1a20ec752ae7e163cec949ecd4704eefebb7c43e450a1774863fb6a2bcb7149",
+    "01_RSA/code/reporting.py": "9bbedcad06f53da527063c6d10c928900690f33280f86fc4159a2da5e41f2283",
+    "01_RSA/code/run.py": "ccc81bcc8f501d548d4a1228dd16fa4cfc429fcadcbfef1b6dbedb3e66ad7636",
+    "01_RSA/code/test_distances.py": "3bbf8e8b5eba87c4d109c4c4b07e1113c738c7906c8939a930849972ef3c242c",
+    "01_RSA/code/test_inference.py": "b216fe1883eb9aea4e07b7de86535a2cd716d20ab873ba4246d3623d08e1ca3a"
+  },
+  "reused_code_sha256": {
+    "src/learning_trajectory/metrics.py": "c14505dcdfabdc006fb982d8d7f4dd18d17538845ad658146944851cb3eb4be7",
+    "src/learning_trajectory/statistics.py": "0e22a58eb370327e43f473f71b804d112f78c98d324e80622e6e8f1c2dc67070"
+  },
+  "reproduction_command": ".venv/bin/python 01_RSA/code/run.py --stage all"
+}

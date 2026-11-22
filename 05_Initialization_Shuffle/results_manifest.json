@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-11-16T11:48:03.185054+00:00",
+  "report": "results.pdf",
+  "report_sha256": "e009be045d9abfc808ecbc353dd11cbfd68b1cd5825be7eb9652fbf03e876dd7",
+  "pages": 9,
+  "intro_pages": 4,
+  "figure_count": 5,
+  "content_sha256": "fcd145f436a57eb760451f547f0ca81bcb082fe18bf239f3f1508c03518c8ed1",
+  "generator": "/home/patrick/projects/Learning-Trajectory/scripts/build_results_pdf.py",
+  "generator_sha256": "28b4fe81879def5a67e8e7a06217467bc4a2bcc7f93a1fab5da27354a8d8a4cf",
+  "figure_sources": [
+    {
+      "source": "factorial_training.pdf",
+      "sha256": "1ed8bf6091ee6e6bc8809e812c75f6f5ee1c299d17785fb87ae0f801f5bcad90",
+      "report_page": 5
+    },
+    {
+      "source": "endpoint_retrieval_matrices.pdf",
+      "sha256": "e3a47f0cb31e1522bc5a2bb608570dffb9f27a4c20f32d9e64c9c6ba8fff1f43",
+      "report_page": 6
+    },
+    {
+      "source": "factor_retrieval_results.pdf",
+      "sha256": "9ac9f2d908596e5e1cd4524db4802f5e95ae26d3c77aa8aec097d8bc147e864e",
+      "report_page": 7
+    },
+    {
+      "source": "initial_trajectory_retrieval.pdf",
+      "sha256": "f2cef1a402b34af7eb6f756b32aa4de86386abe0933c2b2b911743a82a4d2b93",
+      "report_page": 8
+    },
+    {
+      "source": "factor_geometry_and_performance.pdf",
+      "sha256": "8280c890e5b804e9dbd86316f2b855ef17716bbdc887ac2acfc8b5c7cf91872c",
+      "report_page": 9
+    }
+  ],
+  "data_sources": {
+    "initialization_retrieval.csv": "6c642504e3f7d47f565f0923d29431bbe5de5ac96150845cde3c0cf5af21efed",
+    "shuffle_retrieval.csv": "76d734bcfc9952ef3297a78ef8dbd7b441ab503f263f7688521965ae234c1f08",
+    "initial_trajectory_retrieval.csv": "814ad606c2fe74802d0042af2a52c1119dca77e5ca5476ae9cde6c77da9e3722",
+    "aggregate.csv": "14bc5c4a121227621bced93ccc7133fa5cb739577ea1c7de45a3b175cfb25bd9",
+    "distance_groups.csv": "871a4a57ddaaf063ccc4a3db96da5b8bab245c782e4a30e06e7b0ccfb413b133",
+    "distance_contrasts.csv": "1dc93354175d34f96851ef385a8f79000f355da75b3bbba357a89ce08cadf3b9",
+    "performance_decomposition.csv": "37367606d5b45a342a1f436723339d66ae5678da94ac53bc4a2d7cbde09e850a",
+    "leave_factor_level_out.csv": "bf3ac657547fa78ee54174aaa869aa16603257deaadc0fc171b22630e1502c8b",
+    "analysis_design.json": "800deee3076136f030ac655970ff6ff561a90a267a77876d3a7239fd64354fa0",
+    "data/manifest.json": "732b0a17c1152db9cfc7b48eb963f6243db8599bb43c56bca154d4f01183d0ef",
+    "provenance/training_validation.json": "5c5740665f4c23dffec23603fcd718b9937f301a974f3762ccb781a302f17a87"
+  },
+  "visual_qa": {
+    "status": "passed",
+    "receipt": "results_qa/receipt.json",
+    "receipt_sha256": "13905f180eb7294a65147320d944133a0fc1fc5336b8861a5ffe96e97fe92281",
+    "report_sha256": "e009be045d9abfc808ecbc353dd11cbfd68b1cd5825be7eb9652fbf03e876dd7",
+    "pages_inspected": 9,
+    "dpi": 100
+  }
+}

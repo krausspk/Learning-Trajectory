@@ -1,0 +1,28 @@
+{
+  "bootstrap_scope": "test seed pairs conditional on frozen fitted probe",
+  "bootstrap_seed": 7312029,
+  "covariate_adjustment": "train-only OLS residualization of aligned standardized weights against six standardized diagnostics and intercept",
+  "feature_input": "final endpoint weights only; diagnostics/logits explicit secondary baselines",
+  "hyperparameter_selection": "validation BA, then validation logloss, then lambda list order; no refit on validation",
+  "lambdas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "multiple_testing": "one unadjusted primary; Holm across all 19 secondary endpoints including negative control",
+  "n_bootstrap": 2000,
+  "n_primary_permutations": 999,
+  "n_secondary_permutations": 999,
+  "negative_label_seed": 7312030,
+  "orchestration": {
+    "checkpoint_wait_timeout_seconds": 7200.0,
+    "wait_for_checkpoints": true
+  },
+  "permutation_method": "independent within-pair swaps across all train/validation/test blocks, complete refit and validation lambda reselection",
+  "permutation_seed": 7312028,
+  "plan_sha256": "9bce80761d096c6a4b6c76f020307a74cd0f7028ae9ba0b80b603d0d3393705e",
+  "primary": "reset/both/C10/balanced_accuracy",
+  "probe_source_sha256": "48138fcc47946a9175876270c4245ec00faa00201aca4c2a16fb89f9e2f21bce",
+  "split_sha256": "2015a6dbdcd80817352d81e606eb178331fd8b7deefc4740069793981010c05e"
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "review_type": "independent read-only leakage and matching review",
+  "code_path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/code/distances.py",
+  "code_sha256": "5c1078aa74d610283e1ea4e97416a1ea0fa7c753a5a4bdf4533c5226f589ec4c",
+  "analysis_plan_sha256": "8396b69c7f04851bd82f39eb2e4abd4fa58d9a7f6ec6de35c65635cb62c38ce5",
+  "findings": [],
+  "checks": {
+    "cost_api": "pair_controls receives only current query weights, one candidate initialization, and query-only masks; no run IDs or true-parent index",
+    "all_pair_treatment": "the same nested pair_controls call fills all 100 cells; no diagonal branch or replacement",
+    "activity_mask_source": "only the current query hidden activation occupancy on the original fixed probe; original activation archive SHA256 and run mapping checked",
+    "activity_invariance": "Pr(H>0) is invariant to positive ReLU scaling; permutations carry the query mask with its neurons",
+    "masked_assignment": "full squared joint-neuron cost includes candidate squared norms, then zeroes unselected query rows; exact shared Hungarian assignment",
+    "residual_masks": "small/large quantile selection is recomputed from each current-query/candidate pair after shared matching, not from the known true-parent residual",
+    "historical_changes": "same-run initial/current changes are exported only after retrieval costs; the historical table is never an input to masks or costs",
+    "boundary_ties": "all quantile boundary ties are included; saved counts document potentially larger and overlapping subsets",
+    "coordinate_controls": "identity-coordinate variants are intentionally not neuron-permutation invariant and are marked as coordinate-memory diagnostics",
+    "primary_regression": "build rechecks the validated Point 1 file hash, run ordering, and exact normalized canonical total-cost reproduction",
+    "point1_completion_guard": "build requires the finalized Point 1 artifact manifest and validated distance source before execution",
+    "independent_all_42_costs_candidate_reordering_error": 0.0,
+    "independent_masked_Hungarian_vs_4factorial_error": 0.0,
+    "independent_query_reindexing_error_excluding_coordinate_identity_controls": 8.881784197001252e-16
+  },
+  "interpretation_limits": [
+    "Candidate-specific residual selection is a metric-sensitivity analysis, not removal of the true historical training change or a causal ablation.",
+    "Low/high activity masks can overlap when occupancy ties span quantile boundaries; they need not select exactly 25 percent.",
+    "Globally normalized layer and masked distances are contributions to one jointly normalized weight vector, not separately unit-normalized subvector distances.",
+    "Original run seeds determine both initialization and minibatch order."
+  ],
+  "full_experiment_started_by_reviewer": false,
+  "code_changed_by_reviewer": false
+}

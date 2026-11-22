@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "main_control_variants": 42,
+  "posthoc_norm_rank_variants": 6,
+  "main_dataset_rows": 2646,
+  "posthoc_dataset_rows": 378,
+  "all_endpoints": 144,
+  "figures_png_pdf": 4,
+  "all_pdf_pages": 1,
+  "all_gallery_links_exist": true,
+  "independent_endpoint_audit": "provenance/independent_endpoint_audit.json",
+  "all_previous_files_unchanged": true,
+  "scope": "points1and2only; no new training or functional fingerprint analysis"
+}

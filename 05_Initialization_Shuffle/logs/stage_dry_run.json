@@ -1,0 +1,64 @@
+[
+  {
+    "stage": "train",
+    "operations": [
+      [
+        "/home/patrick/projects/Learning-Trajectory/.venv/bin/python",
+        "/home/patrick/projects/Learning-Trajectory/05_Initialization_Shuffle/code/training.py",
+        "--root",
+        "/home/patrick/projects/Learning-Trajectory",
+        "--output",
+        "/home/patrick/projects/Learning-Trajectory/05_Initialization_Shuffle",
+        "--workers",
+        "4",
+        "--threads",
+        "1"
+      ]
+    ]
+  },
+  {
+    "stage": "validate",
+    "operations": [
+      "finalize.validate_training(out) [read-only]"
+    ]
+  },
+  {
+    "stage": "analysis",
+    "operations": [
+      "analysis.run_analysis(out)"
+    ]
+  },
+  {
+    "stage": "plots",
+    "operations": [
+      "plots.make_plots(out)"
+    ]
+  },
+  {
+    "stage": "report",
+    "operations": [
+      "reporting.make_report(out)"
+    ]
+  },
+  {
+    "stage": "pdf",
+    "operations": [
+      [
+        "/home/patrick/projects/Learning-Trajectory/.venv/bin/python",
+        "/home/patrick/projects/Learning-Trajectory/scripts/prepare_results_content.py",
+        "05"
+      ],
+      [
+        "/home/patrick/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/home/patrick/projects/Learning-Trajectory/scripts/build_results_pdf.py",
+        "/home/patrick/projects/Learning-Trajectory/05_Initialization_Shuffle"
+      ]
+    ]
+  },
+  {
+    "stage": "finalize",
+    "operations": [
+      "finalize.finalize(out)"
+    ]
+  }
+]

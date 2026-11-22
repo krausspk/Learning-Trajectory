@@ -1,0 +1,201 @@
+{
+  "count": 16,
+  "data_directory": "/home/patrick/projects/Learning-Trajectory/outputs",
+  "figures": [
+    {
+      "id": "figure1",
+      "title": "Datensatzabhängige Gewichtsstruktur",
+      "description": "Versuchsaufbau und finaler Within-/Between-Vergleich. Direkte Hungarian-Zuordnung auf kanonischen Alpha-Profilen; beide Gewichtsschichten gleich gewichtet.",
+      "source_page": 6,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "files": {
+        "figure1_orig.png": "e45f02160cb29cf0875fc2f829ba982736b59726cde8bef5a093cdb26597b063",
+        "figure1_recon.png": "5ef08635fdbc5c11b470278fa1e0d20f3b70cd5c7d2046b7575b28234db2c86c",
+        "figure1_recon.svg": "2763bdb430188b3c28671f347857935c5304aab22dcb61d4680f61ba3f51c0b2"
+      }
+    },
+    {
+      "id": "figure2",
+      "title": "Trainingsverlauf und Schichten",
+      "description": "Kanonische Alpha-Verläufe, getrennte Schichtkontraste sowie euklidische und SND-Vergleiche mit jeweils eigener Zuordnung.",
+      "source_page": 6,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "files": {
+        "figure2_orig.png": "0a31f8208260333f688a108896e7e4be5228169a93b143f8d23793476550ba69",
+        "figure2_recon.png": "5dd193f7e84d5d1ada84d2be1ba8cfdf6a8169864a5479d95ae621347a0966cf",
+        "figure2_recon.svg": "26078531be938563e4a252c3ad0b53cc55aeef7425fc1f9658fbb5f140a9ea2f"
+      }
+    },
+    {
+      "id": "figure3",
+      "title": "Vergleich der Alignment-Verfahren",
+      "description": "Unaligned, PIF/Alpha-Kandidatenauswahl und Git Re-Basin: Gewichtskosinus, kanonische Alpha-Dissimilarität und unabhängig gemessene Aktivierungskorrelation.",
+      "source_page": 7,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "files": {
+        "figure3_orig.png": "b85145f8adf1a774bb995424e0616db1c19aa3faa4dd7003b18458ab068c4730",
+        "figure3_recon.png": "528cffe325bc677ecc625123332ddc39fccb13427dcbc2ea784e08bdf8434bd6",
+        "figure3_recon.svg": "990ca72365c61fac5b6598048a0eb1448c9d01bd0c183d45a795c0d890e2383b"
+      }
+    },
+    {
+      "id": "figure4",
+      "title": "Gleiche Bilder, verschiedene Aufgaben",
+      "description": "Ziffernidentität versus Parität bei identischen Eingangsbildern, initialem W0 und Bildreihenfolge. Verglichen werden rohes W0-Alpha und Hidden-CKA; Unsicherheit über gepaarte Seed-Blöcke.",
+      "source_page": 12,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "files": {
+        "figure4_orig.png": "af18d2509d25aafd81c0ef9a6e946c3f02b5ed78af1464b5b7480062756583c2",
+        "figure4_recon.png": "4445c58618279bf00402ed7a70c3ae0108c231e5217dc9295d44b148dafed572",
+        "figure4_recon.svg": "321d71c655494ae0a5e697e3418d63848d61ae82f009b27142550efa9d05c503"
+      }
+    },
+    {
+      "id": "figure5",
+      "title": "Gewichte und Repräsentationen",
+      "description": "Rohes W0-Alpha und Hidden-CKA: Gruppenkontraste, finale Werte sowie Paarstreuung und Pearson-Korrelation innerhalb und zwischen Datensätzen.",
+      "source_page": 12,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "files": {
+        "figure5_orig.png": "9377e075255f1c5fc9d196510d877906d036e7769fdc95e5acd1434bd59c689c",
+        "figure5_recon.png": "565380ac99b59ad4e4a16de824f3f4bb1c7ba11c4a4d27d4e6a0fcf2b0ac2a2f",
+        "figure5_recon.svg": "db79745417749bd177c5648914dcfb460d1a5983489de7e4c6ffb8337d2b89d8"
+      }
+    },
+    {
+      "id": "figure6",
+      "title": "Die ersten SGD-Schritte",
+      "description": "Genauigkeit, relative Gewichtsverschiebung und frühe strukturelle Differenzierung. Markierungen werden aus unseren Läufen bestimmt. Die kanonische Alpha-Kurve weicht vom Original ab; diese Abweichung bleibt sichtbar.",
+      "source_page": 13,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "files": {
+        "figure6_orig.png": "03ff73bb553c558e4f786c0d876139d5f7c7d8d9cce085bd34fb493e9c56caa1",
+        "figure6_recon.png": "e0dbf46c1b4f574f052ab683623b253ed49d025a3d0184232c5d895076fb54c2",
+        "figure6_recon.svg": "cf42c4777595dc43875fa106dfe60038a35a31f0d2f83d32227ee7183a8bbb72"
+      }
+    },
+    {
+      "id": "figureS1",
+      "title": "Trainingsdiagnostik",
+      "description": "Alle 30 Hauptläufe: Genauigkeit, Cross-Entropy-Loss und finale Verteilungen über unabhängige Läufe.",
+      "source_page": 3,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS1_orig.png": "10927cde62b35947323d713b887afbf19a495f27818c6d1c0b4f0bd07394e638",
+        "figureS1_recon.png": "bcd40d8cbbec975fe686287f2b716fac09028afd5acb9157db251e1e22a05484",
+        "figureS1_recon.svg": "a091520ee128a5b0960cefa23d5a6633e877a0387e7b7f03fea24d7943179f10"
+      }
+    },
+    {
+      "id": "figureS2",
+      "title": "Alle Schichten und Gewichtsmaße",
+      "description": "Euklidische Dissimilarität, SND und rohes Alpha, jeweils für W0, W1 sowie die schicht- und parameterzahlgewichtete Zusammenfassung.",
+      "source_page": 5,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS2_orig.png": "d5d7aa240b1ef41886f7c55066436209e321d6693206bef65b2659b3fdbcbd6b",
+        "figureS2_recon.png": "b538bbacb14a828ef93a96075598d724ad537df770d1f8c5e32c79838a11fd7a",
+        "figureS2_recon.svg": "37477264a5972738c12d10e38efca0500b38f2b178c6a56d4b8cd57011850f6b"
+      }
+    },
+    {
+      "id": "figureS3",
+      "title": "Robustheit auf Run-Ebene",
+      "description": "Individuelle Between-minus-Within-Beiträge aller Hauptläufe. Die dargestellten Punkte bleiben vollständige Trainingsläufe.",
+      "source_page": 6,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS3_orig.png": "6611970d648dbc325c354da8f0f432bbec85f5fc412340f78b5eacd1d5464576",
+        "figureS3_recon.png": "bb62584bc85a67690526842151578831f4e3105ef8cec0ffb7ea62cf9d352401",
+        "figureS3_recon.svg": "882cf228b555c5f92983cb2dd8ef543181eb5cc2dbb9f4c6332044627fd45e23"
+      }
+    },
+    {
+      "id": "figureS4",
+      "title": "Aufgabenkontrolle und Seed-Paare",
+      "description": "Genauigkeitsverläufe, ergänzende Gewichtsmaße und Vergleiche innerhalb von Aufgaben sowie zwischen Aufgaben bei gleichen oder verschiedenen Seeds.",
+      "source_page": 8,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS4_orig.png": "ba86e95de8edfd1b3ff752a35d3da6d4cd3a1b83698cd5b428c6c45656e06258",
+        "figureS4_recon.png": "3a34817819684d8c3598d01b734d8b590fcc57e5fce2aa0902fcf6996e7a5872",
+        "figureS4_recon.svg": "7e9ab4db2dccfad55daff1223e7140eae75159601a16ab586d2568738aca72ad"
+      }
+    },
+    {
+      "id": "figureS5",
+      "title": "Detaillierter Alpha–CKA-Vergleich",
+      "description": "Schichtabhängige Korrelationsverläufe und getrennte Within-/Between-Streudiagramme. Gepoolte und bedingte Korrelationen werden unterschieden.",
+      "source_page": 10,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS5_orig.png": "7f3217a880e057d6886aa0516d3433bf493991ea96ccfc933a8e4f52c406a9c6",
+        "figureS5_recon.png": "66aa07d45008449c5c32ebd224f10e8a3d569c7a093855b99658f68cf2a6cc01",
+        "figureS5_recon.svg": "bc84ab66a8a517bcb896c329f05a77f6eaba95167d4dc9d66e2292761d401679"
+      }
+    },
+    {
+      "id": "figureS6",
+      "title": "ReLU-Skalierung",
+      "description": "Funktionserhaltende neuronweise Skalierung verändert rohes Alpha. Kanonische Gewichtsdarstellung und Netzfunktion werden separat auf numerische Invarianz geprüft.",
+      "source_page": 12,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS6_orig.png": "a5b9c7926aaff18bd7b11bf402e2d30c5858c1caf1689395e92f613abcbd535a",
+        "figureS6_recon.png": "646341d107c24452862aa729d4c3658a19409e463b37a2e6ae13c0dd843c2be1",
+        "figureS6_recon.svg": "2499125e92a760d6eaf87121318c6405e723325d0c3f576e5baf1dbbf6740a53"
+      }
+    },
+    {
+      "id": "figureS7",
+      "title": "Vollständige frühe Trainingsverläufe",
+      "description": "Alle 16 gespeicherten Frühtrainingszeitpunkte bis Update 470, mit allen Gewichtsmaßen und Hidden-CKA. Die Zeitachse nennt die tatsächlichen SGD-Updates.",
+      "source_page": 13,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS7_orig.png": "d435efd19e12b3d040334c3e229c14488e2d66b12e6d10d96b5ba01e7ee50194",
+        "figureS7_recon.png": "a96822b1224e7c68673641d2c9670af49d1642c29a46f5dbf8a4f9b79bbda8e4",
+        "figureS7_recon.svg": "0dbb24e6c62c44c2d9f6d1cb359caa44f71319042e4ce0bd2f32074a54753681"
+      }
+    },
+    {
+      "id": "figureS8",
+      "title": "Matching-Verläufe und Validierung",
+      "description": "Verlauf von Gewichtsübereinstimmung, Alpha und Aktivierungskorrelation sowie Assignment-Übereinstimmung und kontrollierte Neuronenumbenennung.",
+      "source_page": 15,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS8_orig.png": "859909d393c2a5e662f112713102db7c0d8bf05c5c06b82878cc846f857a2d51",
+        "figureS8_recon.png": "d2c0e45a32821d9db3f5c0b34ff4d7607cca48505e328b3712371c54d003df8b",
+        "figureS8_recon.svg": "9d526f4f5af95f0baefa1a34f4be476fd5b83acba3c123477d605c9bd3db5041"
+      }
+    },
+    {
+      "id": "figureS9",
+      "title": "Aktivierungsbasierte Validierung",
+      "description": "Verteilungen der Neuronenkorrelationen, Anteile verbesserter Netzwerkpaare und Verlauf der gepoolten Aktivierungskorrelation. Violinformen zeigen die neu gemessenen Verteilungen.",
+      "source_page": 16,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS9_orig.png": "11396fac9d3ce64c6361a9b48ccf38a20c41b87ff115db5f129336caecdb74c4",
+        "figureS9_recon.png": "21349e6b17bf28977f45a96b3e5d8c4f2760d0254e50b7dd60946a53544f37ed",
+        "figureS9_recon.svg": "6b74f164299a5441fea4dfa304b930e33befb0fbf188c4401900fb15b77da609"
+      }
+    },
+    {
+      "id": "figureS10",
+      "title": "Vorzeichenstabilität",
+      "description": "Vorzeichenretention relativ zur Initialisierung und finale Vorzeichenänderungen je Schicht und Datensatz; deskriptive Analyse ohne Neuronenmatching.",
+      "source_page": 18,
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "files": {
+        "figureS10_orig.png": "e153775e5b5b507e3e0f5f271eea8de3cd7208311084d56cea822e6aa009c818",
+        "figureS10_recon.png": "d302c874894d5bc15269785d32b247e720f137838749678af0cf800dfd801546",
+        "figureS10_recon.svg": "ea54c9b11b43a4ee6734e37ae65bd7eeb675d25347e1232e360371c91e65f22b"
+      }
+    }
+  ],
+  "gallery": "index.html",
+  "original_manifest_sha256": "550b9f0752d9cf0e96591764a487a1b4d54c928ec801fcca06031874031335c9",
+  "reconstruction_manifest_sha256": "ec2f2363eb4a8b88655523cf6a634fa047f362dc2f74d760a346959941d59ea3"
+}

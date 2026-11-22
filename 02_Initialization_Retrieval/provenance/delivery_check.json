@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "figure_pairs": 3,
+  "dataset_queries_per_checkpoint": 10,
+  "candidate_count": 10,
+  "datasets": 3,
+  "checkpoints": 21,
+  "all_visual_checks_passed": true,
+  "all_tests_passed": true
+}

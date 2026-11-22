@@ -1,0 +1,17 @@
+{
+  "source": "outputs/checkpoints/main/M1.pt",
+  "from_checkpoint": 2,
+  "to_checkpoint": 4,
+  "updates": 235,
+  "checks": {
+    "W0": true,
+    "W1": true,
+    "momentum_W0": true,
+    "momentum_W1": true,
+    "accuracy": true,
+    "loss": true,
+    "bias0": true,
+    "bias1": true
+  },
+  "passed": true
+}

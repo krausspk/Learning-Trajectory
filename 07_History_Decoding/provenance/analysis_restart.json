@@ -1,0 +1,6 @@
+{
+  "pid": 48227,
+  "started_at_utc": "2026-11-16T11:56:44.537707+00:00",
+  "reason": "Managed analysis process also ended143 at20min including checkpoint wait. Restart complete unchanged frozen analysis detached; retain interrupted outputs for exact repeat comparison.",
+  "protocol_changed": false
+}

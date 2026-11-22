@@ -1,0 +1,16 @@
+{
+  "functional_90_percent": {
+    "fashion_mnist": 48,
+    "kmnist": 96,
+    "mnist": 48,
+    "mean": 64
+  },
+  "structural_onset": {
+    "canonical_alpha": 2,
+    "raw_alpha": 2,
+    "euclidean": 2,
+    "snd": 4,
+    "one_minus_cka": 2
+  },
+  "pointwise_threshold": true
+}

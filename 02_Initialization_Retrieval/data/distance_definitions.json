@@ -1,0 +1,13 @@
+{
+  "normalized_frobenius|total|optimal|canonical": {
+    "formula": "min_P ||u(W_i(t)) - P u(W_j(0))||_2, with u the flattened joint W0/W1 vector after canonical neuron gauge and total L2 normalization",
+    "normalization": "Equalize incoming/outgoing neuron norms first; divide BOTH W0 and W1 by sqrt(||W0||_F^2+||W1||_F^2)",
+    "matching": "Maximize the joint normalized W0/W1 inner product with a global Hungarian assignment for one hidden layer",
+    "equivalence": "Distance squared = 2*(1-cosine), because both full vectors have norm one",
+    "orientation": "distances[0,t,i,j]: current query run i at checkpoint t versus candidate run j at checkpoint E0",
+    "permutation_orientation": "p[k] is candidate hidden neuron assigned to query hidden neuron k; aligned candidate=(B0[:,p],B1[p,:])",
+    "identity_policy": "The matching functions receive no run identity. All 100 entries, including the diagonal, use the same computation; no diagonal replacement or preference",
+    "zero_norm_convention": "Reuse the deterministic 01_RSA neuron-level convention. Reject an entirely zero full weight vector, for which unit normalization is undefined.",
+    "norms_arrays": "norms_raw/canonical retain PRE-total-normalization W0,W1,total norms in norm_layers order"
+  }
+}

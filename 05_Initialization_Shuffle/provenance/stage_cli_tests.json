@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "tests_passed": 10,
+  "test_log_sha256": "9f39cddcde6d5038bc8db373a34293a3515b328cecc2daba891c67c410dc2cb2",
+  "source_sha256": {
+    "code/run.py": "517a88d28c37f1d0811a4daa84af38042b354319064b3a005b4d6bd2078447ad",
+    "code/finalize.py": "0282b1a43f082ee508aac7ca7c93ac7fa2029c9977aab1c54d17ef09db0709d2",
+    "tests/test_stage_cli.py": "03ea13d320f59a747198211d67b3e72d5424d8820291884a29a38db9568fd3f4"
+  },
+  "dry_run": "all seven stages checked without execution",
+  "real_stages_executed": [],
+  "production_state": "These tests used temporary fixtures only; no production stage was executed during testing.",
+  "checked_utc": "2026-11-16T11:47:32.159865+00:00"
+}

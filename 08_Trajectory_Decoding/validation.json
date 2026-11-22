@@ -1,0 +1,162 @@
+{
+  "utc": "2026-11-16T12:09:51.500437+00:00",
+  "mode": "complete_audit",
+  "passed": true,
+  "errors": [],
+  "notes": [
+    "Performance differences are descriptive; intervals containing zero do not prove performance equivalence."
+  ],
+  "runs_audited": 800,
+  "cohort_checks": {
+    "one_bit": {
+      "independent_seeds": 200,
+      "runs": 400,
+      "checkpoints_per_run": 15,
+      "paired_initialization_and_order": true,
+      "complementary_bits": true
+    },
+    "multi_bit": {
+      "independent_seeds": 200,
+      "runs": 400,
+      "checkpoints_per_run": 27,
+      "paired_initialization_and_order": true,
+      "complementary_bits": true
+    }
+  },
+  "split_checks": {
+    "one_bit": {
+      "train": {
+        "independent_seeds": 120,
+        "runs": 240,
+        "bit_ones": [
+          120
+        ],
+        "bit_zeros": [
+          120
+        ]
+      },
+      "validation": {
+        "independent_seeds": 40,
+        "runs": 80,
+        "bit_ones": [
+          40
+        ],
+        "bit_zeros": [
+          40
+        ]
+      },
+      "test": {
+        "independent_seeds": 40,
+        "runs": 80,
+        "bit_ones": [
+          40
+        ],
+        "bit_zeros": [
+          40
+        ]
+      }
+    },
+    "multi_bit": {
+      "train": {
+        "independent_seeds": 120,
+        "runs": 240,
+        "bit_ones": [
+          120,
+          120,
+          120,
+          120
+        ],
+        "bit_zeros": [
+          120,
+          120,
+          120,
+          120
+        ]
+      },
+      "validation": {
+        "independent_seeds": 40,
+        "runs": 80,
+        "bit_ones": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "bit_zeros": [
+          40,
+          40,
+          40,
+          40
+        ]
+      },
+      "test": {
+        "independent_seeds": 40,
+        "runs": 80,
+        "bit_ones": [
+          40,
+          40,
+          40,
+          40
+        ],
+        "bit_zeros": [
+          40,
+          40,
+          40,
+          40
+        ]
+      }
+    }
+  },
+  "array_hashes_and_npz_pt_hashes_passed": true,
+  "source_provenance": {
+    "python": "3.11.18",
+    "packages": {
+      "numpy": "1.23.5",
+      "scipy": "1.10.1",
+      "torch": "2.8.0+cpu",
+      "pandas": "2.0.3",
+      "matplotlib": "3.7.5"
+    },
+    "code_files": [
+      {
+        "path": "code/analyze.py",
+        "bytes": 24734,
+        "sha256": "cd84b5c483211ee29a18dc56a38c5cd93f983045f6ac224970a7c273f3a4e22c"
+      },
+      {
+        "path": "code/diagnose_feasibility.py",
+        "bytes": 16387,
+        "sha256": "2117c9ddb7bfc55d00f99a83cb1564372a33f3eeb4e55c5e11d7ae1c90df02b8"
+      },
+      {
+        "path": "code/finish_when_ready.py",
+        "bytes": 872,
+        "sha256": "dc86857f6816f991a4282777ed9f892736c0008ac5ae7b2fad8c01cb6516aa59"
+      },
+      {
+        "path": "code/reporting.py",
+        "bytes": 46666,
+        "sha256": "291a135b0e192c600d7ac348d85e3e150ae6ba5bddc8fd9ec8a06f3ef116c2eb"
+      },
+      {
+        "path": "code/train_cohorts.py",
+        "bytes": 15929,
+        "sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c"
+      },
+      {
+        "path": "code/validate_results.py",
+        "bytes": 19416,
+        "sha256": "c2dcce458e8bdc997149465959a9b9c04b84f41cb10db7cb34bdf7b848da73a2"
+      }
+    ],
+    "snapshot": "provenance/validated_source_snapshot"
+  },
+  "performance_control_rows": 40,
+  "original_inventory": {
+    "checked_files": 453,
+    "changed_files": [],
+    "passed": true,
+    "scope": "all original outputs, Python analysis/training source, configs, docs, original experiment instructions and README"
+  },
+  "elapsed_seconds": 128.61841592900237
+}

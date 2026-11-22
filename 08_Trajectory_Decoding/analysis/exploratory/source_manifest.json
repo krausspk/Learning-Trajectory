@@ -1,0 +1,152 @@
+[
+  {
+    "run_id": "F1",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F1.npz",
+    "sha256": "f33201a69e14ccb8e538303ec22e51c6628ff7e0ea49a49d0d4afe5db0d2799b"
+  },
+  {
+    "run_id": "F10",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F10.npz",
+    "sha256": "ce070412fe9a7cc666a00e881b053a8b1914ef2596764e3b09305853b35dc26d"
+  },
+  {
+    "run_id": "F2",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F2.npz",
+    "sha256": "25633bc15e2de277950894511497c2674bb150a4567fd12ca0b7dae650377ddd"
+  },
+  {
+    "run_id": "F3",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F3.npz",
+    "sha256": "9874434387570040caea66b1c5bc05a27fa96dd9ceb44c70a62e44a60881f7dc"
+  },
+  {
+    "run_id": "F4",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F4.npz",
+    "sha256": "d8ad0d26a62a936142b6ee2c8dc159c12d681c64eae7315e1cb5e93e7f5a404a"
+  },
+  {
+    "run_id": "F5",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F5.npz",
+    "sha256": "d79894ca0a8b381b2aa50b17fe47283e44763acbe0b373cd4094c895941f8426"
+  },
+  {
+    "run_id": "F6",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F6.npz",
+    "sha256": "40c948575af613a74a2ea2598d1da3ff576536856376a4a28aa83fe78e8a2a05"
+  },
+  {
+    "run_id": "F7",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F7.npz",
+    "sha256": "44fd4e91e59baca6961abb829ca988fa83495e6d8d55a9d58b2a2f8e5c23c1af"
+  },
+  {
+    "run_id": "F8",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F8.npz",
+    "sha256": "dac924a90cbe51871270759df6cec0997ec3ebaf2de2623f0aee2f47702a75e3"
+  },
+  {
+    "run_id": "F9",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F9.npz",
+    "sha256": "bbfef26838f0689d155ed9d434676e8b093278d024e52202c3de5114d0af7e92"
+  },
+  {
+    "run_id": "K1",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K1.npz",
+    "sha256": "ae5f64fa7726f8ea6d3a31dbb4a6b92439645094a4e05e54aac4c992bef12180"
+  },
+  {
+    "run_id": "K10",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K10.npz",
+    "sha256": "11d3ab05842ed1f9bcd0d5d7690cc161ea8d05ad10c2ac0d13180d27e2afd7d6"
+  },
+  {
+    "run_id": "K2",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K2.npz",
+    "sha256": "eb9e99ec95606e205bca53afafc04674fad4a2460c547ef02ec9fc87640ef3cd"
+  },
+  {
+    "run_id": "K3",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K3.npz",
+    "sha256": "9aafbfdd1350ffb9ceb5ded9dbeb574913df770ed500a979912195d9fd57d90f"
+  },
+  {
+    "run_id": "K4",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K4.npz",
+    "sha256": "4380965716d1ed73fddc1737a96e84babaf58df5cf59bbaa8c16a813f5814875"
+  },
+  {
+    "run_id": "K5",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K5.npz",
+    "sha256": "2423f12ba3ce1026d5b590befd64a250e03e8a27de5d9f6ff8234b5131e6f15c"
+  },
+  {
+    "run_id": "K6",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K6.npz",
+    "sha256": "4108bdb38df94152efcd90f5c1a2d50ae28d34e949fc1806fcc32e33f34d1748"
+  },
+  {
+    "run_id": "K7",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K7.npz",
+    "sha256": "7f1dd2210b28fab7a470ed46c60d04c407eeff5d508b7456f1fc4acb41d1fa8a"
+  },
+  {
+    "run_id": "K8",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K8.npz",
+    "sha256": "83f54ebbfeedffe239e9f876200c982d65bddbe4df2154c02253f46c57fa0707"
+  },
+  {
+    "run_id": "K9",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K9.npz",
+    "sha256": "53ecd07635f50b3f7fe0b786329932e532856be09ef7507371ba30fb2094a2b7"
+  },
+  {
+    "run_id": "M1",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M1.npz",
+    "sha256": "a6bd9ca0a9aed76dd4333b0b306b1fde6804f47b131d321ca84d6df98bb1f1f8"
+  },
+  {
+    "run_id": "M10",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M10.npz",
+    "sha256": "792ea8a5bb6d16edab10fc5e9b4a0db2bd9a95f5a49ed73eb5c1c975ea60685c"
+  },
+  {
+    "run_id": "M2",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M2.npz",
+    "sha256": "8690563212b52304a1a98fbfaa31d270e85132eddc672abb26a7c520b9a39388"
+  },
+  {
+    "run_id": "M3",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M3.npz",
+    "sha256": "484bad930c91e0b39ccc664f6f817dc9347e38fd6443e7c3c7f1f31c946cd078"
+  },
+  {
+    "run_id": "M4",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M4.npz",
+    "sha256": "a9433793722dbd5a50a6ab5f5c180d5b879d124d024d42bd672e504ef0e9ad6b"
+  },
+  {
+    "run_id": "M5",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M5.npz",
+    "sha256": "87e7f1479d1523a01152e6cf62e1a778a3a8b07970f9a6c8139c203c887b53f3"
+  },
+  {
+    "run_id": "M6",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M6.npz",
+    "sha256": "67c40dc20d9adb3e50127fcca7b8b819751b426bb0696a82c10aeae67e679cf3"
+  },
+  {
+    "run_id": "M7",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M7.npz",
+    "sha256": "426eed5d323641e6b905c157da9b623db716f3c6085e0cf014ec69658d02fa16"
+  },
+  {
+    "run_id": "M8",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M8.npz",
+    "sha256": "f945c0f5d657fd7d3f22f105efe5e5eba6053591ab9fe7a85a2e0a0d996c6394"
+  },
+  {
+    "run_id": "M9",
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M9.npz",
+    "sha256": "ef3988c369e18fcd239138499965b43409c08f3621afc6e3920139246dbbef6c"
+  }
+]

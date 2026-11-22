@@ -1,0 +1,8 @@
+{
+  "amended_plan_sha256": "9bce80761d096c6a4b6c76f020307a74cd0f7028ae9ba0b80b603d0d3393705e",
+  "change": "Increase secondary permutations 199 to 999; include negative control in Holm family",
+  "original_plan_sha256": "87777a591cd2dec1ec308d1604844b21608ee84217ac87ed2be1c53f1bfae79d",
+  "reason": "199 permits minimum p=.005, insufficient for Holm family of 19; 999 permits .001. Training settings and primary unchanged.",
+  "stage": "Before any probe fitting or held-out outcome inspection; first training timing benchmark may be underway",
+  "timestamp_utc": "2026-11-16T11:33:56.894656+00:00"
+}

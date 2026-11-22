@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "completed_at": "2026-11-16T13:38:36.186395+01:00",
+  "specification": "02_Attraktor_Nachweis_durch_Stoerung.md",
+  "experiment_forks": 2720,
+  "pilot_forks": 380,
+  "expanded_forks": 2340,
+  "independent_reference_continuations": 100,
+  "new_reference_source_models": 20,
+  "numerical_failures": 0,
+  "unit_tests_passed": 22,
+  "expanded_condition_cells": 216,
+  "primary_ci_below_one": 0,
+  "primary_ci_above_one": 216,
+  "pilot_directions_per_seed": 5,
+  "expanded_directions_per_seed": 1,
+  "physical_repeats_across_stages": 80,
+  "stage_inference_separate": true,
+  "checks": {
+    "validation/checks.json": true,
+    "validation/expanded_checks.json": true,
+    "validation/pilot_expanded_overlap.json": true,
+    "validation/original_trajectory_replays.json": true,
+    "validation/original_reproduction_audit.json": true,
+    "validation/independent_numeric_audit.json": true,
+    "validation/alignment_robustness.json": true,
+    "validation/report_links.json": true
+  },
+  "reports": [
+    "README.md",
+    "basin_analysis.md",
+    "attractor_conclusion.md",
+    "expanded_analysis.md",
+    "alignment_robustness.md"
+  ]
+}

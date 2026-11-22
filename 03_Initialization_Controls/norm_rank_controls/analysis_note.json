@@ -1,0 +1,22 @@
+{
+  "analysis": "post_hoc_norm_rank_control",
+  "created_utc": "2026-11-16T11:08:46.458459+00:00",
+  "status": "additional exploratory artifact control, not part of the prespecified main/control family",
+  "reason": "The uncalibrated absolute norm gap produced identical candidate orderings across final queries because training shifted query norms beyond the initial candidate range. Its mean correct-parent rank can then equal 5.5 algebraically for every bijection; that result does not establish absence of norm information.",
+  "definition": "C[t,i,j]=abs(average_rank(norm_current[t,:])[i] - average_rank(norm_initial[0,:])[j])/(n-1)",
+  "calibration": "Separate transductive rank calibration within all current queries and within all initial candidates, independently of their true pairing",
+  "interpretation": "Tests relative norm ordering after allowing a separate monotone scale change between initial and trained cohorts; uses the full query ensemble and is not standalone single-network retrieval.",
+  "ties": "Exact numeric ties receive average ranks; same rule for every query/candidate.",
+  "jackknife": "Delete paired current-query and initial-candidate identities, then recompute both norm ranks and divide by n_remaining-1. Precomputed recalibrated leave-one matrices are saved; simply subsetting the full calibrated matrix would be insufficient.",
+  "null": "Globally bijective candidate-identity permutations of the full label-blind cost matrix; calibration contains no parent labels.",
+  "inference_base_seed": 2026111900,
+  "inference_role": "post_hoc_exploratory",
+  "confirmatory_primary_key": null,
+  "selection_policy": "One fixed rank-based calibration for all six gauge/layer variants and all checkpoints, without selection for positive results.",
+  "prespecified_42_matrices_changed": false,
+  "new_training": false,
+  "source_validation_path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/data/validation.json",
+  "source_validation_sha256": "ab3fa1eec15965059909b98f1549fe21823eeacd682fa67ceac91a0911dfa06f",
+  "source_code_path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/code/norm_rank_control.py",
+  "source_code_sha256": "76fa1d5c9e7df5c91e55f12f28bd53e437d34010f85e3f9075404c185ed349d0"
+}

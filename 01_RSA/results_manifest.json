@@ -1,0 +1,58 @@
+{
+  "created_utc": "2026-11-16T11:27:40.173713+00:00",
+  "report": "results.pdf",
+  "report_sha256": "fb05b0e19dd9bcb0cfc97b3de7ef8539b0eb1b50339b7051b41e5f71920bd303",
+  "pages": 8,
+  "intro_pages": 2,
+  "figure_count": 6,
+  "content_sha256": "de11cb862010c39614f2f0a3b5936845f46c9ea7f889e95d960c1a9e0acfac28",
+  "generator": "/home/patrick/projects/Learning-Trajectory/scripts/build_results_pdf.py",
+  "generator_sha256": "28b4fe81879def5a67e8e7a06217467bc4a2bcc7f93a1fab5da27354a8d8a4cf",
+  "figure_sources": [
+    {
+      "source": "rsa_initial_vs_final.pdf",
+      "sha256": "4551936d6df33009488eeaaddf707e7e89ea9b2d8c21fb44986ef29fc2bbeb0e",
+      "report_page": 3
+    },
+    {
+      "source": "rsa_over_training.pdf",
+      "sha256": "8fffaa28b82cc91d308fd93eb5bfc7faa77b5838229ce976beb3eb0fc20d1a40",
+      "report_page": 4
+    },
+    {
+      "source": "distance_distributions.pdf",
+      "sha256": "b7fc8fadf111ed500df4a49727d39ea67a2e0ca4b411a4deaac5152413e2711a",
+      "report_page": 5
+    },
+    {
+      "source": "rsa_robustness.pdf",
+      "sha256": "3ed88bc35df8196dbd84ea77e2460b3d63da3762ddfb984d58a5b278bf4fc39c",
+      "report_page": 6
+    },
+    {
+      "source": "alignment_sensitivity.pdf",
+      "sha256": "d123900c993d5356db5fcd8efceca58939c3d7be13ffcf6561bc34291193b2aa",
+      "report_page": 7
+    },
+    {
+      "source": "norm_controls.pdf",
+      "sha256": "d12ea8f8c4fcd2cc0a2ec1c6d95e9b7d61d2ab142533470396d443454a33c405",
+      "report_page": 8
+    }
+  ],
+  "data_sources": {
+    "rsa_by_dataset.csv": "218e3244a1451f54919e55aa2388767e4fc8690b78196a736566575768a21507",
+    "aggregate.csv": "bab0d953eaca42a9cfd03ef28b28f47c380ba354a8806c06a598f56bce433dce",
+    "norm_controls.csv": "fdd29b2d765651681731293645159dffbd06769328fcb7ee93f1dbd256e49109",
+    "distance_concentration.csv": "1a4a79b205787cfd2063e06b288f5206e26a45d2a8a6f1d016d3d1453531a6f8",
+    "rsa_config.json": "885cae582331366a97e16e174a3153a4b5c6057eaffa4435e555c555d40b3513"
+  },
+  "visual_qa": {
+    "status": "passed",
+    "receipt": "results_qa/receipt.json",
+    "receipt_sha256": "416143f745ad47f946f7c6f355c383e48b41f282186de49c11041723333c67ce",
+    "report_sha256": "fb05b0e19dd9bcb0cfc97b3de7ef8539b0eb1b50339b7051b41e5f71920bd303",
+    "pages_inspected": 8,
+    "dpi": 100
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "primary_key": "one_minus_cka|hidden|none|raw",
+  "metric_keys": [
+    "one_minus_cka|hidden|none|raw",
+    "one_minus_cka|hidden|none|standardized",
+    "one_minus_cka|logits|none|raw"
+  ],
+  "base_seed": 2026112000,
+  "primary_checkpoint": 20,
+  "test_family": "three dataset-specific raw-hidden E20 endpoints, Holm correction; all other endpoints exploratory",
+  "candidate_checkpoint": 0,
+  "fixed_probe_path": "/home/patrick/projects/Learning-Trajectory/outputs/probes/main.npz",
+  "fixed_probe_sha256": "82f8b9c6a39198281dfdf5b42468b1cd9ef3d5e3999ba881cf10aaf45982ae02",
+  "probe_size": 3000,
+  "within_dataset_only": true,
+  "new_training": false,
+  "weight_distances": false,
+  "neuron_assignments": false,
+  "definition_fixed_before_results": true,
+  "version": "1.0.0",
+  "completed_utc": "2026-11-16T11:44:29.596799+00:00",
+  "analysis_plan_sha256": "eeffae1e1ffc40cf22eb5943bec922b03e0b0f25df9e7c7bf7d5a671992ce22f",
+  "software": {
+    "python": "3.11.18",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "pandas": "2.0.3",
+    "matplotlib": "3.7.5"
+  },
+  "code_sha256": {
+    "04_Representation_Retrieval/code/plots.py": "942704ec45b59d7208a4ef615ce290aff18126eb4310677079faa1de4cf5e887",
+    "04_Representation_Retrieval/code/reporting.py": "8da5a7181663e4ccba7605fa203446f42f7fe7544e05a319be94e17e108da15a",
+    "04_Representation_Retrieval/code/representations.py": "a5d05a88a45a69c6555f2847f0562ea2085914f7429cdf81cb7e755e4145a050",
+    "04_Representation_Retrieval/code/run.py": "9c3f4b1419cd5ce06d05782cc497bba39cf5cef4036c623c7ce63d7137c94603"
+  },
+  "reused_code_sha256": {
+    "01_RSA/code/distances.py": "59f71359166cab0fea857270383b7b97d2bf01c51be6f66ae5e3f89694fbecad",
+    "02_Initialization_Retrieval/code/inference.py": "6a78b62661e9b3b7183028f9c7aed3bf4db11e416416296a2d94cccff83bac26"
+  },
+  "rank_score_definition": "(n-mean_correct_rank)/(n-1); chance=.5, perfect=1",
+  "top1_ties": "Fractional credit 1/m for a true candidate tied among m minima",
+  "rank_ties": "Average ranks; exact numerical tie tolerance documented in inference_diagnostics.json",
+  "uncertainty": "Paired delete-one-network row+column; chance-adjusted scores, then back-transform to full candidate-set scale",
+  "jackknife_boundary_warning": "A perfect observed score can have zero jackknife variance; this is not population certainty",
+  "null_storage": "all label permutations and null statistics saved for reconstruction",
+  "reproduction_command": ".venv/bin/python 04_Representation_Retrieval/code/run.py"
+}

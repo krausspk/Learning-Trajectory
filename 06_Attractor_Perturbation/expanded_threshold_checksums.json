@@ -1,0 +1,11 @@
+{
+  "expanded/fashion_mnist_E10/region_thresholds.json": "e0bc8f12ae7a148840365576de2f38981257d8bb16d17e06ae7a2d37d1143a4c",
+  "expanded/fashion_mnist_E2/region_thresholds.json": "53d8110d937155862e54bdb9885759b6dc4b6fff5c6b78534ee41822727ae93f",
+  "expanded/fashion_mnist_E20/region_thresholds.json": "db0b4f707791eea29617029c1415e2b5a7f0357c57ea8241a23f1f2ea3be9611",
+  "expanded/kmnist_E10/region_thresholds.json": "481a156eaa892634822f3c7089d6cc22fcc78a60b95c43bf40509335721a5639",
+  "expanded/kmnist_E2/region_thresholds.json": "c3ef3e1581c428e76a2c79626a4ea17ec3c2a6fda26cf5ba83b40a6f6c2815e1",
+  "expanded/kmnist_E20/region_thresholds.json": "0c7bb2279fcddee02468df3a79a0e203ae075078e6ae0c3c6a6c434bce1e9b32",
+  "expanded/mnist_E10/region_thresholds.json": "5426e51197a5a679352c717a7b2c2822c39a900db0834a0ee8b25d4cd83715df",
+  "expanded/mnist_E2/region_thresholds.json": "2ea5cc8d10ec3618f1b00c14962285148a549dae4f112c40d40c3c810f75ecf6",
+  "expanded/mnist_E20/region_thresholds.json": "983dfb58233d42436f2c57fd7038df0a46cd159d454b5782641496f5cfd42f09"
+}

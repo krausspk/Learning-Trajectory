@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "production_training_started": false,
+  "tests_passed": 13,
+  "test_log_sha256": "72b02eec986076b9f4a9702ba83fb1bdc797a3b2368ece7708b373b3c38cc707",
+  "training_source_sha256": "a12f57c7cf93c3d38bc529b7da8383c248d787110b12a2aa6a0d9cd3b72a081a",
+  "test_source_sha256": "c165ecfaac56f36a129a69b5f45a4eb06b7d393bc8e5557caf99c3fe000526fb",
+  "training_plan_sha256": "c04591828570119251d52318282b8b242395365783ba53e0c0a3e6f09131ae11",
+  "context_fingerprint": "11957b396212ce656b5b0104b852243119cbe9182046ed50f43f27cfc9dd5b05",
+  "validated_baseline_initializations": 30,
+  "datasets_with_raw_and_compressed_hash_validation": 3,
+  "shuffle_schedules": 5,
+  "disjoint_epoch_shuffle_seeds": 50,
+  "expected_runs": 150,
+  "authorization_gate": "Full training waits for explicit root launch authorization; prepare-only and toy tests only so far."
+}

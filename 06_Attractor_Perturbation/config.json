@@ -1,0 +1,64 @@
+{
+  "architecture": [
+    784,
+    64,
+    10
+  ],
+  "batch_size": 256,
+  "bootstrap_seed": 620260116,
+  "checkpoint": 20,
+  "control_c": "preserve momentum, alternate perturbation-arm batch order; epsilon 0 and .20, directions1..5 at .20",
+  "created_at": "2026-11-16T12:30:45.983340+01:00",
+  "datasets": [
+    "mnist"
+  ],
+  "directions": 5,
+  "epsilon": [
+    0,
+    0.01,
+    0.05,
+    0.2
+  ],
+  "extension_gate": "technical validation and completed nonselective pilot; scientific null result does not count as failure",
+  "frozen_zero_biases": true,
+  "h1": "final distance / immediate post-perturbation distance; epsilon=0 ratio undefined; seed-aggregate 95% bootstrap CI",
+  "h3": "individual distance <= 0.1 * median leave-one-out independent reference distance, and functional criterion; operational family only",
+  "inference": "10000 bootstrap resamples of 10 source seeds, averaging directions within seed first; paired protocol differences",
+  "layers": [
+    "both"
+  ],
+  "loss_barrier": "11 equally spaced points, canonical and permutation-aligned endpoints, full test set; max loss minus linearly interpolated endpoint losses",
+  "lr": 0.1,
+  "momentum": [
+    "preserve",
+    "reset"
+  ],
+  "momentum_coefficient": 0.9,
+  "primary_metric": "Frobenius norm of concatenated canonical weights after exact one-hidden-layer Git Re-Basin assignment",
+  "recovery_epochs": 10,
+  "region": "median distance to 10 independent matched-horizon references <= q95 of leave-one-out reference medians; accuracy >= reference q05 and loss <= reference q95",
+  "return_definition": "initially outside region, final inside; separately report membership, retention and sampled exit/re-entry",
+  "robustness": [
+    "canonical PIF/Hungarian Frobenius",
+    "canonical Alpha matching and dissimilarity",
+    "q90 structural threshold",
+    "two disjoint 5-reference subsets"
+  ],
+  "scope": "Pilot first; prospective expanded matrix recorded after pilot; all full datasets, no shortened recovery",
+  "source_runs": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6",
+    "M7",
+    "M8",
+    "M9",
+    "M10"
+  ],
+  "stage": "pilot",
+  "test_samples": 10000,
+  "train_samples": 60000,
+  "weight_decay": 0
+}

@@ -1,0 +1,17 @@
+{
+  "analysis_source_sha256": "bc9a7fc6fedc9a97d2631ade192ba557d68476d402ea47f8738647b960951ab5",
+  "analyzed_runs": 260,
+  "complete": true,
+  "config_sha256": "3fa0d9d6790e8254fa6e0bb322bb3c619a8624ce31f014bd31f29fc7966f4084",
+  "elapsed_seconds": 305.22221553000054,
+  "expected_runs": 260,
+  "max_perturbation_norm_error": 2.4123356506811078e-09,
+  "metrics_source_sha256": "9988d441cc4d75c8b187fb692f4f08a5a043bab712e3cf53d2b28f311c389290",
+  "n_final_failures": 0,
+  "nan_endpoints": 0,
+  "primary_perturbations": 240,
+  "region_thresholds_sha256": "5426e51197a5a679352c717a7b2c2822c39a900db0834a0ee8b25d4cd83715df",
+  "seed_count": 10,
+  "undefined_epsilon_zero_ratios": 20,
+  "undefined_nonzero_ratios": 0
+}

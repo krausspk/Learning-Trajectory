@@ -1,0 +1,288 @@
+{
+  "baseline_runs_per_dataset_checkpoint": 20,
+  "checkpoints": [
+    2,
+    10,
+    20
+  ],
+  "control_c": "Different-future-batch-order control remains in the five-direction MNIST pilot; extension uses identical paired future batches",
+  "created_at": "2026-11-16T12:46:36.659094+01:00",
+  "datasets": [
+    "mnist",
+    "fashion_mnist",
+    "kmnist"
+  ],
+  "direction_limitation": "One direction per source/checkpoint estimates seed-averaged screening behavior; it does not characterize within-network directional uncertainty or establish a multidirectional basin boundary. Pilot retains five directions.",
+  "direction_pairing": "Same normalized Gaussian W0/W1 directions paired across epsilon, layer and momentum; perturb_seed=61000000+seed*10000+checkpoint*100+direction",
+  "directions_per_nonzero_cell": 1,
+  "epsilon": [
+    0.0,
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "independent_reference_seeds": {
+    "fashion_mnist": [
+      1201,
+      1202,
+      1203,
+      1204,
+      1205,
+      1206,
+      1207,
+      1208,
+      1209,
+      1210
+    ],
+    "kmnist": [
+      1301,
+      1302,
+      1303,
+      1304,
+      1305,
+      1306,
+      1307,
+      1308,
+      1309,
+      1310
+    ],
+    "mnist": [
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410
+    ]
+  },
+  "inference": "Pointwise seed-level bootstrap intervals, ten seeds; full factorial screening is exploratory and intervals are not familywise multiplicity-adjusted",
+  "layers": [
+    "both",
+    "W0",
+    "W1"
+  ],
+  "local_family": "Prespecified operational local-distance radius from independent references; neither exact solution identity nor strict mathematical attractor",
+  "momentum": [
+    "preserve",
+    "reset"
+  ],
+  "original_training_rule": "784-64-10 ReLU; fixed zero biases; SGD lr0.1 momentum0.9 weight_decay0; batch256",
+  "perturbed_runs_per_dataset_checkpoint": 240,
+  "pilot_gate": {
+    "analysis_status_sha256": "05e3156a0433d090e42778ae4c42375ab809fff7b76b4464047d2b4d6b93d0ff",
+    "config_sha256": "cc3ec4dcd10ddc7887fbdddb5ce26fc2285dbcb592ac04ae52033cc51c6ed748",
+    "endpoint_summary_sha256": "5fb8ccd873e690042c1a62cea3151362911020445e59549f8f5ce9f8cf908d56",
+    "pilot_analyzed_runs": 380,
+    "pilot_numerical_failure_count": 0,
+    "scientific_effects_are_not_gate_criteria": true,
+    "validation_sha256": "520543a3d9511d01682cf2ba18f3ea7538e5743c7a6f00b2601dbb39429e8a09"
+  },
+  "pilot_informed": true,
+  "planned_outputs": [
+    "expanded/mnist_E2",
+    "expanded/mnist_E10",
+    "expanded/mnist_E20",
+    "expanded/fashion_mnist_E2",
+    "expanded/fashion_mnist_E10",
+    "expanded/fashion_mnist_E20",
+    "expanded/kmnist_E2",
+    "expanded/kmnist_E10",
+    "expanded/kmnist_E20"
+  ],
+  "recovery_epochs": 10,
+  "reference_continuations": 90,
+  "reference_models_per_task": 10,
+  "reference_source_runs": [
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF1",
+      "seed": 1201,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF2",
+      "seed": 1202,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF3",
+      "seed": 1203,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF4",
+      "seed": 1204,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF5",
+      "seed": 1205,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF6",
+      "seed": 1206,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF7",
+      "seed": 1207,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF8",
+      "seed": 1208,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF9",
+      "seed": 1209,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "fashion_mnist",
+      "run_id": "RF10",
+      "seed": 1210,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK1",
+      "seed": 1301,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK2",
+      "seed": 1302,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK3",
+      "seed": 1303,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK4",
+      "seed": 1304,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK5",
+      "seed": 1305,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK6",
+      "seed": 1306,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK7",
+      "seed": 1307,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK8",
+      "seed": 1308,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK9",
+      "seed": 1309,
+      "task": "identity"
+    },
+    {
+      "cohort": "heldout",
+      "dataset": "kmnist",
+      "run_id": "RK10",
+      "seed": 1310,
+      "task": "identity"
+    }
+  ],
+  "selection": "Full Cartesian matrix fixed after completed pilot; no inclusion/exclusion depends on observed effect or return",
+  "source_seeds": {
+    "fashion_mnist": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210
+    ],
+    "kmnist": [
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310
+    ],
+    "mnist": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  },
+  "stage": "expanded_screening",
+  "test_samples": 10000,
+  "threshold_freezing": "Ten independent same-task references at every matched recovery update; all nine threshold files frozen before any expanded perturbation training",
+  "total_baselines": 180,
+  "total_forks": 2340,
+  "total_perturbed": 2160,
+  "training_samples": 60000
+}

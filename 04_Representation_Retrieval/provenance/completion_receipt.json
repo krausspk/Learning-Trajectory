@@ -1,0 +1,83 @@
+{
+  "checked_at_utc": "2026-11-16T11:25:55.684269+00:00",
+  "status": "passed",
+  "tests_returncode": 0,
+  "tests_stdout": ".......                                                                  [100%]\n7 passed in 0.13s\n",
+  "tests_stderr": "",
+  "distance_code_sha256": "a5d05a88a45a69c6555f2847f0562ea2085914f7429cdf81cb7e755e4145a050",
+  "code_matches_validation": true,
+  "distance_validation_passed": true,
+  "distance_outputs_hashes_valid": true,
+  "n_distances": 18900,
+  "source_preservation": {
+    "checked_files": 703,
+    "all_unchanged": true,
+    "changed": []
+  },
+  "plot_code_sha256": "942704ec45b59d7208a4ef615ce290aff18126eb4310677079faa1de4cf5e887",
+  "summary_sha256": "0f4740194fcef451beed92920206bb8680fab306f66e858029a64cefddb52b60",
+  "gallery_sha256": "e4fd226cab33e306dc6129472132a15adacede0e6a1f917aaa7f16addeb3a3cf",
+  "gallery_missing_links": [],
+  "visual_qa": [
+    {
+      "name": "representation_endpoint_matrices",
+      "status": "passed",
+      "png_sha256": "24f41e491b0c991c150df73c4591891838e0a78416a804eefbbb515814ff6e9b",
+      "pdf_sha256": "2268dea5793fe7f602a24aa7f1ca22a2f6f65022d9d3cfa3ece0e82f1fa380f2",
+      "png_size_pixels": [
+        3449,
+        1425
+      ],
+      "pdf_preview": "provenance/visual_qa/representation_endpoint_matrices_pdf.png",
+      "pdf_preview_sha256": "d81f962c0fcc75d9349a3636fb88de9aecd6be44525ad7e6e2e44b3d9955e91a",
+      "pdf_render_dpi": 110,
+      "checks": [
+        "complete labels and panels",
+        "readable heatmap cell contrast",
+        "truth diagonal shown only after scoring",
+        "confidence intervals and chance reference labelled",
+        "no weight-space or neuron-alignment claims"
+      ]
+    },
+    {
+      "name": "representation_over_training",
+      "status": "passed",
+      "png_sha256": "4efe5412822ff9f5b3a0f7d0c4f5ffed139786c3c962514591807c2716a3a66f",
+      "pdf_sha256": "a6798f3a7b9ec4ffb7985e038cc28b61c69674e1eb8f7bdb7c59659f16613678",
+      "png_size_pixels": [
+        3344,
+        1328
+      ],
+      "pdf_preview": "provenance/visual_qa/representation_over_training_pdf.png",
+      "pdf_preview_sha256": "d967a7edf56350b7e29bb9ea574bb22a63f7b7e1af32a1ce4f53446c514cfce9",
+      "pdf_render_dpi": 110,
+      "checks": [
+        "complete labels and panels",
+        "readable heatmap cell contrast",
+        "truth diagonal shown only after scoring",
+        "confidence intervals and chance reference labelled",
+        "no weight-space or neuron-alignment claims"
+      ]
+    },
+    {
+      "name": "representation_endpoint_comparison",
+      "status": "passed",
+      "png_sha256": "f792fb06e6667e8d29602c3b52ab80ba7f10397ef45dde42438ff16dd0695be3",
+      "pdf_sha256": "0d6c29af017c4f28c46b55ba5000422592fa3dfc32115920b393e346c07469d5",
+      "png_size_pixels": [
+        3384,
+        1859
+      ],
+      "pdf_preview": "provenance/visual_qa/representation_endpoint_comparison_pdf.png",
+      "pdf_preview_sha256": "dfa6163331de64e478d69f21d24f3bffe9dd0d97c1e49621073ab7bc498f110c",
+      "pdf_render_dpi": 110,
+      "checks": [
+        "complete labels and panels",
+        "readable heatmap cell contrast",
+        "truth diagonal shown only after scoring",
+        "confidence intervals and chance reference labelled",
+        "no weight-space or neuron-alignment claims"
+      ]
+    }
+  ]
+}

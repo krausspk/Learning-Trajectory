@@ -1,0 +1,126 @@
+{
+  "endpoints": [
+    {
+      "endpoint": "reset_W0_C1",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_W1_C1",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_both_C1",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_diagnostics_C1",
+      "recomputed_accuracy": 0.85,
+      "recomputed_auc": 0.96375,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_functional_logits_C1",
+      "recomputed_accuracy": 0.9625,
+      "recomputed_auc": 0.99625,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_covariate_adjusted_both_C1",
+      "recomputed_accuracy": 0.8375,
+      "recomputed_auc": 0.919375,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_W0_C5",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_W1_C5",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_both_C5",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_diagnostics_C5",
+      "recomputed_accuracy": 0.875,
+      "recomputed_auc": 0.96,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_functional_logits_C5",
+      "recomputed_accuracy": 0.9,
+      "recomputed_auc": 0.93875,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_covariate_adjusted_both_C5",
+      "recomputed_accuracy": 0.75,
+      "recomputed_auc": 0.843125,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_W0_C10",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_W1_C10",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_both_C10",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_diagnostics_C10",
+      "recomputed_accuracy": 0.8375,
+      "recomputed_auc": 0.936875,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_functional_logits_C10",
+      "recomputed_accuracy": 0.85,
+      "recomputed_auc": 0.904375,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_covariate_adjusted_both_C10",
+      "recomputed_accuracy": 0.8125,
+      "recomputed_auc": 0.90625,
+      "recomputed_p": 0.001
+    },
+    {
+      "endpoint": "reset_negative_labels_C10",
+      "recomputed_accuracy": 0.4875,
+      "recomputed_auc": 0.525,
+      "recomputed_p": 0.617
+    },
+    {
+      "endpoint": "continued_both_C10",
+      "recomputed_accuracy": 1.0,
+      "recomputed_auc": 1.0,
+      "recomputed_p": 0.001
+    }
+  ],
+  "holm_family_size": 19,
+  "passed": true
+}

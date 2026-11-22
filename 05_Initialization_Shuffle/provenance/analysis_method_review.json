@@ -1,0 +1,57 @@
+{
+  "reviewed_utc": "2026-11-16T11:35:29.964901+00:00",
+  "reviewer": "independent figure_audit agent",
+  "scope": "Read-only independent statistical code review before production outcome inspection; no training or real analysis started by reviewer.",
+  "analysis_code": "/home/patrick/projects/Learning-Trajectory/05_Initialization_Shuffle/code/analysis.py",
+  "analysis_sha256": "e7ddbcab9cb2c009a00f35886272b6b8e2bb6d722aed23aae699f710a5732da4",
+  "tests_sha256": "48b720fbaffc45f8e10d26202c61d42b5c02216f76ba97bfa72c54db247fde41",
+  "design_sha256": "800deee3076136f030ac655970ff6ff561a90a267a77876d3a7239fd64354fa0",
+  "test_run": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest 05_Initialization_Shuffle/tests/test_analysis.py -q",
+    "result": "8 passed",
+    "seconds": 10.75
+  },
+  "independent_oracles": {
+    "initialization": {
+      "null_max_abs_error": 3.0531133177191805e-16,
+      "contrast_max_abs_error": 0.0,
+      "n_exhaustive_joint_label_draws": 36,
+      "n_blocks": 3,
+      "n_candidates": 3,
+      "exact_ties_present": true,
+      "chance_mean_rank": 2.0,
+      "chance_top1": 0.3333333333333333,
+      "delete_factor_jackknife": "passed",
+      "common_label_gauge_invariance": "passed"
+    },
+    "shuffle": {
+      "null_max_abs_error": 3.0531133177191805e-16,
+      "contrast_max_abs_error": 0.0,
+      "n_exhaustive_joint_label_draws": 36,
+      "n_blocks": 3,
+      "n_candidates": 3,
+      "exact_ties_present": true,
+      "chance_mean_rank": 2.0,
+      "chance_top1": 0.33333333333333326,
+      "delete_factor_jackknife": "passed",
+      "common_label_gauge_invariance": "passed"
+    }
+  },
+  "review_checks": {
+    "init_labels_independently_permuted_within_shuffle_blocks_consistently_across_all_comparisons": true,
+    "shuffle_labels_independently_permuted_within_initialization_blocks_consistently_across_all_comparisons": true,
+    "block_zero_gauge_fix_does_not_replace_relative_label_randomization": true,
+    "physical_candidate_map_uses_inverse_query_block_map": true,
+    "candidate_cardinalities_initialization_10_shuffle_5": true,
+    "jackknife_deletes_whole_selected_factor_levels_from_both_tensor_axes": true,
+    "candidate_count_changes_chance_corrected_before_jackknife_se": true,
+    "end_to_initial_same_candidate_identity_null_shared_across_five_queries": true,
+    "aggregate_variance_sums_three_fixed_dataset_stratum_variances": true,
+    "performance_ss_descriptive_no_replication_no_anova_p": true,
+    "only_three_prespecified_weight_endpoints_primary_holm_family": true,
+    "full_150_run_manifest_and_source_hash_guard_present": true
+  },
+  "findings": [],
+  "status": "passed",
+  "limitations": "Real dataset outputs are not yet reviewed in this receipt; output checks will be recorded separately after analysis completion."
+}

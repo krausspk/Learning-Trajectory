@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "completed_endpoints_repeated": 12,
+  "protocol_changed": false,
+  "checks": [
+    {
+      "endpoint": "reset_W0_C1",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_W0_C5",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_W1_C1",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_W1_C5",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_both_C1",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_both_C5",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_covariate_adjusted_both_C1",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_covariate_adjusted_both_C5",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_diagnostics_C1",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_diagnostics_C5",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_functional_logits_C1",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    },
+    {
+      "endpoint": "reset_functional_logits_C5",
+      "all_arrays_bitwise_equal": true,
+      "recomputed_after_restart": true
+    }
+  ]
+}

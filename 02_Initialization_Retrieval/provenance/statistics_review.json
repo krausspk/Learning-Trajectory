@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "review_type": "independent read-only statistical review",
+  "code_path": "/home/patrick/projects/Learning-Trajectory/02_Initialization_Retrieval/code/inference.py",
+  "code_sha256": "6a78b62661e9b3b7183028f9c7aed3bf4db11e416416296a2d94cccff83bac26",
+  "analysis_plan_sha256": "125631bba1359d29d0dec90de9debc0c8508c7e2300082e763de475fc20559c7",
+  "findings": [],
+  "checks": {
+    "null_unit": "one bijection of candidate-parent labels shared by all query rows, independent streams across datasets; no pairwise or cellwise shuffling",
+    "mean_rank_null": "(n+1)/2, including average ties",
+    "top1_ties": "fractional 1/k credit for k exactly tied minima retains exact chance 1/n",
+    "mrr_ties": "reciprocal average ranks; null mean computed over all rank-matrix cells rather than assuming the untied harmonic formula",
+    "jackknife_unit": "delete matching query row and initialization candidate column together, rerank the remaining nine candidates",
+    "jackknife_scale": "normalize rank, top1 and MRR for the smaller candidate set and back-transform raw summaries to the original full-n chance/ceiling scale",
+    "aggregate_variance": "sum centered delete-one-run variances separately within each dataset stratum, including equal-dataset weighting",
+    "pvalues": "10000 global bijections; add-one lower-tail rank test; p comparisons include numerical equality; Holm only for the three prespecified E20 dataset endpoints",
+    "e0": "sanity only, no inferential p-values",
+    "independent_exhaustive_tie_check_max_error": 0.0,
+    "exhaustive_null_means": [
+      2.5,
+      0.25,
+      0.4677083333333332
+    ],
+    "expected_null_means": [
+      2.5,
+      0.25,
+      0.46770833333333334
+    ],
+    "independent_jackknife_rank_scale_error": 0.0,
+    "saved_output_checks": [
+      {
+        "dataset": "mnist",
+        "n_global_bijections": 10000,
+        "all_maps_bijective": true,
+        "seed": 2026111701,
+        "e0_null_all_nan": true
+      },
+      {
+        "dataset": "fashion_mnist",
+        "n_global_bijections": 10000,
+        "all_maps_bijective": true,
+        "seed": 2026111702,
+        "e0_null_all_nan": true
+      },
+      {
+        "dataset": "kmnist",
+        "n_global_bijections": 10000,
+        "all_maps_bijective": true,
+        "seed": 2026111703,
+        "e0_null_all_nan": true
+      }
+    ]
+  },
+  "interpretation_limits": [
+    "Ten complete trajectories per dataset; unbounded normal jackknife intervals are descriptive approximations, especially for discrete top1 results.",
+    "Saved float32 null summaries are compact diagnostics. Exact p-value reproduction should use saved float64 candidate ranks and the saved identity mappings.",
+    "A run seed controls both initialization and minibatch order, so retrieval identifies training lineage rather than an isolated causal effect of initialization."
+  ],
+  "code_changed_by_reviewer": false
+}

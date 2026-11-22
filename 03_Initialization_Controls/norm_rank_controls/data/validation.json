@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "code_sha256": "76fa1d5c9e7df5c91e55f12f28bd53e437d34010f85e3f9075404c185ed349d0",
+  "outputs": [
+    {
+      "dataset": "mnist",
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/norm_rank_controls/data/mnist_retrieval.npz",
+      "sha256": "0503b983a4b247fae2971fbd32bfdf3ff883edfb6c4827b9d7f9183e6283e960",
+      "shape": [
+        6,
+        21,
+        10,
+        10
+      ],
+      "jackknife_shape": [
+        6,
+        21,
+        10,
+        9,
+        9
+      ],
+      "source_path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/data/mnist_retrieval.npz",
+      "source_sha256": "e0f5cc78f8f4053332b522fa31b25ee519fdaddca895a3a8d251762305aea0a8",
+      "query_run_ids": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "M10"
+      ],
+      "candidate_run_ids": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "M10"
+      ],
+      "E0_max_diagonal_distance": 0.0
+    },
+    {
+      "dataset": "fashion_mnist",
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/norm_rank_controls/data/fashion_mnist_retrieval.npz",
+      "sha256": "bc7e8513251d5767a0eb7d00258bc5c3edcdbd723ac7278ca59d3f4046945201",
+      "shape": [
+        6,
+        21,
+        10,
+        10
+      ],
+      "jackknife_shape": [
+        6,
+        21,
+        10,
+        9,
+        9
+      ],
+      "source_path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/data/fashion_mnist_retrieval.npz",
+      "source_sha256": "1f50b01b6e47f448e77912d20bda6322022256ca8b04d9571e00df166f36a834",
+      "query_run_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10"
+      ],
+      "candidate_run_ids": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10"
+      ],
+      "E0_max_diagonal_distance": 0.0
+    },
+    {
+      "dataset": "kmnist",
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/norm_rank_controls/data/kmnist_retrieval.npz",
+      "sha256": "e84408549f79db0b4129885b8c395f740d598392ce02f86c5d58c3bf49c0ce2f",
+      "shape": [
+        6,
+        21,
+        10,
+        10
+      ],
+      "jackknife_shape": [
+        6,
+        21,
+        10,
+        9,
+        9
+      ],
+      "source_path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/data/kmnist_retrieval.npz",
+      "source_sha256": "434a3ea08594418ce36ddc2fe4feb9595fcd3a90499df3762f227b31c10f337b",
+      "query_run_ids": [
+        "K1",
+        "K2",
+        "K3",
+        "K4",
+        "K5",
+        "K6",
+        "K7",
+        "K8",
+        "K9",
+        "K10"
+      ],
+      "candidate_run_ids": [
+        "K1",
+        "K2",
+        "K3",
+        "K4",
+        "K5",
+        "K6",
+        "K7",
+        "K8",
+        "K9",
+        "K10"
+      ],
+      "E0_max_diagonal_distance": 0.0
+    }
+  ],
+  "n_metric_keys": 6,
+  "n_distances": 37800,
+  "original_42_costs_unchanged": true,
+  "identity_labels_used_for_costs": false,
+  "all_entries_computed_identically": true,
+  "diagonal_overridden": false,
+  "jackknife_recalibrates_cohorts": true,
+  "analysis_note_sha256": "447168231cc34e9dad6d7b73a882cd72ec396d9d42911c47831ff204d678c7dd",
+  "inferential_role": "post_hoc_exploratory",
+  "source_control_validation_sha256": "ab3fa1eec15965059909b98f1549fe21823eeacd682fa67ceac91a0911dfa06f"
+}

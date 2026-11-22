@@ -1,0 +1,794 @@
+{
+  "frobenius|W0|identity|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "W0",
+    "alignment": "identity",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "frobenius|W1|identity|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "W1",
+    "alignment": "identity",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "frobenius|total|identity|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "total",
+    "alignment": "identity",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "normalized_frobenius|W0|identity|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "W0",
+    "alignment": "identity",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "normalized_frobenius|W1|identity|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "W1",
+    "alignment": "identity",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "normalized_frobenius|total|identity|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "total",
+    "alignment": "identity",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "frobenius|W0|optimal|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "W0",
+    "alignment": "optimal",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "frobenius|W1|optimal|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "W1",
+    "alignment": "optimal",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "frobenius|total|optimal|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "total",
+    "alignment": "optimal",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "normalized_frobenius|W0|optimal|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "W0",
+    "alignment": "optimal",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "normalized_frobenius|W1|optimal|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "W1",
+    "alignment": "optimal",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "normalized_frobenius|total|optimal|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "total",
+    "alignment": "optimal",
+    "gauge": "raw",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "norm_only|W0|none|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "norm_only",
+    "layer": "W0",
+    "alignment": "none",
+    "gauge": "raw",
+    "formula": "abs(norm(query layer at E=t) - norm(candidate layer at E=0))",
+    "normalization": "pre-global-normalization norm; total=sqrt(norm(W0)^2+norm(W1)^2)"
+  },
+  "norm_only|W1|none|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "norm_only",
+    "layer": "W1",
+    "alignment": "none",
+    "gauge": "raw",
+    "formula": "abs(norm(query layer at E=t) - norm(candidate layer at E=0))",
+    "normalization": "pre-global-normalization norm; total=sqrt(norm(W0)^2+norm(W1)^2)"
+  },
+  "norm_only|total|none|raw": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "norm_only",
+    "layer": "total",
+    "alignment": "none",
+    "gauge": "raw",
+    "formula": "abs(norm(query layer at E=t) - norm(candidate layer at E=0))",
+    "normalization": "pre-global-normalization norm; total=sqrt(norm(W0)^2+norm(W1)^2)"
+  },
+  "frobenius|W0|identity|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "W0",
+    "alignment": "identity",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "frobenius|W1|identity|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "W1",
+    "alignment": "identity",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "frobenius|total|identity|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "total",
+    "alignment": "identity",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "normalized_frobenius|W0|identity|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "W0",
+    "alignment": "identity",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "normalized_frobenius|W1|identity|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "W1",
+    "alignment": "identity",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "normalized_frobenius|total|identity|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "total",
+    "alignment": "identity",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "native saved neuron coordinates",
+    "coordinate_caution": "Identity is a neuron-coordinate memory diagnostic, not permutation-invariant"
+  },
+  "frobenius|W0|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "W0",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "frobenius|W1|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "W1",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "frobenius|total|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "frobenius",
+    "layer": "total",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "no global normalization",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "normalized_frobenius|W0|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "W0",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "normalized_frobenius|W1|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "W1",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "normalized_frobenius|total|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "normalized_frobenius",
+    "layer": "total",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "formula": "Frobenius norm of query minus aligned candidate, restricted to the named layer (total concatenates W0/W1)",
+    "normalization": "one full-vector norm divides BOTH W0 and W1; layer distances are contributions to that globally normalized vector",
+    "matching": "global Hungarian maximizes joint W0/W1 inner product in the stated gauge; global normalization leaves the optimizer unchanged",
+    "coordinate_caution": "Permutation-adjusted comparison"
+  },
+  "norm_only|W0|none|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "norm_only",
+    "layer": "W0",
+    "alignment": "none",
+    "gauge": "canonical",
+    "formula": "abs(norm(query layer at E=t) - norm(candidate layer at E=0))",
+    "normalization": "pre-global-normalization norm; total=sqrt(norm(W0)^2+norm(W1)^2)"
+  },
+  "norm_only|W1|none|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "norm_only",
+    "layer": "W1",
+    "alignment": "none",
+    "gauge": "canonical",
+    "formula": "abs(norm(query layer at E=t) - norm(candidate layer at E=0))",
+    "normalization": "pre-global-normalization norm; total=sqrt(norm(W0)^2+norm(W1)^2)"
+  },
+  "norm_only|total|none|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "norm_only",
+    "layer": "total",
+    "alignment": "none",
+    "gauge": "canonical",
+    "formula": "abs(norm(query layer at E=t) - norm(candidate layer at E=0))",
+    "normalization": "pre-global-normalization norm; total=sqrt(norm(W0)^2+norm(W1)^2)"
+  },
+  "small_residual_rms|W0|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "small_residual_rms",
+    "layer": "W0",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "own candidate-pair absolute residuals after joint matching, at or below the 25th percentile separately in W0 and W1, all boundary ties included",
+    "formula": "sqrt(mean(selected squared residuals)); total pools selected entries from both layers",
+    "caution": "Candidate-pair-dependent metric sensitivity, NOT true historical change, causal attribution, an ablation, or independent evidence"
+  },
+  "small_residual_rms|W1|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "small_residual_rms",
+    "layer": "W1",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "own candidate-pair absolute residuals after joint matching, at or below the 25th percentile separately in W0 and W1, all boundary ties included",
+    "formula": "sqrt(mean(selected squared residuals)); total pools selected entries from both layers",
+    "caution": "Candidate-pair-dependent metric sensitivity, NOT true historical change, causal attribution, an ablation, or independent evidence"
+  },
+  "small_residual_rms|total|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "small_residual_rms",
+    "layer": "total",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "own candidate-pair absolute residuals after joint matching, at or below the 25th percentile separately in W0 and W1, all boundary ties included",
+    "formula": "sqrt(mean(selected squared residuals)); total pools selected entries from both layers",
+    "caution": "Candidate-pair-dependent metric sensitivity, NOT true historical change, causal attribution, an ablation, or independent evidence"
+  },
+  "large_residual_rms|W0|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "large_residual_rms",
+    "layer": "W0",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "own candidate-pair absolute residuals after joint matching, at or above the 75th percentile separately in W0 and W1, all boundary ties included",
+    "formula": "sqrt(mean(selected squared residuals)); total pools selected entries from both layers",
+    "caution": "Candidate-pair-dependent metric sensitivity, NOT true historical change, causal attribution, an ablation, or independent evidence"
+  },
+  "large_residual_rms|W1|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "large_residual_rms",
+    "layer": "W1",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "own candidate-pair absolute residuals after joint matching, at or above the 75th percentile separately in W0 and W1, all boundary ties included",
+    "formula": "sqrt(mean(selected squared residuals)); total pools selected entries from both layers",
+    "caution": "Candidate-pair-dependent metric sensitivity, NOT true historical change, causal attribution, an ablation, or independent evidence"
+  },
+  "large_residual_rms|total|optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "large_residual_rms",
+    "layer": "total",
+    "alignment": "optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "own candidate-pair absolute residuals after joint matching, at or above the 75th percentile separately in W0 and W1, all boundary ties included",
+    "formula": "sqrt(mean(selected squared residuals)); total pools selected entries from both layers",
+    "caution": "Candidate-pair-dependent metric sensitivity, NOT true historical change, causal attribution, an ablation, or independent evidence"
+  },
+  "activity_low_normalized_frobenius|W0|masked_optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "activity_low_normalized_frobenius",
+    "layer": "W0",
+    "alignment": "masked_optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "query-only activation occupancy Pr(H>0) on the fixed original probe, <=25th query-neuron percentile, all boundary ties included; recomputed per query/checkpoint",
+    "matching": "Hungarian on full squared joint-neuron distances, weighted by the query mask; includes candidate norm terms; unselected rows have zero cost",
+    "formula": "Frobenius norm on selected query neurons after the mask-specific shared assignment",
+    "caution": "Query-activity sensitivity, not a functional fingerprint: no query/candidate activation comparison; inactive means zero on this probe only"
+  },
+  "activity_low_normalized_frobenius|W1|masked_optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "activity_low_normalized_frobenius",
+    "layer": "W1",
+    "alignment": "masked_optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "query-only activation occupancy Pr(H>0) on the fixed original probe, <=25th query-neuron percentile, all boundary ties included; recomputed per query/checkpoint",
+    "matching": "Hungarian on full squared joint-neuron distances, weighted by the query mask; includes candidate norm terms; unselected rows have zero cost",
+    "formula": "Frobenius norm on selected query neurons after the mask-specific shared assignment",
+    "caution": "Query-activity sensitivity, not a functional fingerprint: no query/candidate activation comparison; inactive means zero on this probe only"
+  },
+  "activity_low_normalized_frobenius|total|masked_optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "activity_low_normalized_frobenius",
+    "layer": "total",
+    "alignment": "masked_optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "query-only activation occupancy Pr(H>0) on the fixed original probe, <=25th query-neuron percentile, all boundary ties included; recomputed per query/checkpoint",
+    "matching": "Hungarian on full squared joint-neuron distances, weighted by the query mask; includes candidate norm terms; unselected rows have zero cost",
+    "formula": "Frobenius norm on selected query neurons after the mask-specific shared assignment",
+    "caution": "Query-activity sensitivity, not a functional fingerprint: no query/candidate activation comparison; inactive means zero on this probe only"
+  },
+  "activity_high_normalized_frobenius|W0|masked_optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "activity_high_normalized_frobenius",
+    "layer": "W0",
+    "alignment": "masked_optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "query-only activation occupancy Pr(H>0) on the fixed original probe, >=75th query-neuron percentile, all boundary ties included; recomputed per query/checkpoint",
+    "matching": "Hungarian on full squared joint-neuron distances, weighted by the query mask; includes candidate norm terms; unselected rows have zero cost",
+    "formula": "Frobenius norm on selected query neurons after the mask-specific shared assignment",
+    "caution": "Query-activity sensitivity, not a functional fingerprint: no query/candidate activation comparison; inactive means zero on this probe only"
+  },
+  "activity_high_normalized_frobenius|W1|masked_optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "activity_high_normalized_frobenius",
+    "layer": "W1",
+    "alignment": "masked_optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "query-only activation occupancy Pr(H>0) on the fixed original probe, >=75th query-neuron percentile, all boundary ties included; recomputed per query/checkpoint",
+    "matching": "Hungarian on full squared joint-neuron distances, weighted by the query mask; includes candidate norm terms; unselected rows have zero cost",
+    "formula": "Frobenius norm on selected query neurons after the mask-specific shared assignment",
+    "caution": "Query-activity sensitivity, not a functional fingerprint: no query/candidate activation comparison; inactive means zero on this probe only"
+  },
+  "activity_high_normalized_frobenius|total|masked_optimal|canonical": {
+    "orientation": "current query i at E=t versus candidate j at E=0; all 100 entries use identical rules",
+    "run_identity_input": false,
+    "interpretive_role": "exploratory_control",
+    "layer_order": [
+      "W0",
+      "W1",
+      "total"
+    ],
+    "shared_matching": "W0 and W1 always share the same joint-network permutation; no layer-specific rematching",
+    "metric": "activity_high_normalized_frobenius",
+    "layer": "total",
+    "alignment": "masked_optimal",
+    "gauge": "canonical",
+    "normalization": "canonical neuron gauge followed by one global unit norm",
+    "selection": "query-only activation occupancy Pr(H>0) on the fixed original probe, >=75th query-neuron percentile, all boundary ties included; recomputed per query/checkpoint",
+    "matching": "Hungarian on full squared joint-neuron distances, weighted by the query mask; includes candidate norm terms; unselected rows have zero cost",
+    "formula": "Frobenius norm on selected query neurons after the mask-specific shared assignment",
+    "caution": "Query-activity sensitivity, not a functional fingerprint: no query/candidate activation comparison; inactive means zero on this probe only"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "created_utc": "2026-11-16T10:56:57.532410+00:00",
+  "source_manifest": "outputs/manifests/main.json",
+  "source_manifest_sha256": "c3ee4683156d6814307844596806e57f50fddca76263315e56fe54876f3972a9",
+  "cohort": "main",
+  "datasets": [
+    "mnist",
+    "fashion_mnist",
+    "kmnist"
+  ],
+  "runs_per_dataset": 10,
+  "checkpoints": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "direction": "query=current network i; candidate=initial network j",
+  "matrix_shape_per_dataset": [
+    21,
+    10,
+    10
+  ],
+  "primary_metric_key": "normalized_frobenius|total|optimal|canonical",
+  "primary_endpoint": "mean rank of true initial candidate at E20; smaller is better",
+  "chance_mean_rank": 5.5,
+  "chance_top1": 0.1,
+  "null_test": "10000 bijective global permutations of candidate identity labels, independent within each dataset; do not shuffle individual distances",
+  "inferential_unit": "complete network trajectory; no independent-weight or independent-pair tests",
+  "e0_role": "sanity only; no p values",
+  "metric_selection": "fixed before computation, no outcome-dependent tuning",
+  "initialization_shuffle_confounding": "one run seed determines both initial weights and minibatch shuffle; identifies training lineage, not a causal separation of initialization and SGD order",
+  "new_training": false,
+  "point3_functional_fingerprint": false,
+  "point4_crossed_training": false,
+  "original_files_read_only": true,
+  "experiment": 3,
+  "base_seed": 2026111800,
+  "dataset_permutation_seeds": {
+    "mnist": 2026111801,
+    "fashion_mnist": 2026111802,
+    "kmnist": 2026111803
+  },
+  "primary_family": "all controls exploratory; the point1 protocol is a reference only",
+  "control_plan": {
+    "coordinate_gauge": "raw/canonical x identity/shared optimal permutation",
+    "metrics": "Frobenius and normalized Frobenius, W0/W1/total; absolute initial/current norm differences",
+    "residual_quantiles": "candidate-specific bottom/top25% residuals, same rule for all100pairs; diagnostic metric sensitivity, not causal ablation",
+    "activity": "query-only low/high hidden activity quartiles on fixed saved probe; masked cost and new Hungarian for every candidate; inactive counts saved",
+    "forbidden_leakage": "no true-parent-derived feature mask in blind retrieval"
+  },
+  "version": "1.0.0",
+  "completed_utc": "2026-11-16T11:14:09.925023+00:00",
+  "analysis_plan_sha256": "8396b69c7f04851bd82f39eb2e4abd4fa58d9a7f6ec6de35c65635cb62c38ce5",
+  "software": {
+    "python": "3.11.18",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "pandas": "2.0.3",
+    "matplotlib": "3.7.5"
+  },
+  "code_sha256": {
+    "03_Initialization_Controls/code/distances.py": "5c1078aa74d610283e1ea4e97416a1ea0fa7c753a5a4bdf4533c5226f589ec4c",
+    "03_Initialization_Controls/code/norm_rank_control.py": "76fa1d5c9e7df5c91e55f12f28bd53e437d34010f85e3f9075404c185ed349d0",
+    "03_Initialization_Controls/code/norm_rank_inference.py": "39473ec768dbc54ddedc993b16adb177fdd73676bde0b394ec786d7a04f179e1",
+    "03_Initialization_Controls/code/plots.py": "bdbf5b0f772be18f0e7e26fb8df53c5a2a8197a9ca18d3d267de4d839cbbfb9a",
+    "03_Initialization_Controls/code/reporting.py": "9f73f415f84475cd8b38ab9d80efeeb3ab1febda556670627399ee33a05dfd0d",
+    "03_Initialization_Controls/code/run.py": "3b0492a52691209dcdbeb1d9341faacf12472618504d3f712cf6f69fa9d28053",
+    "03_Initialization_Controls/code/test_norm_rank_control.py": "c46006583dfbde70c63a9ae732b7e95d284d7f628725f36468e4d6c256a85adc"
+  },
+  "reused_code_sha256": {
+    "01_RSA/code/distances.py": "59f71359166cab0fea857270383b7b97d2bf01c51be6f66ae5e3f89694fbecad",
+    "02_Initialization_Retrieval/code/distances.py": "21f6a457cdc75411b84997c18ba4ef5ecb8514b8d7722fb80d108fca5de9a9f4",
+    "02_Initialization_Retrieval/code/inference.py": "6a78b62661e9b3b7183028f9c7aed3bf4db11e416416296a2d94cccff83bac26",
+    "02_Initialization_Retrieval/code/finalize.py": "c6d5dba48b81b61c321f0982869c85388d2fc0b5a6d7b0f77d900e129d8aecd6",
+    "src/learning_trajectory/metrics.py": "c14505dcdfabdc006fb982d8d7f4dd18d17538845ad658146944851cb3eb4be7"
+  },
+  "rank_score_definition": "(n-mean_correct_rank)/(n-1); chance=.5, perfect=1",
+  "top1_ties": "Fractional credit 1/m for a true candidate tied among m minima",
+  "rank_ties": "Average ranks; exact numerical tie tolerance documented in inference_diagnostics.json",
+  "uncertainty": "Paired delete-one-network row+column; chance-adjusted scores, then back-transform to full candidate-set scale",
+  "jackknife_boundary_warning": "A perfect observed score can have zero jackknife variance; this is not population certainty",
+  "null_storage": "all label permutations and null statistics saved for reconstruction",
+  "reproduction_command": ".venv/bin/python 03_Initialization_Controls/code/run.py",
+  "planned_variants": 42,
+  "posthoc_norm_rank_variants": 6,
+  "posthoc_norm_rank_seeds": {
+    "mnist": 2026111901,
+    "fashion_mnist": 2026111902,
+    "kmnist": 2026111903
+  },
+  "posthoc_reason": "Uncalibrated initial-versus-final norm differences give identical candidate ordering when all trained norms exceed all initial norms; norm ranks test order retention separately.",
+  "norm_rank_note": "norm_rank_controls/analysis_note.json",
+  "norm_rank_jackknife": "Ranks recalibrated on the remaining nine queries and candidates for each paired deletion, then retrieval reranked.",
+  "norm_rank_inference_source": "code/norm_rank_inference.py"
+}

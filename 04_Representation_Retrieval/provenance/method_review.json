@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "findings": [],
+  "reviewer": "independent supplement_spec agent",
+  "source_sha256": "a5d05a88a45a69c6555f2847f0562ea2085914f7429cdf81cb7e755e4145a050",
+  "tests_sha256": "c67b3ce95bd5526024b2ba938f7ae00d24882221edd06d1ee65ef189f477dbf2",
+  "frozen_inference_sha256": "6a78b62661e9b3b7183028f9c7aed3bf4db11e416416296a2d94cccff83bac26",
+  "tests_passed": 7,
+  "sample_gram_real_endpoint_checks": [
+    {
+      "dataset": "mnist",
+      "metric_key": "one_minus_cka|hidden|none|raw",
+      "query": "M1",
+      "candidate": "M2",
+      "sample_gram_reference_error": 4.440892098500626e-16
+    },
+    {
+      "dataset": "mnist",
+      "metric_key": "one_minus_cka|hidden|none|standardized",
+      "query": "M1",
+      "candidate": "M2",
+      "sample_gram_reference_error": 0.0
+    },
+    {
+      "dataset": "mnist",
+      "metric_key": "one_minus_cka|logits|none|raw",
+      "query": "M1",
+      "candidate": "M2",
+      "sample_gram_reference_error": 0.0
+    },
+    {
+      "dataset": "fashion_mnist",
+      "metric_key": "one_minus_cka|hidden|none|raw",
+      "query": "F1",
+      "candidate": "F2",
+      "sample_gram_reference_error": 3.3306690738754696e-16
+    },
+    {
+      "dataset": "fashion_mnist",
+      "metric_key": "one_minus_cka|hidden|none|standardized",
+      "query": "F1",
+      "candidate": "F2",
+      "sample_gram_reference_error": 0.0
+    },
+    {
+      "dataset": "fashion_mnist",
+      "metric_key": "one_minus_cka|logits|none|raw",
+      "query": "F1",
+      "candidate": "F2",
+      "sample_gram_reference_error": 1.1102230246251565e-16
+    },
+    {
+      "dataset": "kmnist",
+      "metric_key": "one_minus_cka|hidden|none|raw",
+      "query": "K1",
+      "candidate": "K2",
+      "sample_gram_reference_error": 2.220446049250313e-16
+    },
+    {
+      "dataset": "kmnist",
+      "metric_key": "one_minus_cka|hidden|none|standardized",
+      "query": "K1",
+      "candidate": "K2",
+      "sample_gram_reference_error": 6.661338147750939e-16
+    },
+    {
+      "dataset": "kmnist",
+      "metric_key": "one_minus_cka|logits|none|raw",
+      "query": "K1",
+      "candidate": "K2",
+      "sample_gram_reference_error": 1.1102230246251565e-16
+    }
+  ],
+  "max_endpoint_rank_error": 0.0,
+  "max_endpoint_p_error": 3.3306690738754696e-16,
+  "max_endpoint_jackknife_se_error": 4.996003610813204e-16,
+  "checks": [
+    "Biased centered linear CKA feature-Gram batching equals independent sample-Gram calculation",
+    "Exact constant columns become zero before SD normalization",
+    "Common probe and saved activation IDs/hashes map queries and candidates correctly",
+    "Raw logits are saved H times matching W1 with validated zero biases",
+    "Primary raw-hidden E20 Holm family contains exactly three datasets",
+    "Global candidate bijections and paired-network reranking reproduce all nine endpoint statistics"
+  ],
+  "limitations": [
+    "The six saved-activation recomputation checks in the production builder are spot checks; full archive hashes and run identity mappings are validated.",
+    "Raw hidden CKA is not invariant to independent per-neuron positive scaling; standardized hidden is reported separately."
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "probe_path": "/home/patrick/projects/Learning-Trajectory/outputs/probes/main.npz",
+  "probe_sha256": "82f8b9c6a39198281dfdf5b42468b1cd9ef3d5e3999ba881cf10aaf45982ae02",
+  "archives": [
+    {
+      "checkpoint": 0,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0000.npz",
+      "sha256": "833b9c90922e9db2370dd5dd68604b52e58389923a472314aab16f23552f8879",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0000.json",
+      "original_receipt_sha256": "0a6a8fe38eabd621f9f0f91abb3d4a1afe9dbc210080044818fbbf25d61da0ff"
+    },
+    {
+      "checkpoint": 1,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0001.npz",
+      "sha256": "3e022685714139b6803d5f533d40c96eb2df107e34d1b5c46a7fe74fe2a9c57f",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0001.json",
+      "original_receipt_sha256": "3e6e50191dd1bfb2988f8bad480b0700cd3d4156365267d78439ef5828f0d879"
+    },
+    {
+      "checkpoint": 2,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0002.npz",
+      "sha256": "f3ffc15035a24f3a491b1476d43cb9bcce291ccdae8b18576f6dabac2973a419",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0002.json",
+      "original_receipt_sha256": "6dff260160f8d186486f2eee66247828429f5afadcd34bad87334adb0465551b"
+    },
+    {
+      "checkpoint": 3,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0003.npz",
+      "sha256": "b3b1ad8cc1eaeead14282cd17ffa055f42f5f1b065e3f314e05858d2fcae46f4",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0003.json",
+      "original_receipt_sha256": "b7b4e78810cdf4fce5aa9b9bbad77a3b86d85d7938c06496774b135e993f84ed"
+    },
+    {
+      "checkpoint": 4,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0004.npz",
+      "sha256": "f3c179a87576510de9cdf6924d611be06b035b77365fce07fc1a45d3955fb525",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0004.json",
+      "original_receipt_sha256": "ff54fd732c0384bb13a55145929240fb5b38971ff592f7870d8be94b37f43c5e"
+    },
+    {
+      "checkpoint": 5,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0005.npz",
+      "sha256": "35ac1cd1f018142e0cb0976652d7c009c412a75005fbff0c277961563d5b8056",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0005.json",
+      "original_receipt_sha256": "0691d371474961ce9d2aad24b6ba03e4103add39610e14d74817b89768bc4227"
+    },
+    {
+      "checkpoint": 6,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0006.npz",
+      "sha256": "22a801cf5770cc415956f3fbe7eb1199cf914552ff76acb9b3e720836ac04dce",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0006.json",
+      "original_receipt_sha256": "f027cb33f7daaf8cb843483111d3ba4a8854980177c487ae3beef712ba69ed1b"
+    },
+    {
+      "checkpoint": 7,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0007.npz",
+      "sha256": "57457e62048f38e6a9a055e9aa67db459c506a00f044e4fbe6d74e1f6543229a",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0007.json",
+      "original_receipt_sha256": "3e5e5cf5eebb0b92950bca56bcb360429e4ead8b1e76e38c6cd2b939d5c4c606"
+    },
+    {
+      "checkpoint": 8,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0008.npz",
+      "sha256": "414de7e084fe7c1012d68cd8b99c3079e88c76eb6183806bccd7716d90c8547a",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0008.json",
+      "original_receipt_sha256": "11e0104082016af3fa4856d1eb326a0270d3f85c00c150f4d6250092d299e75a"
+    },
+    {
+      "checkpoint": 9,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0009.npz",
+      "sha256": "a7d25cef0207e38555e53939217281cd764169aa0c56088fa9d09129ab04d3b3",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0009.json",
+      "original_receipt_sha256": "f567e79d30d5d1d60eb6d4ff2ed7a2657c92d4650865f472184ceadb1ab130bb"
+    },
+    {
+      "checkpoint": 10,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0010.npz",
+      "sha256": "7a84f29bd26cc4e7195c050cdba311abfe0d57a0110eb3d784238b759c4426e9",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0010.json",
+      "original_receipt_sha256": "b6f00c13e83c49b9111689390c9e4ff935a69e44b1c56b289649ed9b25e52f6a"
+    },
+    {
+      "checkpoint": 11,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0011.npz",
+      "sha256": "1ed1f0eb6e5d61d685bc0afe94710773c8c5dee698efb8c304ae45e94059c237",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0011.json",
+      "original_receipt_sha256": "2f7107388dfd3b9075c94b23495a75c37a43e20b40002e445ec6b2551bd20bbd"
+    },
+    {
+      "checkpoint": 12,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0012.npz",
+      "sha256": "5371fe890cdfdad5a761172f51ab1a72eb0444300db26bc402141fba529343f8",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0012.json",
+      "original_receipt_sha256": "98cff490633f38c9ef4ddaac6381531345101e4ac50ed33ea240fec763ec39bb"
+    },
+    {
+      "checkpoint": 13,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0013.npz",
+      "sha256": "64412c3d0692a75eec2c97ff56aad24bd37d747a0a1328afc46e3f610db2af7f",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0013.json",
+      "original_receipt_sha256": "8144b9d9ae87ab52d2f3686d1c069951494bcef727ab4d4c315c3bc522947377"
+    },
+    {
+      "checkpoint": 14,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0014.npz",
+      "sha256": "c9721ec22bc0c5940581f81b90c111ff52ced246a6cfc27fa124672abf3359b7",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0014.json",
+      "original_receipt_sha256": "6de6ac34c3b53eb18c772f4d154a1867d459671423c7c0850b334da73c3f4410"
+    },
+    {
+      "checkpoint": 15,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0015.npz",
+      "sha256": "7047997c1b4c05f0258c46b9ad870c06e677bb7b6c628bd49f580802e0733eeb",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0015.json",
+      "original_receipt_sha256": "574ec0dec65c3c996a37e7ce0de73cac764351d3a672940e9bef062a8622d455"
+    },
+    {
+      "checkpoint": 16,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0016.npz",
+      "sha256": "abf27f963acb6bf00221851299a9a56808e70d5fd84aae76dbc4a6cc241e4ad4",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0016.json",
+      "original_receipt_sha256": "2a5dac78e68057043e37796238d4243542923a08f51c9d403dfed82b9b43b1db"
+    },
+    {
+      "checkpoint": 17,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0017.npz",
+      "sha256": "2aa6813ba67f30b3e933c252d4bba390d1028f58c201baf142a3e0d18c546c93",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0017.json",
+      "original_receipt_sha256": "6f90f3619fe068291b4e55ff6c090b215641d78f92bbdcd1a766f3ee941593d0"
+    },
+    {
+      "checkpoint": 18,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0018.npz",
+      "sha256": "01443c48f33716110e512e5240e02a5c14162767345eec8a75fd1055cea698a4",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0018.json",
+      "original_receipt_sha256": "76596ba022f5ca89282fd0449934099b37f904b19f39201286a4b8aec6cbdd5b"
+    },
+    {
+      "checkpoint": 19,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0019.npz",
+      "sha256": "c6b2de203ba5a3ed8c810432bafed664ee21704ef5b604ad4ba4fa6a731a19c6",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0019.json",
+      "original_receipt_sha256": "e69ccab5a6f7381a7f15a9d02bcda771c4316df8c7be1ae35ca284d853eec841"
+    },
+    {
+      "checkpoint": 20,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/activations/main/checkpoint_0020.npz",
+      "sha256": "136693a8e42ea9dc633d5af508693e83347124300f932c385c1e536e8a5aae43",
+      "original_receipt_path": "/home/patrick/projects/Learning-Trajectory/outputs/pairs/main/checkpoint_0020.json",
+      "original_receipt_sha256": "6c8c1b60505930b34298d561d311815debb5398b2afd489c3622ae60fcca8caf"
+    }
+  ],
+  "mask_definition": "Query-only fraction of original probe activations >0; <=25th / >=75th query-neuron quantile including all boundary ties; inactive iff occupancy=0"
+}

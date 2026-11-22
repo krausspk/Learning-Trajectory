@@ -1,0 +1,129 @@
+{
+  "title": "Worin liegt der erkennbare Fingerabdruck?",
+  "subtitle": "Experiment 03: Koordinaten-, Norm-, Schicht-, Residual- und Aktivitätskontrollen",
+  "finding": "Die Erkennung der Gesamtgewichte und der Eingangsschicht bleibt robust. In der Ausgangsschicht hängt der Befund stark von der gemeinsamen Neuronenzuordnung ab.",
+  "source_files": [
+    "retrieval_by_dataset.csv",
+    "norm_rank_controls/retrieval_by_dataset.csv",
+    "norm_rank_controls/aggregate.csv",
+    "data/historical_weight_changes_descriptive.csv",
+    "data/query_mask_counts.csv",
+    "retrieval_config.json"
+  ],
+  "sections": [
+    {
+      "title": "Kontrollumfang",
+      "paragraphs": [
+        "42 geplante Varianten vergleichen rohe/kanonische Gewichte, gespeicherte/optimale Koordinaten, normierte/unnormierte Kosten und beide Schichten. Dazu kommen Norm-only-, Paarresidual- und Query-Aktivitätskontrollen. Sechs nachträgliche Normrang-Kontrollen wurden ergänzt, nachdem eine Grenze der einfachen Normdistanz sichtbar wurde. Alle Kontrolltests sind explorativ."
+      ],
+      "tables": []
+    },
+    {
+      "title": "Top-1-Erkennung am Endpunkt",
+      "paragraphs": [],
+      "tables": [
+        {
+          "headers": [
+            "Kontrolle",
+            "MNIST",
+            "Fashion",
+            "KMNIST"
+          ],
+          "rows": [
+            [
+              "Gesamt, kanonisch",
+              "100 %",
+              "100 %",
+              "100 %"
+            ],
+            [
+              "W0, gemeinsame Zuordnung",
+              "100 %",
+              "100 %",
+              "100 %"
+            ],
+            [
+              "W1, gemeinsame Zuordnung",
+              "0 %",
+              "0 %",
+              "20 %"
+            ],
+            [
+              "W1, gespeicherte Koordinaten",
+              "100 %",
+              "100 %",
+              "100 %"
+            ],
+            [
+              "Häufig aktive Neuronen",
+              "100 %",
+              "90 %",
+              "100 %"
+            ],
+            [
+              "Große Paarresiduen",
+              "100 %",
+              "100 %",
+              "100 %"
+            ]
+          ],
+          "note": "",
+          "widths": [
+            2.5,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Was die Kontrollen zeigen",
+      "paragraphs": [
+        "W0 identifiziert die Initialisierung auch nach kanonischer Normierung und gemeinsamer Neuronenumordnung perfekt. W1 kann in den gespeicherten Koordinaten ebenfalls perfekt identifizieren; nach gemeinsamem kanonischen Matching fällt seine Identifikation dagegen stark ab. Daraus folgt keine allgemeine Löschung von W1-Information, sondern eine Abhängigkeit dieser Auswertung von der Zuordnung.",
+        "Die Erkennung bleibt auch auf häufig aktiven Hidden-Neuronen stark. Vollständig probe-inaktive Neuronen gibt es am Endpunkt in diesen 30 Netzen nicht. Kein gespeicherter Gewichtseintrag ist gegenüber E0 exakt unverändert. Die durchschnittliche Bewegung je Datensatz und Schicht beträgt ungefähr das 3,9- bis 5,1-Fache der jeweiligen Anfangsnorm."
+      ],
+      "tables": []
+    },
+    {
+      "title": "Normen und Residuen richtig interpretieren",
+      "paragraphs": [
+        "Die einfache absolute Normdistanz kann durch gemeinsames Normwachstum für alle Queries dieselbe Kandidatenrangfolge liefern. Das ist kein allgemeiner Ausschluss von Norminformation. Die nachträgliche Kontrolle vergleicht deshalb Normränge innerhalb der Ensembles. Zusammengefasst ergibt sie raw: mittlerer Rang 4,917, p=0,1289; canonical: mittlerer Rang 5,850, p=0,7481. Das reproduziert die starke Gesamtgewichts-Erkennung nicht.",
+        "Kleine/große Residuen werden für jedes Kandidatenpaar nach identischer Normalisierung und Zuordnung separat ausgewählt. Diese Teilkosten sind Sensitivitäten der Distanzdefinition. Sie sind keine echten historischen Trainingsänderungen und keine kausale Ablation schwach veränderter Gewichte. Die tatsächlichen Rohgewichtsänderungen werden getrennt und rein deskriptiv berichtet."
+      ],
+      "tables": []
+    },
+    {
+      "title": "Statistik und Grenzen",
+      "paragraphs": [
+        "Alle Varianten verwenden globale bijektive Herkunftspermutationen, 10.000 je Datensatz. Die Hauptkontrollen und die nachträgliche Normrang-Kontrolle besitzen getrennte Seeds. Die Normränge werden beim Run-Jackknife nach jeder Entfernung neu kalibriert. Einzelne unadjustierte Kontroll-p-Werte sind bei vielen Vergleichen keine unabhängigen Bestätigungen.",
+        "Die Aktivitätsmaske verwendet ausschließlich das aktuelle Query-Netz und den festen Probe. Kandidatenaktivierungen und tatsächliche Herkunft gehen nicht in diese Auswahl ein. Diese Maskenkontrolle misst keinen funktionalen Anfangs-Ende-Fingerprint. Initialisierungs- und Batch-Reihenfolgeeffekte bleiben in dieser Kohorte gekoppelt."
+      ],
+      "tables": []
+    }
+  ],
+  "figures": [
+    {
+      "pdf": "control_endpoint_summary.pdf",
+      "title": "Sämtliche Kontrollen im Überblick",
+      "caption": "Alle 42 geplanten und sechs nachträglichen Kontrollen werden gezeigt. Die Normrang-Zusätze sind als nachträglich markiert. Die Score-Skala hat Zufallserwartung 0,5 und perfekte Erkennung 1; die Kontrollen definieren unterschiedliche Kosten."
+    },
+    {
+      "pdf": "control_trajectories.pdf",
+      "title": "Ausgewählte Kontrollverläufe",
+      "caption": "Die Verläufe zeigen, wann verschiedene Darstellungen ihre Identifikationsleistung behalten oder verlieren. Die einfache Normdistanz ist bei starkem Normwachstum nur eingeschränkt aussagekräftig."
+    },
+    {
+      "pdf": "layer_activity_controls.pdf",
+      "title": "Schichten und Query-Aktivität",
+      "caption": "Die Schichten werden unter derselben gemeinsamen Zuordnung ausgewertet. Häufig bzw. selten aktive Neuronen werden nur anhand der Query-Aktivität ausgewählt. Hohe Erkennung bedeutet nicht automatisch, dass der Fingerabdruck für die Klassifikation benötigt wird."
+    },
+    {
+      "pdf": "residual_and_change_controls.pdf",
+      "title": "Paarresiduen und echte Trainingsänderungen",
+      "caption": "Die kandidatbezogenen Residualkosten und die tatsächlichen historischen Gewichtsänderungen sind bewusst getrennt. Letztere bestimmen weder Kandidatenkosten noch Masken und können dem Retrieval keine Herkunftslabels verraten."
+    }
+  ],
+  "experiment": "03_Initialization_Controls",
+  "provenance": "Alle Zahlen und Figuren stammen aus den neu berechneten eigenen Läufen. Dieser Bericht ergänzt die vorhandenen Dateien; bisherige Checkpoints und Ergebnisdateien werden nicht überschrieben. Tabellen, Konfiguration, Reproduktionscode und Prüfsummen stehen im gleichen Experimentordner. Quellen für diesen Bericht: retrieval_by_dataset.csv, norm_rank_controls/retrieval_by_dataset.csv, norm_rank_controls/aggregate.csv, data/historical_weight_changes_descriptive.csv, data/query_mask_counts.csv, retrieval_config.json."
+}

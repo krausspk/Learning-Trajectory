@@ -1,0 +1,30 @@
+{
+  "protocol_version": "trajectory-decoding-v1",
+  "status": "analysis refined on original exploratory cohort and frozen before controlled evaluation; training plan separately frozen before controlled training",
+  "source_instructions": "experiment_instructions.md",
+  "exploration": "30 existing heterogeneous MNIST/Fashion-MNIST/KMNIST runs, stratified 18/6/6 split; pipeline development only",
+  "controlled_cohorts": {
+    "one_bit": "200 independent seeds, paired AB/BA then 5 C epochs",
+    "multi_bit": "200 other independent seeds, 4 independently drawn order bits plus complementary history, then 5 C epochs"
+  },
+  "training": "full 60000 MNIST training images and 10000 test images, 784-64-10, one epoch per A/B window; frozen zero biases; SGD lr .1 momentum .9 batch256; reset momentum at every task window boundary; same within-seed init and image order",
+  "splits": {"rng_seed": 20261116, "train_seed_blocks": 120, "validation_seed_blocks": 40, "test_seed_blocks": 40, "group": "whole independent initialization seed, both arms kept together"},
+  "alignment": "local canonical ReLU gauge at each time, permutation inferred only from final weights against first train row and frozen across all checkpoints",
+  "targets": "train-only centered trajectory PCA with train-only layer RMS scaling; dimensions 8 primary, 16/32 sensitivity",
+  "input": "aligned canonical final weights only; train-only centering/scaling, W0/W1/both variants",
+  "trajectory_probe": "dual ridge; alpha selected on validation from [0.0001,0.001,0.01,0.1,1,10] separately by time/target/dimension/layer; fixed training fits, no train+val refit",
+  "primary_trajectory_endpoint": "t0 absolute coordinate, both layers, PCA8, ridge, held-out variance-weighted R2; compare mean and persistence MSE",
+  "baselines": ["train mean", "mean training early position minus known final coordinate (displacement control added after exploration, before controlled evaluation)", "final-coordinate persistence", "final C accuracy/loss", "raw/canonical layer norms", "performance plus norms"],
+  "event_probe": "linear L2 least-squares classifier; same alpha grid and validation squared-loss tuning separately by bit; threshold .5",
+  "primary_event_endpoint": "earliest bit, both layers, ridge_classifier, held-out accuracy, in multi_bit cohort",
+  "secondary_probe": "32 hidden-unit ReLU MLP, final-only train PCA32 input, Adam lr .003 weight_decay .001, 300 fullbatch steps; validation chooses epoch every5 steps",
+  "inference": {
+    "bootstrap": "1000 resamples of entire held-out seeds, percentile95 CI, conditional on selected probe and fixed split",
+    "event_permutation": "999 independent whole-history swaps within each seed; repeat fitting and validation tuning; p=(exceedances+1)/1000; Holm over all 6 feature sets times number of bits within cohort",
+    "trajectory_permutation": "999 test-only whole-seed target-block permutations conditional on fixed trained probe; MSE statistic, Holm over times for primary both/PCA8/absolute/ridge family",
+    "limitations": "event randomization tests global history exchangeability, does not isolate one bit causally; 999 permutations have .001 minimum p; exploratory heterogeneous cohort receives no inferential permutation p-values"
+  },
+  "negative_controls": ["independent Gaussian trajectory targets", "seed-wise swapped whole history labels with full validation tuning"],
+  "validation": ["original reproduction artifact audit", "same paired initialization/order", "C transition exact replay after momentum reset", "held-out early perturbation cannot change final features", "hidden-neuron reindexing invariance", "seed grouping", "independent metric checks"],
+  "scope_limits": "No exact high-dimensional inverse-SGD claim; no extrapolation to other data/models/C durations; exploratory old runs provide no reliable generalization claim; fixed split only; no power guarantee."
+}

@@ -1,0 +1,54 @@
+{
+  "plot_code_sha256": "bdbf5b0f772be18f0e7e26fb8df53c5a2a8197a9ca18d3d267de4d839cbbfb9a",
+  "sources": {
+    "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/retrieval_by_dataset.csv": "be5012ddab01ed59761b3b1b29582c6069b94cdf16d3cff17916c38818e01788",
+    "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/data/distance_definitions.json": "ff9f19a2ae1173d7e9c3accd31fe1714a0a2e8f8fe0853485a66fc16021a1bfe",
+    "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/data/query_mask_counts.csv": "fc8cf8bc2953b8dc68c70ae6bdb35ca065b6fb357c536228f99902bb09c03a0d",
+    "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/data/historical_weight_changes_descriptive.csv": "a838e6beba17d3b70d8558bfec64f34bc1616238222d39fef6b101c30afdc4e2",
+    "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/code/plots.py": "bdbf5b0f772be18f0e7e26fb8df53c5a2a8197a9ca18d3d267de4d839cbbfb9a",
+    "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/norm_rank_controls/retrieval_by_dataset.csv": "a7139bebaeabbc24ec203d848126e8a4dd468439234644a94b4362086b9fecce",
+    "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/norm_rank_controls/analysis_note.json": "447168231cc34e9dad6d7b73a882cd72ec396d9d42911c47831ff204d678c7dd"
+  },
+  "artifacts": [
+    {
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/control_endpoint_summary.png",
+      "sha256": "74c4731ca992df849a60115e0015a6e2ae1bc2fb156ed87443d1cc17fd75ed39"
+    },
+    {
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/control_endpoint_summary.pdf",
+      "sha256": "753fcea1239cd96bc7e17d24310b27bf2633f9504bd0d77c5a9477d6215a83db"
+    },
+    {
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/control_trajectories.png",
+      "sha256": "da5382962b11657b8a28bf58fdc356c20ac60c4d3ebdcee7b10909f5e2167897"
+    },
+    {
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/control_trajectories.pdf",
+      "sha256": "2658e39675d7118562280fd344906f3406585ed841e384192df3f4849c414404"
+    },
+    {
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/layer_activity_controls.png",
+      "sha256": "4de3b53bb9772befd4e1712ab2ec4171c364739a32ce8d29ed80d03f1a4b943c"
+    },
+    {
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/layer_activity_controls.pdf",
+      "sha256": "6eae175302faeba16473409efea8b3672d8fc6527614612a7a4a42aef45f4da8"
+    },
+    {
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/residual_and_change_controls.png",
+      "sha256": "fc5cbb97cfd3159b9620ed621f1e4db56e46f916e4a2790be79a0a2e510a6de2"
+    },
+    {
+      "path": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/residual_and_change_controls.pdf",
+      "sha256": "5aa084193dfc2596ec34cce6f94a376609705a22582731fe5150a88c84bf1fa6"
+    }
+  ],
+  "all_42_controls_in_endpoint_overview": true,
+  "n_post_hoc_controls_in_overview": 6,
+  "all_controls_exploratory": true,
+  "selected_trajectory_protocols_fixed_in_code": true,
+  "historical_changes_not_used_for_retrieval": true,
+  "visual_review_pending": false,
+  "visual_qa_receipt": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/provenance/visual_qa/receipt.json",
+  "visual_qa_receipt_sha256": "e2e5f9cec3ddcfd5b2598abcab0e8deb6f68bc00d3685e32dc806a2f1a812f0b"
+}

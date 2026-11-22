@@ -1,0 +1,7 @@
+{
+  "passed": 13,
+  "failed": 0,
+  "command": ".venv/bin/python -m pytest -q 03_Initialization_Controls/tests/test_distances.py 03_Initialization_Controls/code/test_norm_rank_control.py 03_Initialization_Controls/tests/test_norm_rank_inference.py",
+  "point1_tests_previously_passed": 11,
+  "total_tests_for_points_1_and_2": 24
+}

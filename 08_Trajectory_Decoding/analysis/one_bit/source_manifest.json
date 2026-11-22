@@ -1,0 +1,2002 @@
+[
+  {
+    "run_id": "one_bit_s10000_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10000_h0.npz",
+    "sha256": "93b1bf1b86fae4a3d8e6dd6c9e4ea92deede52a3b8c55d88f5cc815c46f48517"
+  },
+  {
+    "run_id": "one_bit_s10000_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10000_h1.npz",
+    "sha256": "cc1e98ebef794ed9ecf354b74181f793ad826a57e1daab465ae5384cf479dc9f"
+  },
+  {
+    "run_id": "one_bit_s10001_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10001_h0.npz",
+    "sha256": "0133b1087ac211a3fb498efd44d855c2860d782021ba753f87f0e4b5a1dddefd"
+  },
+  {
+    "run_id": "one_bit_s10001_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10001_h1.npz",
+    "sha256": "c5debb8306f696c1dacdcdc394f2627123b7f0f01896bb21e575574d1f7c582b"
+  },
+  {
+    "run_id": "one_bit_s10002_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10002_h0.npz",
+    "sha256": "d4425d9501596f8945e9dfb4b7398a859192f793cf3aaa67292cc6f879b87227"
+  },
+  {
+    "run_id": "one_bit_s10002_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10002_h1.npz",
+    "sha256": "6eb1411a0cb279327aa9902b0bf2db2a9ad76b7a8a491e5e90ed9e6612de5730"
+  },
+  {
+    "run_id": "one_bit_s10003_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10003_h0.npz",
+    "sha256": "c474fcd5232ec7d02eac4eb8febc60ffdfb51013b0e177c4f391931f4fb10952"
+  },
+  {
+    "run_id": "one_bit_s10003_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10003_h1.npz",
+    "sha256": "e3bc98287362fdd52a9a1d0247a0a6821516fbcce0e36e6431872eb8f96ed701"
+  },
+  {
+    "run_id": "one_bit_s10004_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10004_h0.npz",
+    "sha256": "7b65fe776b3de924b85992ce4a9e795467bbea1887fec987a7648bf54f29732a"
+  },
+  {
+    "run_id": "one_bit_s10004_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10004_h1.npz",
+    "sha256": "56a3ce66ea2b81014536239bc3e8b6ba2979c3c27cb1ff05a89622d016141e48"
+  },
+  {
+    "run_id": "one_bit_s10005_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10005_h0.npz",
+    "sha256": "4efd902bef15290999f4b4c5cd3e94f96d6b4b03cd8de04f2fb80d75433d86fd"
+  },
+  {
+    "run_id": "one_bit_s10005_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10005_h1.npz",
+    "sha256": "c0bdab4406ed71e2b22b9511f3f11df3ae5296017253810f2a6b3b1eae496cf0"
+  },
+  {
+    "run_id": "one_bit_s10006_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10006_h0.npz",
+    "sha256": "edad696b210aecc6cfda9eed665a001aa528c00e257831f984de2e5ead04d0ec"
+  },
+  {
+    "run_id": "one_bit_s10006_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10006_h1.npz",
+    "sha256": "867d77a763f0701e0869f90e6918526fcfed63c07186195a8515a39af72f22af"
+  },
+  {
+    "run_id": "one_bit_s10007_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10007_h0.npz",
+    "sha256": "b31c8d3d34c1490ab7f4f389dc482fcc500544e15197b03c95e29e56013f2e2c"
+  },
+  {
+    "run_id": "one_bit_s10007_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10007_h1.npz",
+    "sha256": "60804cfa0ab45846f2bd2c08f09ae541b344532dbea96c39174099908c2844b4"
+  },
+  {
+    "run_id": "one_bit_s10008_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10008_h0.npz",
+    "sha256": "25e8b60ab1283512bbaf8345859121c6738011df5d5a82a5801ea15a4ff84638"
+  },
+  {
+    "run_id": "one_bit_s10008_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10008_h1.npz",
+    "sha256": "e0bb6840d3f54f27ef1d53449009eed6fb0f60270d9f3391e9f0985cbc728751"
+  },
+  {
+    "run_id": "one_bit_s10009_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10009_h0.npz",
+    "sha256": "4b7f313861ebff3f0c2980ced370d42506d058b062bbafc4bdcd4fb8157010d7"
+  },
+  {
+    "run_id": "one_bit_s10009_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10009_h1.npz",
+    "sha256": "0cafd546ec3fcc975f0e25cd6654b7cfd337db16958fe101ad80ed17dc73b923"
+  },
+  {
+    "run_id": "one_bit_s10010_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10010_h0.npz",
+    "sha256": "8f78bc4d66f533418b0ef55d1401ad3d14334c8856e87819e57e03b25c3b60ba"
+  },
+  {
+    "run_id": "one_bit_s10010_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10010_h1.npz",
+    "sha256": "b635dd0893c6743de25ab3ee81d09591f3b7a353835ae5aba3912cd3bf622842"
+  },
+  {
+    "run_id": "one_bit_s10011_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10011_h0.npz",
+    "sha256": "fdda758a181ed14e649cb1ab62a5f4e84666c45abcef1ae4c4024672293d4c3a"
+  },
+  {
+    "run_id": "one_bit_s10011_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10011_h1.npz",
+    "sha256": "060ca01e55b23129736cd864ce6cdba1875f256d57a11b9e7325bf77701a607e"
+  },
+  {
+    "run_id": "one_bit_s10012_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10012_h0.npz",
+    "sha256": "9f757b562313918d0aab0a5f5d7ab5789b6d1fbe4717f5077021dbd13fc52fe2"
+  },
+  {
+    "run_id": "one_bit_s10012_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10012_h1.npz",
+    "sha256": "51e258dc8a3c7cdfb6e5c361625f6b4bd709e6852c53c166944ed64769b2ad8e"
+  },
+  {
+    "run_id": "one_bit_s10013_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10013_h0.npz",
+    "sha256": "18777bd6d76beee7f071d8841484f3d0534a8fef2aea8753dd54c88e6ef37917"
+  },
+  {
+    "run_id": "one_bit_s10013_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10013_h1.npz",
+    "sha256": "ded7317c3dff2ebf23a0b281aa541db66fa66ec1e64bc1d6edd512e083139806"
+  },
+  {
+    "run_id": "one_bit_s10014_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10014_h0.npz",
+    "sha256": "73491e7a8fe96a049b9cc447408bb0014a7eb3d3cd307d9baf2e5871e066c0c7"
+  },
+  {
+    "run_id": "one_bit_s10014_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10014_h1.npz",
+    "sha256": "12411d26498f8294721cc491457c3fd73d49c97f45fb3597feddb7517b0d1d07"
+  },
+  {
+    "run_id": "one_bit_s10015_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10015_h0.npz",
+    "sha256": "cf1e7cce959c7ca5d24e5dd92f4ea550b5e9aa84dfb544b42761cb8dcbe590af"
+  },
+  {
+    "run_id": "one_bit_s10015_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10015_h1.npz",
+    "sha256": "b0b0fe8275746f4bd676c2f26bc7d5994b1dc21d7479d424028835475343d315"
+  },
+  {
+    "run_id": "one_bit_s10016_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10016_h0.npz",
+    "sha256": "ca342bb5f10abd3c9a5551c9cbef1796cd2aa13ad011b5c4cf063635c89731a0"
+  },
+  {
+    "run_id": "one_bit_s10016_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10016_h1.npz",
+    "sha256": "687c7de2fdc0c425aa87731cb8e52c4c924ca8f401ecae1d5e925d20a346007b"
+  },
+  {
+    "run_id": "one_bit_s10017_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10017_h0.npz",
+    "sha256": "1c1ca649ec1b7b784e6c9ec48ff9828a09b8c2087d732c7177a92d0b11dc9f74"
+  },
+  {
+    "run_id": "one_bit_s10017_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10017_h1.npz",
+    "sha256": "672e638d00c31c22ef92593e737b5d18b930256710732d23971609e2f20f3694"
+  },
+  {
+    "run_id": "one_bit_s10018_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10018_h0.npz",
+    "sha256": "1402c2c824a0b7a7cdd83a7f2f188804b56efd82c8661020bf5c3eef3c95819b"
+  },
+  {
+    "run_id": "one_bit_s10018_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10018_h1.npz",
+    "sha256": "36d7edc79c15a3acdd6cedaf3d7d719e7bd68b34413133b5b0267b91013aca24"
+  },
+  {
+    "run_id": "one_bit_s10019_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10019_h0.npz",
+    "sha256": "77c908750de5afa3e9bbb4d75c76f72fb9378949ffeae5399df3612eb8022580"
+  },
+  {
+    "run_id": "one_bit_s10019_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10019_h1.npz",
+    "sha256": "837ec995bc341f4e5fb4d487874d5bbfcf0f64f1f89740ac06119956b5b1c04f"
+  },
+  {
+    "run_id": "one_bit_s10020_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10020_h0.npz",
+    "sha256": "dcbb37088639c4d029fa9a0012d0d3f8ea177b0e4291522779951993ddab5663"
+  },
+  {
+    "run_id": "one_bit_s10020_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10020_h1.npz",
+    "sha256": "b58e7c49824a3aca5018b988b58a7a7521e61f186c65bdcd771f6ec8151349d3"
+  },
+  {
+    "run_id": "one_bit_s10021_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10021_h0.npz",
+    "sha256": "b6606c67f54a7b15e001571d16b0585506929b90e1e57035e1f9325c8b019b08"
+  },
+  {
+    "run_id": "one_bit_s10021_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10021_h1.npz",
+    "sha256": "6a6124582eaa8039aa5f66ff37b2be19182cf01a0a53f9d28639b6667e94977e"
+  },
+  {
+    "run_id": "one_bit_s10022_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10022_h0.npz",
+    "sha256": "30784a94970bfbc725cfb1be27f85e1c135223efc138950b944cf0f27dc1ad2d"
+  },
+  {
+    "run_id": "one_bit_s10022_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10022_h1.npz",
+    "sha256": "659df4794aac23dcf49c8b172f5f163cf2ef6395ee6a4877c1aebce3a13ada17"
+  },
+  {
+    "run_id": "one_bit_s10023_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10023_h0.npz",
+    "sha256": "bfad65cfc34c97f26a577fc92d4dd9cf1f141012326caaf4f5249d62ff290580"
+  },
+  {
+    "run_id": "one_bit_s10023_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10023_h1.npz",
+    "sha256": "36803c3bd7f1915c2651d8a84f01b98da77f14af9862c8499f64b7b704a918da"
+  },
+  {
+    "run_id": "one_bit_s10024_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10024_h0.npz",
+    "sha256": "383cb3d1e66da13cfb892038ac80dc50dd6f6d23dceace139fdcc22a52434b36"
+  },
+  {
+    "run_id": "one_bit_s10024_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10024_h1.npz",
+    "sha256": "24165689364ab231655aa567f0fed5c0b0681ea376cff9c2f456bb37cf4951e7"
+  },
+  {
+    "run_id": "one_bit_s10025_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10025_h0.npz",
+    "sha256": "a358a8679b2df6e34949f6191c87a9301707cb7440f364d3e00fda96b588ffe3"
+  },
+  {
+    "run_id": "one_bit_s10025_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10025_h1.npz",
+    "sha256": "f6133c1816b7367854fdc3834219bc77f76fd8ac37f6389f876302bd992da601"
+  },
+  {
+    "run_id": "one_bit_s10026_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10026_h0.npz",
+    "sha256": "f977948ac3c6d294a825f8b8acb5c0f2cc8a51fc15ab11d7e13aff2313dfebed"
+  },
+  {
+    "run_id": "one_bit_s10026_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10026_h1.npz",
+    "sha256": "7e8db2ec152b94de6dfee3213cc027ca8b19d0a96c8e1343bbed8c3c7145aa01"
+  },
+  {
+    "run_id": "one_bit_s10027_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10027_h0.npz",
+    "sha256": "99b6492f1eacf0fdfa3ae80299b058123c4dd36353115b8f4b23dbc2c147d59c"
+  },
+  {
+    "run_id": "one_bit_s10027_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10027_h1.npz",
+    "sha256": "5eed52d751bab2beefec1ac475c1fd8be0c9e09ff395e84341744f57bf71a8d4"
+  },
+  {
+    "run_id": "one_bit_s10028_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10028_h0.npz",
+    "sha256": "badcadb22542b9ae5cb2cdcd1e6e4cf6f149108fc1839443f71b67ca033cd42a"
+  },
+  {
+    "run_id": "one_bit_s10028_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10028_h1.npz",
+    "sha256": "d41e66d95d84dc688682ae3f1bdd2cb76724d3ffb16202081f3bcfc0a2a35b39"
+  },
+  {
+    "run_id": "one_bit_s10029_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10029_h0.npz",
+    "sha256": "725414060154771380e6b8b6a0ea6e1a7f72c4d8d5c9e8ea55b9af1ffd7d8023"
+  },
+  {
+    "run_id": "one_bit_s10029_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10029_h1.npz",
+    "sha256": "81bf56750424d0155cfda781f5dcc1ab56494af6004d01f3f13c4d8d425186da"
+  },
+  {
+    "run_id": "one_bit_s10030_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10030_h0.npz",
+    "sha256": "e13ad877bf227bfba28f7cdbd96a3ddd7976d471397198f0b791f2064e2e5b98"
+  },
+  {
+    "run_id": "one_bit_s10030_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10030_h1.npz",
+    "sha256": "3619440658bd9fd3077507b167e699fe38f4f62d293abfaba7e76b6bf3b02fdf"
+  },
+  {
+    "run_id": "one_bit_s10031_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10031_h0.npz",
+    "sha256": "f208aecf9a1a6468898996ace04be1dbaa2e2209543b399b91b27c2b56dfa352"
+  },
+  {
+    "run_id": "one_bit_s10031_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10031_h1.npz",
+    "sha256": "1453964fa6fe4c14353e8a7911cca038170c3e2328dd8d0018be96064782390a"
+  },
+  {
+    "run_id": "one_bit_s10032_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10032_h0.npz",
+    "sha256": "58cf459a984c1e1f078cacd911264059bb93d5a2e06e5a3b69868091cb35605d"
+  },
+  {
+    "run_id": "one_bit_s10032_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10032_h1.npz",
+    "sha256": "0cb49eeacae653bb006e2bbb9e302e90d35407e7cb4b5942dd378a6855838c02"
+  },
+  {
+    "run_id": "one_bit_s10033_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10033_h0.npz",
+    "sha256": "b27af7c6c5fb084d003b3acb59a7b19972efedecc72ccdc5ece9b295ab725686"
+  },
+  {
+    "run_id": "one_bit_s10033_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10033_h1.npz",
+    "sha256": "421d2d39b447431cc14b6a0359491a493a2afee7b3fed405f9d1050a282d1533"
+  },
+  {
+    "run_id": "one_bit_s10034_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10034_h0.npz",
+    "sha256": "2817acf5f8d90fbd6304d08dc9250a3fc87991f2fb6eb9aa966361ceeb0f1a26"
+  },
+  {
+    "run_id": "one_bit_s10034_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10034_h1.npz",
+    "sha256": "802d6824d63fb19d4967b0577cf4c272b1d800e654a55b6f5093263d16e5243b"
+  },
+  {
+    "run_id": "one_bit_s10035_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10035_h0.npz",
+    "sha256": "f936b5f2d5bb686ec74a00ec23c8c18317a957774e1697cbaf502f60fcc0f1b6"
+  },
+  {
+    "run_id": "one_bit_s10035_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10035_h1.npz",
+    "sha256": "91a80548bac8a4c642dcab9e7959fc375657c6e898950a3660953a96ba85a16c"
+  },
+  {
+    "run_id": "one_bit_s10036_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10036_h0.npz",
+    "sha256": "f1fdcea8fe8391108431bf7a057274ddf4fba4a1a141fc1b52a73013ed24f22d"
+  },
+  {
+    "run_id": "one_bit_s10036_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10036_h1.npz",
+    "sha256": "4e89b9cfdb71e82bfd3a2b93a6fd42da60f4d36e5155118574ee78858fc488e9"
+  },
+  {
+    "run_id": "one_bit_s10037_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10037_h0.npz",
+    "sha256": "535ca26f795c45ddc175dc91b7900d6b5d71715803ab01533f95a35fa8caedba"
+  },
+  {
+    "run_id": "one_bit_s10037_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10037_h1.npz",
+    "sha256": "55b455b19af6ec58c67ff13a601c400974a2a3b0a95acc581be52f9cd2f469d0"
+  },
+  {
+    "run_id": "one_bit_s10038_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10038_h0.npz",
+    "sha256": "e1d03c1e678b2fb0dfc4ae93b5220469cf7f62ef2df811dd441efa26b07f1112"
+  },
+  {
+    "run_id": "one_bit_s10038_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10038_h1.npz",
+    "sha256": "376d0c3f490017688268e1dbea67b3b556ea3c7f92af31d358ea93f1647e9da9"
+  },
+  {
+    "run_id": "one_bit_s10039_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10039_h0.npz",
+    "sha256": "366a26f1a953342b282717586a250914c279165d392618dbbea283d3fcdae7fc"
+  },
+  {
+    "run_id": "one_bit_s10039_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10039_h1.npz",
+    "sha256": "b8e908f6cbc2912868966dd3940c08e77c37767a077521368022c692e7355e4e"
+  },
+  {
+    "run_id": "one_bit_s10040_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10040_h0.npz",
+    "sha256": "e98596958ff39ad948490a3fb2561247ef94674ff9b7648dbb9c85db8c207880"
+  },
+  {
+    "run_id": "one_bit_s10040_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10040_h1.npz",
+    "sha256": "d1421d002cb215294243cefbdf23de2bb2da38d0d938abdd56f2e5b1f0791463"
+  },
+  {
+    "run_id": "one_bit_s10041_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10041_h0.npz",
+    "sha256": "ffc3cfe67144e0edd28cf79135097bb44cdbca848a553afed6f96a902fea4604"
+  },
+  {
+    "run_id": "one_bit_s10041_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10041_h1.npz",
+    "sha256": "7909921968f7b26833fc83c824334675740ebc6e257b63e95ac6e57eda993750"
+  },
+  {
+    "run_id": "one_bit_s10042_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10042_h0.npz",
+    "sha256": "bfb5bad2b05d9878720dd2ab165627275b430efa806061fc705801d9cf5c158d"
+  },
+  {
+    "run_id": "one_bit_s10042_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10042_h1.npz",
+    "sha256": "19e94ecc991f0b5bc8fce435c410a379c6a41bb788899a59bd8f01a03f0ead17"
+  },
+  {
+    "run_id": "one_bit_s10043_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10043_h0.npz",
+    "sha256": "f11084b1f4422db0a1816c7726ab76c56c7ab2bb0e2df628d70cf851d7ecc29a"
+  },
+  {
+    "run_id": "one_bit_s10043_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10043_h1.npz",
+    "sha256": "6536743815195ad7d5c617f105a298b7999164aacd40cd2974cf37f8dc10dcc9"
+  },
+  {
+    "run_id": "one_bit_s10044_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10044_h0.npz",
+    "sha256": "1999d78648402c2493bbc960d1527618ec1396eab391c5717e54648664f66d11"
+  },
+  {
+    "run_id": "one_bit_s10044_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10044_h1.npz",
+    "sha256": "13aec283884b153618820413794c347f3ca6a96c99f269e2307a95d4488970dc"
+  },
+  {
+    "run_id": "one_bit_s10045_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10045_h0.npz",
+    "sha256": "5b2f6492ad74152ef021ce76478fe88c2c037c58ca2d72fd3a4f88a640db63c5"
+  },
+  {
+    "run_id": "one_bit_s10045_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10045_h1.npz",
+    "sha256": "e16c86e4cc9bcfbd9b8cd3a5729de83008339d6d1bca0a2f333a11d7507c6d03"
+  },
+  {
+    "run_id": "one_bit_s10046_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10046_h0.npz",
+    "sha256": "d5d4f1c395324d8df9c623b161f0b39b7fb440a148b2efe04ba64194a121f404"
+  },
+  {
+    "run_id": "one_bit_s10046_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10046_h1.npz",
+    "sha256": "e8abb37a8bfcbd8a67d82116f84ea917397b6f83361a93ecf79b9ae2ce84ee90"
+  },
+  {
+    "run_id": "one_bit_s10047_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10047_h0.npz",
+    "sha256": "0ef10b5f857479699caefe4f7467f1e6b41925433b40232cd57a41789b7aa771"
+  },
+  {
+    "run_id": "one_bit_s10047_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10047_h1.npz",
+    "sha256": "ceee85266aed9a3e081540c22a1c29114206887e47284fe7e279e7b15951f187"
+  },
+  {
+    "run_id": "one_bit_s10048_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10048_h0.npz",
+    "sha256": "e7d8ebcdf5041390b860e73eeade09156aa05f9fd30dd64db4e044e7b22c5c02"
+  },
+  {
+    "run_id": "one_bit_s10048_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10048_h1.npz",
+    "sha256": "af70499d9a16bb7241eddb0bf1b9955a6df141a568dba5f3945f4b59a3cc9118"
+  },
+  {
+    "run_id": "one_bit_s10049_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10049_h0.npz",
+    "sha256": "a23b11400fb609edde66993446e3f6053d1a4defbf72c3c1e695dfb595b25258"
+  },
+  {
+    "run_id": "one_bit_s10049_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10049_h1.npz",
+    "sha256": "0bcb37ca6b299d64882cd2784c54c755a06a15f9e9d396268756411cb826bbec"
+  },
+  {
+    "run_id": "one_bit_s10050_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10050_h0.npz",
+    "sha256": "d14f1c6aef400da71738c8131444455db31c24897e1b82dce8cee2d07393a0b3"
+  },
+  {
+    "run_id": "one_bit_s10050_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10050_h1.npz",
+    "sha256": "744345c6539d6889faaf0e48a061922745388d3cc4d4d646c74666d50c8ff93f"
+  },
+  {
+    "run_id": "one_bit_s10051_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10051_h0.npz",
+    "sha256": "184235bf5b9884fa97d370415b3732ef9e37330fa60325733a2ce61a18fc6af7"
+  },
+  {
+    "run_id": "one_bit_s10051_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10051_h1.npz",
+    "sha256": "f7f4a9d98cc71e30d4321585c4a4de9e28158c2fb01482cb21c91d6fba16b60d"
+  },
+  {
+    "run_id": "one_bit_s10052_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10052_h0.npz",
+    "sha256": "29da6dbb10a48a0ba4b90d6c39e5b2db46e584923fda169ad42fe61c497c1dfd"
+  },
+  {
+    "run_id": "one_bit_s10052_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10052_h1.npz",
+    "sha256": "44e22247c359f30ca8c5c9c39ec87ba0a9d75ff0ba53a4e9fde7b6fe00591009"
+  },
+  {
+    "run_id": "one_bit_s10053_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10053_h0.npz",
+    "sha256": "e05212ea169f24d5adb63c39f14f8d2db0992d1c40a0d014fbdfd446595815db"
+  },
+  {
+    "run_id": "one_bit_s10053_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10053_h1.npz",
+    "sha256": "50c294b6868ead7716ba82edbfb0e2c8f49a97a8944c4ece38d79088c9d46e8c"
+  },
+  {
+    "run_id": "one_bit_s10054_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10054_h0.npz",
+    "sha256": "951f670093a1240de51beada945e822663963102de77de9b13e3590b7927bdeb"
+  },
+  {
+    "run_id": "one_bit_s10054_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10054_h1.npz",
+    "sha256": "3a01a3d587ea59a6c44463d04ff4f567b78604b40f954657400ee6caf427f7d6"
+  },
+  {
+    "run_id": "one_bit_s10055_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10055_h0.npz",
+    "sha256": "6ac988b942a2d9f34271f44f1deccfe140b2b7fd109153f173ba3134e5750d4e"
+  },
+  {
+    "run_id": "one_bit_s10055_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10055_h1.npz",
+    "sha256": "a37c97603d98f8e43bc2f87cb66d68d57dc155d7fc7b338f62cdc84a1278b529"
+  },
+  {
+    "run_id": "one_bit_s10056_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10056_h0.npz",
+    "sha256": "65a6d85771a2f31d90f72f56a51779cb9d62c5890e0925e6a8cb0281ba08f945"
+  },
+  {
+    "run_id": "one_bit_s10056_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10056_h1.npz",
+    "sha256": "8eab01afc0fa2f1ed9cc4293e079dd523e23f010751c6356e78efb9cf7b29937"
+  },
+  {
+    "run_id": "one_bit_s10057_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10057_h0.npz",
+    "sha256": "6caf034afe1d8b1136f2fd4acb61117d97b3e5ccb5a9fc5f064499e26b489912"
+  },
+  {
+    "run_id": "one_bit_s10057_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10057_h1.npz",
+    "sha256": "8ccde62e1a26de9426f1a2e3b3a6fe49ff13a8b9e47d11cfb6ee028322ae1486"
+  },
+  {
+    "run_id": "one_bit_s10058_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10058_h0.npz",
+    "sha256": "39ee67612ee041c7a0f5db594e13d55c40b14473c6f08fa9ce4cffb4908c26b7"
+  },
+  {
+    "run_id": "one_bit_s10058_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10058_h1.npz",
+    "sha256": "fbe35ba7f20a294cc9477f038c3a26239e3864e3c295babf4bb8873c5f9db81a"
+  },
+  {
+    "run_id": "one_bit_s10059_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10059_h0.npz",
+    "sha256": "34ca36cd0827de44b531a5fd8f0143f148cd6855b042de4cafd32568983a350c"
+  },
+  {
+    "run_id": "one_bit_s10059_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10059_h1.npz",
+    "sha256": "150dcb7446db641e5203a38f787ccdf980281bc06c297e4531873588a2717fb7"
+  },
+  {
+    "run_id": "one_bit_s10060_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10060_h0.npz",
+    "sha256": "cb8f17e503d4b2c597891b9f5ffe02216468994717638134053b361106089b53"
+  },
+  {
+    "run_id": "one_bit_s10060_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10060_h1.npz",
+    "sha256": "a7432a251e0d31dd318de54f37d64c2bb499959c4b74c25073b0a9cb1b1096fa"
+  },
+  {
+    "run_id": "one_bit_s10061_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10061_h0.npz",
+    "sha256": "2acc43265b627aae6742e2687151b1f6cd1c550fc540258ea388d8b4e1f7592b"
+  },
+  {
+    "run_id": "one_bit_s10061_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10061_h1.npz",
+    "sha256": "fbaba569d769b4014c97f13e5b9feeafbcb1ffbbf9b14278704a5c32750c19c3"
+  },
+  {
+    "run_id": "one_bit_s10062_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10062_h0.npz",
+    "sha256": "b226a10b11d325910b8cc0f0e8b3b805a5a1ce3946b7eeec8b2864699e36e962"
+  },
+  {
+    "run_id": "one_bit_s10062_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10062_h1.npz",
+    "sha256": "c9951b2a51abc9895577d89b38cde97601a269f87a7ebf6a9c8767a0980b210c"
+  },
+  {
+    "run_id": "one_bit_s10063_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10063_h0.npz",
+    "sha256": "74ff53a628fb2f75fc8e0878fc37fcfbc32af6582e264b450b6c84fa6ad06d1a"
+  },
+  {
+    "run_id": "one_bit_s10063_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10063_h1.npz",
+    "sha256": "ab0a739dcc6bb78264e2b28013e8fa99e4c49181a85a69daf1286a3957205a87"
+  },
+  {
+    "run_id": "one_bit_s10064_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10064_h0.npz",
+    "sha256": "bb7daa880f6ee4e138f2802724e5978394962f4ec396bcd6d666d37cf37ad8d4"
+  },
+  {
+    "run_id": "one_bit_s10064_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10064_h1.npz",
+    "sha256": "fc5657ea0f83a6391d6d3d16db9fc6c9b9cfc4dd07a5e0910ffcd7dbcdd87871"
+  },
+  {
+    "run_id": "one_bit_s10065_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10065_h0.npz",
+    "sha256": "5decd9774534ad3d0040371502c66f6d68959f84bb5ab7527541effac7028bba"
+  },
+  {
+    "run_id": "one_bit_s10065_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10065_h1.npz",
+    "sha256": "b7c095c31068c66e43129ebacde0c1dedc6075a2111e5d04e9544446521e3573"
+  },
+  {
+    "run_id": "one_bit_s10066_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10066_h0.npz",
+    "sha256": "5eb2ee92f3d6109568bee4790d2f2cb9096666167bd62871338642f1aefe9c72"
+  },
+  {
+    "run_id": "one_bit_s10066_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10066_h1.npz",
+    "sha256": "a657989feeda5567bd89f3367f0f6f817b8872f0cd338841dd18a364fd8b77c1"
+  },
+  {
+    "run_id": "one_bit_s10067_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10067_h0.npz",
+    "sha256": "b0b3fd1abb606fbcfdbc669419ed4b0abdb77b0c96fb8d1192c3d176b27874d1"
+  },
+  {
+    "run_id": "one_bit_s10067_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10067_h1.npz",
+    "sha256": "2f44cecb5c7187a93227991df2eccb0e1f74688fed14e17ae186fda26bb5ead2"
+  },
+  {
+    "run_id": "one_bit_s10068_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10068_h0.npz",
+    "sha256": "e9f7b9d32f233f036c176054c0a4789731907f4038023362ceb2ed2f9ec1e7a5"
+  },
+  {
+    "run_id": "one_bit_s10068_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10068_h1.npz",
+    "sha256": "d18f63034e5bc16777b2371ffc28bbf5ca45c88b488c4d73d1883749d24030c0"
+  },
+  {
+    "run_id": "one_bit_s10069_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10069_h0.npz",
+    "sha256": "0ae28bdfacc797c843aff258e2e6d66279a727417ffa3d4e16c334cded70acf8"
+  },
+  {
+    "run_id": "one_bit_s10069_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10069_h1.npz",
+    "sha256": "ec1aa430b774033583cce1bcfa5e0d96a2caf903d5213671902d79f0518e07c9"
+  },
+  {
+    "run_id": "one_bit_s10070_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10070_h0.npz",
+    "sha256": "cce78d5098e6e5f98256b15add62684461b795feaaeee839c12c3e6c8ad3d63f"
+  },
+  {
+    "run_id": "one_bit_s10070_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10070_h1.npz",
+    "sha256": "1619446d2c15bf5081ee51ba5c4f1290bd1c897a9be376262e9fcb7af971bc26"
+  },
+  {
+    "run_id": "one_bit_s10071_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10071_h0.npz",
+    "sha256": "8e9c92988c825d1b32a7ccdfbadb42acf118a2b9a9aa4c17e20d9b9a9b859b7b"
+  },
+  {
+    "run_id": "one_bit_s10071_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10071_h1.npz",
+    "sha256": "32d2978c394ff01f78db62bc1d7a74d36e023a07ff67075e77653d6cd6e39e7e"
+  },
+  {
+    "run_id": "one_bit_s10072_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10072_h0.npz",
+    "sha256": "539d05865a52100829ea445c22d9235fe90e77f560391b2c59c350bb1d08eadd"
+  },
+  {
+    "run_id": "one_bit_s10072_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10072_h1.npz",
+    "sha256": "a39e37069b792b08476a75fd53aaa0544b15e7ab8946f15171d380a4fc69d74c"
+  },
+  {
+    "run_id": "one_bit_s10073_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10073_h0.npz",
+    "sha256": "5ddf176f95fd84d84d18e3a5e2a911781fe56fd39a830a006531157cb6c90b33"
+  },
+  {
+    "run_id": "one_bit_s10073_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10073_h1.npz",
+    "sha256": "48097793d32758880ddeef69c7df17845b3bfcde7ba58d0250d6110172d21390"
+  },
+  {
+    "run_id": "one_bit_s10074_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10074_h0.npz",
+    "sha256": "67f52eaae0110ea084e890090db2501a7d21a2000133e96a9ad3dd63f6999945"
+  },
+  {
+    "run_id": "one_bit_s10074_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10074_h1.npz",
+    "sha256": "3f4931cf30e69374cd950cb665164270194c7efa4bbd53af2bddb4b03c87f843"
+  },
+  {
+    "run_id": "one_bit_s10075_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10075_h0.npz",
+    "sha256": "4a57363aaf298a54a09d782764afb40d378bff7930a40fb756dc042a9e723fc8"
+  },
+  {
+    "run_id": "one_bit_s10075_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10075_h1.npz",
+    "sha256": "692236e90b7436bea7c09b5887af437fdf9ff28cd2f25100ede328c3fcaa8d52"
+  },
+  {
+    "run_id": "one_bit_s10076_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10076_h0.npz",
+    "sha256": "e97369d0f9957190ded5e362e4f7a83213eaf8794b0b23277dabf9969ccb3215"
+  },
+  {
+    "run_id": "one_bit_s10076_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10076_h1.npz",
+    "sha256": "18ae6006f6eda140820561dc305bcebf08fac2a032517ef41534ca39a1778a71"
+  },
+  {
+    "run_id": "one_bit_s10077_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10077_h0.npz",
+    "sha256": "58a1206ae23260a025097b5360df57d0f3e7de13630f4e53e45cdcfa56542518"
+  },
+  {
+    "run_id": "one_bit_s10077_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10077_h1.npz",
+    "sha256": "08256b3805605afec585777c924b1a449b81ff9665a89e7620f614686808f0fa"
+  },
+  {
+    "run_id": "one_bit_s10078_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10078_h0.npz",
+    "sha256": "b12064cfb6b47b468133ee1f74121fa16d879d53346ff473b00a696392ea7a4d"
+  },
+  {
+    "run_id": "one_bit_s10078_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10078_h1.npz",
+    "sha256": "ae0363f0ff675c590e7df4625ade5cfe0d51681f49d6c9fa7699d9e36ab9b1d7"
+  },
+  {
+    "run_id": "one_bit_s10079_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10079_h0.npz",
+    "sha256": "f9a685d0d25ccc757a8bd31c3ce235b15b8aea5bcc935ff4db747ac8ff190fd4"
+  },
+  {
+    "run_id": "one_bit_s10079_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10079_h1.npz",
+    "sha256": "3538e2e2309667f78cec1cbb0eba6ca5c30027324e99b40bc360195165eb8b79"
+  },
+  {
+    "run_id": "one_bit_s10080_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10080_h0.npz",
+    "sha256": "41420b6018eac9b06b807076d93de6d259a1092c3240a3d0f92a2113c6107a3b"
+  },
+  {
+    "run_id": "one_bit_s10080_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10080_h1.npz",
+    "sha256": "27cfeb6fd478719f44e1b23fb08451b80282d20b606040d27897736bd98a3adf"
+  },
+  {
+    "run_id": "one_bit_s10081_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10081_h0.npz",
+    "sha256": "a178f5055fe2a77ada9336f612181c71f8a2319a6ded6d9d0238e1fbd88c683b"
+  },
+  {
+    "run_id": "one_bit_s10081_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10081_h1.npz",
+    "sha256": "6d089acfda5ab0602c59ba8683e064954720c8f88c7825b504c252d827f5b1b7"
+  },
+  {
+    "run_id": "one_bit_s10082_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10082_h0.npz",
+    "sha256": "4886d402b92813ea5b60508c6d4e80d3e2069a731ce250a3a0cde203f1881bef"
+  },
+  {
+    "run_id": "one_bit_s10082_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10082_h1.npz",
+    "sha256": "e37234b527a84b652b8ebecd2141856cb75cef280a299b200db1bae20cb5e65e"
+  },
+  {
+    "run_id": "one_bit_s10083_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10083_h0.npz",
+    "sha256": "51f30d82a085307bfa9cc54e6441b1ecf1d09d65dd6e60c98695645e7414a2a7"
+  },
+  {
+    "run_id": "one_bit_s10083_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10083_h1.npz",
+    "sha256": "fbd1a4eec106476cedd82a9fd2b608d4177d1d7b566ae34da4567a8162113879"
+  },
+  {
+    "run_id": "one_bit_s10084_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10084_h0.npz",
+    "sha256": "b8adac99fbe15f98c29af53bb7cebabc0ce1067327ac7da63076e9b92f276cc6"
+  },
+  {
+    "run_id": "one_bit_s10084_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10084_h1.npz",
+    "sha256": "ca8a0c87e2e21fd9af1e4022a7caa36bef5a87a27ff4906fb443a491caa0bc9f"
+  },
+  {
+    "run_id": "one_bit_s10085_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10085_h0.npz",
+    "sha256": "cef3402ed3a8c342193951b4e76bb9a3e46a7960cdcd98a2e4f757510183475f"
+  },
+  {
+    "run_id": "one_bit_s10085_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10085_h1.npz",
+    "sha256": "44a6059472857e23b7899a044e54050cdda1c1484f7e842ad8afd70a42e0375d"
+  },
+  {
+    "run_id": "one_bit_s10086_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10086_h0.npz",
+    "sha256": "b21513a50fec3fe48ce7f23d437b6e74705be1aebbe4f073e34b92461556dd87"
+  },
+  {
+    "run_id": "one_bit_s10086_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10086_h1.npz",
+    "sha256": "2d7d3dfb64563a74104166df20ab7b2ff0eab232cd08de8480068632bf2a2880"
+  },
+  {
+    "run_id": "one_bit_s10087_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10087_h0.npz",
+    "sha256": "5254dc65c29d676bfa3931dce80fd58f5969354ffda04aa157f32b8a76c9cee5"
+  },
+  {
+    "run_id": "one_bit_s10087_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10087_h1.npz",
+    "sha256": "145c3577053f0826e52886cd1dc45684cf97d9a5b5898ba2719ca3f74e38a3da"
+  },
+  {
+    "run_id": "one_bit_s10088_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10088_h0.npz",
+    "sha256": "21061aa23bc2df71870933f4b32f87327bab3220a44a3633d754c39a4cd9f3e7"
+  },
+  {
+    "run_id": "one_bit_s10088_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10088_h1.npz",
+    "sha256": "e1cb7627d78a317ac2d3e22264d3e20bf12088154ab9cab7a83b789b70faf3bd"
+  },
+  {
+    "run_id": "one_bit_s10089_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10089_h0.npz",
+    "sha256": "25cfce0696ca41b932a5be6945ebfa1a16f3a9a3e2b329651bee4d062c970cc6"
+  },
+  {
+    "run_id": "one_bit_s10089_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10089_h1.npz",
+    "sha256": "55e54361b7f925b6c4f2d33b478bd96b272e9222f69d8a829e4996da9de12d11"
+  },
+  {
+    "run_id": "one_bit_s10090_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10090_h0.npz",
+    "sha256": "7a3afde959d72b9d6a6eabdb426784e955e022c6d6b728a755726c8468a7ff79"
+  },
+  {
+    "run_id": "one_bit_s10090_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10090_h1.npz",
+    "sha256": "be59502398cfa70380e6bae4a20c456511107b0424211675e37691b800b75dc5"
+  },
+  {
+    "run_id": "one_bit_s10091_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10091_h0.npz",
+    "sha256": "c7e2f0c195773dd754d13f7888af52ffc34f1abddd402ca87a1df2eec8ce89a2"
+  },
+  {
+    "run_id": "one_bit_s10091_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10091_h1.npz",
+    "sha256": "5f81004ccb3b95d1b2c789b4b87a872580eb02f7528c485bcb54e3a0fa9fc352"
+  },
+  {
+    "run_id": "one_bit_s10092_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10092_h0.npz",
+    "sha256": "d5b7f16efd5e61b046fbc52dfe332aa7ed77f68619991f874378f55c0aff0c3b"
+  },
+  {
+    "run_id": "one_bit_s10092_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10092_h1.npz",
+    "sha256": "ae46d9016697f37aa0a97603123dde3ff609bba354d0132b6325b78ac128009b"
+  },
+  {
+    "run_id": "one_bit_s10093_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10093_h0.npz",
+    "sha256": "ef73b1f0cc77ecaa2d7697b7f5d7e43bd1d90e3d8000b4047bf58696e452cba1"
+  },
+  {
+    "run_id": "one_bit_s10093_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10093_h1.npz",
+    "sha256": "d072c94eef07eb027f7cb32dc1384e1e6fe78f20bedd8bb127a3b2e8b4ddfda7"
+  },
+  {
+    "run_id": "one_bit_s10094_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10094_h0.npz",
+    "sha256": "60d90a094a514aff20f2b4e7a8ee3ddbe701acafd2bd986fd0d48cd99d2441e9"
+  },
+  {
+    "run_id": "one_bit_s10094_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10094_h1.npz",
+    "sha256": "d58e8100b45a85dfae7340bad0d8f63b8cefe6bea2fa73a1c8afe333b0e28fd9"
+  },
+  {
+    "run_id": "one_bit_s10095_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10095_h0.npz",
+    "sha256": "53e5b8484b0d4f7ef0603e1a829bbcde65890b71aae47577ab3b4c1a594f66fa"
+  },
+  {
+    "run_id": "one_bit_s10095_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10095_h1.npz",
+    "sha256": "977ef0102e19dbd7a98c19fe2ee33f272c5a5ceeed5bc777169af66c60b1c81b"
+  },
+  {
+    "run_id": "one_bit_s10096_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10096_h0.npz",
+    "sha256": "92793e3725b5b18f5fd2fc29398a5dad88e432d0f220f923537027e0e69a3a43"
+  },
+  {
+    "run_id": "one_bit_s10096_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10096_h1.npz",
+    "sha256": "2c0ded6cbb0d822e3ef1bc71d04575932e5e7fcf9ab30b7949b93600bb89d544"
+  },
+  {
+    "run_id": "one_bit_s10097_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10097_h0.npz",
+    "sha256": "b8afc02e0a38e3c90d24da2f302a1e6a459c8eb7a98fbef7207ccdaa09691291"
+  },
+  {
+    "run_id": "one_bit_s10097_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10097_h1.npz",
+    "sha256": "e7f0e9efd33b47164a5bb815f77013d742cd1145cc14d33a05574a666f1de610"
+  },
+  {
+    "run_id": "one_bit_s10098_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10098_h0.npz",
+    "sha256": "2b13462e111d7f184cb4578b0160d2ef8ed3cf9157466ca03f1c8fdad43181a4"
+  },
+  {
+    "run_id": "one_bit_s10098_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10098_h1.npz",
+    "sha256": "59013b3e19ad279668811f7df47c19ae90f55ed4f345fc883f71395c3ffef94d"
+  },
+  {
+    "run_id": "one_bit_s10099_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10099_h0.npz",
+    "sha256": "c6ec55b968fd6f62ff230f5210dd8ddc73fe6a1fc4ae93a0d09035d687ab3f65"
+  },
+  {
+    "run_id": "one_bit_s10099_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10099_h1.npz",
+    "sha256": "6b01c99d3d9bf6787a3ce56aa267f9f30d5062076312f6fbdf753ecfbe40f0c0"
+  },
+  {
+    "run_id": "one_bit_s10100_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10100_h0.npz",
+    "sha256": "f70d2e7c84968a09413b7c1967e9ef3fe078befc37f89455e2fc42a420e680ec"
+  },
+  {
+    "run_id": "one_bit_s10100_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10100_h1.npz",
+    "sha256": "3ba9fe63b785f997485e9baad50aa30200ceb4773ff2d15dcafad965121ecf27"
+  },
+  {
+    "run_id": "one_bit_s10101_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10101_h0.npz",
+    "sha256": "7fa949ba6731bd8ae5cd573765c06ff18cbf320aef7e837b8637e70a20948fe2"
+  },
+  {
+    "run_id": "one_bit_s10101_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10101_h1.npz",
+    "sha256": "dcf75e3e26e76edba9dc1cb274e4c629c711285bfca3b519d494a1776aa2fad7"
+  },
+  {
+    "run_id": "one_bit_s10102_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10102_h0.npz",
+    "sha256": "ab4b06e39d452943b6030db451457c7af3ec99d0a3c5172ccd4640575a4d8d49"
+  },
+  {
+    "run_id": "one_bit_s10102_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10102_h1.npz",
+    "sha256": "a266994b38c1f7cd68fe7cfc0fa53fbf729e1bed2f5b7dd2d9bb5b0941d89531"
+  },
+  {
+    "run_id": "one_bit_s10103_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10103_h0.npz",
+    "sha256": "dbc138db7b15483da95d9ef129aead6cefc3ee6936554ac6aa2a026e84d00efc"
+  },
+  {
+    "run_id": "one_bit_s10103_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10103_h1.npz",
+    "sha256": "0284ee9ee04ea00b21a30312def4abf0a0aac1933024ab009bd6a9ba2599bbab"
+  },
+  {
+    "run_id": "one_bit_s10104_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10104_h0.npz",
+    "sha256": "dfbf4976fc59ba69ef890b2317ba1d5fa85e858d67bc56230e63817eb249d6a6"
+  },
+  {
+    "run_id": "one_bit_s10104_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10104_h1.npz",
+    "sha256": "c38ddedb86ffd9b0dc897a4696d11659d842c4d72665e788ce744c9651bb28fc"
+  },
+  {
+    "run_id": "one_bit_s10105_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10105_h0.npz",
+    "sha256": "2756c7c1c369eae26077de00288a1aa3c9646bcf8755b87600514a866d26e79d"
+  },
+  {
+    "run_id": "one_bit_s10105_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10105_h1.npz",
+    "sha256": "a7df170f95a931f2ececcdc97756171f4e0a32912c4f58f5c5ca764fa0a6e62e"
+  },
+  {
+    "run_id": "one_bit_s10106_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10106_h0.npz",
+    "sha256": "df21d495695b7295f80210925945dc600e76bff44a6f461b59f3b5f3db810ad0"
+  },
+  {
+    "run_id": "one_bit_s10106_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10106_h1.npz",
+    "sha256": "46ab96b231d36156e6e0b8b4f44cd2d02f02c951d2741bd6d871ee25cf4ec5bd"
+  },
+  {
+    "run_id": "one_bit_s10107_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10107_h0.npz",
+    "sha256": "48dcc2d83df00c38266f24fe1412a34582ef9c879cdff06ee9fcc38b774f4a72"
+  },
+  {
+    "run_id": "one_bit_s10107_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10107_h1.npz",
+    "sha256": "2c26bdf45eadc09807503a348d94a75b425f2b6f22237125284e0ac1fdd72234"
+  },
+  {
+    "run_id": "one_bit_s10108_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10108_h0.npz",
+    "sha256": "cf7052ed57950d81d22e48d498ee5a230a30dc49902962089f1b80effdeb830d"
+  },
+  {
+    "run_id": "one_bit_s10108_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10108_h1.npz",
+    "sha256": "d1d7ca43d92eb0c39b0faca9225b514abcdcb3c8345d4af23616b3eceeebfb30"
+  },
+  {
+    "run_id": "one_bit_s10109_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10109_h0.npz",
+    "sha256": "31b2b13fd351a9a184b87c4eb5907bf65319974e03e106637a45861e969f4a77"
+  },
+  {
+    "run_id": "one_bit_s10109_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10109_h1.npz",
+    "sha256": "5f0dbe70b86f427ca6f7e4eb0ccc5a32d480bba475786381f394b05c02e9d3e8"
+  },
+  {
+    "run_id": "one_bit_s10110_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10110_h0.npz",
+    "sha256": "51e72d29dce4befae76233db58c2f554cd3da6d6ac5473c60e1bf695624a8001"
+  },
+  {
+    "run_id": "one_bit_s10110_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10110_h1.npz",
+    "sha256": "09d6085554a02c881647d7042a8cd307e1aaf7c49326e107a508299e970aa2f7"
+  },
+  {
+    "run_id": "one_bit_s10111_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10111_h0.npz",
+    "sha256": "41a2c4ecd4988069b69929f2cd5452f37a2b6c6fc3afb9e1ad79d3e87aebab23"
+  },
+  {
+    "run_id": "one_bit_s10111_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10111_h1.npz",
+    "sha256": "bb602fb2a37b1d582a2cae501b70c36b983597c57e9f690b2e2ea9a43446d68d"
+  },
+  {
+    "run_id": "one_bit_s10112_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10112_h0.npz",
+    "sha256": "26d527fa013b024a300f1daaf83f62bd859a56a7972f181e0d1f6c942c475832"
+  },
+  {
+    "run_id": "one_bit_s10112_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10112_h1.npz",
+    "sha256": "8afa4c08ced7b1b6c70155d09956857c7560e200421c286e8822ee0fdb5f34d6"
+  },
+  {
+    "run_id": "one_bit_s10113_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10113_h0.npz",
+    "sha256": "5d5ad9d5620518b8cb20c79645214b67431ccd472c3093c72d0126df92973168"
+  },
+  {
+    "run_id": "one_bit_s10113_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10113_h1.npz",
+    "sha256": "5c4850eebbfb9d35ac8b3c1cf1da03b0d1c04e5cf24799942209ad66a68b07bd"
+  },
+  {
+    "run_id": "one_bit_s10114_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10114_h0.npz",
+    "sha256": "b7663d6610dc8e7d367402c4ecbcf59f116ea4267038fb42cef61e9e73a54bb0"
+  },
+  {
+    "run_id": "one_bit_s10114_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10114_h1.npz",
+    "sha256": "c48e0e04894539d3857f92fdf20b0e5d4cfe47e8055ad80d95075ccc8904a303"
+  },
+  {
+    "run_id": "one_bit_s10115_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10115_h0.npz",
+    "sha256": "f25e5b10889c5e6b8562a96e0ce317de0f23be440c4cf6af785b505de221b44d"
+  },
+  {
+    "run_id": "one_bit_s10115_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10115_h1.npz",
+    "sha256": "0e08ed28af0344641103fd317a2b75b359683a934ad9df1db54cd46ccb668464"
+  },
+  {
+    "run_id": "one_bit_s10116_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10116_h0.npz",
+    "sha256": "41804790f91641d11c9bb4351c279dadca0e212b1fba17db469a86c639df03aa"
+  },
+  {
+    "run_id": "one_bit_s10116_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10116_h1.npz",
+    "sha256": "ac8614c352a021db0f8765b5d3e3849532152fb048d5f2b860e13b54f2718e12"
+  },
+  {
+    "run_id": "one_bit_s10117_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10117_h0.npz",
+    "sha256": "07555e00c922970c94a498d345defeee3476463ebde2460de29eff71a9f67753"
+  },
+  {
+    "run_id": "one_bit_s10117_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10117_h1.npz",
+    "sha256": "0e3de470b310d6079d5cbdfd85868d151f785b0e55496bddb04d8d95e745dcd4"
+  },
+  {
+    "run_id": "one_bit_s10118_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10118_h0.npz",
+    "sha256": "7c3a0ae8c32e05f81c2d66405d9416f8cccabea5519cd846b1d8bd0f3dc53d94"
+  },
+  {
+    "run_id": "one_bit_s10118_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10118_h1.npz",
+    "sha256": "6624a97173762fa423fe453cd5a2103915602c568140072ce62987dc5fd56a76"
+  },
+  {
+    "run_id": "one_bit_s10119_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10119_h0.npz",
+    "sha256": "c65cce61a9800685fdba8b48c275a3d156fb43b1affd788cbb6a46f8900da7e5"
+  },
+  {
+    "run_id": "one_bit_s10119_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10119_h1.npz",
+    "sha256": "0a125c1f039b1f8a3b032808157fd94749b6af05aae3a4172c5633486f62509b"
+  },
+  {
+    "run_id": "one_bit_s10120_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10120_h0.npz",
+    "sha256": "48d0f480450f683f354eb3212c8853b45c4c6841b24225a7907184f4a43c04d6"
+  },
+  {
+    "run_id": "one_bit_s10120_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10120_h1.npz",
+    "sha256": "c2a856a1ab3f837e15a8976ae104b058e07918ea693139f30bec0a9988f4e999"
+  },
+  {
+    "run_id": "one_bit_s10121_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10121_h0.npz",
+    "sha256": "dd54d2ca4707fd27bcec57c2a25cc3c3278156549526668b8e38c34e326af11e"
+  },
+  {
+    "run_id": "one_bit_s10121_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10121_h1.npz",
+    "sha256": "ab8e63a1476b5d843d833fab73f605938568a4186845d0ed85577faec6d41c1b"
+  },
+  {
+    "run_id": "one_bit_s10122_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10122_h0.npz",
+    "sha256": "c8dfb20a05bae9aa435ec21be49d83cbca2642fa512fe769a5a914d9035530b6"
+  },
+  {
+    "run_id": "one_bit_s10122_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10122_h1.npz",
+    "sha256": "dfd34d284ac289e2be8d960f22c047c00f3e9027212d819ab8f1037dd26fd9bb"
+  },
+  {
+    "run_id": "one_bit_s10123_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10123_h0.npz",
+    "sha256": "8109c9918263800a6054f3dc03d3bdda20e786216aa379c6a5d01b6a973575a5"
+  },
+  {
+    "run_id": "one_bit_s10123_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10123_h1.npz",
+    "sha256": "5424b7cff54abfe06999b64702e9add3b869a25ba00bcfb0ff41b278c75a4080"
+  },
+  {
+    "run_id": "one_bit_s10124_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10124_h0.npz",
+    "sha256": "314ae8afad25fe4fe3b72370848ea509f34c651f3114b7ee20950d87ecee5276"
+  },
+  {
+    "run_id": "one_bit_s10124_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10124_h1.npz",
+    "sha256": "760a9c7ee8e3ca1dde3593c824f55af3e695844d8b56ec91604a5d048526760c"
+  },
+  {
+    "run_id": "one_bit_s10125_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10125_h0.npz",
+    "sha256": "e9512bfdc9b249dde566defa1d5875b4f5d5a96646517704b0f16e78b308bd3d"
+  },
+  {
+    "run_id": "one_bit_s10125_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10125_h1.npz",
+    "sha256": "d17971035248aafd0889a86aec1f2590b3dbaf4bca3e703146271309808f5230"
+  },
+  {
+    "run_id": "one_bit_s10126_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10126_h0.npz",
+    "sha256": "8f5ed8cbbd592bc2fc598788fabd848badba71ffd7558a58306e573ed2297196"
+  },
+  {
+    "run_id": "one_bit_s10126_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10126_h1.npz",
+    "sha256": "f486b602b1a5a9df2a2e4a97b6e2701a9704e801b10d6ff44f0d59cc50ecb24f"
+  },
+  {
+    "run_id": "one_bit_s10127_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10127_h0.npz",
+    "sha256": "3d6655a556d82c56303a1285e245f516b460464affbcfa361096becc620e791c"
+  },
+  {
+    "run_id": "one_bit_s10127_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10127_h1.npz",
+    "sha256": "1a04233fc1c3d61f78f0524a0b307a0978eb41f49484774f3fc0ac3faa1baad9"
+  },
+  {
+    "run_id": "one_bit_s10128_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10128_h0.npz",
+    "sha256": "25227c9f7d18a7bc709c9d6ac84b79fd9796a4d70ff41eedcc85fcd40326f67f"
+  },
+  {
+    "run_id": "one_bit_s10128_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10128_h1.npz",
+    "sha256": "fe53b1083e44e4e7cdc1466f5b1280389c87ad83d7438e93c3870617a2f8e186"
+  },
+  {
+    "run_id": "one_bit_s10129_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10129_h0.npz",
+    "sha256": "2db8620eb607e9ed66f7e2a08910825dc62b89327e1f43bd067161a4873bb310"
+  },
+  {
+    "run_id": "one_bit_s10129_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10129_h1.npz",
+    "sha256": "46fc530bc362eac57ea7357850c71adf736270c2488f489bd06ccc77c26944f8"
+  },
+  {
+    "run_id": "one_bit_s10130_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10130_h0.npz",
+    "sha256": "6e41eadafb8a6a476c66383012ab3ce08325364bbc8f35ad8d2d89cbe42cb312"
+  },
+  {
+    "run_id": "one_bit_s10130_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10130_h1.npz",
+    "sha256": "598861e8c94200138afd6a2ceb7c42fd057d415393c0721e4f53a5e11a58b9e4"
+  },
+  {
+    "run_id": "one_bit_s10131_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10131_h0.npz",
+    "sha256": "466e186749d98e5f4816a7b82b59042e9be41475916d39cebf7e90ca245a62f5"
+  },
+  {
+    "run_id": "one_bit_s10131_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10131_h1.npz",
+    "sha256": "7a14c7a233b68b04b61ed362efcba07855b3618538f5e81eb7c57a6ba8b876df"
+  },
+  {
+    "run_id": "one_bit_s10132_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10132_h0.npz",
+    "sha256": "54aa8e3dda0744d54b586aa15c8dc835b56638ff8439dad6d55913a35dfa13de"
+  },
+  {
+    "run_id": "one_bit_s10132_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10132_h1.npz",
+    "sha256": "1b045eb6c16cdbdb7989c664b97d21ba7098fd4a9bcbbfb4f94d9df8846b3249"
+  },
+  {
+    "run_id": "one_bit_s10133_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10133_h0.npz",
+    "sha256": "becefbe50d83bd0937cc686ecb5cc2fe44ca9822c257ed9c653e70cff386a71c"
+  },
+  {
+    "run_id": "one_bit_s10133_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10133_h1.npz",
+    "sha256": "275788c8fe38075fbf5e43adeab35003131fc5f250e50e4e9368d8db30999613"
+  },
+  {
+    "run_id": "one_bit_s10134_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10134_h0.npz",
+    "sha256": "fc94aa8ea56d1b4e87f6214d1d818747aafcb5d3c01fd424def7222dd344e8f2"
+  },
+  {
+    "run_id": "one_bit_s10134_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10134_h1.npz",
+    "sha256": "f4dff3521e393c63797ad7c945b980fd85cd4a83e2541c138cde2508c014f179"
+  },
+  {
+    "run_id": "one_bit_s10135_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10135_h0.npz",
+    "sha256": "25ef1112305a2e9e259ec8ff3901dd6264d24b452c3d28fcefdcdbb7cf7b769c"
+  },
+  {
+    "run_id": "one_bit_s10135_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10135_h1.npz",
+    "sha256": "333e8df0b8fff0e6ecaf9825052f4acc3d384b6ea61ca2e00a47c55f9220a1f6"
+  },
+  {
+    "run_id": "one_bit_s10136_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10136_h0.npz",
+    "sha256": "2e8fa238f6a14c5dab6188dcc0498e44368d35536efccac517a9ff78f441858b"
+  },
+  {
+    "run_id": "one_bit_s10136_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10136_h1.npz",
+    "sha256": "aebe9b4a15663eabd2d41e34d003e64babf9ecef22c4392ab0dea0839d123bee"
+  },
+  {
+    "run_id": "one_bit_s10137_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10137_h0.npz",
+    "sha256": "d6684d6bc07393b28afd5166caaabe6452848bef40d48273082f848d5ee4539e"
+  },
+  {
+    "run_id": "one_bit_s10137_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10137_h1.npz",
+    "sha256": "5ee1958e4c75b9468372b7c54b157734a35b56e598268786053082b0e39987f4"
+  },
+  {
+    "run_id": "one_bit_s10138_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10138_h0.npz",
+    "sha256": "f79dc2de3b94033c2a088cd9a66c18f4eebaf50ad8ed087a1d8695c13298374f"
+  },
+  {
+    "run_id": "one_bit_s10138_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10138_h1.npz",
+    "sha256": "a43b56743dbef2e954e4eae04f10530bf7f6a82ae173cbbe034eb9ecc51ab7bc"
+  },
+  {
+    "run_id": "one_bit_s10139_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10139_h0.npz",
+    "sha256": "7957782c679aa1954d78aa61a55ae862023f0e273fe7e0181eeaa61bf35d443b"
+  },
+  {
+    "run_id": "one_bit_s10139_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10139_h1.npz",
+    "sha256": "c9474959cdd21435daacc1a3a91ebd43ba68cfe497a9ffd317d95e90307f0545"
+  },
+  {
+    "run_id": "one_bit_s10140_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10140_h0.npz",
+    "sha256": "3f251b50ca0d903bc0a61b5c17df5968c0f312a591c7f633fa38bc3a3ceb58cb"
+  },
+  {
+    "run_id": "one_bit_s10140_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10140_h1.npz",
+    "sha256": "6a23be18a0dd7772bb51fcf81d721024af53516055ca9f160cc12555e0905195"
+  },
+  {
+    "run_id": "one_bit_s10141_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10141_h0.npz",
+    "sha256": "0021d854fcfa3f77bb63e63b91b59b95e7172af20ac6e71f07f0166366c02928"
+  },
+  {
+    "run_id": "one_bit_s10141_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10141_h1.npz",
+    "sha256": "e4ed0d8dec0c1a391272eeb064083ff896d734c07961a535df6e787047c098e3"
+  },
+  {
+    "run_id": "one_bit_s10142_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10142_h0.npz",
+    "sha256": "9167f78f0ed9e6632e8710a1b6af98a86a3b374189b72fde03c7dba2774ac394"
+  },
+  {
+    "run_id": "one_bit_s10142_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10142_h1.npz",
+    "sha256": "6b9a0d07e30665ec80c07a4e31bda056595be5e2c1887e6865ad2fae6732f38d"
+  },
+  {
+    "run_id": "one_bit_s10143_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10143_h0.npz",
+    "sha256": "7cf3b5ca1b3cb54b5fea66a77595d8f098cc96b2ff6b30dd674525b92485fcb2"
+  },
+  {
+    "run_id": "one_bit_s10143_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10143_h1.npz",
+    "sha256": "9c75caafa43190da12ed163cd57d21bf3b4c9ae36cc3462d7c3d9915e5ef0ccb"
+  },
+  {
+    "run_id": "one_bit_s10144_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10144_h0.npz",
+    "sha256": "feaa2e8acad568bb6ea7751985f04f7c2f1ae024514fc414301e7994eecc426f"
+  },
+  {
+    "run_id": "one_bit_s10144_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10144_h1.npz",
+    "sha256": "1db7ae8ea0495782c467404f0ffa88ba7c0a1628b3742967e257961568098527"
+  },
+  {
+    "run_id": "one_bit_s10145_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10145_h0.npz",
+    "sha256": "3442d0fa43beb2d31c53f7c2e16d9d9abf123b2e5bac4f7e00e16431f1adc09d"
+  },
+  {
+    "run_id": "one_bit_s10145_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10145_h1.npz",
+    "sha256": "80490c7f7591329e7a4a3376d9e141854abce18a50d10bc231e78d2ec0686b58"
+  },
+  {
+    "run_id": "one_bit_s10146_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10146_h0.npz",
+    "sha256": "85700df78ec5d16e5f8ec682bcc535302c3118ecf3a02021ebe876e1493ad968"
+  },
+  {
+    "run_id": "one_bit_s10146_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10146_h1.npz",
+    "sha256": "63db145035ef3225cbe07e107c0ce21aa0a85b48e658991f6342bd6a3b9818cf"
+  },
+  {
+    "run_id": "one_bit_s10147_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10147_h0.npz",
+    "sha256": "3d24116e4e2579f7ff4a554e257c4281a282af2e9e5400dd6b9539bc360edfa6"
+  },
+  {
+    "run_id": "one_bit_s10147_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10147_h1.npz",
+    "sha256": "51cd38ff2febc11c53c806389bb04308ec811fd8938cafb60ce648ef292ce29d"
+  },
+  {
+    "run_id": "one_bit_s10148_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10148_h0.npz",
+    "sha256": "a27945ea27aed69c09a8280d77cfb288cee60e8ad8d16b8f24833fca73a78b69"
+  },
+  {
+    "run_id": "one_bit_s10148_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10148_h1.npz",
+    "sha256": "ad2000b87367662fc68428f97551df8ddc43a8ce34e774bf01f2e0d53d0d1a8d"
+  },
+  {
+    "run_id": "one_bit_s10149_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10149_h0.npz",
+    "sha256": "a810c8d1244181f49328127c0e00d5a0fdd932a6149e755ffcff6f8c4dd9cc7e"
+  },
+  {
+    "run_id": "one_bit_s10149_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10149_h1.npz",
+    "sha256": "35e05921bb0b9059083f6329b1356fe6b8c01e5d857c616ba141686a742fb502"
+  },
+  {
+    "run_id": "one_bit_s10150_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10150_h0.npz",
+    "sha256": "0b68ac264511fe753d215817c93aaa9dfadbf36047fe03454fb564b0d7b6906d"
+  },
+  {
+    "run_id": "one_bit_s10150_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10150_h1.npz",
+    "sha256": "afb44d58e07bd586dcb9031bb3d0292374345d06281ddebd45fc27f9ecc944b9"
+  },
+  {
+    "run_id": "one_bit_s10151_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10151_h0.npz",
+    "sha256": "55ba548aed1da38fa32bf28f06a44ebc875f8f488f57e85a5a272ad1d12be153"
+  },
+  {
+    "run_id": "one_bit_s10151_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10151_h1.npz",
+    "sha256": "3627a01ff2ef1aa649173944ff56ac6559c4b8427a8fbeb420aa331ce7f28ce2"
+  },
+  {
+    "run_id": "one_bit_s10152_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10152_h0.npz",
+    "sha256": "c885063c28dd8dd66b1d0bc15acc0d52b9a0cc602b7a4ecf45c418b833bb2e95"
+  },
+  {
+    "run_id": "one_bit_s10152_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10152_h1.npz",
+    "sha256": "02658e665b308b2a87f25b6bb90392d8b166fb9f7c1d130f7fc2c02e95f726ff"
+  },
+  {
+    "run_id": "one_bit_s10153_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10153_h0.npz",
+    "sha256": "9896e778e7a2c45db7da2961f9abedfca2f90a3d5f35f7e2d9c95502dfa30aee"
+  },
+  {
+    "run_id": "one_bit_s10153_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10153_h1.npz",
+    "sha256": "b1b3e6aafabd6b109da394305a540adffaa647d9ff643d67b180e20ac7bce759"
+  },
+  {
+    "run_id": "one_bit_s10154_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10154_h0.npz",
+    "sha256": "15ce4ac8a9e9fbfb5478c646c874a9f711316780f602b9645e5be402dfffbac8"
+  },
+  {
+    "run_id": "one_bit_s10154_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10154_h1.npz",
+    "sha256": "1380a981c45bba58db2acbd36cd0f386c65f2e4c1754326395bb0feb7229b91e"
+  },
+  {
+    "run_id": "one_bit_s10155_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10155_h0.npz",
+    "sha256": "8ed5b2748041c60e210ce6e02ec59071d6e8d02dd83def092a244703c60fbe49"
+  },
+  {
+    "run_id": "one_bit_s10155_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10155_h1.npz",
+    "sha256": "283b2be173f6bed2b841a1e5d61f3b079c3107e36be5ee5a737fd62c5293deb6"
+  },
+  {
+    "run_id": "one_bit_s10156_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10156_h0.npz",
+    "sha256": "4599f5fca95e139140f66be14c7f9fc247532a698f5e5792af7b82b76e387d0f"
+  },
+  {
+    "run_id": "one_bit_s10156_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10156_h1.npz",
+    "sha256": "6de96f3465c44f4a430a340d26d156f82adbf6bb98b58a6309c3ef1933d5397a"
+  },
+  {
+    "run_id": "one_bit_s10157_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10157_h0.npz",
+    "sha256": "2b6ac0778da610d838e5212a23e274e763fcc8528cada859a0877ad9cc98609b"
+  },
+  {
+    "run_id": "one_bit_s10157_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10157_h1.npz",
+    "sha256": "fb15f355178bc260a2964b5ef49b97adf050f1ecb699aa796dc54abb565efe21"
+  },
+  {
+    "run_id": "one_bit_s10158_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10158_h0.npz",
+    "sha256": "093508a4e29e30a92d48fbfd0e5ea7285c7a4a312a7a869faa1a5744b7f11447"
+  },
+  {
+    "run_id": "one_bit_s10158_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10158_h1.npz",
+    "sha256": "4fdd11d26376c4ea3f33c5ee45849fb50df9438905fe962034ca3047b77fffbc"
+  },
+  {
+    "run_id": "one_bit_s10159_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10159_h0.npz",
+    "sha256": "801b2cb623ac65558115ed49966ed3fe6f1edad163e261bc2391036fa1224919"
+  },
+  {
+    "run_id": "one_bit_s10159_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10159_h1.npz",
+    "sha256": "a7be9f34dc6aa8239129119d77868cb35663bdea20a105f3ac9229e781113f7b"
+  },
+  {
+    "run_id": "one_bit_s10160_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10160_h0.npz",
+    "sha256": "7d6b8966ab3aa8360769d61686160c53c2045eb28eb3813bebe16927fb3a3373"
+  },
+  {
+    "run_id": "one_bit_s10160_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10160_h1.npz",
+    "sha256": "285c0a78070f40ee51bb3d4bbf1a0a10ad97e454d7b81ca8a235e0459e1853ea"
+  },
+  {
+    "run_id": "one_bit_s10161_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10161_h0.npz",
+    "sha256": "858059cf02144ef2c135b3d92563b9394c9c8078ba8ea29c22722ac789611d19"
+  },
+  {
+    "run_id": "one_bit_s10161_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10161_h1.npz",
+    "sha256": "db6869bdb6d7b9129188ed209070b3f24289bce88c3391eb902222f49cde9735"
+  },
+  {
+    "run_id": "one_bit_s10162_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10162_h0.npz",
+    "sha256": "d2434959da86d2f878efc0efbf10f0b78c0360e8f337001db93fb2358f8a6036"
+  },
+  {
+    "run_id": "one_bit_s10162_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10162_h1.npz",
+    "sha256": "0444191e9a6c68422d137c5258da4a14f43989cc20f607f3fd9a306ad639b731"
+  },
+  {
+    "run_id": "one_bit_s10163_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10163_h0.npz",
+    "sha256": "941af2c0598b5feefa2d802e2f72389acacb46c2cb94b6b4237039ae014d2e94"
+  },
+  {
+    "run_id": "one_bit_s10163_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10163_h1.npz",
+    "sha256": "30cb224351cacf649e47070e51091572edd4e4ce6eb89820dbef1b58db9a406f"
+  },
+  {
+    "run_id": "one_bit_s10164_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10164_h0.npz",
+    "sha256": "55800fce9f3a90b4edee61588390cd1d4912569f5e03125687ada208d1ee4d15"
+  },
+  {
+    "run_id": "one_bit_s10164_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10164_h1.npz",
+    "sha256": "4e57ecdcdd548cd087c14110b483ea12669af926798d1d37f82d35aff03cdfc1"
+  },
+  {
+    "run_id": "one_bit_s10165_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10165_h0.npz",
+    "sha256": "7e4dd05f3b30e4d35497bbb0b75d09c1a8771e3f70306c31ebe23adacd66f8d2"
+  },
+  {
+    "run_id": "one_bit_s10165_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10165_h1.npz",
+    "sha256": "0673d522c281dd5ce2f3175fbdeb6c9b64866a3e482ec88639ddddb11e741034"
+  },
+  {
+    "run_id": "one_bit_s10166_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10166_h0.npz",
+    "sha256": "a0f695e98fe2f798b7533590324705e248d8b040e3c051197e3e92823ee4cbd0"
+  },
+  {
+    "run_id": "one_bit_s10166_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10166_h1.npz",
+    "sha256": "efa734311d71a262b6b11428d452613bc9b6d7004106df0478cec2cd9cdd069d"
+  },
+  {
+    "run_id": "one_bit_s10167_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10167_h0.npz",
+    "sha256": "84b556f8dadaf94b693dda7d9c7acf6caa03d2cb24547f061297c3e728365e44"
+  },
+  {
+    "run_id": "one_bit_s10167_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10167_h1.npz",
+    "sha256": "33e3811c7f6a1ae18ea65cd1bcd1d34bad9060fe9d7aa6226021f71f6796832f"
+  },
+  {
+    "run_id": "one_bit_s10168_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10168_h0.npz",
+    "sha256": "687ce45e1815978d8e3fb3e32a34f9abfe01bd295af0d69ee52df12fe150529a"
+  },
+  {
+    "run_id": "one_bit_s10168_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10168_h1.npz",
+    "sha256": "685f368f5575426329c63c271434ecec51988eebb3c30e30b5f827e4cbbe9d5c"
+  },
+  {
+    "run_id": "one_bit_s10169_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10169_h0.npz",
+    "sha256": "35ce7ebef34d3ec2a2cfe68382c26c4078a8f2e3f898bb9404eee47501045272"
+  },
+  {
+    "run_id": "one_bit_s10169_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10169_h1.npz",
+    "sha256": "cfbe0ee2ef9e8ccc2c27a8e27227a7df6ba12a688b195e05e69b848ff8c3afce"
+  },
+  {
+    "run_id": "one_bit_s10170_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10170_h0.npz",
+    "sha256": "10758b1e2f63af96d4a4aa00ce75e8530f7a5a9d3c3354f2739a10cf609c4b2e"
+  },
+  {
+    "run_id": "one_bit_s10170_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10170_h1.npz",
+    "sha256": "e02c9fe92eda727b91f825310b03c66578efaddf452aa8f0c8eb319483e26353"
+  },
+  {
+    "run_id": "one_bit_s10171_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10171_h0.npz",
+    "sha256": "2751fac4ce846a0f977e0560aeea57ef0c2c68bdcd9b557bb54dfcdd66f67434"
+  },
+  {
+    "run_id": "one_bit_s10171_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10171_h1.npz",
+    "sha256": "3781524c7109d3830052fbe770817585f9142a8aba172de1ce3f75db00ffc549"
+  },
+  {
+    "run_id": "one_bit_s10172_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10172_h0.npz",
+    "sha256": "8852942ff02d8f170d571d6e591c3225e7c74438159486171f919c8020ce34d8"
+  },
+  {
+    "run_id": "one_bit_s10172_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10172_h1.npz",
+    "sha256": "d9281b709546bf549d72a4b48ad95ce4cf2c88cab5779a6e538521d85e6ae4d2"
+  },
+  {
+    "run_id": "one_bit_s10173_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10173_h0.npz",
+    "sha256": "1d038015a541f1745f6ea1235289737ef338cfb91011c4a2b5687289f1d594a0"
+  },
+  {
+    "run_id": "one_bit_s10173_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10173_h1.npz",
+    "sha256": "1ba7720363a479533fe4829bd333f13cf9dcecca93d5aaf06fb601eea2f2113e"
+  },
+  {
+    "run_id": "one_bit_s10174_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10174_h0.npz",
+    "sha256": "ed585d27dc7a12bb374effa2c13e5e0f4cda32d8e8d4b20419ae6390128c7560"
+  },
+  {
+    "run_id": "one_bit_s10174_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10174_h1.npz",
+    "sha256": "e39f01574598bc004845af58b7dfd7eaa03a99e716635421caf1c9319ca9f04e"
+  },
+  {
+    "run_id": "one_bit_s10175_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10175_h0.npz",
+    "sha256": "eb14062f7c8e2d8ce09b83fea75d4284552be2a9110ebc3858b14b0555aeb028"
+  },
+  {
+    "run_id": "one_bit_s10175_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10175_h1.npz",
+    "sha256": "31b12429c9f62764ea64bb80c5ef4fd9769606e03884deb9767679c4558766f4"
+  },
+  {
+    "run_id": "one_bit_s10176_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10176_h0.npz",
+    "sha256": "0459de97c422d4dabe68fbb1ba012ba2d97e3e9a81671f93bed5988577e97af9"
+  },
+  {
+    "run_id": "one_bit_s10176_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10176_h1.npz",
+    "sha256": "f43c6921e91660e0984ef9c7d61d8d1ff21ba6d906a5398a2711de6d5ef3e4b1"
+  },
+  {
+    "run_id": "one_bit_s10177_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10177_h0.npz",
+    "sha256": "6d1e2e0d80566f8d131cb13653e4fa7577d4cc5d302731ed7401d60a0b17d529"
+  },
+  {
+    "run_id": "one_bit_s10177_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10177_h1.npz",
+    "sha256": "6aa4950373e5b619f1e496a5af25adb0d5a0837d851a0c2995940a028fa62cce"
+  },
+  {
+    "run_id": "one_bit_s10178_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10178_h0.npz",
+    "sha256": "a9b8c6e480ba64487ff6d880fa0a01fdbdb39cad9bbe868da628d09f08784d77"
+  },
+  {
+    "run_id": "one_bit_s10178_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10178_h1.npz",
+    "sha256": "042ab84e984b5f13170094698e29e091b7b15ca9b058532288a90a54de1a44df"
+  },
+  {
+    "run_id": "one_bit_s10179_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10179_h0.npz",
+    "sha256": "a9b46097513fae9cfeb67119b14b85c6aeddebdfda5ec6111d811b60a0661ad9"
+  },
+  {
+    "run_id": "one_bit_s10179_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10179_h1.npz",
+    "sha256": "0be7ec29e4b3402b10df6f821ddcc96c1609b1b535904c0d585c8cdf3895d5df"
+  },
+  {
+    "run_id": "one_bit_s10180_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10180_h0.npz",
+    "sha256": "a570ea6d9b43b5f740fcf2dc2f7f5252091c22ac3906905aeeddc25bcc6eed0f"
+  },
+  {
+    "run_id": "one_bit_s10180_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10180_h1.npz",
+    "sha256": "bea0eeb9bd3b717aed448ee88bd953ee6d6ececc368f05afbccae8e76160bb6e"
+  },
+  {
+    "run_id": "one_bit_s10181_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10181_h0.npz",
+    "sha256": "930f2bdd19c1a678078d82b8e59d0464d31491b27bc6927d629c72945074a94b"
+  },
+  {
+    "run_id": "one_bit_s10181_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10181_h1.npz",
+    "sha256": "36f3b050b3acf08979c695b8100b3cab691b919f85d7d461cb5c641c40d66fd0"
+  },
+  {
+    "run_id": "one_bit_s10182_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10182_h0.npz",
+    "sha256": "9b6309e6a8dcff3d258c803d0bb246ffad1eb72e012701502b0a419aa1303735"
+  },
+  {
+    "run_id": "one_bit_s10182_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10182_h1.npz",
+    "sha256": "a6ff0e74a6d65fe6672f373af77150315f123c826b2b9add777668c4f1cf037c"
+  },
+  {
+    "run_id": "one_bit_s10183_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10183_h0.npz",
+    "sha256": "1ed2e97b022a0c1fdf9b13f8a3ee21bfd946113c46755192a96b5aca06d68354"
+  },
+  {
+    "run_id": "one_bit_s10183_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10183_h1.npz",
+    "sha256": "29dc14c4babc832859076296c49d78f4c0bee2d5c6cad6140a8268a4451d9d46"
+  },
+  {
+    "run_id": "one_bit_s10184_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10184_h0.npz",
+    "sha256": "ea0cb853b8a8e69d04e5794c4931a6a9fc1ecb4a7757c7b3c7984083029a3010"
+  },
+  {
+    "run_id": "one_bit_s10184_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10184_h1.npz",
+    "sha256": "1c5e3d45e50d365eff749a3d870b894d20f8cb0a86afe4da1dd59c2e71fdafca"
+  },
+  {
+    "run_id": "one_bit_s10185_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10185_h0.npz",
+    "sha256": "0908e53b42502e5de2696d688933b5e2118494df2b421afc3e6a9dd1c09c54cf"
+  },
+  {
+    "run_id": "one_bit_s10185_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10185_h1.npz",
+    "sha256": "0b4daadefbf25aad7fb51a2b19b33051c8ac1d90e93960804df180d5d35e6a2e"
+  },
+  {
+    "run_id": "one_bit_s10186_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10186_h0.npz",
+    "sha256": "48981032b30b37750582a28156cf09a16a65488d1141ae60440a1fa694d093b4"
+  },
+  {
+    "run_id": "one_bit_s10186_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10186_h1.npz",
+    "sha256": "b659d488fa6c4e2395e8a977a66fd2c5d0d16b6ddff3c0df5393b452f267d82c"
+  },
+  {
+    "run_id": "one_bit_s10187_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10187_h0.npz",
+    "sha256": "462e4349f9b07e3f5ea071af28ae0eda36be9c3f25e51f4f3e4af5e566c70d40"
+  },
+  {
+    "run_id": "one_bit_s10187_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10187_h1.npz",
+    "sha256": "cb8d3146780d38231810ee61cf93baf8b3437f6e5e567f40bef96525e3c666cd"
+  },
+  {
+    "run_id": "one_bit_s10188_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10188_h0.npz",
+    "sha256": "4fce96717e6b32f5a858a8657b4d415520392bd0efb0c935d709cdf2bf8c8aa7"
+  },
+  {
+    "run_id": "one_bit_s10188_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10188_h1.npz",
+    "sha256": "8466c9a63cbb7066076b8c7d42f2fc3f7357cee28cc956bf926a30bfb679e16b"
+  },
+  {
+    "run_id": "one_bit_s10189_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10189_h0.npz",
+    "sha256": "7fdd89233976c650627ff7656c96fb767c9dd1e4bbad2aefe2a7cd6a2da4d72c"
+  },
+  {
+    "run_id": "one_bit_s10189_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10189_h1.npz",
+    "sha256": "d5238efd0718adeeadf09299d5c00fb575c4e2ae21ec0ed5b8a3c05c6b12a875"
+  },
+  {
+    "run_id": "one_bit_s10190_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10190_h0.npz",
+    "sha256": "c85e31768da6fe7ba49934b0a84a868fc14eb3d5e02b7bf45e8afe0c5f6ce49e"
+  },
+  {
+    "run_id": "one_bit_s10190_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10190_h1.npz",
+    "sha256": "78087b83caf614686e10345e7213443a9fd11ae47e37534d3d9a2b49a6cf7332"
+  },
+  {
+    "run_id": "one_bit_s10191_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10191_h0.npz",
+    "sha256": "57b6b84646431c002ede7038bd40b97f5be544f4420f67f87eba7e31b729f58e"
+  },
+  {
+    "run_id": "one_bit_s10191_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10191_h1.npz",
+    "sha256": "0be65b60bf234343507bac919fb71632a89b0fa2096eec430900847abcac9053"
+  },
+  {
+    "run_id": "one_bit_s10192_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10192_h0.npz",
+    "sha256": "6cf50f1352514cdea69052f7f02138c36f2a5b54beecdf5984b93d7271a3d2bb"
+  },
+  {
+    "run_id": "one_bit_s10192_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10192_h1.npz",
+    "sha256": "acdbd93afdf681be36dcead88df642f7f36db5a0851e34ace12ae4ef5f6e5ed0"
+  },
+  {
+    "run_id": "one_bit_s10193_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10193_h0.npz",
+    "sha256": "43de9f5eff0376e94dbd10b0d9dc6bf9f2dcf18569e001efcbf08026336b8549"
+  },
+  {
+    "run_id": "one_bit_s10193_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10193_h1.npz",
+    "sha256": "c88e033bd7d0f46fc7c1866466ac95c897543928b18176f99bc4df88ad0c9cf0"
+  },
+  {
+    "run_id": "one_bit_s10194_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10194_h0.npz",
+    "sha256": "7fd616923b260bcddcd7fbc67b7c6bbe4d88b0299ebe7b8bc073d806665429d9"
+  },
+  {
+    "run_id": "one_bit_s10194_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10194_h1.npz",
+    "sha256": "1de6e771227629c89313a5ca0a10156cb1e4475a9d35ff58d2d9bdc001d180ac"
+  },
+  {
+    "run_id": "one_bit_s10195_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10195_h0.npz",
+    "sha256": "da155aede8ec5ea0c08921ef352bf91aaf5ae7c6c40e2e5de60ad2d4d36daf2e"
+  },
+  {
+    "run_id": "one_bit_s10195_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10195_h1.npz",
+    "sha256": "98b48ee96fb78567e76703001e0b157522cf1f1076d65bc9ef1d6857b5cf21cf"
+  },
+  {
+    "run_id": "one_bit_s10196_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10196_h0.npz",
+    "sha256": "3bf7c8b90f3e8c54529264300ee14794fdb4386c6a520dce19dca814d3e8387d"
+  },
+  {
+    "run_id": "one_bit_s10196_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10196_h1.npz",
+    "sha256": "70ec88840e4c4e04332b3675aac9924e110d44b4d8f91e290f33d44f974257fa"
+  },
+  {
+    "run_id": "one_bit_s10197_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10197_h0.npz",
+    "sha256": "ecb7e1c9fb22a66d7446e2f85f340371fcb4489e3ce346407634527062f8391f"
+  },
+  {
+    "run_id": "one_bit_s10197_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10197_h1.npz",
+    "sha256": "655d01fd39e067af08d37a0b19ab38cbd39ecd3e436ed4ba1859995425c1a8da"
+  },
+  {
+    "run_id": "one_bit_s10198_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10198_h0.npz",
+    "sha256": "969f9b2a154ef3caf05b833e7c767c1fa4ea90afe0b4a2bc36ee589dcd0d6dfb"
+  },
+  {
+    "run_id": "one_bit_s10198_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10198_h1.npz",
+    "sha256": "42eabde06a7fa5aae4627e1ff4dff4932bed538820aef06f43a0130602b92b81"
+  },
+  {
+    "run_id": "one_bit_s10199_h0",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10199_h0.npz",
+    "sha256": "df262f42faf326d4c57c87ba3fa2fd01ed4995bf1ba19c6405427d36ec89f4af"
+  },
+  {
+    "run_id": "one_bit_s10199_h1",
+    "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/one_bit/one_bit_s10199_h1.npz",
+    "sha256": "a106fdda804b60713ee10fca60b75b880037a451824a2985870eaa95cb4d4607"
+  }
+]

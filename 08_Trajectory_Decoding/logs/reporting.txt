@@ -1,0 +1,1 @@
+{"report": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/trajectory_decoding_report.md", "figures": 3, "note": "Rendered from saved results; no model fitting."}

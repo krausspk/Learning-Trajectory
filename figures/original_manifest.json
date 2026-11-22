@@ -1,0 +1,942 @@
+{
+  "description": "Original figure regions rendered directly from the supplied article and its supplement, with full original captions; no image generation or pixel editing.",
+  "renderer": "pdftoppm version 26.05.0",
+  "source_citation": "Krauss et al. (2026), Task-dependent clustering in permutation-aligned neural network weights. Frontiers in Cognition 5:1960468. DOI:10.3389/fcogn.2026.1960468",
+  "source_license": "Creative Commons Attribution (CC BY), as stated in the article.",
+  "count": 16,
+  "figures": [
+    {
+      "id": "figure1",
+      "file": "figure1_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "source_sha256": "52cadcd06ee7e3beba171ddd3d6f3b25b55c35598934dad584b9f8f462573ca1",
+      "page": 6,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.26,
+        842.116
+      ],
+      "crop_points_top_left_xywh": [
+        47.369025,
+        74.73779499999999,
+        500.5326975,
+        270.0034425
+      ],
+      "crop_pixels_top_left_xywh": [
+        164,
+        259,
+        1739,
+        939
+      ],
+      "image_size_pixels": [
+        1739,
+        939
+      ],
+      "includes_caption": true,
+      "sha256": "e45f02160cb29cf0875fc2f829ba982736b59726cde8bef5a093cdb26597b063",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "6",
+        "-l",
+        "6",
+        "-r",
+        "250",
+        "-x",
+        "164",
+        "-y",
+        "259",
+        "-W",
+        "1739",
+        "-H",
+        "939",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figure1_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figure2",
+      "file": "figure2_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "source_sha256": "52cadcd06ee7e3beba171ddd3d6f3b25b55c35598934dad584b9f8f462573ca1",
+      "page": 6,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.26,
+        842.116
+      ],
+      "crop_points_top_left_xywh": [
+        47.369025,
+        356.3203325,
+        500.5326975,
+        263.16125000000005
+      ],
+      "crop_pixels_top_left_xywh": [
+        164,
+        1237,
+        1739,
+        914
+      ],
+      "image_size_pixels": [
+        1739,
+        914
+      ],
+      "includes_caption": true,
+      "sha256": "0a31f8208260333f688a108896e7e4be5228169a93b143f8d23793476550ba69",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "6",
+        "-l",
+        "6",
+        "-r",
+        "250",
+        "-x",
+        "164",
+        "-y",
+        "1237",
+        "-W",
+        "1739",
+        "-H",
+        "914",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figure2_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figure3",
+      "file": "figure3_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "source_sha256": "52cadcd06ee7e3beba171ddd3d6f3b25b55c35598934dad584b9f8f462573ca1",
+      "page": 7,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.26,
+        842.116
+      ],
+      "crop_points_top_left_xywh": [
+        47.369025,
+        74.73779499999999,
+        500.5326975,
+        302.109115
+      ],
+      "crop_pixels_top_left_xywh": [
+        164,
+        259,
+        1739,
+        1050
+      ],
+      "image_size_pixels": [
+        1739,
+        1050
+      ],
+      "includes_caption": true,
+      "sha256": "b85145f8adf1a774bb995424e0616db1c19aa3faa4dd7003b18458ab068c4730",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "7",
+        "-l",
+        "7",
+        "-r",
+        "250",
+        "-x",
+        "164",
+        "-y",
+        "259",
+        "-W",
+        "1739",
+        "-H",
+        "1050",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figure3_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figure4",
+      "file": "figure4_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "source_sha256": "52cadcd06ee7e3beba171ddd3d6f3b25b55c35598934dad584b9f8f462573ca1",
+      "page": 12,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.26,
+        842.116
+      ],
+      "crop_points_top_left_xywh": [
+        47.369025,
+        74.73779499999999,
+        500.5326975,
+        296.84588999999994
+      ],
+      "crop_pixels_top_left_xywh": [
+        164,
+        259,
+        1739,
+        1032
+      ],
+      "image_size_pixels": [
+        1739,
+        1032
+      ],
+      "includes_caption": true,
+      "sha256": "af18d2509d25aafd81c0ef9a6e946c3f02b5ed78af1464b5b7480062756583c2",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "12",
+        "-l",
+        "12",
+        "-r",
+        "250",
+        "-x",
+        "164",
+        "-y",
+        "259",
+        "-W",
+        "1739",
+        "-H",
+        "1032",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figure4_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figure5",
+      "file": "figure5_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "source_sha256": "52cadcd06ee7e3beba171ddd3d6f3b25b55c35598934dad584b9f8f462573ca1",
+      "page": 12,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.26,
+        842.116
+      ],
+      "crop_points_top_left_xywh": [
+        47.369025,
+        383.6891025,
+        500.5326975,
+        313.68821
+      ],
+      "crop_pixels_top_left_xywh": [
+        164,
+        1332,
+        1739,
+        1090
+      ],
+      "image_size_pixels": [
+        1739,
+        1090
+      ],
+      "includes_caption": true,
+      "sha256": "9377e075255f1c5fc9d196510d877906d036e7769fdc95e5acd1434bd59c689c",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "12",
+        "-l",
+        "12",
+        "-r",
+        "250",
+        "-x",
+        "164",
+        "-y",
+        "1332",
+        "-W",
+        "1739",
+        "-H",
+        "1090",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figure5_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figure6",
+      "file": "figure6_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+      "source_sha256": "52cadcd06ee7e3beba171ddd3d6f3b25b55c35598934dad584b9f8f462573ca1",
+      "page": 13,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.26,
+        842.116
+      ],
+      "crop_points_top_left_xywh": [
+        47.369025,
+        74.73779499999999,
+        500.5326975,
+        328.42524000000003
+      ],
+      "crop_pixels_top_left_xywh": [
+        164,
+        259,
+        1739,
+        1141
+      ],
+      "image_size_pixels": [
+        1739,
+        1141
+      ],
+      "includes_caption": true,
+      "sha256": "03ff73bb553c558e4f786c0d876139d5f7c7d8d9cce085bd34fb493e9c56caa1",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "13",
+        "-l",
+        "13",
+        "-r",
+        "250",
+        "-x",
+        "164",
+        "-y",
+        "259",
+        "-W",
+        "1739",
+        "-H",
+        "1141",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/fcogn-5-1960468.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figure6_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS1",
+      "file": "figureS1_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 3,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        29.46615,
+        515.6576249999999,
+        475.66785000000004
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        102,
+        1792,
+        1652
+      ],
+      "image_size_pixels": [
+        1792,
+        1652
+      ],
+      "includes_caption": true,
+      "sha256": "10927cde62b35947323d713b887afbf19a495f27818c6d1c0b4f0bd07394e638",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "3",
+        "-l",
+        "3",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "102",
+        "-W",
+        "1792",
+        "-H",
+        "1652",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS1_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS2",
+      "file": "figureS2_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 5,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        7.01575,
+        515.6576249999999,
+        508.641875
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        24,
+        1792,
+        1767
+      ],
+      "image_size_pixels": [
+        1792,
+        1767
+      ],
+      "includes_caption": true,
+      "sha256": "d5d7aa240b1ef41886f7c55066436209e321d6693206bef65b2659b3fdbcbd6b",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "5",
+        "-l",
+        "5",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "24",
+        "-W",
+        "1792",
+        "-H",
+        "1767",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS2_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS3",
+      "file": "figureS3_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 6,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        211.87565,
+        515.6576249999999,
+        334.651275
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        735,
+        1792,
+        1163
+      ],
+      "image_size_pixels": [
+        1792,
+        1163
+      ],
+      "includes_caption": true,
+      "sha256": "6611970d648dbc325c354da8f0f432bbec85f5fc412340f78b5eacd1d5464576",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "6",
+        "-l",
+        "6",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "735",
+        "-W",
+        "1792",
+        "-H",
+        "1163",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS3_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS4",
+      "file": "figureS4_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 8,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        43.49765,
+        515.6576249999999,
+        489.69935
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        151,
+        1792,
+        1701
+      ],
+      "image_size_pixels": [
+        1792,
+        1701
+      ],
+      "includes_caption": true,
+      "sha256": "ba86e95de8edfd1b3ff752a35d3da6d4cd3a1b83698cd5b428c6c45656e06258",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "8",
+        "-l",
+        "8",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "151",
+        "-W",
+        "1792",
+        "-H",
+        "1701",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS4_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS5",
+      "file": "figureS5_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 10,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        43.49765,
+        515.6576249999999,
+        504.43242499999997
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        151,
+        1792,
+        1752
+      ],
+      "image_size_pixels": [
+        1792,
+        1752
+      ],
+      "includes_caption": true,
+      "sha256": "7f3217a880e057d6886aa0516d3433bf493991ea96ccfc933a8e4f52c406a9c6",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "10",
+        "-l",
+        "10",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "151",
+        "-W",
+        "1792",
+        "-H",
+        "1752",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS5_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS6",
+      "file": "figureS6_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 12,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        43.49765,
+        515.6576249999999,
+        489.69935
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        151,
+        1792,
+        1701
+      ],
+      "image_size_pixels": [
+        1792,
+        1701
+      ],
+      "includes_caption": true,
+      "sha256": "a5b9c7926aaff18bd7b11bf402e2d30c5858c1caf1689395e92f613abcbd535a",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "12",
+        "-l",
+        "12",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "151",
+        "-W",
+        "1792",
+        "-H",
+        "1701",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS6_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS7",
+      "file": "figureS7_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 13,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        371.83475,
+        515.6576249999999,
+        426.5576
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        1291,
+        1792,
+        1482
+      ],
+      "image_size_pixels": [
+        1792,
+        1482
+      ],
+      "includes_caption": true,
+      "sha256": "d435efd19e12b3d040334c3e229c14488e2d66b12e6d10d96b5ba01e7ee50194",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "13",
+        "-l",
+        "13",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "1291",
+        "-W",
+        "1792",
+        "-H",
+        "1482",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS7_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS8",
+      "file": "figureS8_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 15,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        43.49765,
+        515.6576249999999,
+        470.05525
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        151,
+        1792,
+        1633
+      ],
+      "image_size_pixels": [
+        1792,
+        1633
+      ],
+      "includes_caption": true,
+      "sha256": "859909d393c2a5e662f112713102db7c0d8bf05c5c06b82878cc846f857a2d51",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "15",
+        "-l",
+        "15",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "151",
+        "-W",
+        "1792",
+        "-H",
+        "1633",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS8_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS9",
+      "file": "figureS9_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 16,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        253.97015,
+        515.6576249999999,
+        505.83557500000006
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        881,
+        1792,
+        1758
+      ],
+      "image_size_pixels": [
+        1792,
+        1758
+      ],
+      "includes_caption": true,
+      "sha256": "11396fac9d3ce64c6361a9b48ccf38a20c41b87ff115db5f129336caecdb74c4",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "16",
+        "-l",
+        "16",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "881",
+        "-W",
+        "1792",
+        "-H",
+        "1758",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS9_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    },
+    {
+      "id": "figureS10",
+      "file": "figureS10_orig.png",
+      "source_pdf": "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+      "source_sha256": "53509d49a65ef22933970904b36e27cabec17e6a9e5316c64af072e271e1e1a1",
+      "page": 18,
+      "page_numbering": "one-based physical PDF page",
+      "dpi": 250,
+      "page_size_points": [
+        595.276,
+        841.89
+      ],
+      "crop_points_top_left_xywh": [
+        39.989774999999995,
+        43.49765,
+        515.6576249999999,
+        488.2962
+      ],
+      "crop_pixels_top_left_xywh": [
+        138,
+        151,
+        1792,
+        1696
+      ],
+      "image_size_pixels": [
+        1792,
+        1696
+      ],
+      "includes_caption": true,
+      "sha256": "e153775e5b5b507e3e0f5f271eea8de3cd7208311084d56cea822e6aa009c818",
+      "render_command": [
+        "pdftoppm",
+        "-f",
+        "18",
+        "-l",
+        "18",
+        "-r",
+        "250",
+        "-x",
+        "138",
+        "-y",
+        "151",
+        "-W",
+        "1792",
+        "-H",
+        "1696",
+        "-singlefile",
+        "-png",
+        "/home/patrick/projects/Learning-Trajectory/references/supplement.pdf",
+        "/home/patrick/projects/Learning-Trajectory/figures/figureS10_orig"
+      ],
+      "visual_qa": {
+        "status": "passed",
+        "complete_panels": true,
+        "complete_caption": true,
+        "unrelated_body_text": false
+      }
+    }
+  ],
+  "visual_qa": {
+    "status": "passed",
+    "checked_figures": 16,
+    "method": "Each source page and all 16 final PNG crops visually inspected; full panels and captions present, no unrelated article text."
+  }
+}

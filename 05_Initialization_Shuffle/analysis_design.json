@@ -1,0 +1,65 @@
+{
+  "status": "specified before crossed training and before outcome inspection",
+  "experiment": 5,
+  "training_design": {
+    "datasets": ["mnist", "fashion_mnist", "kmnist"],
+    "initializations_per_dataset": 10,
+    "shuffle_levels": 5,
+    "shuffle_seeds": [11001, 12001, 13001, 14001, 15001],
+    "n_training_runs": 150,
+    "checkpoints": "E0 through E20, inclusive",
+    "initial_states": "the ten original main-cohort initializations per dataset, each reused for every shuffle level",
+    "analysis_guard": "no real analysis before a complete validated 150-run manifest and root authorization"
+  },
+  "weight_distance": {
+    "key": "normalized_frobenius|total|optimal|canonical",
+    "definition": "Canonical hidden-neuron gauge, one shared unit norm for W0/W1, joint Hungarian permutation, total Frobenius distance",
+    "source": "unchanged 02_Initialization_Retrieval/code/distances.py",
+    "identity_policy": "all compared network pairs use the same blind distance calculation"
+  },
+  "primary": {
+    "endpoint": "E20 cross-shuffle end-to-end retrieval of initial identity",
+    "datasets": "one primary test per dataset; Holm family size three",
+    "comparisons": "all 20 ordered pairs of distinct shuffle levels; 10 query identities and 10 candidate identities in each comparison",
+    "statistic": "mean average-tie correct-candidate rank, first averaged over comparisons for each initialization and then over ten initializations; smaller is better",
+    "chance_mean_rank": 5.5,
+    "chance_top1": 0.1,
+    "null": "For every Monte Carlo draw, independently relabel initialization identities within shuffle levels 2-5 and hold shuffle level 1 fixed. The same per-level bijection is used in every comparison involving that level.",
+    "mapping_convention": "p[s,label] is the physical initialization index assigned to common label in shuffle s; a matched pair has physical indices p[source,label] and p[target,label]. Equivalently the target for physical query i is p[target,inverse(p[source])[i]].",
+    "n_permutations": 10000,
+    "p_value": "one-sided add-one Monte Carlo probability of mean rank at most the observation",
+    "jackknife": "delete one initialization and all five associated training runs, rerank nine candidates, calculate SE for rank_score=(n-mean_rank)/(n-1), and transform intervals to the full ten-candidate scale",
+    "ci_scope": "variation across ten initializations, conditional on the five selected shuffle levels; not 50 independent initializations",
+    "shuffle_sensitivity": "separate leave-one-shuffle estimates, without treating overlapping comparisons as independent replicates"
+  },
+  "secondary": {
+    "final_hidden_representations": "Also construct the complete E20 50x50 raw-hidden 1-minus-biased-centered-linear-CKA matrix on the same hashed original 3000-example probe. Apply the same cross-shuffle initialization retrieval, cross-initialization shuffle retrieval, factor-block nulls, block jackknives, and distance contrasts. All representational endpoints are secondary/exploratory; the primary weight metric does not change. No matching of hidden features and no use of initial representations for this endpoint.",
+    "end_to_initial": "All 21 checkpoints: 50 queries against 10 initial candidates; average each initialization over its five shuffles. Null uses one candidate-initialization bijection consistently across all five queries of each initial identity. E0 is sanity only.",
+    "shuffle_retrieval": "E20 end-to-end retrieval of shuffle identity across all 90 ordered pairs of distinct initialization blocks, with five candidates. Independently relabel shuffle identities within initialization blocks 2-10 while block 1 is fixed. Jackknife deletes a complete shuffle level across all ten initializations; intervals are conditional on the selected initializations.",
+    "distance_groups": {
+      "same_initialization_different_shuffle": 100,
+      "different_initialization_same_shuffle": 225,
+      "different_initialization_different_shuffle": 900
+    },
+    "initialization_distance_contrast": "mean(different initialization, different shuffle) minus mean(same initialization, different shuffle), tested with the primary initialization-label null",
+    "shuffle_distance_contrast": "mean(different initialization, different shuffle) minus mean(different initialization, same shuffle), tested with the shuffle-label null",
+    "distance_inference": "whole initialization or shuffle blocks, respectively; individual network-pair distances are not independent replicates",
+    "performance": "For accuracy and loss at every checkpoint, decompose the complete 10x5 table into additive initialization SS, shuffle SS, and interaction/residual SS. One outcome per cell means interaction and residual cannot be separated; no ANOVA p-values.",
+    "aggregation": "equal mean across the three fixed dataset strata; independent within-dataset null draws and sum of within-stratum jackknife variances; secondary summary, not another primary family",
+    "interpretation": "The crossed design separates sensitivity to initial weights and batch ordering within the specified training protocol. Identifiability and geometric separation are distinct; a nonsignificant retrieval result does not prove zero influence."
+  },
+  "seeds": {
+    "base_seed": 2026112100,
+    "initialization_identity_null": [2026112101, 2026112102, 2026112103],
+    "shuffle_identity_null": [2026112201, 2026112202, 2026112203],
+    "end_to_initial_identity_null": [2026112301, 2026112302, 2026112303],
+    "generator": "numpy.random.RandomState; iid uniform bijections with replacement; common null mappings across related statistics and checkpoints"
+  },
+  "ties_and_intervals": {
+    "ties": "exact saved float64 distances; average ranks and fractional top1 credit",
+    "top1": "chance-corrected before jackknife when candidate count changes; returned to full-candidate scale",
+    "mrr": "reciprocal average ranks; exact chance is the average reciprocal rank over all candidate cells, including ties",
+    "ci": "normal observed estimate plus/minus 1.95996 SE, unclipped; boundary-perfect estimates may give degenerate jackknife intervals",
+    "multiplicity": "Holm only for the three prespecified E20 initialization-retrieval endpoints; all other p-values exploratory"
+  }
+}

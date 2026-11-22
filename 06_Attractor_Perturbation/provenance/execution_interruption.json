@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-11-16T12:41:53.094071+01:00",
+  "first_pilot_process_exit": 143,
+  "cause": "SIGTERM; sender/cause not established",
+  "completed_receipts_before_resume": 371,
+  "remaining_planned_jobs": 9,
+  "policy": "Validate completed receipts; restart unfinished forks from exact original saved state with identical job configuration",
+  "preserved_partial_temporary_files": [
+    "M10_E20_reset_both_e0.20_d3_same.pt",
+    "M10_E20_reset_both_e0.20_d3_same.wfowkebm.npz"
+  ],
+  "numerical_divergence": false,
+  "resolved": true,
+  "completed_planned_pilot_jobs": 380
+}

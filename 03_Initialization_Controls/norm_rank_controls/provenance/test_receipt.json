@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-11-16T11:09:36.441014+00:00",
+  "returncode": 0,
+  "stdout": "....                                                                     [100%]\n4 passed in 0.39s\n",
+  "stderr": "",
+  "code_sha256": "76fa1d5c9e7df5c91e55f12f28bd53e437d34010f85e3f9075404c185ed349d0",
+  "code_matches_validation": true,
+  "passed": true,
+  "n_distances": 37800,
+  "outputs_hashes_valid": true,
+  "source_42_matrices_unchanged": true
+}

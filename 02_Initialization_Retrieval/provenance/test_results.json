@@ -1,0 +1,5 @@
+{
+  "passed": 11,
+  "failed": 0,
+  "command": ".venv/bin/python -m pytest -q 02_Initialization_Retrieval/code/test_distances.py 02_Initialization_Retrieval/code/test_inference.py"
+}

@@ -1,0 +1,12 @@
+{
+  "fingerprint": "2f24538e58fd80426f655fd661368246d35fc24e1da8af5b5f0b3b1413cf4fc0",
+  "sha256": "5e21fbc658fd251b60d5067e27937cfeb40ef6870ea264a7d5ebfe8ecac0a660",
+  "rows": 17835,
+  "unordered_pairs": 435,
+  "cohort": "main",
+  "checkpoint": 7,
+  "alignment_path": "outputs/alignments/main/checkpoint_0007.npz",
+  "alignment_sha256": "06754ed99c7a4e631fb37fd3d75e2c859cd550295d38391720886c80ecd08a7f",
+  "activation_path": "outputs/activations/main/checkpoint_0007.npz",
+  "activation_sha256": "57457e62048f38e6a9a055e9aa67db459c506a00f044e4fbe6d74e1f6543229a"
+}

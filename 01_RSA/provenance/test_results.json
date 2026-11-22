@@ -1,0 +1,11 @@
+{
+  "command": ".venv/bin/python -m pytest -q 01_RSA/code/test_distances.py 01_RSA/code/test_inference.py",
+  "passed": 11,
+  "failed": 0,
+  "duration_seconds": 0.63,
+  "recorded_utc": "2026-11-16T09:53:32.214160+00:00",
+  "test_source_sha256": {
+    "code/test_distances.py": "3bbf8e8b5eba87c4d109c4c4b07e1113c738c7906c8939a930849972ef3c242c",
+    "code/test_inference.py": "b216fe1883eb9aea4e07b7de86535a2cd716d20ab873ba4246d3623d08e1ca3a"
+  }
+}

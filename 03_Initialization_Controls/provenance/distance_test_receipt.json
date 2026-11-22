@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-11-16T11:04:18.922399+00:00",
+  "test_command": [
+    "/home/patrick/projects/Learning-Trajectory/.venv/bin/python",
+    "-m",
+    "pytest",
+    "03_Initialization_Controls/tests/test_distances.py",
+    "-q"
+  ],
+  "returncode": 0,
+  "stdout": ".......                                                                  [100%]\n7 passed in 0.42s\n",
+  "stderr": "",
+  "code_sha256": "5c1078aa74d610283e1ea4e97416a1ea0fa7c753a5a4bdf4533c5226f589ec4c",
+  "validation_code_sha256": "5c1078aa74d610283e1ea4e97416a1ea0fa7c753a5a4bdf4533c5226f589ec4c",
+  "code_matches_validation": true,
+  "distance_validation_passed": true,
+  "n_distances": 264600,
+  "n_metric_keys": 42,
+  "reference_max_errors": {
+    "mnist": 0.0,
+    "fashion_mnist": 0.0,
+    "kmnist": 0.0
+  },
+  "control_outputs_hashes_valid": true,
+  "point1_preservation_after_distances": {
+    "checked_files": 46,
+    "all_unchanged": true,
+    "changed": []
+  }
+}

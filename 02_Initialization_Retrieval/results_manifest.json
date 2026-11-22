@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-11-16T11:27:40.487191+00:00",
+  "report": "results.pdf",
+  "report_sha256": "c4bcd8419744649ef160428fcf2152eb0c5fba603fc100fb407d49b9b9a66ad2",
+  "pages": 5,
+  "intro_pages": 2,
+  "figure_count": 3,
+  "content_sha256": "b423e1fc386e143197f520b1f438b9aa4f6fe195becb3bd09b2dddc38902af96",
+  "generator": "/home/patrick/projects/Learning-Trajectory/scripts/build_results_pdf.py",
+  "generator_sha256": "28b4fe81879def5a67e8e7a06217467bc4a2bcc7f93a1fab5da27354a8d8a4cf",
+  "figure_sources": [
+    {
+      "source": "retrieval_endpoint_matrices.pdf",
+      "sha256": "c2bb0eeb9e7c0aea2797a1c3effff7bac01c47bccf8ab7afa601849d2e6d1dfd",
+      "report_page": 3
+    },
+    {
+      "source": "retrieval_over_training.pdf",
+      "sha256": "bef5c770b8cf595947139c212a929a6a31deb45f772c21fc050c551bc60cd231",
+      "report_page": 4
+    },
+    {
+      "source": "retrieval_endpoint_ranks.pdf",
+      "sha256": "fb3283ae49ef83c73abf9305e816e8c492cb059dce09a49a111ba09b9225893e",
+      "report_page": 5
+    }
+  ],
+  "data_sources": {
+    "retrieval_by_dataset.csv": "f76eb93220d5890a46fe3190d3ebb6d7469485e8fea298890ca86d40ea5f995d",
+    "aggregate.csv": "d33baf2f35e5c42b9de2a0a5631c31df040db646e2ac59f6de66daf5a90b7837",
+    "per_query_ranks.csv": "1e2e9645c3fda04fe8f3605e8d1d99b5cd50de2e35fdaa4bfc5e2e497b2006d6",
+    "retrieval_config.json": "629293f794fd5d9720da28c69c6299221874650e3008262ab9c60be5fa019f7b"
+  },
+  "visual_qa": {
+    "status": "passed",
+    "receipt": "results_qa/receipt.json",
+    "receipt_sha256": "b5647858b0467d43b4e8e80f5e5ccaab8eb0f5cae28635b2d1fe8d3266d373bf",
+    "report_sha256": "c4bcd8419744649ef160428fcf2152eb0c5fba603fc100fb407d49b9b9a66ad2",
+    "pages_inspected": 5,
+    "dpi": 100
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "validated_snapshot_runs": 66,
+  "checks_against_independent_snapshot": {
+    "seed": true,
+    "arm": true,
+    "C_accuracy": true,
+    "C_loss": true,
+    "final_sample_dead_units": true,
+    "before_C_sample_dead_units": true,
+    "final_fraction_active": true,
+    "source_sha256": true
+  },
+  "pair_success_interval_matches_independent_calculation": true,
+  "script_sha256": "2117c9ddb7bfc55d00f99a83cb1564372a33f3eeb4e55c5e11d7ae1c90df02b8",
+  "input_provenance_present": true
+}

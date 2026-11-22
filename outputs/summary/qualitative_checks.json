@@ -1,0 +1,314 @@
+[
+  {
+    "key": "dataset_clustering",
+    "claim": "Positive kanonische Gewichts-Trennung zwischen Datens\u00e4tzen",
+    "reproduced": true,
+    "evidence": {
+      "estimate": 0.157680290397332,
+      "ci_low": 0.153022500774415,
+      "ci_high": 0.16233808002025
+    },
+    "primary": true
+  },
+  {
+    "key": "initialization",
+    "claim": "Keine klare Datensatz-Trennung bei Initialisierung",
+    "reproduced": true,
+    "evidence": {
+      "estimate": 0.0002900341524625,
+      "ci_low": -0.000504705958142,
+      "ci_high": 0.0010847742630672
+    },
+    "primary": true
+  },
+  {
+    "key": "all_weight_measures",
+    "claim": "Positive Trennung in beiden Schichten und allen Gewichtsma\u00dfen",
+    "reproduced": true,
+    "evidence": {
+      "positive_intervals": 16,
+      "total": 16
+    },
+    "primary": true
+  },
+  {
+    "key": "run_robustness",
+    "claim": "Positive individuelle Beitr\u00e4ge aller Hauptl\u00e4ufe",
+    "reproduced": true,
+    "evidence": {
+      "positive": 480,
+      "total": 480
+    },
+    "primary": true
+  },
+  {
+    "key": "task_raw_alpha",
+    "claim": "Aufgaben-Trennung bei identischen Bildern: raw_alpha",
+    "reproduced": true,
+    "evidence": {
+      "estimate": 0.0431981521859139,
+      "ci_low": 0.0410189855568149,
+      "ci_high": 0.0453773188150129
+    },
+    "primary": true
+  },
+  {
+    "key": "task_one_minus_cka",
+    "claim": "Aufgaben-Trennung bei identischen Bildern: one_minus_cka",
+    "reproduced": true,
+    "evidence": {
+      "estimate": 0.133402723748168,
+      "ci_low": 0.125285718726024,
+      "ci_high": 0.141519728770311
+    },
+    "primary": true
+  },
+  {
+    "key": "representations",
+    "claim": "Repr\u00e4sentationen best\u00e4tigen Datensatz-Trennung",
+    "reproduced": true,
+    "evidence": {
+      "estimate": 0.317741061017829,
+      "ci_low": 0.310286058807777,
+      "ci_high": 0.325196063227881
+    },
+    "primary": true
+  },
+  {
+    "key": "correlation_groups",
+    "claim": "Gepoolte Alpha\u2013CKA-Korrelation \u00fcbersteigt Korrelation zwischen Datens\u00e4tzen",
+    "reproduced": true,
+    "evidence": {
+      "all": 0.936465468373733,
+      "within": 0.693096820221074,
+      "between": 0.103641155608241
+    },
+    "primary": true
+  },
+  {
+    "key": "early_differentiation",
+    "claim": "Strukturelle und repr\u00e4sentationale Trennung vor 90% des fr\u00fchen Genauigkeitsgewinns",
+    "reproduced": true,
+    "evidence": {
+      "functional_90_percent": {
+        "fashion_mnist": 48,
+        "kmnist": 96,
+        "mnist": 48,
+        "mean": 64
+      },
+      "structural_onset": {
+        "canonical_alpha": 2,
+        "raw_alpha": 2,
+        "euclidean": 2,
+        "snd": 4,
+        "one_minus_cka": 2
+      },
+      "pointwise_threshold": true
+    },
+    "primary": true
+  },
+  {
+    "key": "small_early_updates",
+    "claim": "Fr\u00fcher Genauigkeitsgewinn bei geringer Parameterbewegung",
+    "reproduced": true,
+    "evidence": {
+      "accuracy_after_2": 0.40558,
+      "displacement": {
+        "W0": 0.08238571798481065,
+        "W1": 0.058035314873316306
+      }
+    },
+    "primary": true
+  },
+  {
+    "key": "gauge_invariance",
+    "claim": "ReLU-Gauge erh\u00e4lt Funktion und kanonische Gewichte",
+    "reproduced": true,
+    "evidence": {
+      "logit_error": 4.61852778244065e-14,
+      "canonical_weight_error": 1.77635683940025e-15
+    },
+    "primary": true
+  },
+  {
+    "key": "raw_gauge_sensitivity",
+    "claim": "Raw-Alpha reagiert auf funktionserhaltende Skalierung, Trennung bleibt positiv",
+    "reproduced": true,
+    "evidence": {
+      "1.0": 0.156099154391596,
+      "1.25": 0.147910493681496,
+      "1.5": 0.133523632300074,
+      "2.0": 0.112443091106777,
+      "4.0": 0.0986715761276208,
+      "8.0": 0.096287561801431
+    },
+    "primary": true
+  },
+  {
+    "key": "alignment_weight_cosine",
+    "claim": "Git Re-Basin > PIF/Alpha > unaligned: weight_cosine",
+    "reproduced": true,
+    "evidence": {
+      "benchmark": 0.17451760323366725,
+      "git_rebasin": 0.2878439954534548,
+      "identity": 0.02880409988447971
+    },
+    "primary": true
+  },
+  {
+    "key": "alignment_canonical_alpha",
+    "claim": "Git Re-Basin > PIF/Alpha > unaligned: canonical_alpha",
+    "reproduced": true,
+    "evidence": {
+      "benchmark": 0.24007854222505354,
+      "git_rebasin": 0.14950017297545834,
+      "identity": 0.47892272386518087,
+      "profile": 0.1889149775951167
+    },
+    "primary": true
+  },
+  {
+    "key": "alignment_activation_correlation",
+    "claim": "Git Re-Basin > PIF/Alpha > unaligned: activation_correlation",
+    "reproduced": true,
+    "evidence": {
+      "benchmark": 0.12491823264406728,
+      "git_rebasin": 0.2651739026731456,
+      "identity": 0.04526027676554031
+    },
+    "primary": true
+  },
+  {
+    "key": "renumber_stability",
+    "claim": "Alignment bleibt bei zuf\u00e4lliger Neuronenumbenennung stabil",
+    "reproduced": true,
+    "evidence": {
+      "identical_assignments": 600,
+      "total": 600
+    },
+    "primary": true
+  },
+  {
+    "key": "synthetic",
+    "claim": "Mehrschicht-Sanity-Test reduziert alle drei Dissimilarit\u00e4ten",
+    "reproduced": true,
+    "evidence": [
+      {
+        "metric": "euclidean",
+        "before": 0.39703095197531885,
+        "after": 0.07910028949754831,
+        "permutation_recovery_by_layer": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "logit_error": 6.661338147750939e-16,
+        "trace": [
+          {
+            "pass": 0,
+            "dissimilarity": 0.07910028949754831,
+            "best_dissimilarity": 0.07910028949754831,
+            "stage": "pif"
+          },
+          {
+            "pass": 1,
+            "dissimilarity": 0.07910028949754831,
+            "best_dissimilarity": 0.07910028949754831,
+            "stage": "backward_forward"
+          }
+        ],
+        "stop_reason": "orders_fixed",
+        "passes": 1
+      },
+      {
+        "metric": "snd",
+        "before": 0.7264677534728391,
+        "after": 0.288705297113908,
+        "permutation_recovery_by_layer": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "logit_error": 6.661338147750939e-16,
+        "trace": [
+          {
+            "pass": 0,
+            "dissimilarity": 0.288705297113908,
+            "best_dissimilarity": 0.288705297113908,
+            "stage": "pif"
+          },
+          {
+            "pass": 1,
+            "dissimilarity": 0.288705297113908,
+            "best_dissimilarity": 0.288705297113908,
+            "stage": "backward_forward"
+          }
+        ],
+        "stop_reason": "orders_fixed",
+        "passes": 1
+      },
+      {
+        "metric": "alpha",
+        "before": 0.5313431021195902,
+        "after": 5.204863736316859e-05,
+        "permutation_recovery_by_layer": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "logit_error": 6.661338147750939e-16,
+        "trace": [
+          {
+            "pass": 0,
+            "dissimilarity": 5.204863736316859e-05,
+            "best_dissimilarity": 5.204863736316859e-05,
+            "stage": "pif"
+          },
+          {
+            "pass": 1,
+            "dissimilarity": 5.204863736316859e-05,
+            "best_dissimilarity": 5.204863736316859e-05,
+            "stage": "backward_forward"
+          }
+        ],
+        "stop_reason": "orders_fixed",
+        "passes": 1
+      }
+    ],
+    "primary": true
+  },
+  {
+    "key": "all_within_pif",
+    "claim": "Jedes Within-Paar verbessert Aktivierungskorrelation unter PIF/Alpha",
+    "reproduced": true,
+    "evidence": {
+      "fraction": 1.0
+    },
+    "primary": false
+  },
+  {
+    "key": "all_pairs_git",
+    "claim": "Git Re-Basin verbessert Aktivierungskorrelation gegen\u00fcber PIF/Alpha f\u00fcr jedes Paar",
+    "reproduced": true,
+    "evidence": {
+      "fraction": 1.0
+    },
+    "primary": false
+  },
+  {
+    "key": "kmnist_late_loss",
+    "claim": "Sp\u00e4ter KMNIST-Loss steigt bei weitgehend stabiler Genauigkeit",
+    "reproduced": true,
+    "evidence": {
+      "E2": {
+        "accuracy": 0.82935,
+        "loss": 0.577304125366211
+      },
+      "E20": {
+        "accuracy": 0.8614499999999999,
+        "loss": 0.7755100512695312
+      }
+    },
+    "primary": false
+  }
+]

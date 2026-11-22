@@ -1,0 +1,88 @@
+{
+  "cells": [
+    {
+      "cell": "fashion_mnist_E10",
+      "checked_receipts": 270,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 250
+    },
+    {
+      "cell": "fashion_mnist_E2",
+      "checked_receipts": 270,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 250
+    },
+    {
+      "cell": "fashion_mnist_E20",
+      "checked_receipts": 270,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 250
+    },
+    {
+      "cell": "kmnist_E10",
+      "checked_receipts": 270,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 250
+    },
+    {
+      "cell": "kmnist_E2",
+      "checked_receipts": 270,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 250
+    },
+    {
+      "cell": "kmnist_E20",
+      "checked_receipts": 270,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 250
+    },
+    {
+      "cell": "mnist_E10",
+      "checked_receipts": 270,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 250
+    },
+    {
+      "cell": "mnist_E2",
+      "checked_receipts": 270,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 250
+    },
+    {
+      "cell": "mnist_E20",
+      "checked_receipts": 270,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 250
+    }
+  ],
+  "checked_receipts": 2430,
+  "numerical_failure_count": 0,
+  "passed": true
+}

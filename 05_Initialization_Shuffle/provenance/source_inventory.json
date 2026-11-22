@@ -1,0 +1,504 @@
+{
+  "code": {
+    "original_data": {
+      "path": "/home/patrick/projects/Learning-Trajectory/src/learning_trajectory/data.py",
+      "sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+    },
+    "original_training": {
+      "path": "/home/patrick/projects/Learning-Trajectory/src/learning_trajectory/training.py",
+      "sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06"
+    },
+    "shuffle_training": {
+      "path": "/home/patrick/projects/Learning-Trajectory/05_Initialization_Shuffle/code/training.py",
+      "sha256": "a12f57c7cf93c3d38bc529b7da8383c248d787110b12a2aa6a0d9cd3b72a081a"
+    }
+  },
+  "datasets": {
+    "fashion_mnist": {
+      "files": [
+        {
+          "bytes": 47040016,
+          "filename": "train-images-idx3-ubyte",
+          "gzip_sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+          "sha256": "c59f468a2f672dc815687fe0f83887768d799fd8a3f3276145d20f83aa44d888",
+          "shape": [
+            60000,
+            28,
+            28
+          ],
+          "source_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-images-idx3-ubyte.gz"
+        },
+        {
+          "bytes": 60008,
+          "filename": "train-labels-idx1-ubyte",
+          "gzip_sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845",
+          "sha256": "bad3541b69d912435c50bb6ba87bec294ff4f6a2e1246121d8633921760443d9",
+          "shape": [
+            60000
+          ],
+          "source_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-labels-idx1-ubyte.gz"
+        },
+        {
+          "bytes": 7840016,
+          "filename": "t10k-images-idx3-ubyte",
+          "gzip_sha256": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073",
+          "sha256": "5b4141f0afbad91edebe8549f8fcffe087ea10ca49f1dbef5c9a5cd8815ce37b",
+          "shape": [
+            10000,
+            28,
+            28
+          ],
+          "source_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-images-idx3-ubyte.gz"
+        },
+        {
+          "bytes": 10008,
+          "filename": "t10k-labels-idx1-ubyte",
+          "gzip_sha256": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5",
+          "sha256": "0402a96d92fd2663957122ceb108a494c5af83dab82d92729df917d7dec38c34",
+          "shape": [
+            10000
+          ],
+          "source_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-labels-idx1-ubyte.gz"
+        }
+      ],
+      "path": "/home/patrick/projects/Learning-Trajectory/data/fashion_mnist/manifest.json",
+      "sha256": "9d29a5b6dce8617a1d8719a3b2319b9a4e9f262654c74a78b13fba14760c93da"
+    },
+    "kmnist": {
+      "files": [
+        {
+          "bytes": 47040016,
+          "filename": "train-images-idx3-ubyte",
+          "gzip_sha256": "51467d22d8cc72929e2a028a0428f2086b092bb31cfb79c69cc0a90ce135fde4",
+          "sha256": "7112ba9ec422d98de4885262d4a4dff14cc4fefb81c11ace8bf563a8255df5c3",
+          "shape": [
+            60000,
+            28,
+            28
+          ],
+          "source_url": "https://codh.rois.ac.jp/kmnist/dataset/kmnist/train-images-idx3-ubyte.gz"
+        },
+        {
+          "bytes": 60008,
+          "filename": "train-labels-idx1-ubyte",
+          "gzip_sha256": "e38f9ebcd0f3ebcdec7fc8eabdcdaef93bb0df8ea12bee65224341c8183d8e17",
+          "sha256": "2a16eeae62da984b8bd24fa32e31d47291f01dac3fe84d5594f304f71e7d374b",
+          "shape": [
+            60000
+          ],
+          "source_url": "https://codh.rois.ac.jp/kmnist/dataset/kmnist/train-labels-idx1-ubyte.gz"
+        },
+        {
+          "bytes": 7840016,
+          "filename": "t10k-images-idx3-ubyte",
+          "gzip_sha256": "edd7a857845ad6bb1d0ba43fe7e794d164fe2dce499a1694695a792adfac43c5",
+          "sha256": "76fbd229ce87db80dd281af5e6670de4ad0e42fb30a7bd643972994c47c1f42e",
+          "shape": [
+            10000,
+            28,
+            28
+          ],
+          "source_url": "https://codh.rois.ac.jp/kmnist/dataset/kmnist/t10k-images-idx3-ubyte.gz"
+        },
+        {
+          "bytes": 10008,
+          "filename": "t10k-labels-idx1-ubyte",
+          "gzip_sha256": "20bb9a0ef54c7db3efc55a92eef5582c109615df22683c380526788f98e42a1c",
+          "sha256": "a11dc742be8e781a40a92f53d6a4957e7b7d36df2faa097659131ebfd8fd60c6",
+          "shape": [
+            10000
+          ],
+          "source_url": "https://codh.rois.ac.jp/kmnist/dataset/kmnist/t10k-labels-idx1-ubyte.gz"
+        }
+      ],
+      "path": "/home/patrick/projects/Learning-Trajectory/data/kmnist/manifest.json",
+      "sha256": "cc00e4a452daa01f79bf32795f4e4f37b75f3eb6118bdb89e3e8c3488cc3d328"
+    },
+    "mnist": {
+      "files": [
+        {
+          "bytes": 47040016,
+          "filename": "train-images-idx3-ubyte",
+          "gzip_sha256": "440fcabf73cc546fa21475e81ea370265605f56be210a4024d2ca8f203523609",
+          "sha256": "ba891046e6505d7aadcbbe25680a0738ad16aec93bde7f9b65e87a2fc25776db",
+          "shape": [
+            60000,
+            28,
+            28
+          ],
+          "source_url": "https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz"
+        },
+        {
+          "bytes": 60008,
+          "filename": "train-labels-idx1-ubyte",
+          "gzip_sha256": "3552534a0a558bbed6aed32b30c495cca23d567ec52cac8be1a0730e8010255c",
+          "sha256": "65a50cbbf4e906d70832878ad85ccda5333a97f0f4c3dd2ef09a8a9eef7101c5",
+          "shape": [
+            60000
+          ],
+          "source_url": "https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz"
+        },
+        {
+          "bytes": 7840016,
+          "filename": "t10k-images-idx3-ubyte",
+          "gzip_sha256": "8d422c7b0a1c1c79245a5bcf07fe86e33eeafee792b84584aec276f5a2dbc4e6",
+          "sha256": "0fa7898d509279e482958e8ce81c8e77db3f2f8254e26661ceb7762c4d494ce7",
+          "shape": [
+            10000,
+            28,
+            28
+          ],
+          "source_url": "https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz"
+        },
+        {
+          "bytes": 10008,
+          "filename": "t10k-labels-idx1-ubyte",
+          "gzip_sha256": "f7ae60f92e00ec6debd23a6088c31dbd2371eca3ffa0defaefb259924204aec6",
+          "sha256": "ff7bcfd416de33731a308c3f266cc351222c34898ecbeaf847f06e48f7ec33f2",
+          "shape": [
+            10000
+          ],
+          "source_url": "https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz"
+        }
+      ],
+      "path": "/home/patrick/projects/Learning-Trajectory/data/mnist/manifest.json",
+      "sha256": "c8c5882f1fe9efc254c013582152eb1f84e139cf0f9604cb4882cbe001fb8f38"
+    }
+  },
+  "initializations": {
+    "F1": {
+      "E0_W0_sha256": "f6206e3b2177f473c83b372091bbace12adc9298cbccc608fa2a87694243da9c",
+      "E0_W1_sha256": "5d7389eba9384297f4b5b62f7c4bb24e5084ea09338565535be3e98bf4f2a1bd",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F1.pt",
+      "full_state_sha256": "1323ce7b9fb934f969d3f8ac6ec8832b5f237b7c7fdab939de3d04f511a148bc",
+      "init_id": 1,
+      "init_seed": 201,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F1.npz",
+      "sha256": "f33201a69e14ccb8e538303ec22e51c6628ff7e0ea49a49d0d4afe5db0d2799b"
+    },
+    "F10": {
+      "E0_W0_sha256": "b4626f3134f63e3ab18199041eac0507faed59f264244862ac94903b67228daf",
+      "E0_W1_sha256": "2ceb0a9488a78eafd71a6cf4df1a680b4dbc364a743d46ac83b9c079afe0cb52",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F10.pt",
+      "full_state_sha256": "b43ea2e2cc4bda0fd802dde2a09cdb1fe87437b3569d287c539e3150741f7c76",
+      "init_id": 10,
+      "init_seed": 210,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F10.npz",
+      "sha256": "ce070412fe9a7cc666a00e881b053a8b1914ef2596764e3b09305853b35dc26d"
+    },
+    "F2": {
+      "E0_W0_sha256": "2d74e018fd0f2efbea65928fe53d9cc93ddb27652db843e6fc8faf901013f7bb",
+      "E0_W1_sha256": "ebbdbe07eb8437729b2c0fd885bee09933966cbcb54814776c1fc425050a76af",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F2.pt",
+      "full_state_sha256": "bb660bbe0893aa743eb22d526437ca502f99c8c17fa0f3f40e0b8c4e71523aa5",
+      "init_id": 2,
+      "init_seed": 202,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F2.npz",
+      "sha256": "25633bc15e2de277950894511497c2674bb150a4567fd12ca0b7dae650377ddd"
+    },
+    "F3": {
+      "E0_W0_sha256": "ab28e2a008fc5ff2bda2d70d5bde96ba110d951476d5ba3bc32b88c01b4b1c87",
+      "E0_W1_sha256": "da68559b12cf5bf4ee80227ac587939a15cf9efaa9f48477d74406af9a6430b8",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F3.pt",
+      "full_state_sha256": "2bb085f6c3b9c4727d4390f5dd48686c5dbd08d9873cc734b298793c20acfcbf",
+      "init_id": 3,
+      "init_seed": 203,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F3.npz",
+      "sha256": "9874434387570040caea66b1c5bc05a27fa96dd9ceb44c70a62e44a60881f7dc"
+    },
+    "F4": {
+      "E0_W0_sha256": "594ecbd07b954a57c79dd597ab9ccb33a0752ce35af1fb59f7c7e1cab6dd478b",
+      "E0_W1_sha256": "f1754a1088ef2bb5e963adc0f707890a3ea42392cda97f10563a05baa70fdafa",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F4.pt",
+      "full_state_sha256": "eb8dbaed715928e5b9763e42d3e2bca31a47a5316bd1f730fc855a110a21050a",
+      "init_id": 4,
+      "init_seed": 204,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F4.npz",
+      "sha256": "d8ad0d26a62a936142b6ee2c8dc159c12d681c64eae7315e1cb5e93e7f5a404a"
+    },
+    "F5": {
+      "E0_W0_sha256": "4eaabfab5ac5ba54cf0963788e68f5f14c9d59b460213a94cfd8f4ed71f27201",
+      "E0_W1_sha256": "de6273e5c8d41a198871d7fdeab66d52db87fe660177f93729ef20ecd0fee6fe",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F5.pt",
+      "full_state_sha256": "33998f3dfafaa4a522910133db164ccd2b7e12ce2f9ec15a900e248d85598bb0",
+      "init_id": 5,
+      "init_seed": 205,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F5.npz",
+      "sha256": "d79894ca0a8b381b2aa50b17fe47283e44763acbe0b373cd4094c895941f8426"
+    },
+    "F6": {
+      "E0_W0_sha256": "9707fe7d30849f4a82914f1aeb290d4977e53c345f6785997b3f4ee46fcfe789",
+      "E0_W1_sha256": "9cee3b9a64d989333ec35496568cfed2f7fe275437ca332d20f8affa2fb040ba",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F6.pt",
+      "full_state_sha256": "d9441c9ab189a68c5dec0c8d6593e70ee303b5d6b2d8bb343bc594e086a47124",
+      "init_id": 6,
+      "init_seed": 206,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F6.npz",
+      "sha256": "40c948575af613a74a2ea2598d1da3ff576536856376a4a28aa83fe78e8a2a05"
+    },
+    "F7": {
+      "E0_W0_sha256": "97e461f85854e030073afd5733986e21561fc306902a0f61b79c917102430a73",
+      "E0_W1_sha256": "6818537c374085fe624b73819db7014c5a1e14c73689bc69379ea1ba3162864b",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F7.pt",
+      "full_state_sha256": "d5445d621058033f741ee1712acc637d63fef6e0083eb3d9961561093b2d11ea",
+      "init_id": 7,
+      "init_seed": 207,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F7.npz",
+      "sha256": "44fd4e91e59baca6961abb829ca988fa83495e6d8d55a9d58b2a2f8e5c23c1af"
+    },
+    "F8": {
+      "E0_W0_sha256": "43ad60456ed62f220b0233c2a65797f7c6c77d2cf078dad28250bc309c86b992",
+      "E0_W1_sha256": "faf8f89e5e8d793bd8c4dd90714b2cf93a7129aa67b4dcfd52e0d3c013d0c913",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F8.pt",
+      "full_state_sha256": "616eada0606217387f380fc1516708eb723c6e2eac59f63790c9827e15b44a16",
+      "init_id": 8,
+      "init_seed": 208,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F8.npz",
+      "sha256": "dac924a90cbe51871270759df6cec0997ec3ebaf2de2623f0aee2f47702a75e3"
+    },
+    "F9": {
+      "E0_W0_sha256": "b8642cfa314bc0f3327c930c3db03e4a69ea422e20f8fae0de513231dcdfcaa8",
+      "E0_W1_sha256": "253499c61efe6b42bc98bdf9805af01552975756f4f45c481adf3657c261c3cf",
+      "dataset": "fashion_mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F9.pt",
+      "full_state_sha256": "7fa29bda87f25c54c3860f573d36f1ed31c30b489e45ddc542c3b65d5d62b456",
+      "init_id": 9,
+      "init_seed": 209,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/F9.npz",
+      "sha256": "bbfef26838f0689d155ed9d434676e8b093278d024e52202c3de5114d0af7e92"
+    },
+    "K1": {
+      "E0_W0_sha256": "6d32381b6fd90779df11aa3adc5cc88ab92e9c1c0e8e835a415b364ba219a04f",
+      "E0_W1_sha256": "2306c928044055250cd6226995fabebcbe18fa502cbd6a0cab45413521b071c2",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K1.pt",
+      "full_state_sha256": "f7c3761fa8eaa86c62308b56bd733848af2c4826ccfcf0e49763cd3b776784a9",
+      "init_id": 1,
+      "init_seed": 301,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K1.npz",
+      "sha256": "ae5f64fa7726f8ea6d3a31dbb4a6b92439645094a4e05e54aac4c992bef12180"
+    },
+    "K10": {
+      "E0_W0_sha256": "3b925f763c19eedb7014723442b8551f68b3d196741e60f01f965bd7089e1ad9",
+      "E0_W1_sha256": "20ae266e41fa31f3156304ece2aa2f4932d20eb1906cb54f6ca116fbd857c959",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K10.pt",
+      "full_state_sha256": "bc7b4b185e4c9e1159daea4249da54f8d170f20e4cbe313541293875d736bb2f",
+      "init_id": 10,
+      "init_seed": 310,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K10.npz",
+      "sha256": "11d3ab05842ed1f9bcd0d5d7690cc161ea8d05ad10c2ac0d13180d27e2afd7d6"
+    },
+    "K2": {
+      "E0_W0_sha256": "f2bf26c8ca5f90f2a73cedf3853313cf1a94f2f894fd73247a75481c32e64362",
+      "E0_W1_sha256": "ef7aab20716b4ef0a4dcbaecfd64c7ac5e09081c10d472b11967738b3122aaec",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K2.pt",
+      "full_state_sha256": "738e1deadf105829bb6ee233b6ba519d766bb8abdbcc9abfa7844aacaee2e976",
+      "init_id": 2,
+      "init_seed": 302,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K2.npz",
+      "sha256": "eb9e99ec95606e205bca53afafc04674fad4a2460c547ef02ec9fc87640ef3cd"
+    },
+    "K3": {
+      "E0_W0_sha256": "36f27ecd34bcd2729cdd4f90abc2df679977c50a602a617b832c8d3ab82654c7",
+      "E0_W1_sha256": "ed7e5e114e6d11a48d1b1026060ffc3f48a345a0b37d5fe50d18763b26d403a8",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K3.pt",
+      "full_state_sha256": "6505f3b27d0e5f28b5f8e3ca20d690374fa0674d0cd4c89e6923a1391b751864",
+      "init_id": 3,
+      "init_seed": 303,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K3.npz",
+      "sha256": "9aafbfdd1350ffb9ceb5ded9dbeb574913df770ed500a979912195d9fd57d90f"
+    },
+    "K4": {
+      "E0_W0_sha256": "b8ee747aa04c00f7a50fbb246b86a86f06702ea66d7b57885289be7cc7e42d21",
+      "E0_W1_sha256": "c5c249b4a663fe2fa847522af8496c484aa833f7b62fb0eddbaec2a8c757e077",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K4.pt",
+      "full_state_sha256": "3a81d288d09b65fc0546ddc638e086354a0b38b65ef354f3b1b3c45f317cc369",
+      "init_id": 4,
+      "init_seed": 304,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K4.npz",
+      "sha256": "4380965716d1ed73fddc1737a96e84babaf58df5cf59bbaa8c16a813f5814875"
+    },
+    "K5": {
+      "E0_W0_sha256": "97813e7190687a85ad4fa3153593f788d1e044112f62b1a65b16cd20940a97ec",
+      "E0_W1_sha256": "bd45ed8ec35bb255a895539af28a90095ca6f1e272cdc5a9259e91aefe54d495",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K5.pt",
+      "full_state_sha256": "f11b5906a1c384012f25a1bc8a11fe36f92ab57977f5071cfbcec8b09e902e71",
+      "init_id": 5,
+      "init_seed": 305,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K5.npz",
+      "sha256": "2423f12ba3ce1026d5b590befd64a250e03e8a27de5d9f6ff8234b5131e6f15c"
+    },
+    "K6": {
+      "E0_W0_sha256": "8a7de51964a87b52cbca2ae254ac9e02e747776bb7e97cde8f6388fffb18f69f",
+      "E0_W1_sha256": "6cfc07096ab6da203b71ef3c2f78134eae2d47501b8e722212da7c597b5bc1ee",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K6.pt",
+      "full_state_sha256": "94dd9cc2fc110108bc1bf262d7fb56da2367528458a8e471cbd514da925468db",
+      "init_id": 6,
+      "init_seed": 306,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K6.npz",
+      "sha256": "4108bdb38df94152efcd90f5c1a2d50ae28d34e949fc1806fcc32e33f34d1748"
+    },
+    "K7": {
+      "E0_W0_sha256": "50b8135c5b7a548437c1f590f5b417a934cd4e91ba33424c229d539c62eca1d1",
+      "E0_W1_sha256": "7e6bf670a3bc7fb94c57a4119727c26f4a191750b855ed665e815687d3cc80ab",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K7.pt",
+      "full_state_sha256": "195c5e9073a980a60db0e9e84239dd56a0185f7aff46770bdc100e51d42208d4",
+      "init_id": 7,
+      "init_seed": 307,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K7.npz",
+      "sha256": "7f1dd2210b28fab7a470ed46c60d04c407eeff5d508b7456f1fc4acb41d1fa8a"
+    },
+    "K8": {
+      "E0_W0_sha256": "36c586f20cb4a0b6fd72ef6a0662bb91378f6cccfad4adc29e746143a245e277",
+      "E0_W1_sha256": "4a407da2279c674b4cda9c634a96d465d99673298f1f851f0e347da2090253e6",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K8.pt",
+      "full_state_sha256": "904e22177a1dad04ba18a1d5611b8ee23d1e24a47f25a90e9b830d7a9488508a",
+      "init_id": 8,
+      "init_seed": 308,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K8.npz",
+      "sha256": "83f54ebbfeedffe239e9f876200c982d65bddbe4df2154c02253f46c57fa0707"
+    },
+    "K9": {
+      "E0_W0_sha256": "491bcb487e7975d97692a546671a3012a6a62cce92633f89ac8aa6073f0c20c6",
+      "E0_W1_sha256": "0918635b5edbfce50e2288bdc564e95bf28910182c5d5d59f4d2c15088c4d060",
+      "dataset": "kmnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K9.pt",
+      "full_state_sha256": "4a96efd4a3f6882f1601baf46b56d628e0690eff5464974b58359452e8fdee33",
+      "init_id": 9,
+      "init_seed": 309,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/K9.npz",
+      "sha256": "53ecd07635f50b3f7fe0b786329932e532856be09ef7507371ba30fb2094a2b7"
+    },
+    "M1": {
+      "E0_W0_sha256": "0c4d11d8c04b92e6a635662479696f7d83dcee162bc46e964e8d06f5c0642498",
+      "E0_W1_sha256": "82f4da77f9f19a8efc5f4568cef143783bc15c3afc84ef734130f913f624de5d",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M1.pt",
+      "full_state_sha256": "ac0d5fe7b5c9fc7e293bf772431600bcc39032c0cccd983827f902b0b7688902",
+      "init_id": 1,
+      "init_seed": 101,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M1.npz",
+      "sha256": "a6bd9ca0a9aed76dd4333b0b306b1fde6804f47b131d321ca84d6df98bb1f1f8"
+    },
+    "M10": {
+      "E0_W0_sha256": "40e30802f4e3827fde6a0e4424be2262a31d5527dfd1c1c41694a42fa3e8fbdf",
+      "E0_W1_sha256": "fb75263d535523d7086c14671e2d2011e9d0dbfcd7186f6398de4d683f8b4e58",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M10.pt",
+      "full_state_sha256": "8fc14f7d65696f0c9a38f9a345ca9b1cb7b894dbdc0d258722dcfce54b0d0cdb",
+      "init_id": 10,
+      "init_seed": 110,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M10.npz",
+      "sha256": "792ea8a5bb6d16edab10fc5e9b4a0db2bd9a95f5a49ed73eb5c1c975ea60685c"
+    },
+    "M2": {
+      "E0_W0_sha256": "4b5aff24428c01da4a7f308b8d802e5051f9149781cc761a7c6021197921bac6",
+      "E0_W1_sha256": "9df9d161962ecd434ba02711cda4c0b8ec3426b35dda2598ee60e543f4b91973",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M2.pt",
+      "full_state_sha256": "a5cc493af5520b7967c6364432fc3772f981177c08110eefa00f9b42d059c72f",
+      "init_id": 2,
+      "init_seed": 102,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M2.npz",
+      "sha256": "8690563212b52304a1a98fbfaa31d270e85132eddc672abb26a7c520b9a39388"
+    },
+    "M3": {
+      "E0_W0_sha256": "cd1a91d04dacc6e7f0de1d17378e6773da1fcca0dae63de810e6bd665b9c3c20",
+      "E0_W1_sha256": "6ffb18270c23b97a8d5c176e13a15a408ed327bf505cb5b052cc68bf6bf25cbb",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M3.pt",
+      "full_state_sha256": "dca23548be43a39dfb528a533b4cd81e6258fc805dcd06d209740467faaebaee",
+      "init_id": 3,
+      "init_seed": 103,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M3.npz",
+      "sha256": "484bad930c91e0b39ccc664f6f817dc9347e38fd6443e7c3c7f1f31c946cd078"
+    },
+    "M4": {
+      "E0_W0_sha256": "df15068cdaae068193563e307df5047cf836556e0119ec2eb73bfa2bf9dd1375",
+      "E0_W1_sha256": "7509a8d7387b6b73b372df1619223fe620cc39a88ff5fc611157f9d493012803",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M4.pt",
+      "full_state_sha256": "46e428115a3bddc7324274724f6ae39a0f2d7a52416b6a1660f9c9af032bb236",
+      "init_id": 4,
+      "init_seed": 104,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M4.npz",
+      "sha256": "a9433793722dbd5a50a6ab5f5c180d5b879d124d024d42bd672e504ef0e9ad6b"
+    },
+    "M5": {
+      "E0_W0_sha256": "3fac07872082af9cb62b7010c15af911f29d8b3e5dfc862ccbe128c7b867de66",
+      "E0_W1_sha256": "fb7766a035956f32241b181ee8a08e3baa94fdb538ac43915edc7a5480db07b7",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M5.pt",
+      "full_state_sha256": "35c501375437b5c5e4d69a59a6b40f59a553a47afef11ae52dff23a661289db0",
+      "init_id": 5,
+      "init_seed": 105,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M5.npz",
+      "sha256": "87e7f1479d1523a01152e6cf62e1a778a3a8b07970f9a6c8139c203c887b53f3"
+    },
+    "M6": {
+      "E0_W0_sha256": "8edd208c21a1de8f4330f0b05f97df9bbb5b1dd49f40fb9a3a20886a856dd19a",
+      "E0_W1_sha256": "b6c50ceb5a5fe9032c767070f85766b2e00c3d1cc8387bf93d3225a1dc20f5fc",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M6.pt",
+      "full_state_sha256": "2625e282ebb84204e59c3607ae8122e4e1cca3be8fa620f741d3f8035ce0eab1",
+      "init_id": 6,
+      "init_seed": 106,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M6.npz",
+      "sha256": "67c40dc20d9adb3e50127fcca7b8b819751b426bb0696a82c10aeae67e679cf3"
+    },
+    "M7": {
+      "E0_W0_sha256": "032f8cefaa27a8da96da4968d1bc70ea4a270a9f1b4a81e50136429608b51b05",
+      "E0_W1_sha256": "ffdce18e82bb9ed59c6c5d4fc706a2f849affe7e4422feb4ccdfaa4d435cd4a5",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M7.pt",
+      "full_state_sha256": "7dc4ad904ae863d9ecd2b0c06c61b593dcde5c8e594ef2c532d03820d91ab82b",
+      "init_id": 7,
+      "init_seed": 107,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M7.npz",
+      "sha256": "426eed5d323641e6b905c157da9b623db716f3c6085e0cf014ec69658d02fa16"
+    },
+    "M8": {
+      "E0_W0_sha256": "1064e2f75a9a06e0019abfc4440448130c94e3e3f8ac681acbd094842cbc368e",
+      "E0_W1_sha256": "c7563f7b01aced257d8c19d3bc253ebac255fcbeaf57d9d44711c92ab8802f6e",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M8.pt",
+      "full_state_sha256": "14aee2d0bb9cda5e2a8683e47a76b6aeb054ecb2e21286a10b828b5a7252393f",
+      "init_id": 8,
+      "init_seed": 108,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M8.npz",
+      "sha256": "f945c0f5d657fd7d3f22f105efe5e5eba6053591ab9fe7a85a2e0a0d996c6394"
+    },
+    "M9": {
+      "E0_W0_sha256": "c59b3f76000d968763606fd54630298d990100c0621d606a1f866069220d2e31",
+      "E0_W1_sha256": "4ae0b82ab2f3fb71827ab70a0693ffa92736706d665dbd895931c30e050edd9a",
+      "dataset": "mnist",
+      "full_state_path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M9.pt",
+      "full_state_sha256": "cdd71ca6039fe73c96a71486584cd99f70f796e7e333539e46790c2f9aaa39d6",
+      "init_id": 9,
+      "init_seed": 109,
+      "path": "/home/patrick/projects/Learning-Trajectory/outputs/checkpoints/main/M9.npz",
+      "sha256": "ef3988c369e18fcd239138499965b43409c08f3621afc6e3920139246dbbef6c"
+    }
+  },
+  "main_manifest": {
+    "path": "/home/patrick/projects/Learning-Trajectory/outputs/manifests/main.json",
+    "sha256": "c3ee4683156d6814307844596806e57f50fddca76263315e56fe54876f3972a9"
+  }
+}

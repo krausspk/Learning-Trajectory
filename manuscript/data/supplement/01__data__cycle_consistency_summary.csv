@@ -1,0 +1,7 @@
+dataset,checkpoint,mean_fraction_consistent,exactly_consistent_triplets,n_triplets
+fashion_mnist,0,0.15768229166666667,0,120
+fashion_mnist,20,0.28984375,0,120
+kmnist,0,0.13385416666666666,0,120
+kmnist,20,0.26536458333333335,0,120
+mnist,0,0.14700520833333333,0,120
+mnist,20,0.26927083333333335,0,120

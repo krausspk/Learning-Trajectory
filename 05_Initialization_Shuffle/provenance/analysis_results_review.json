@@ -1,0 +1,178 @@
+{
+  "checked_utc": "2026-11-16T11:42:38.049522+00:00",
+  "status": "passed",
+  "reviewer": "independent figure_audit agent",
+  "method": "Direct less/equal counts for average ranks and fractional top1, explicit inverse block-label composition in physical query order, whole-factor deletions with full-n chance correction, add-one permutation p, and sum of three stratum variances. No production statistical helper used.",
+  "analysis_sha256": "e7ddbcab9cb2c009a00f35886272b6b8e2bb6d722aed23aae699f710a5732da4",
+  "design_sha256": "800deee3076136f030ac655970ff6ff561a90a267a77876d3a7239fd64354fa0",
+  "n_factor_endpoints": 12,
+  "n_aggregate_endpoints": 4,
+  "all_six_statistics_checked_per_endpoint": [
+    "mean_rank",
+    "rank_score",
+    "top1",
+    "top1_score",
+    "mrr",
+    "mrr_score"
+  ],
+  "all_10000_stored_block_permutations_regenerated_from_prespecified_seeds": true,
+  "three_primary_holm_tests_verified": true,
+  "maximum_absolute_errors": {
+    "observed": 4.440892098500626e-15,
+    "p": 1.734723475976807e-18,
+    "se": 2.1649348980190553e-15,
+    "ci": 6.661338147750939e-15,
+    "contrast": 4.553649124439119e-16,
+    "aggregate": 3.552713678800501e-15
+  },
+  "endpoints": [
+    {
+      "dataset": "mnist",
+      "factor": "initialization",
+      "metric_key": "normalized_frobenius|total|optimal|canonical",
+      "mean_rank": 1.0,
+      "top1": 1.0,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.0,
+      "passed": true
+    },
+    {
+      "dataset": "mnist",
+      "factor": "initialization",
+      "metric_key": "one_minus_cka|hidden|none|raw",
+      "mean_rank": 1.06,
+      "top1": 0.9700000000000001,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.04373213921133915,
+      "passed": true
+    },
+    {
+      "dataset": "mnist",
+      "factor": "shuffle",
+      "metric_key": "normalized_frobenius|total|optimal|canonical",
+      "mean_rank": 2.8355555555555556,
+      "top1": 0.24444444444444424,
+      "p_perm_less": 0.014198580141985802,
+      "mean_rank_jackknife_se": 0.08846814001086568,
+      "passed": true
+    },
+    {
+      "dataset": "mnist",
+      "factor": "shuffle",
+      "metric_key": "one_minus_cka|hidden|none|raw",
+      "mean_rank": 2.7111111111111112,
+      "top1": 0.27999999999999964,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.07797153995224167,
+      "passed": true
+    },
+    {
+      "dataset": "fashion_mnist",
+      "factor": "initialization",
+      "metric_key": "normalized_frobenius|total|optimal|canonical",
+      "mean_rank": 1.2200000000000002,
+      "top1": 0.9,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.1046646430271471,
+      "passed": true
+    },
+    {
+      "dataset": "fashion_mnist",
+      "factor": "initialization",
+      "metric_key": "one_minus_cka|hidden|none|raw",
+      "mean_rank": 2.8,
+      "top1": 0.45499999999999996,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.3630921887069448,
+      "passed": true
+    },
+    {
+      "dataset": "fashion_mnist",
+      "factor": "shuffle",
+      "metric_key": "normalized_frobenius|total|optimal|canonical",
+      "mean_rank": 2.517777777777778,
+      "top1": 0.33111111111111086,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.09964546204918658,
+      "passed": true
+    },
+    {
+      "dataset": "fashion_mnist",
+      "factor": "shuffle",
+      "metric_key": "one_minus_cka|hidden|none|raw",
+      "mean_rank": 2.457777777777778,
+      "top1": 0.34666666666666635,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.11171195568301516,
+      "passed": true
+    },
+    {
+      "dataset": "kmnist",
+      "factor": "initialization",
+      "metric_key": "normalized_frobenius|total|optimal|canonical",
+      "mean_rank": 1.0,
+      "top1": 1.0,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.0,
+      "passed": true
+    },
+    {
+      "dataset": "kmnist",
+      "factor": "initialization",
+      "metric_key": "one_minus_cka|hidden|none|raw",
+      "mean_rank": 1.275,
+      "top1": 0.8700000000000003,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.12352251819000504,
+      "passed": true
+    },
+    {
+      "dataset": "kmnist",
+      "factor": "shuffle",
+      "metric_key": "normalized_frobenius|total|optimal|canonical",
+      "mean_rank": 2.6222222222222227,
+      "top1": 0.30444444444444424,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.13610292240421748,
+      "passed": true
+    },
+    {
+      "dataset": "kmnist",
+      "factor": "shuffle",
+      "metric_key": "one_minus_cka|hidden|none|raw",
+      "mean_rank": 2.642222222222222,
+      "top1": 0.2799999999999998,
+      "p_perm_less": 9.999000099990002e-05,
+      "mean_rank_jackknife_se": 0.0393639414980335,
+      "passed": true
+    }
+  ],
+  "input_hashes": {
+    "data/fashion_mnist_distances.npz": "d763007c170be2a0e78743f79a1f8dd2e76d0dfd5908f7b08205f6c09cbd2607",
+    "data/kmnist_distances.npz": "b267ffef2e152a5cac8201c5aad5a2f8bbdffba40bef995b9c66a997c4ff4bee",
+    "data/mnist_distances.npz": "d45b44877b81832963bab9a03b43197669dc88138e75cc01e7312bfb6f57e73d",
+    "data/kmnist_inference.npz": "7bb604e4b9350039006906d469472d190ad3650b9d375c05ac74245839b678e2",
+    "data/mnist_inference.npz": "cbaba0ab52edfd666137750de15e6e9415ebcb060a65de15d65ee2ba4f96c05f",
+    "data/aggregate_inference.npz": "048a81738d43dea65b67efad7b65bd6b1c489c0f9e0ef4d7fa00154c0bf5f064",
+    "data/fashion_mnist_inference.npz": "6184c0c43938d6c229d7f6fb8c11eb43deefaefdd3bed886f8e81f7b12158500",
+    "initialization_retrieval.csv": "6c642504e3f7d47f565f0923d29431bbe5de5ac96150845cde3c0cf5af21efed",
+    "shuffle_retrieval.csv": "76d734bcfc9952ef3297a78ef8dbd7b441ab503f263f7688521965ae234c1f08",
+    "aggregate.csv": "14bc5c4a121227621bced93ccc7133fa5cb739577ea1c7de45a3b175cfb25bd9",
+    "distance_contrasts.csv": "1dc93354175d34f96851ef385a8f79000f355da75b3bbba357a89ce08cadf3b9",
+    "analysis_validation.json": "888be18a56a6f46e1b908f5a0cf59d690b703730288559152dd290930b8848d8",
+    "initial_trajectory_retrieval.csv": "814ad606c2fe74802d0042af2a52c1119dca77e5ca5476ae9cde6c77da9e3722",
+    "performance_decomposition.csv": "37367606d5b45a342a1f436723339d66ae5678da94ac53bc4a2d7cbde09e850a"
+  },
+  "findings": [],
+  "additional_real_data_checks": {
+    "all_63_trajectory_rows_six_statistics_p_and_group_jackknife": "passed",
+    "E0_inference_absent": "passed",
+    "all_126_performance_tables_four_ss_terms_and_identity": "passed",
+    "maximum_absolute_errors": {
+      "trajectory_observed": 0.0,
+      "trajectory_p": 1.3552527156068805e-20,
+      "trajectory_se": 0.0,
+      "performance_ss": 9.942133921692076e-17
+    }
+  }
+}

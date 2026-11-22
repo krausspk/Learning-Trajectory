@@ -1,0 +1,16 @@
+{
+  "available_ram_bytes": 26612994048,
+  "cpu_count": 16,
+  "disk_free_bytes": 73916235776,
+  "load_average": [
+    1.27783203125,
+    1.3125,
+    1.13671875
+  ],
+  "passed": true,
+  "required_disk_bytes": 8000000000,
+  "required_ram_bytes": 11600000000,
+  "time_utc": "2026-11-16T11:29:03Z",
+  "torch_threads_per_worker": 1,
+  "workers": 4
+}

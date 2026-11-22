@@ -1,0 +1,14 @@
+{
+  "cohort": "one_bit",
+  "decoder": "both/ridge_classifier",
+  "independent_test_seed_blocks": 40,
+  "fully_correct_blocks": 40,
+  "interval_type": "two-sided95% Clopper-Pearson binomial interval for probability BOTH history arms of a new seed are correctly classified, conditional on fitted probe",
+  "confidence_level": 0.95,
+  "estimate": 1.0,
+  "lower": 0.9119026971211976,
+  "upper": 1.0,
+  "warning": "Supplement to degenerate empirical seed bootstrap; this is a complete-block success interval, not an exact interval for per-run accuracy and not proof of perfect population generalization.",
+  "source_path": "analysis/one_bit/event_both.npz",
+  "source_sha256": "2ef01cd0943fed1db99b1ab41cce4c6e09329c5ffd1265234c282f4f31d70150"
+}

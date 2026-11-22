@@ -1,0 +1,67 @@
+{
+  "utc": "2026-11-16T11:39:43.951245+00:00",
+  "mode": "partial_smoke",
+  "passed": true,
+  "errors": [],
+  "notes": [
+    "Performance differences are descriptive; intervals containing zero do not prove performance equivalence."
+  ],
+  "runs_audited": 2,
+  "cohort_checks": {
+    "one_bit": {
+      "independent_seeds": 1,
+      "runs": 2,
+      "checkpoints_per_run": 15,
+      "paired_initialization_and_order": true,
+      "complementary_bits": true
+    },
+    "multi_bit": {
+      "independent_seeds": 0,
+      "runs": 0,
+      "checkpoints_per_run": 27,
+      "paired_initialization_and_order": true,
+      "complementary_bits": true
+    }
+  },
+  "split_checks": {},
+  "array_hashes_and_npz_pt_hashes_passed": true,
+  "source_provenance": {
+    "python": "3.11.18",
+    "packages": {
+      "numpy": "1.23.5",
+      "scipy": "1.10.1",
+      "torch": "2.8.0+cpu",
+      "pandas": "2.0.3",
+      "matplotlib": "3.7.5"
+    },
+    "code_files": [
+      {
+        "path": "code/analyze.py",
+        "bytes": 24734,
+        "sha256": "cd84b5c483211ee29a18dc56a38c5cd93f983045f6ac224970a7c273f3a4e22c"
+      },
+      {
+        "path": "code/finish_when_ready.py",
+        "bytes": 872,
+        "sha256": "dc86857f6816f991a4282777ed9f892736c0008ac5ae7b2fad8c01cb6516aa59"
+      },
+      {
+        "path": "code/reporting.py",
+        "bytes": 30527,
+        "sha256": "d90dcb44f60584af221c8d851d68b18aeeedb4cbdae37edd05387701168bd2e1"
+      },
+      {
+        "path": "code/train_cohorts.py",
+        "bytes": 15929,
+        "sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c"
+      },
+      {
+        "path": "code/validate_results.py",
+        "bytes": 18890,
+        "sha256": "014b8f831a4b46a8cc1aab4fa165aceea589dc59faba46b08718778011462c1b"
+      }
+    ],
+    "snapshot": "provenance/smoke_source_snapshot"
+  },
+  "elapsed_seconds": 0.2677701630000229
+}

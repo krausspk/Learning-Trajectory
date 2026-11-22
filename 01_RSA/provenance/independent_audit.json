@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "all_finite": true,
+    "all_symmetric": true,
+    "all_zero_diagonal": true,
+    "all_e0_rho_one": true,
+    "all_endpoint_correlations_match": true,
+    "all_primary_distances_match": true,
+    "all_reverse_distances_match": true
+  },
+  "all_passed": true,
+  "independently_recomputed_pairs": 270,
+  "max_primary_distance_error": 0.0,
+  "note": "Independent float64 canonicalization/Hungarian/endpoint correlation; float32 control tests arithmetic sensitivity only, not stochastic retraining stability."
+}

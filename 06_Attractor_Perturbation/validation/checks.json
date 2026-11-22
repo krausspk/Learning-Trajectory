@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-11-16T12:44:07.324254+01:00",
+  "checks": {
+    "epsilon_zero_deterministic_repeat": {
+      "bitwise_checks": {
+        "W0": true,
+        "W1": true,
+        "accuracy": true,
+        "bias0": true,
+        "bias1": true,
+        "epoch_order_hashes": true,
+        "loss": true,
+        "momentum_W0": true,
+        "momentum_W1": true,
+        "recovery_updates": true
+      },
+      "checkpoints": 15,
+      "passed": true,
+      "updates": 2350
+    },
+    "independent_optimizer_and_model_buffers": {
+      "checks": {
+        "layer0_initial_momentum_equal": true,
+        "layer0_initial_weights_equal": true,
+        "layer0_momentum_storage_independent": true,
+        "layer0_second_momentum_unchanged": true,
+        "layer0_second_weights_unchanged": true,
+        "layer0_weight_storage_independent": true,
+        "layer2_initial_momentum_equal": true,
+        "layer2_initial_weights_equal": true,
+        "layer2_momentum_storage_independent": true,
+        "layer2_second_momentum_unchanged": true,
+        "layer2_second_weights_unchanged": true,
+        "layer2_weight_storage_independent": true
+      },
+      "passed": true
+    },
+    "originals_unchanged": {
+      "changed": [],
+      "checked_files": 40,
+      "passed": true
+    },
+    "real_continuation": {
+      "bitwise_checks": {
+        "W0": true,
+        "W1": true,
+        "accuracy": true,
+        "bias0": true,
+        "bias1": true,
+        "loss": true,
+        "momentum_W0": true,
+        "momentum_W1": true
+      },
+      "from_checkpoint": 2,
+      "passed": true,
+      "to_checkpoint": 4,
+      "updates": 235
+    },
+    "saved_forks": {
+      "checked_receipts": 390,
+      "errors": [],
+      "failed_jobs": [],
+      "numerical_failure_count": 0,
+      "passed": true,
+      "same_order_comparisons": 310
+    },
+    "symmetry_sanity": {
+      "analysis_input_unchanged": true,
+      "maximum_logit_error": 2.842170943040401e-14,
+      "passed": true,
+      "permutation_and_positive_scaling_distance": 5.5510657831906896e-15,
+      "tolerance": 1e-10
+    }
+  },
+  "passed": true
+}

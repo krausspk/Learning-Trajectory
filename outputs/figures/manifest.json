@@ -1,0 +1,138 @@
+{
+  "description": "All plotted observations are independently computed; no reported reference values substituted.",
+  "figures": [
+    {
+      "id": "figure_01",
+      "title": "Dataset-dependent clustering in aligned weights",
+      "png": "figure_01.png",
+      "svg": "figure_01.svg"
+    },
+    {
+      "id": "figure_02",
+      "title": "Layer-resolved weight-space separation",
+      "png": "figure_02.png",
+      "svg": "figure_02.svg"
+    },
+    {
+      "id": "figure_03",
+      "title": "Alignment objectives and independent functional validation",
+      "png": "figure_03.png",
+      "svg": "figure_03.svg"
+    },
+    {
+      "id": "figure_04",
+      "title": "Different prediction rules on identical images",
+      "png": "figure_04.png",
+      "svg": "figure_04.svg"
+    },
+    {
+      "id": "figure_05",
+      "title": "Weight-space and representation-space similarity",
+      "png": "figure_05.png",
+      "svg": "figure_05.svg"
+    },
+    {
+      "id": "figure_06",
+      "title": "Small early updates and rapid differentiation",
+      "png": "figure_06.png",
+      "svg": "figure_06.svg"
+    },
+    {
+      "id": "figure_S01",
+      "title": "Training diagnostics across independent runs",
+      "png": "figure_S01.png",
+      "svg": "figure_S01.svg"
+    },
+    {
+      "id": "figure_S02",
+      "title": "Complete layer-by-metric trajectories",
+      "png": "figure_S02.png",
+      "svg": "figure_S02.svg"
+    },
+    {
+      "id": "figure_S03",
+      "title": "Run-level contributions to dataset separation",
+      "png": "figure_S03.png",
+      "svg": "figure_S03.svg"
+    },
+    {
+      "id": "figure_S04",
+      "title": "Task-control performance and seed comparisons",
+      "png": "figure_S04.png",
+      "svg": "figure_S04.svg"
+    },
+    {
+      "id": "figure_S05",
+      "title": "Alpha\u2013CKA agreement within and between groups",
+      "png": "figure_S05.png",
+      "svg": "figure_S05.svg"
+    },
+    {
+      "id": "figure_S06",
+      "title": "ReLU-rescaling stress test and canonical recovery",
+      "png": "figure_S06.png",
+      "svg": "figure_S06.svg"
+    },
+    {
+      "id": "figure_S07",
+      "title": "High-resolution early SGD trajectories",
+      "png": "figure_S07.png",
+      "svg": "figure_S07.svg"
+    },
+    {
+      "id": "figure_S08",
+      "title": "Matching trajectories and permutation validation",
+      "png": "figure_S08.png",
+      "svg": "figure_S08.svg"
+    },
+    {
+      "id": "figure_S09",
+      "title": "Activation-based matching validation",
+      "png": "figure_S09.png",
+      "svg": "figure_S09.svg"
+    },
+    {
+      "id": "figure_S10",
+      "title": "Descriptive weight-sign retention",
+      "png": "figure_S10.png",
+      "svg": "figure_S10.svg"
+    }
+  ],
+  "source_sha256": {
+    "summary/estimates.csv": "cf3fd5bf84ccc82e71673e66d921818778eadc7b5bfb0d5c05d9090f4cd8966a",
+    "summary/training.csv": "cedba8d91d90ec06630079d710874e74cec158e5e4b667d9765176a8628e962e",
+    "summary/correlations.csv": "14c1612a80bff2a928a3aeb983033e30b759f33ac05fac9bffc88af1f142b198",
+    "summary/run_contributions.csv": "1814af92903ba878567b50915cc463292442afa621b0f14848e0acf74fc690ae",
+    "summary/displacements.csv": "6c665ffcad8c6e42bcb35dd3ed2a5638a8204756efb611e2267e5a083b548472",
+    "summary/early_progress.csv": "a2ccd671a078228559a3b227273f1cd03caa813224bd57e10f095d75f939e6ad",
+    "summary/sign_retention.csv": "6b08efd7946a7c1d3993d0c225cc5d3bc61d49183021d17b712d99fa3a68719a",
+    "summary/gauge_pairs.csv": "5f33604ae87882a5c5e1eef7a1039aa79a59bdc6c552ad364220eb4a7af70a37",
+    "summary/gauge_estimates.csv": "2538f9c9183ea29f2ea32d6b222ceee1b46058d080b23d2f1ac1852dd853061d",
+    "summary/gauge_sensitivity.csv": "db338108e1daa6fd00943e5ff6e26c49715fd4c3fe08b99a6e9977a77d2e6b23",
+    "validation/gauge_checks.csv": "4694782c23a55bcc7302a34365a4873299266b12a32f42a549beb8d898f941fb",
+    "validation/alignment_stability.csv": "16c05b6f5662c4f8a75466c177ef5c62fa7359700bd600ecf5fe88c54dbea10e",
+    "pairs/main/checkpoint_0000.csv": "57f3602095ae92963b6a16191355b935eb3902c15b5c2db09b5adef78c593d3a",
+    "pairs/main/checkpoint_0001.csv": "b0c34a0c6b2d7ca72d78b28dad9c63857dfe581552ba488a5931b499e0436118",
+    "pairs/main/checkpoint_0002.csv": "8cf9f1a4287960971a51d3f9d5e3d46b45f7cc1bd17f000f9a9140fc9fd3e447",
+    "pairs/main/checkpoint_0003.csv": "89151fc2d3c2a66a22d3dcf12d03a3024228d357199e444195d4e43035b01dec",
+    "pairs/main/checkpoint_0004.csv": "ab72017ad3f64e2f9042e33a8ec74791d166119eae997876918a52ccfbcb989a",
+    "pairs/main/checkpoint_0005.csv": "3b0744719ae49ddc2acc6b8947b19c7f2671f1f9634487c7cae4e0c6097b0bf3",
+    "pairs/main/checkpoint_0006.csv": "821e5ee49ff86b759a2240d31993454a1ae86bc633b60f400d32a64ea272e477",
+    "pairs/main/checkpoint_0007.csv": "5e21fbc658fd251b60d5067e27937cfeb40ef6870ea264a7d5ebfe8ecac0a660",
+    "pairs/main/checkpoint_0008.csv": "b97ee4bcff7b2ffe248743c5bc67276d78c0b121e8bc010170dee218ae0c5c18",
+    "pairs/main/checkpoint_0009.csv": "f2bcaedfc4952a7b314782cc522c4a17d8b94b2481492d2f0fe2ac2f96f47a47",
+    "pairs/main/checkpoint_0010.csv": "0c2f5ef909d43c42db2a2af7b310df337879476bfff40f193999c0510ccd8218",
+    "pairs/main/checkpoint_0011.csv": "e7d255a556ed2dddf765f1328aa80d42da70808b9704d873463a0bd23b7fce9c",
+    "pairs/main/checkpoint_0012.csv": "3d49910e6ddad837ed5583087b3c8a4b04a0b5af8c96201c3ae6e54081bc934b",
+    "pairs/main/checkpoint_0013.csv": "d8a3ec47654f2221491c8416bd2166223b5649a385d57204573220cf3d70c511",
+    "pairs/main/checkpoint_0014.csv": "d973d84eb736dacb936885de1ea98bc3037ffeadaf86f9ad1c0fa0e1bf0aee05",
+    "pairs/main/checkpoint_0015.csv": "5a17f1719b172403cb7db66295e2f28d0aa8d03a1e2269b90ffe356503d52d7d",
+    "pairs/main/checkpoint_0016.csv": "8ea0af8c44ab742baaf96f4983c13d9f9f1a2c5ed9379632d6fee995574511cf",
+    "pairs/main/checkpoint_0017.csv": "99af07fc0fba796de69044a40bc05aa5a3201bcbf0395c09a97914fc8f136eec",
+    "pairs/main/checkpoint_0018.csv": "6ce8c97e39719bec3de2abe76cfcbceb43c502b1ef3fedf881e654d76d6dd40d",
+    "pairs/main/checkpoint_0019.csv": "88d1bcf8605a064d08dab86587cbbb3207f524bed443d49f5e2ecee3509961ee",
+    "pairs/main/checkpoint_0020.csv": "5616fd6cba25b7843651110fc1f9231c0d55428461a7e73b721e3bf763f094d5",
+    "pairs/task/checkpoint_0020.csv": "089c49af4b8dc18cb5f27bf6b338d1846d557beb308ce25a7af1499cd24fc5e2"
+  },
+  "count": 16
+}

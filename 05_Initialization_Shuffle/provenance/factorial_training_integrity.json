@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": {
+    "complete_manifest": true,
+    "all_150_factor_combinations": true,
+    "all_3150_checkpoints": true,
+    "E0_identical_across_five_shuffles_per_init": true,
+    "shuffle_orders_identical_across_all_inits_and_datasets": true,
+    "all_50_epoch_seeds_disjoint": true,
+    "no_partial_archives": true
+  },
+  "manifest_sha256": "732b0a17c1152db9cfc7b48eb963f6243db8599bb43c56bca154d4f01183d0ef",
+  "counts": {
+    "datasets": 3,
+    "initializations_per_dataset": 10,
+    "crossed_shuffle_schedules": 5,
+    "runs": 150,
+    "checkpoints": 3150
+  },
+  "descriptive_final_accuracy": {
+    "mnist": {
+      "mean": 0.972746,
+      "min": 0.9678,
+      "max": 0.9763
+    },
+    "fashion_mnist": {
+      "mean": 0.863844,
+      "min": 0.8523,
+      "max": 0.8759
+    },
+    "kmnist": {
+      "mean": 0.860494,
+      "min": 0.8476,
+      "max": 0.8703
+    }
+  },
+  "interpretation": "Fifty runs per dataset are a crossed 10 x 5 design, not fifty independent initializations."
+}

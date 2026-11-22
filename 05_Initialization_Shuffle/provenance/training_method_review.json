@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-11-16T11:29:33.045653+00:00",
+  "status": "passed",
+  "reviewer": "independent figure_audit agent",
+  "training_source_sha256": "a12f57c7cf93c3d38bc529b7da8383c248d787110b12a2aa6a0d9cd3b72a081a",
+  "tests_source_sha256": "c165ecfaac56f36a129a69b5f45a4eb06b7d393bc8e5557caf99c3fe000526fb",
+  "tests": "13 passed in independent execution",
+  "findings": [],
+  "independent_oracle": "When initialization and shuffle seeds are set equal, the new trainer reproduces the original baseline.train_arrays bitwise for every synthetic checkpoint, W0/W1, biases, accuracy and loss.",
+  "checks": [
+    "10 x 5 crossed factor mapping per dataset; shuffle orders never use init_seed",
+    "Original E0 is compared bitwise and loaded exactly",
+    "Local torch.Generator(seed+epoch) separates data order from model RNG",
+    "Mid-epoch and epoch-end continuation restore order/position, parameters, copied momentum and all RNG states",
+    "Full snapshots and atomic progress cache include schedules, momentum, RNG and provenance fingerprints",
+    "Stale or corrupted provenance and state hashes are rejected"
+  ],
+  "production_training_started_by_reviewer": false
+}

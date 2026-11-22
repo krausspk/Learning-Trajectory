@@ -1,0 +1,9 @@
+{
+  "run": "main/M1",
+  "from_checkpoint": 1,
+  "to_checkpoint": 2,
+  "remaining_updates": 117,
+  "W0_max_error": 0.0,
+  "W1_max_error": 0.0,
+  "bitwise_equal": true
+}

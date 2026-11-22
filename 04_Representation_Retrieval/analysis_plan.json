@@ -1,0 +1,20 @@
+{
+  "primary_key": "one_minus_cka|hidden|none|raw",
+  "metric_keys": [
+    "one_minus_cka|hidden|none|raw",
+    "one_minus_cka|hidden|none|standardized",
+    "one_minus_cka|logits|none|raw"
+  ],
+  "base_seed": 2026112000,
+  "primary_checkpoint": 20,
+  "test_family": "three dataset-specific raw-hidden E20 endpoints, Holm correction; all other endpoints exploratory",
+  "candidate_checkpoint": 0,
+  "fixed_probe_path": "/home/patrick/projects/Learning-Trajectory/outputs/probes/main.npz",
+  "fixed_probe_sha256": "82f8b9c6a39198281dfdf5b42468b1cd9ef3d5e3999ba881cf10aaf45982ae02",
+  "probe_size": 3000,
+  "within_dataset_only": true,
+  "new_training": false,
+  "weight_distances": false,
+  "neuron_assignments": false,
+  "definition_fixed_before_results": true
+}

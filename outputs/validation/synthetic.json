@@ -1,0 +1,100 @@
+{
+  "architecture": [
+    20,
+    12,
+    10,
+    8,
+    6
+  ],
+  "seed": 2026,
+  "noise_sd_fraction": 0.3,
+  "initialization": "RandomState(2026), independent zero-mean Gaussian weights with standard deviation 1/sqrt(fan_in)",
+  "unspecified_original_choices": "The supplement specifies architecture and relative noise, but not the random seed, initial distribution/scale, or exact full-network aggregation; these are explicit reconstruction choices.",
+  "aggregation": "Concatenate all weight entries, then apply the selected dissimilarity once",
+  "noise_sd_convention": "0.3 * population standard deviation (ddof=0) of each pre-noise matrix",
+  "max_passes": 30,
+  "tolerance": 1e-12,
+  "results": [
+    {
+      "metric": "euclidean",
+      "before": 0.39703095197531885,
+      "after": 0.07910028949754831,
+      "permutation_recovery_by_layer": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "logit_error": 6.661338147750939e-16,
+      "trace": [
+        {
+          "pass": 0,
+          "dissimilarity": 0.07910028949754831,
+          "best_dissimilarity": 0.07910028949754831,
+          "stage": "pif"
+        },
+        {
+          "pass": 1,
+          "dissimilarity": 0.07910028949754831,
+          "best_dissimilarity": 0.07910028949754831,
+          "stage": "backward_forward"
+        }
+      ],
+      "stop_reason": "orders_fixed",
+      "passes": 1
+    },
+    {
+      "metric": "snd",
+      "before": 0.7264677534728391,
+      "after": 0.288705297113908,
+      "permutation_recovery_by_layer": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "logit_error": 6.661338147750939e-16,
+      "trace": [
+        {
+          "pass": 0,
+          "dissimilarity": 0.288705297113908,
+          "best_dissimilarity": 0.288705297113908,
+          "stage": "pif"
+        },
+        {
+          "pass": 1,
+          "dissimilarity": 0.288705297113908,
+          "best_dissimilarity": 0.288705297113908,
+          "stage": "backward_forward"
+        }
+      ],
+      "stop_reason": "orders_fixed",
+      "passes": 1
+    },
+    {
+      "metric": "alpha",
+      "before": 0.5313431021195902,
+      "after": 5.204863736316859e-05,
+      "permutation_recovery_by_layer": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "logit_error": 6.661338147750939e-16,
+      "trace": [
+        {
+          "pass": 0,
+          "dissimilarity": 5.204863736316859e-05,
+          "best_dissimilarity": 5.204863736316859e-05,
+          "stage": "pif"
+        },
+        {
+          "pass": 1,
+          "dissimilarity": 5.204863736316859e-05,
+          "best_dissimilarity": 5.204863736316859e-05,
+          "stage": "backward_forward"
+        }
+      ],
+      "stop_reason": "orders_fixed",
+      "passes": 1
+    }
+  ]
+}

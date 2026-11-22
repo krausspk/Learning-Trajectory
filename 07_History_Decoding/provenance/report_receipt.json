@@ -1,0 +1,13 @@
+{
+  "source": "history_probe_results.csv",
+  "primary_endpoint_count": 1,
+  "endpoint_count": 20,
+  "report_language": "de",
+  "figures": [
+    "history_decoding_by_C_duration.png",
+    "history_decoding_by_C_duration.pdf",
+    "history_probe_ablation.png",
+    "history_probe_ablation.pdf"
+  ],
+  "training_manifest_rows": 2400
+}

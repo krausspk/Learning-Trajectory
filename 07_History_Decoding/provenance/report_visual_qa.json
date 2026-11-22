@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "reviewed_at_utc": "2026-11-16T12:14:12.066215+00:00",
+  "numeric_checks": {
+    "all_20_endpoints_reported": true,
+    "primary_unique": true,
+    "held_out_40_seed_pairs_80_nets": true,
+    "primary_accuracy_recomputed": true,
+    "primary_auc_p_match_table": true,
+    "confusion_matrix_matches_predictions": true,
+    "performance_gap_disclosed": true,
+    "baseline_estimates_match": true,
+    "holm_family_reported": true,
+    "layer_preprocessing_limitation_disclosed": true,
+    "logit_probability_limitation_disclosed": true,
+    "bootstrap_boundary_limitation_disclosed": true,
+    "termination_fact_not_cause": true
+  },
+  "manual_visual_review": {
+    "images": [
+      "history_decoding_by_C_duration.png",
+      "history_probe_ablation.png"
+    ],
+    "no_clipped_text_or_overlapping_labels": true,
+    "legible_error_bars_and_chance_reference": true,
+    "coincident_layer_curves_explicitly_annotated": true,
+    "nested_markers_at_exact_observed_coordinates": true,
+    "no_data_or_axis_perturbation": true,
+    "ablation_numbers_shown_to_two_decimal_places": true
+  },
+  "artifacts": {
+    "history_decoding_report.md": {
+      "sha256": "f6c4292fd2cb55a3d388760326755dcec888bb38dc702e3d3a468db5f1cae86d",
+      "bytes": 13589
+    },
+    "history_decoding_by_C_duration.png": {
+      "sha256": "222cf94cd33062eaa159dae92ff2c338384055b95f0287e1855df9d488b8b93c",
+      "bytes": 144435,
+      "pixels": [
+        2070,
+        934
+      ]
+    },
+    "history_decoding_by_C_duration.pdf": {
+      "sha256": "b79fd92d52ed7ea79bc781fe166d2bf35e0b1092ba4e504b7cde03eac86195b7",
+      "bytes": 28214,
+      "pages": 1
+    },
+    "history_probe_ablation.png": {
+      "sha256": "7476317952c34a52a313825d0ff04c86df864bc84baae6598c6bc91544220259",
+      "bytes": 169008,
+      "pixels": [
+        2032,
+        1033
+      ]
+    },
+    "history_probe_ablation.pdf": {
+      "sha256": "72794924e9522065e98b096594f99d3fdcb0c22c5f13cf1b906bcc1be78f9c0a",
+      "bytes": 25177,
+      "pages": 1
+    }
+  },
+  "sources": {
+    "history_probe_results.csv": "0c2f8b75fcc4247157c3471d5d18bff551b78bfed67fbbead8f882f77ddb32bb",
+    "history_probe_predictions.csv": "e8a1de0debf5cd27a896d0719c5dae8dac1d958c65ae1cfa1d0bbbb434741492",
+    "performance_summary.csv": "6c965c8b850f327c6295c7a64bf4eba5a626bdfadd417e7017dfed6594745f06",
+    "performance_paired.csv": "c2ec2452faf418841330ac982eb80fc2cb2098a5b8ca38f9fe70a058c2a636fc",
+    "probe_diagnostics.json": "fd9ec312f080a18dce02791d03958749990f35cc409fc3de9a9ede7db2666413"
+  }
+}

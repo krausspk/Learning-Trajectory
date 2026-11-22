@@ -1,0 +1,16 @@
+{
+  "numpy": "1.23.5",
+  "original_plan_sha256": "87777a591cd2dec1ec308d1604844b21608ee84217ac87ed2be1c53f1bfae79d",
+  "plan_sha256": "9bce80761d096c6a4b6c76f020307a74cd0f7028ae9ba0b80b603d0d3393705e",
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.39",
+  "pre_analysis_amendment": {
+    "change": "Increase secondary permutations 199 to 999; include negative control in Holm family",
+    "reason": "199 permits minimum p=.005, insufficient for Holm family of 19; 999 permits .001. Training settings and primary unchanged.",
+    "stage": "Before any probe fitting or held-out outcome inspection; first training timing benchmark may be underway",
+    "timestamp_utc": "2026-11-16T11:33:56.894656+00:00"
+  },
+  "probe_inputs_sha256": "2fdf8ae6ad1ff987ac92650b21cdcbf6b570cbfac4d1c550756bb60d2ec4305f",
+  "python": "3.11.18 (main, Oct 26 2026, 14:05:07) [Clang 23.1.3 ]",
+  "splits_sha256": "2015a6dbdcd80817352d81e606eb178331fd8b7deefc4740069793981010c05e",
+  "torch": "2.8.0+cpu"
+}

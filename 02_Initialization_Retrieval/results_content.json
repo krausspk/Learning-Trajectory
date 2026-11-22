@@ -1,0 +1,95 @@
+{
+  "title": "Kann ein Endnetz seine Initialisierung erkennen?",
+  "subtitle": "Experiment 02: Wiedererkennung unter zehn Kandidaten",
+  "finding": "Alle 30 Endnetze erkennen ihre eigene Initialisierung als besten der zehn Kandidaten. Das gelingt auch nach Gauge-Normierung, Gesamtnormierung und Neuronenmatching.",
+  "source_files": [
+    "retrieval_by_dataset.csv",
+    "aggregate.csv",
+    "per_query_ranks.csv",
+    "retrieval_config.json"
+  ],
+  "sections": [
+    {
+      "title": "Fragestellung und Methode",
+      "paragraphs": [
+        "Für jedes aktuelle Netz werden alle zehn Initialisierungen seines Datensatzes als Kandidaten bewertet. Alle 100 Query/Kandidaten-Paare je Datensatz und Checkpoint werden identisch behandelt. Die eigene Herkunft wird erst beim Auswerten der Ränge verwendet.",
+        "Primär werden die Gewichte in die kanonische ReLU-Gauge überführt, gemeinsam auf Gesamtnorm Eins normiert und über eine gemeinsame optimale W0/W1-Permutation verglichen. Die Distanz ist die euklidische Distanz der normierten Gesamtvektoren. Die Gesamtnormierung ist eine Analyseoperation und keine funktionsbewahrende ReLU-Symmetrie."
+      ],
+      "tables": []
+    },
+    {
+      "title": "Ergebnis am Ende von zehn Epochen",
+      "paragraphs": [],
+      "tables": [
+        {
+          "headers": [
+            "Datensatz",
+            "Mittlerer Rang",
+            "Top-1",
+            "p",
+            "p Holm"
+          ],
+          "rows": [
+            [
+              "MNIST",
+              "1,00",
+              "100 %",
+              "0,00010",
+              "0,00030"
+            ],
+            [
+              "Fashion-MNIST",
+              "1,00",
+              "100 %",
+              "0,00010",
+              "0,00030"
+            ],
+            [
+              "KMNIST",
+              "1,00",
+              "100 %",
+              "0,00010",
+              "0,00030"
+            ]
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "Statistische Evidenz",
+      "paragraphs": [
+        "Zufällig erwarten wir einen mittleren Rang von 5,5 und eine Top-1-Quote von 10 %. Der primäre Endpunkt ist der mittlere korrekte Rang bei E20. 10.000 globale bijektive Herkunftslabel-Permutationen werden innerhalb jedes Datensatzes gerechnet. Die drei primären Tests werden mit Holm korrigiert.",
+        "Die Unsicherheit wird durch Entfernen eines vollständigen Runs als Query-Zeile und Kandidatenspalte berechnet. Weil danach neun Kandidaten verbleiben, werden die Jackknife-Werte gegen die geänderte Zufallserwartung normalisiert. Die hier perfekten Teilstichproben erzeugen Intervalle ohne Breite. Das garantiert keine perfekte Erkennung neuer Netze."
+      ],
+      "tables": []
+    },
+    {
+      "title": "Einordnung",
+      "paragraphs": [
+        "Wiedererkennbarkeit der Herkunft ist mit einer negativen Ensemble-RSA vereinbar: Die relative Lage verschiedener Netze kann sich verändern, während jedes Netz einen individuellen Fingerabdruck behält. Der Test rekonstruiert keine unbekannten Initialgewichte; er wählt unter zehn vorliegenden Kandidaten.",
+        "Initialisierung und Batch-Reihenfolge hängen in der ursprünglichen Hauptkohorte am selben Run-Seed. Die Ergebnisse identifizieren die Herkunft des Trainingslaufs und trennen diese beiden Einflüsse noch nicht kausal. Experiment 03 prüft alternative Darstellungen und mögliche triviale Erklärungen; Experiment 05 variiert beide Faktoren getrennt."
+      ],
+      "tables": []
+    }
+  ],
+  "figures": [
+    {
+      "pdf": "retrieval_endpoint_matrices.pdf",
+      "title": "Alle Kandidatenränge am Endpunkt",
+      "caption": "Zeilen sind Endnetze, Spalten Initialisierungen. Die rote Diagonale markiert die tatsächliche Herkunft nach der Berechnung. Jeder Diagonaleintrag besitzt Rang 1; es gab keine Bevorzugung dieser Paare im Matching."
+    },
+    {
+      "pdf": "retrieval_over_training.pdf",
+      "title": "Wiedererkennung über alle Checkpoints",
+      "caption": "Mittlerer Rang, Top-1 und MRR zeigen den Verlauf. Die drei Datensatzkurven fallen hier zusammen. Perfekte empirische Wiedererkennung und ein degenerierter Jackknife sind nicht mit Populationsgewissheit gleichzusetzen."
+    },
+    {
+      "pdf": "retrieval_endpoint_ranks.pdf",
+      "title": "Jedes einzelne Endnetz",
+      "caption": "Alle 30 Netzwerke bleiben einzeln sichtbar. Die gestrichelte Linie markiert den erwarteten Rang 5,5 unter zufälliger Herkunftszuordnung."
+    }
+  ],
+  "experiment": "02_Initialization_Retrieval",
+  "provenance": "Alle Zahlen und Figuren stammen aus den neu berechneten eigenen Läufen. Dieser Bericht ergänzt die vorhandenen Dateien; bisherige Checkpoints und Ergebnisdateien werden nicht überschrieben. Tabellen, Konfiguration, Reproduktionscode und Prüfsummen stehen im gleichen Experimentordner. Quellen für diesen Bericht: retrieval_by_dataset.csv, aggregate.csv, per_query_ranks.csv, retrieval_config.json."
+}

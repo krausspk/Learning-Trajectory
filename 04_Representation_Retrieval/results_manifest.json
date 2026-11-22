@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-11-16T11:27:41.696555+00:00",
+  "report": "results.pdf",
+  "report_sha256": "b9327a23085eb88a3a583566e3f55d224b257d7143e08bb55e8dd1457d6a6f79",
+  "pages": 5,
+  "intro_pages": 2,
+  "figure_count": 3,
+  "content_sha256": "34999412d9c02561d6b977305257824d6c0dddbc32adc129e82b254965b5a9c8",
+  "generator": "/home/patrick/projects/Learning-Trajectory/scripts/build_results_pdf.py",
+  "generator_sha256": "28b4fe81879def5a67e8e7a06217467bc4a2bcc7f93a1fab5da27354a8d8a4cf",
+  "figure_sources": [
+    {
+      "source": "representation_endpoint_matrices.pdf",
+      "sha256": "2268dea5793fe7f602a24aa7f1ca22a2f6f65022d9d3cfa3ece0e82f1fa380f2",
+      "report_page": 3
+    },
+    {
+      "source": "representation_over_training.pdf",
+      "sha256": "a6798f3a7b9ec4ffb7985e038cc28b61c69674e1eb8f7bdb7c59659f16613678",
+      "report_page": 4
+    },
+    {
+      "source": "representation_endpoint_comparison.pdf",
+      "sha256": "0d6c29af017c4f28c46b55ba5000422592fa3dfc32115920b393e346c07469d5",
+      "report_page": 5
+    }
+  ],
+  "data_sources": {
+    "retrieval_by_dataset.csv": "95912dcdf585a7d010e87c7351cb7048788f00b9710cc41c4e1627ad42d8e6b5",
+    "aggregate.csv": "02942922761d75056934288a23bb2114dd4f94d480cfa8e32cdf839bdae2b26a",
+    "per_query_ranks.csv": "54243638d5e3ef4c608f0f52241e558e1969572b256586e1db9bb5bc0ed56420",
+    "inference_diagnostics.json": "7e7e2c3afdbeb2fd75af75bd2898583058fcd5fa7b0704ce146add84c4828fe7"
+  },
+  "visual_qa": {
+    "status": "passed",
+    "receipt": "results_qa/receipt.json",
+    "receipt_sha256": "69ee8a719421291a720a0f741325db82e4c4b0cb5c4c1ea8206fc96a2b9d9f46",
+    "report_sha256": "b9327a23085eb88a3a583566e3f55d224b257d7143e08bb55e8dd1457d6a6f79",
+    "pages_inspected": 5,
+    "dpi": 100
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "frozen_source": "/home/patrick/projects/Learning-Trajectory/02_Initialization_Retrieval/code/inference.py",
+  "frozen_source_sha256": "6a78b62661e9b3b7183028f9c7aed3bf4db11e416416296a2d94cccff83bac26",
+  "wrapper": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/code/norm_rank_inference.py",
+  "wrapper_sha256": "39473ec768dbc54ddedc993b16adb177fdd73676bde0b394ec786d7a04f179e1",
+  "base_seed": 2026111900,
+  "interpretive_role": "posthoc_exploratory_norm_rank_control",
+  "reason": "Absolute norm-distance retrieval can have identical candidate ordering for every query after common norm growth; this control compares within-checkpoint norm ranks.",
+  "jackknife": "For each deleted trajectory, rerank current and initial norms separately among the remaining nine networks before forming the 9x9 distance matrix; then rerank candidates and use the frozen chance-corrected jackknife summaries.",
+  "null": "Full-sample label-blind norm-rank distances held fixed; unchanged global bijective candidate-identity permutations.",
+  "adapter_order_check": "Dataset loader records full matrices; each K/T jackknife call must match its expected matrix exactly; all matrices must be consumed once.",
+  "completed_datasets": [
+    {
+      "input": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/norm_rank_controls/data/mnist_retrieval.npz",
+      "n_jackknife_calls": 126
+    },
+    {
+      "input": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/norm_rank_controls/data/fashion_mnist_retrieval.npz",
+      "n_jackknife_calls": 126
+    },
+    {
+      "input": "/home/patrick/projects/Learning-Trajectory/03_Initialization_Controls/norm_rank_controls/data/kmnist_retrieval.npz",
+      "n_jackknife_calls": 126
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "sources": {
+    "data/fashion_mnist_distances.npz": "d763007c170be2a0e78743f79a1f8dd2e76d0dfd5908f7b08205f6c09cbd2607",
+    "data/kmnist_distances.npz": "b267ffef2e152a5cac8201c5aad5a2f8bbdffba40bef995b9c66a997c4ff4bee",
+    "data/mnist_distances.npz": "d45b44877b81832963bab9a03b43197669dc88138e75cc01e7312bfb6f57e73d",
+    "initialization_retrieval.csv": "6c642504e3f7d47f565f0923d29431bbe5de5ac96150845cde3c0cf5af21efed",
+    "shuffle_retrieval.csv": "76d734bcfc9952ef3297a78ef8dbd7b441ab503f263f7688521965ae234c1f08",
+    "initial_trajectory_retrieval.csv": "814ad606c2fe74802d0042af2a52c1119dca77e5ca5476ae9cde6c77da9e3722",
+    "distance_groups.csv": "871a4a57ddaaf063ccc4a3db96da5b8bab245c782e4a30e06e7b0ccfb413b133",
+    "performance_decomposition.csv": "37367606d5b45a342a1f436723339d66ae5678da94ac53bc4a2d7cbde09e850a"
+  },
+  "plotting_source_sha256": "109eb6ddd42bf8f36432cf395087b2d6b7a2151dae2dadefc63023016f70c409",
+  "figure_pairs": 5,
+  "visual_review": {
+    "status": "passed",
+    "receipt": "provenance/visual_qa/receipt.json",
+    "receipt_sha256": "6a26e21d7e8f879af7024c042b9e0a33d91f35b6dd7813d88a0817f24e8f7789"
+  }
+}

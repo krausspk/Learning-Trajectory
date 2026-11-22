@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.ruff_cache/
+
+# Downloaded datasets and large, reproducible model/analysis archives.
+/data/
+*.npz
+*.pt
+checkpoints/
+activations/
+reference_sources/
+
+# Local execution and visual-review products.
+*.log
+results_qa/
+visual_qa/
+*.lock.tmp
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# The public code repository excludes unpublished manuscript/review drafts.
+/final_review.pdf
+/manuscript/*
+!/manuscript/scripts/
+!/manuscript/data/
+!/manuscript/figure/
+!/manuscript/requirements-figures.txt
+
+# Captured publisher web page (the cited paper and bibliographic sources remain).
+/references/article.html

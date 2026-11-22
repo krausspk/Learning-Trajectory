@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "manifest_rows": 2400,
+  "modes": [
+    "reset",
+    "continued"
+  ],
+  "seed_blocks_per_mode": 200,
+  "wall_seconds": 826.1195550629982
+}

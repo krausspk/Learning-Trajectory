@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-16T11:55:44.925340+00:00",
+  "initial_training_exit_code": 143,
+  "completed_manifest_runs_at_exit": 594,
+  "cause": "external SIGTERM, exact sender not known",
+  "recovery": "resume multi_bit cohort using fingerprint-validated complete archives, unchanged training code/config/seeds; one_bit analysis already complete",
+  "analysis_controller": "waiting helper stopped; remaining analysis will be invoked after resumed training completes"
+}

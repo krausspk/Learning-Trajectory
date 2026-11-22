@@ -1,0 +1,9 @@
+{
+  "E0_matches_original_and_all_shuffles": true,
+  "context_fingerprint": "11957b396212ce656b5b0104b852243119cbe9182046ed50f43f27cfc9dd5b05",
+  "expected_runs": 150,
+  "manifest_sha256": "732b0a17c1152db9cfc7b48eb963f6243db8599bb43c56bca154d4f01183d0ef",
+  "passed": true,
+  "same_order_for_equal_shuffle_seed": true,
+  "validated_runs": 150
+}

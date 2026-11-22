@@ -1,0 +1,120 @@
+{
+  "title": "Bleibt die Anfangsgeometrie erhalten?",
+  "subtitle": "Experiment 01: RSA zwischen Initialisierung und trainiertem Gewichtsraum",
+  "finding": "Die Hypothese einer robusten positiven Persistenz der paarweisen Anfangsgeometrie wird über die drei Datensätze nicht bestätigt.",
+  "source_files": [
+    "rsa_by_dataset.csv",
+    "aggregate.csv",
+    "norm_controls.csv",
+    "distance_concentration.csv",
+    "rsa_config.json"
+  ],
+  "sections": [
+    {
+      "title": "Fragestellung und Versuchsgrundlage",
+      "paragraphs": [
+        "Die Analyse fragt, ob zwei anfangs relativ ähnliche Netzwerke auch nach dem Training relativ ähnlich bleiben. Verwendet werden 30 unabhängig initialisierte Netze, zehn pro Datensatz, und 21 gespeicherte Checkpoints bis zum Ende von zehn Epochen. Es wird ausschließlich innerhalb eines Datensatzes verglichen.",
+        "Die primäre Distanz ist die gemeinsame W0/W1-Frobenius-Distanz nach kanonischer positiver ReLU-Gauge und optimaler Hidden-Neuronenpermutation. Spearman-RSA korreliert die 45 Anfangsabstände mit den 45 Abständen desselben Ensembles am jeweiligen Checkpoint."
+      ],
+      "tables": []
+    },
+    {
+      "title": "Primärer Endpunkt",
+      "paragraphs": [
+        "Die gleichgewichtete Fisher-z-Zusammenfassung ergibt zurücktransformiert ρ=0,073, ein 95%-Jackknife-Intervall [-0,235, 0,380] und einseitiges p=0,2535."
+      ],
+      "tables": [
+        {
+          "headers": [
+            "Datensatz",
+            "ρ",
+            "95%-JK-Intervall",
+            "p positiv",
+            "p Holm"
+          ],
+          "rows": [
+            [
+              "MNIST",
+              "0,116",
+              "[-0,568, 0,801]",
+              "0,2935",
+              "0,5869"
+            ],
+            [
+              "Fashion-MNIST",
+              "-0,181",
+              "[-0,573, 0,212]",
+              "0,8401",
+              "0,8401"
+            ],
+            [
+              "KMNIST",
+              "0,276",
+              "[-0,152, 0,705]",
+              "0,0490",
+              "0,1470"
+            ]
+          ],
+          "note": "",
+          "widths": [
+            1.2,
+            0.6,
+            1.8,
+            0.8,
+            0.8
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Statistische Aussage",
+      "paragraphs": [
+        "Die zehn Netzwerke sind die Replikationseinheiten; die 45 Paarwerte sind abhängig. 10.000 simultane Zeilen-/Spaltenpermutationen der Vergleichs-RDM bilden die Nullverteilung. Holm korrigiert die drei primären Datensatztests. Der Netzwerk-Jackknife entfernt jeweils einen Run und sämtliche zugehörigen Paare. E0 ist eine Selbstkorrelationskontrolle ohne inferenziellen Test.",
+        "KMNIST zeigt einen positiven unbereinigten Befund knapp unter p=0,05, der nach Korrektur nicht bestehen bleibt. Die Intervalle sind bei zehn Netzen breit. Die Abwesenheit belastbarer Evidenz ist kein Äquivalenznachweis."
+      ],
+      "tables": []
+    },
+    {
+      "title": "Kontrollen und Interpretation",
+      "paragraphs": [
+        "52 Distanz-, Schicht-, Gauge- und Alignment-Varianten wurden gespeichert. Normierte Gesamtgeometrien liefern nur schwache Anfangs-Ende-Zusammenhänge. Anfangsdistanzen sind stark konzentriert: ihre Streuung liegt deutlich unter einem Prozent des Mittelwerts. Feste Anfangs-/Endzuordnungen und Normkontrollen verändern einzelne Resultate, ohne ein konsistentes Bild über alle Datensätze zu erzeugen.",
+        "Die RSA prüft die Erhaltung von Abstandsverhältnissen zwischen Netzen. Sie prüft nicht, ob die eigene Initialisierung eines einzelnen Endnetzes noch erkennbar ist. Information über frühere Zustände könnte deshalb in anderen Merkmalen erhalten bleiben. Vollständige Trajektorienrekonstruktion oder dynamische Attraktoren werden hier nicht nachgewiesen."
+      ],
+      "tables": []
+    }
+  ],
+  "figures": [
+    {
+      "pdf": "rsa_initial_vs_final.pdf",
+      "title": "Anfangs- gegen Endabstände",
+      "caption": "Jeder Punkt ist ein abhängiges Netzwerkpaar. Die drei Panels zeigen den primären Endpunkt getrennt nach Datensatz; die unterschiedlichen Vorzeichen und breiten Unsicherheiten stützen keine gemeinsame positive Persistenz."
+    },
+    {
+      "pdf": "rsa_over_training.pdf",
+      "title": "RSA über das Training",
+      "caption": "E0 ist per Konstruktion die Selbstkorrelation 1. Danach fallen die Korrelationen ab und entwickeln sich datensatzabhängig. Die Bänder sind punktweise Netzwerk-Jackknife-Intervalle, keine simultanen Konfidenzbänder."
+    },
+    {
+      "pdf": "distance_distributions.pdf",
+      "title": "Konzentration der Abstände",
+      "caption": "Getrennte Achsenskalierungen machen die geringe Streuung der Anfangsabstände sichtbar. Histogramme und Variationskoeffizienten sind deskriptiv; die 45 Werte pro Panel sind keine unabhängigen Stichproben."
+    },
+    {
+      "pdf": "rsa_robustness.pdf",
+      "title": "Schicht- und Metrikrobustheit",
+      "caption": "Die Übersicht enthält die explorativen Endpunktkontrollen. Unterschiedliche Metriken definieren unterschiedliche Geometrien. Cosine und normierte Frobenius-Distanz sind bei gleicher Zuordnung monoton äquivalent und keine unabhängigen Bestätigungen."
+    },
+    {
+      "pdf": "alignment_sensitivity.pdf",
+      "title": "Einfluss der Neuronenzuordnung",
+      "caption": "Bei fixed E0 bzw. fixed E20 wird dieselbe Paarpermutation für beide verglichenen Zeitpunkte verwendet. Die endzustandsbasierte Zuordnung ist eine Sensitivitätskontrolle und kein zusätzlicher unabhängiger Befund."
+    },
+    {
+      "pdf": "norm_controls.pdf",
+      "title": "Kontrolle initialer Gewichtsnormen",
+      "caption": "Die partielle Rangkorrelation kontrolliert Summe und absolute Differenz initialer Paarnormen. Diese Auswertung ist deskriptiv; sie ist unter beliebiger Kovariatenabhängigkeit kein exakter konditionaler Test."
+    }
+  ],
+  "experiment": "01_RSA",
+  "provenance": "Alle Zahlen und Figuren stammen aus den neu berechneten eigenen Läufen. Dieser Bericht ergänzt die vorhandenen Dateien; bisherige Checkpoints und Ergebnisdateien werden nicht überschrieben. Tabellen, Konfiguration, Reproduktionscode und Prüfsummen stehen im gleichen Experimentordner. Quellen für diesen Bericht: rsa_by_dataset.csv, aggregate.csv, norm_controls.csv, distance_concentration.csv, rsa_config.json."
+}

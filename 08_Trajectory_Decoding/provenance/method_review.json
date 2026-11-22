@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-16T11:38:57.341704+00:00",
+  "reviewer": "independent method_review subagent",
+  "analysis_source_sha256": "cd84b5c483211ee29a18dc56a38c5cd93f983045f6ac224970a7c273f3a4e22c",
+  "test_source_sha256": "9e064cb10dbda7b152e8556748f2cf34784c0273dedbbf5d6097978fc0ff487e",
+  "tests": {
+    "passed": 16,
+    "failed": 0,
+    "junit": "provenance/analysis_tests.xml"
+  },
+  "checks": [
+    "seed-disjoint and stratified split",
+    "final-only features independent of earlier weights",
+    "frozen final permutation applied at all times",
+    "hidden-unit reindexing and positive ReLU gauge invariance",
+    "manual MSE MAE variance-weighted R2",
+    "whole-seed bootstrap with repeated blocks",
+    "whole-history-vector swaps within seeds",
+    "Holm adjustment",
+    "synthetic exact linear map holdout generalization",
+    "train-only normalization",
+    "test-target-independent selection",
+    "train-only PCA",
+    "manual rank AUC",
+    "batched permutation null equals serial hyperparameter selection and predictions",
+    "translated early-mean displacement baseline preserves absolute MSE/MAE while R2 can be dominated by final-position variance"
+  ],
+  "findings": [
+    {
+      "finding": "199 permutations cannot attain Holm p<.05 across24 endpoints",
+      "status": "resolved in source:999 permutations"
+    },
+    {
+      "finding": "heterogeneous exploratory target permutation confounds dataset identity",
+      "status": "resolved in source:exploratory p-values omitted"
+    },
+    {
+      "finding": "displacement R2 can be near1 from known minus-final-position component",
+      "status": "resolved in source:mean_early_minus_final baseline added for all target dimensions; exact metric identity tested"
+    }
+  ],
+  "final_review": "No remaining blocking leakage or test-selection issues found. Canonical reference/final permutation, input centering/scaling, target PCA, final-only MLP embedding and target normalization all fit only training data. Validation chooses regularization/stopping; test targets never affect those choices. Absolute reconstruction requires comparison with baseline MSE, and whole-history label permutation tests a global history null rather than isolated bit causality."
+}

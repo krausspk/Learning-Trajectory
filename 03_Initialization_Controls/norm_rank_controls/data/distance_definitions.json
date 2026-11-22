@@ -1,0 +1,80 @@
+{
+  "norm_rank_difference|W0|none|raw": {
+    "metric": "norm_rank_difference",
+    "layer": "W0",
+    "alignment": "none",
+    "gauge": "raw",
+    "formula": "C[t,i,j]=abs(average_rank(norm_current[t,:])[i] - average_rank(norm_initial[0,:])[j])/(n-1)",
+    "calibration": "Separate transductive rank calibration within all current queries and within all initial candidates, independently of their true pairing",
+    "inferential_role": "post_hoc_exploratory",
+    "matching": "none; norm-only costs contain no weight or activation matching",
+    "units": "absolute within-cohort average-rank difference divided by n-1; dimensionless",
+    "candidate_checkpoint": 0,
+    "identity_input_to_cost_function": false
+  },
+  "norm_rank_difference|W1|none|raw": {
+    "metric": "norm_rank_difference",
+    "layer": "W1",
+    "alignment": "none",
+    "gauge": "raw",
+    "formula": "C[t,i,j]=abs(average_rank(norm_current[t,:])[i] - average_rank(norm_initial[0,:])[j])/(n-1)",
+    "calibration": "Separate transductive rank calibration within all current queries and within all initial candidates, independently of their true pairing",
+    "inferential_role": "post_hoc_exploratory",
+    "matching": "none; norm-only costs contain no weight or activation matching",
+    "units": "absolute within-cohort average-rank difference divided by n-1; dimensionless",
+    "candidate_checkpoint": 0,
+    "identity_input_to_cost_function": false
+  },
+  "norm_rank_difference|total|none|raw": {
+    "metric": "norm_rank_difference",
+    "layer": "total",
+    "alignment": "none",
+    "gauge": "raw",
+    "formula": "C[t,i,j]=abs(average_rank(norm_current[t,:])[i] - average_rank(norm_initial[0,:])[j])/(n-1)",
+    "calibration": "Separate transductive rank calibration within all current queries and within all initial candidates, independently of their true pairing",
+    "inferential_role": "post_hoc_exploratory",
+    "matching": "none; norm-only costs contain no weight or activation matching",
+    "units": "absolute within-cohort average-rank difference divided by n-1; dimensionless",
+    "candidate_checkpoint": 0,
+    "identity_input_to_cost_function": false
+  },
+  "norm_rank_difference|W0|none|canonical": {
+    "metric": "norm_rank_difference",
+    "layer": "W0",
+    "alignment": "none",
+    "gauge": "canonical",
+    "formula": "C[t,i,j]=abs(average_rank(norm_current[t,:])[i] - average_rank(norm_initial[0,:])[j])/(n-1)",
+    "calibration": "Separate transductive rank calibration within all current queries and within all initial candidates, independently of their true pairing",
+    "inferential_role": "post_hoc_exploratory",
+    "matching": "none; norm-only costs contain no weight or activation matching",
+    "units": "absolute within-cohort average-rank difference divided by n-1; dimensionless",
+    "candidate_checkpoint": 0,
+    "identity_input_to_cost_function": false
+  },
+  "norm_rank_difference|W1|none|canonical": {
+    "metric": "norm_rank_difference",
+    "layer": "W1",
+    "alignment": "none",
+    "gauge": "canonical",
+    "formula": "C[t,i,j]=abs(average_rank(norm_current[t,:])[i] - average_rank(norm_initial[0,:])[j])/(n-1)",
+    "calibration": "Separate transductive rank calibration within all current queries and within all initial candidates, independently of their true pairing",
+    "inferential_role": "post_hoc_exploratory",
+    "matching": "none; norm-only costs contain no weight or activation matching",
+    "units": "absolute within-cohort average-rank difference divided by n-1; dimensionless",
+    "candidate_checkpoint": 0,
+    "identity_input_to_cost_function": false
+  },
+  "norm_rank_difference|total|none|canonical": {
+    "metric": "norm_rank_difference",
+    "layer": "total",
+    "alignment": "none",
+    "gauge": "canonical",
+    "formula": "C[t,i,j]=abs(average_rank(norm_current[t,:])[i] - average_rank(norm_initial[0,:])[j])/(n-1)",
+    "calibration": "Separate transductive rank calibration within all current queries and within all initial candidates, independently of their true pairing",
+    "inferential_role": "post_hoc_exploratory",
+    "matching": "none; norm-only costs contain no weight or activation matching",
+    "units": "absolute within-cohort average-rank difference divided by n-1; dimensionless",
+    "candidate_checkpoint": 0,
+    "identity_input_to_cost_function": false
+  }
+}

@@ -1,0 +1,2102 @@
+{
+  "conditions": {
+    "reset": {
+      "endpoints": [
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.8798137500000006,
+              0.40856041915893504,
+              19.98822031841921,
+              10.034672274344654,
+              1.3569884889506498,
+              6.714817315977411
+            ],
+            "scale": [
+              0.04536862281288136,
+              0.1249471258332305,
+              0.5927609405840716,
+              0.5281747128956652,
+              0.10306531328540947,
+              0.8619517465084221
+            ]
+          },
+          "endpoint": "reset_W0_C1",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "70b924be485ade2974cf93c3ebb4437358afb9b6cd17a9158d25f2aae7d54f73",
+            "train_rms": 4.265285614428645
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 2.0266774369837037e-14,
+            "n_original_features": 50176,
+            "rank": 239
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "3b3308ffa278f9714b7e4f3b5bb2332d9ef00aa7e743430c81920cbab19928b2",
+              "train_rms": 0.03983483861865284
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "968f12eabc0834f2bb3dacd6f32ace4fb41ea9d4d9574d05612e41068f2f4b8e",
+              "train_rms": 0.3821889078642589
+            }
+          },
+          "permutation_null_mean": 0.4993493493493494,
+          "permutation_null_sd": 0.06109812221462607,
+          "residualization": {
+            "coefficient_sha256": "ecdd06ab757ba2f20896e45b54280fada07002d5d1ac2bb9eaa4c155b1dc30d8",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 5.482299708886411e-08,
+            "iterations": 14,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 7.144086134908828e-08,
+              "iterations": 4,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.5962478557682782
+            },
+            {
+              "gradient_max": 9.620932189813303e-09,
+              "iterations": 9,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.304705993550634
+            },
+            {
+              "gradient_max": 6.202786058092172e-08,
+              "iterations": 12,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.08971912825885012
+            },
+            {
+              "gradient_max": 5.482299708886411e-08,
+              "iterations": 14,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.023076370801778344
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.8798137500000006,
+              0.40856041915893504,
+              19.98822031841921,
+              10.034672274344654,
+              1.3569884889506498,
+              6.714817315977411
+            ],
+            "scale": [
+              0.04536862281288136,
+              0.1249471258332305,
+              0.5927609405840716,
+              0.5281747128956652,
+              0.10306531328540947,
+              0.8619517465084221
+            ]
+          },
+          "endpoint": "reset_W1_C1",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "70b924be485ade2974cf93c3ebb4437358afb9b6cd17a9158d25f2aae7d54f73",
+            "train_rms": 4.265285614428645
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 1.2823075934420558e-14,
+            "n_original_features": 640,
+            "rank": 239
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "3b3308ffa278f9714b7e4f3b5bb2332d9ef00aa7e743430c81920cbab19928b2",
+              "train_rms": 0.03983483861865284
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "968f12eabc0834f2bb3dacd6f32ace4fb41ea9d4d9574d05612e41068f2f4b8e",
+              "train_rms": 0.3821889078642589
+            }
+          },
+          "permutation_null_mean": 0.4985485485485486,
+          "permutation_null_sd": 0.061972385370359755,
+          "residualization": {
+            "coefficient_sha256": "ecdd06ab757ba2f20896e45b54280fada07002d5d1ac2bb9eaa4c155b1dc30d8",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 9.340009352412117e-08,
+            "iterations": 22,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 1.2318455192093097e-08,
+              "iterations": 6,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.5640935473118265
+            },
+            {
+              "gradient_max": 2.959346498323384e-08,
+              "iterations": 9,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.25451885339762803
+            },
+            {
+              "gradient_max": 2.1635590259964053e-07,
+              "iterations": 19,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.06825302401381854
+            },
+            {
+              "gradient_max": 9.340009352412117e-08,
+              "iterations": 22,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.016246239761583937
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.8798137500000006,
+              0.40856041915893504,
+              19.98822031841921,
+              10.034672274344654,
+              1.3569884889506498,
+              6.714817315977411
+            ],
+            "scale": [
+              0.04536862281288136,
+              0.1249471258332305,
+              0.5927609405840716,
+              0.5281747128956652,
+              0.10306531328540947,
+              0.8619517465084221
+            ]
+          },
+          "endpoint": "reset_both_C1",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "70b924be485ade2974cf93c3ebb4437358afb9b6cd17a9158d25f2aae7d54f73",
+            "train_rms": 4.265285614428645
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 1.6327217355893708e-14,
+            "n_original_features": 50816,
+            "rank": 239
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "3b3308ffa278f9714b7e4f3b5bb2332d9ef00aa7e743430c81920cbab19928b2",
+              "train_rms": 0.03983483861865284
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "968f12eabc0834f2bb3dacd6f32ace4fb41ea9d4d9574d05612e41068f2f4b8e",
+              "train_rms": 0.3821889078642589
+            }
+          },
+          "permutation_null_mean": 0.4974474474474474,
+          "permutation_null_sd": 0.06144951649236373,
+          "residualization": {
+            "coefficient_sha256": "ecdd06ab757ba2f20896e45b54280fada07002d5d1ac2bb9eaa4c155b1dc30d8",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 4.906132282486543e-08,
+            "iterations": 20,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 2.7924748227745738e-08,
+              "iterations": 6,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.5793322156824832
+            },
+            {
+              "gradient_max": 2.868312832041142e-09,
+              "iterations": 11,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.27379025218815095
+            },
+            {
+              "gradient_max": 4.30195629683508e-08,
+              "iterations": 21,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.0740598067726013
+            },
+            {
+              "gradient_max": 4.906132282486543e-08,
+              "iterations": 20,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.01726528298634385
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.8798137500000006,
+              0.40856041915893504,
+              19.98822031841921,
+              10.034672274344654,
+              1.3569884889506498,
+              6.714817315977411
+            ],
+            "scale": [
+              0.04536862281288136,
+              0.1249471258332305,
+              0.5927609405840716,
+              0.5281747128956652,
+              0.10306531328540947,
+              0.8619517465084221
+            ]
+          },
+          "endpoint": "reset_diagnostics_C1",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "70b924be485ade2974cf93c3ebb4437358afb9b6cd17a9158d25f2aae7d54f73",
+            "train_rms": 4.265285614428645
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 1.9539925233402755e-14,
+            "n_original_features": 6,
+            "rank": 6
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "3b3308ffa278f9714b7e4f3b5bb2332d9ef00aa7e743430c81920cbab19928b2",
+              "train_rms": 0.03983483861865284
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "968f12eabc0834f2bb3dacd6f32ace4fb41ea9d4d9574d05612e41068f2f4b8e",
+              "train_rms": 0.3821889078642589
+            }
+          },
+          "permutation_null_mean": 0.4978228228228228,
+          "permutation_null_sd": 0.05830040750002505,
+          "residualization": {
+            "coefficient_sha256": "ecdd06ab757ba2f20896e45b54280fada07002d5d1ac2bb9eaa4c155b1dc30d8",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 1.186830689866962e-07,
+            "iterations": 14,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 3.837461791671333e-08,
+              "iterations": 8,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 0.8125,
+              "validation_logloss": 0.532008866454191
+            },
+            {
+              "gradient_max": 4.728148639970842e-08,
+              "iterations": 12,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 0.8375,
+              "validation_logloss": 0.3812376237674269
+            },
+            {
+              "gradient_max": 1.186830689866962e-07,
+              "iterations": 14,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 0.8500000000000001,
+              "validation_logloss": 0.34487934662937947
+            },
+            {
+              "gradient_max": 1.3758447661347227e-07,
+              "iterations": 17,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 0.825,
+              "validation_logloss": 0.3558613020916518
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.8798137500000006,
+              0.40856041915893504,
+              19.98822031841921,
+              10.034672274344654,
+              1.3569884889506498,
+              6.714817315977411
+            ],
+            "scale": [
+              0.04536862281288136,
+              0.1249471258332305,
+              0.5927609405840716,
+              0.5281747128956652,
+              0.10306531328540947,
+              0.8619517465084221
+            ]
+          },
+          "endpoint": "reset_functional_logits_C1",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "70b924be485ade2974cf93c3ebb4437358afb9b6cd17a9158d25f2aae7d54f73",
+            "train_rms": 4.265285614428645
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 3.552713678800501e-15,
+            "n_original_features": 2560,
+            "rank": 239
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "3b3308ffa278f9714b7e4f3b5bb2332d9ef00aa7e743430c81920cbab19928b2",
+              "train_rms": 0.03983483861865284
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "968f12eabc0834f2bb3dacd6f32ace4fb41ea9d4d9574d05612e41068f2f4b8e",
+              "train_rms": 0.3821889078642589
+            }
+          },
+          "permutation_null_mean": 0.5042667667667667,
+          "permutation_null_sd": 0.05982319186759522,
+          "residualization": {
+            "coefficient_sha256": "ecdd06ab757ba2f20896e45b54280fada07002d5d1ac2bb9eaa4c155b1dc30d8",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 8.52943611927661e-08,
+            "iterations": 25,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 4.920739334057789e-08,
+              "iterations": 7,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 0.9875,
+              "validation_logloss": 0.5157192176283103
+            },
+            {
+              "gradient_max": 8.936360704377144e-08,
+              "iterations": 11,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 0.9875,
+              "validation_logloss": 0.23126601696616414
+            },
+            {
+              "gradient_max": 8.52943611927661e-08,
+              "iterations": 25,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 0.9875,
+              "validation_logloss": 0.08530673317090916
+            },
+            {
+              "gradient_max": 5.123886699572597e-08,
+              "iterations": 29,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 0.975,
+              "validation_logloss": 0.045034296062065104
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.8798137500000006,
+              0.40856041915893504,
+              19.98822031841921,
+              10.034672274344654,
+              1.3569884889506498,
+              6.714817315977411
+            ],
+            "scale": [
+              0.04536862281288136,
+              0.1249471258332305,
+              0.5927609405840716,
+              0.5281747128956652,
+              0.10306531328540947,
+              0.8619517465084221
+            ]
+          },
+          "endpoint": "reset_covariate_adjusted_both_C1",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "70b924be485ade2974cf93c3ebb4437358afb9b6cd17a9158d25f2aae7d54f73",
+            "train_rms": 4.265285614428645
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 1.244143676970566e-14,
+            "n_original_features": 50816,
+            "rank": 233
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "3b3308ffa278f9714b7e4f3b5bb2332d9ef00aa7e743430c81920cbab19928b2",
+              "train_rms": 0.03983483861865284
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "968f12eabc0834f2bb3dacd6f32ace4fb41ea9d4d9574d05612e41068f2f4b8e",
+              "train_rms": 0.3821889078642589
+            }
+          },
+          "permutation_null_mean": 0.4981981981981982,
+          "permutation_null_sd": 0.05667113455490579,
+          "residualization": {
+            "coefficient_sha256": "ecdd06ab757ba2f20896e45b54280fada07002d5d1ac2bb9eaa4c155b1dc30d8",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 3.6823513826708676e-08,
+            "iterations": 73,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 9.353023540988742e-09,
+              "iterations": 4,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 0.7875000000000001,
+              "validation_logloss": 0.6704907915448939
+            },
+            {
+              "gradient_max": 1.3745061449785267e-07,
+              "iterations": 10,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 0.7875000000000001,
+              "validation_logloss": 0.5707671980162233
+            },
+            {
+              "gradient_max": 2.3072865018430866e-06,
+              "iterations": 14,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 0.775,
+              "validation_logloss": 0.4538421285302749
+            },
+            {
+              "gradient_max": 3.6823513826708676e-08,
+              "iterations": 73,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 0.8,
+              "validation_logloss": 0.40866077572420034
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.9285450000000003,
+              0.25223147415796926,
+              21.539671332364666,
+              9.827921653981152,
+              1.3123091738438382,
+              6.704569907447461
+            ],
+            "scale": [
+              0.012042593505276731,
+              0.04178127952778294,
+              0.5756420412869786,
+              0.5633441797458364,
+              0.07072967831814864,
+              0.616908671908799
+            ]
+          },
+          "endpoint": "reset_W0_C5",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "a977bc3e182443ba3ef1a05cc8b5a03705bd30e54ea225e8ad49f0ad54cc1dee",
+            "train_rms": 3.3883023862839203
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 1.5154544286133387e-14,
+            "n_original_features": 50176,
+            "rank": 239
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "1027880ed3d3f44dc415cd6fbd02a7b5037ea5a89bd32d5b39588c5483a1335c",
+              "train_rms": 0.0409291672278124
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "d10c11c102516d31bc91dbefc2ee09eed9b56b1e11909781c4ae6adee9acf2be",
+              "train_rms": 0.3840953610371977
+            }
+          },
+          "permutation_null_mean": 0.49979979979979977,
+          "permutation_null_sd": 0.060241955033452095,
+          "residualization": {
+            "coefficient_sha256": "a42f6adeb6d9d0775168275827334a2bd6dc6ec07dba7f3fdfbc0815e36a0c35",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 2.9053649421733642e-08,
+            "iterations": 20,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 4.7742849914808594e-08,
+              "iterations": 6,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.6072933683784465
+            },
+            {
+              "gradient_max": 8.754979047634337e-08,
+              "iterations": 9,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.32539797282541927
+            },
+            {
+              "gradient_max": 4.3584084582701244e-08,
+              "iterations": 19,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.0965544117899291
+            },
+            {
+              "gradient_max": 2.9053649421733642e-08,
+              "iterations": 20,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.023858711253171593
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.9285450000000003,
+              0.25223147415796926,
+              21.539671332364666,
+              9.827921653981152,
+              1.3123091738438382,
+              6.704569907447461
+            ],
+            "scale": [
+              0.012042593505276731,
+              0.04178127952778294,
+              0.5756420412869786,
+              0.5633441797458364,
+              0.07072967831814864,
+              0.616908671908799
+            ]
+          },
+          "endpoint": "reset_W1_C5",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "a977bc3e182443ba3ef1a05cc8b5a03705bd30e54ea225e8ad49f0ad54cc1dee",
+            "train_rms": 3.3883023862839203
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 8.326672684688674e-15,
+            "n_original_features": 640,
+            "rank": 239
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "1027880ed3d3f44dc415cd6fbd02a7b5037ea5a89bd32d5b39588c5483a1335c",
+              "train_rms": 0.0409291672278124
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "d10c11c102516d31bc91dbefc2ee09eed9b56b1e11909781c4ae6adee9acf2be",
+              "train_rms": 0.3840953610371977
+            }
+          },
+          "permutation_null_mean": 0.4986861861861862,
+          "permutation_null_sd": 0.05958109333282529,
+          "residualization": {
+            "coefficient_sha256": "a42f6adeb6d9d0775168275827334a2bd6dc6ec07dba7f3fdfbc0815e36a0c35",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 4.416367914981175e-08,
+            "iterations": 24,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 7.090406037822683e-08,
+              "iterations": 5,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.5805275187488476
+            },
+            {
+              "gradient_max": 4.0194781349882705e-09,
+              "iterations": 9,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.2799444115970902
+            },
+            {
+              "gradient_max": 6.665508716675872e-08,
+              "iterations": 12,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.08074159048093568
+            },
+            {
+              "gradient_max": 4.416367914981175e-08,
+              "iterations": 24,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.020892543487349296
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.9285450000000003,
+              0.25223147415796926,
+              21.539671332364666,
+              9.827921653981152,
+              1.3123091738438382,
+              6.704569907447461
+            ],
+            "scale": [
+              0.012042593505276731,
+              0.04178127952778294,
+              0.5756420412869786,
+              0.5633441797458364,
+              0.07072967831814864,
+              0.616908671908799
+            ]
+          },
+          "endpoint": "reset_both_C5",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "a977bc3e182443ba3ef1a05cc8b5a03705bd30e54ea225e8ad49f0ad54cc1dee",
+            "train_rms": 3.3883023862839203
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 2.095545958979983e-14,
+            "n_original_features": 50816,
+            "rank": 239
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "1027880ed3d3f44dc415cd6fbd02a7b5037ea5a89bd32d5b39588c5483a1335c",
+              "train_rms": 0.0409291672278124
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "d10c11c102516d31bc91dbefc2ee09eed9b56b1e11909781c4ae6adee9acf2be",
+              "train_rms": 0.3840953610371977
+            }
+          },
+          "permutation_null_mean": 0.4965090090090091,
+          "permutation_null_sd": 0.059038780255583304,
+          "residualization": {
+            "coefficient_sha256": "a42f6adeb6d9d0775168275827334a2bd6dc6ec07dba7f3fdfbc0815e36a0c35",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 2.010229231301031e-08,
+            "iterations": 21,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 5.566153218894421e-08,
+              "iterations": 5,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.5933441963992457
+            },
+            {
+              "gradient_max": 6.899486630889545e-09,
+              "iterations": 9,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.2981435994745179
+            },
+            {
+              "gradient_max": 9.671777487767902e-07,
+              "iterations": 16,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.0849828415450786
+            },
+            {
+              "gradient_max": 2.010229231301031e-08,
+              "iterations": 21,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 1.0,
+              "validation_logloss": 0.020576326645745456
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.9285450000000003,
+              0.25223147415796926,
+              21.539671332364666,
+              9.827921653981152,
+              1.3123091738438382,
+              6.704569907447461
+            ],
+            "scale": [
+              0.012042593505276731,
+              0.04178127952778294,
+              0.5756420412869786,
+              0.5633441797458364,
+              0.07072967831814864,
+              0.616908671908799
+            ]
+          },
+          "endpoint": "reset_diagnostics_C5",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "a977bc3e182443ba3ef1a05cc8b5a03705bd30e54ea225e8ad49f0ad54cc1dee",
+            "train_rms": 3.3883023862839203
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 1.9984014443252818e-14,
+            "n_original_features": 6,
+            "rank": 6
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "1027880ed3d3f44dc415cd6fbd02a7b5037ea5a89bd32d5b39588c5483a1335c",
+              "train_rms": 0.0409291672278124
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "d10c11c102516d31bc91dbefc2ee09eed9b56b1e11909781c4ae6adee9acf2be",
+              "train_rms": 0.3840953610371977
+            }
+          },
+          "permutation_null_mean": 0.4987612612612613,
+          "permutation_null_sd": 0.05769775882612709,
+          "residualization": {
+            "coefficient_sha256": "a42f6adeb6d9d0775168275827334a2bd6dc6ec07dba7f3fdfbc0815e36a0c35",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 2.593817158540873e-08,
+            "iterations": 16,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 1.9986558410026167e-07,
+              "iterations": 8,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 0.8500000000000001,
+              "validation_logloss": 0.5141765273768334
+            },
+            {
+              "gradient_max": 9.919154263932084e-08,
+              "iterations": 12,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 0.8625,
+              "validation_logloss": 0.35302575103580014
+            },
+            {
+              "gradient_max": 2.593817158540873e-08,
+              "iterations": 16,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 0.875,
+              "validation_logloss": 0.30591295792768747
+            },
+            {
+              "gradient_max": 7.284324407238248e-08,
+              "iterations": 12,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 0.8625,
+              "validation_logloss": 0.3022012645219389
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.9285450000000003,
+              0.25223147415796926,
+              21.539671332364666,
+              9.827921653981152,
+              1.3123091738438382,
+              6.704569907447461
+            ],
+            "scale": [
+              0.012042593505276731,
+              0.04178127952778294,
+              0.5756420412869786,
+              0.5633441797458364,
+              0.07072967831814864,
+              0.616908671908799
+            ]
+          },
+          "endpoint": "reset_functional_logits_C5",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "a977bc3e182443ba3ef1a05cc8b5a03705bd30e54ea225e8ad49f0ad54cc1dee",
+            "train_rms": 3.3883023862839203
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 6.439293542825908e-15,
+            "n_original_features": 2560,
+            "rank": 239
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "1027880ed3d3f44dc415cd6fbd02a7b5037ea5a89bd32d5b39588c5483a1335c",
+              "train_rms": 0.0409291672278124
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "d10c11c102516d31bc91dbefc2ee09eed9b56b1e11909781c4ae6adee9acf2be",
+              "train_rms": 0.3840953610371977
+            }
+          },
+          "permutation_null_mean": 0.4995245245245245,
+          "permutation_null_sd": 0.055469499546227805,
+          "residualization": {
+            "coefficient_sha256": "a42f6adeb6d9d0775168275827334a2bd6dc6ec07dba7f3fdfbc0815e36a0c35",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 6.903967998813862e-08,
+            "iterations": 41,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 3.211089452670457e-08,
+              "iterations": 7,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 0.9125,
+              "validation_logloss": 0.6100874645783186
+            },
+            {
+              "gradient_max": 6.5812410967106e-08,
+              "iterations": 11,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 0.9,
+              "validation_logloss": 0.40889349305675105
+            },
+            {
+              "gradient_max": 8.333962843529857e-08,
+              "iterations": 22,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 0.925,
+              "validation_logloss": 0.23283701429671164
+            },
+            {
+              "gradient_max": 6.903967998813862e-08,
+              "iterations": 41,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 0.925,
+              "validation_logloss": 0.16154671662614092
+            }
+          ]
+        },
+        {
+          "diagnostic_scaling": {
+            "mean": [
+              0.9285450000000003,
+              0.25223147415796926,
+              21.539671332364666,
+              9.827921653981152,
+              1.3123091738438382,
+              6.704569907447461
+            ],
+            "scale": [
+              0.012042593505276731,
+              0.04178127952778294,
+              0.5756420412869786,
+              0.5633441797458364,
+              0.07072967831814864,
+              0.616908671908799
+            ]
+          },
+          "endpoint": "reset_covariate_adjusted_both_C5",
+          "functional_scale": {
+            "n_features": 2560,
+            "train_mean_sha256": "a977bc3e182443ba3ef1a05cc8b5a03705bd30e54ea225e8ad49f0ad54cc1dee",
+            "train_rms": 3.3883023862839203
+          },
+          "gram": {
+            "gram_reconstruction_max_error": 2.0761170560490427e-14,
+            "n_original_features": 50816,
+            "rank": 233
+          },
+          "layer_scales": {
+            "W0": {
+              "n_features": 50176,
+              "train_mean_sha256": "1027880ed3d3f44dc415cd6fbd02a7b5037ea5a89bd32d5b39588c5483a1335c",
+              "train_rms": 0.0409291672278124
+            },
+            "W1": {
+              "n_features": 640,
+              "train_mean_sha256": "d10c11c102516d31bc91dbefc2ee09eed9b56b1e11909781c4ae6adee9acf2be",
+              "train_rms": 0.3840953610371977
+            }
+          },
+          "permutation_null_mean": 0.4992867867867868,
+          "permutation_null_sd": 0.05570495192461288,
+          "residualization": {
+            "coefficient_sha256": "a42f6adeb6d9d0775168275827334a2bd6dc6ec07dba7f3fdfbc0815e36a0c35",
+            "design_rank": 7
+          },
+          "selected_optimizer": {
+            "gradient_max": 2.105647693576365e-08,
+            "iterations": 11,
+            "success": true
+          },
+          "validation_candidates": [
+            {
+              "gradient_max": 6.987447283973713e-09,
+              "iterations": 4,
+              "lambda": 0.1,
+              "success": true,
+              "validation_ba": 0.825,
+              "validation_logloss": 0.6755372900396486
+            },
+            {
+              "gradient_max": 2.105647693576365e-08,
+              "iterations": 11,
+              "lambda": 0.01,
+              "success": true,
+              "validation_ba": 0.825,
+              "validation_logloss": 0.5948034424298594
+            },
+            {
+              "gradient_max": 1.6207804403797765e-07,
+              "iterations": 15,
+              "lambda": 0.001,
+              "success": true,
+              "validation_ba": 0.8,
+              "validation_logloss": 0.5046841272808799
+            },
+            {
+              "gradient_max": 6.028808649354012e-08,
+              "iterations": 47,
+              "lambda": 0.0001,
+              "success": true,
+              "validation_ba": 0.7875,
+              "validation_logloss": 0.4840433301605726
+            }
+          ]
+        }
+      ],
+      "reference_row_index": 45,
+      "reference_selection": "minimum SHA256 of canonical C10 final weights among training rows; no labels used",
+      "reference_sha256": "026413210b98cc8c20618b49f8dbe422d6e16a608d6a2e432ee436e9f15acf74",
+      "source_files": [
+        {
+          "file": "checkpoints/reset/seed_61001.npz",
+          "seed": 61001,
+          "sha256": "11b98018ac8d1ac24d2b4267d339ecb5e3126b3ef226af62b2ed7c7585a388b2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61002.npz",
+          "seed": 61002,
+          "sha256": "c1bbdda8b17f3e3a8b6992c6a5b7bde59c25bcd2e68a8a9371bd0fd7d1e95e2a"
+        },
+        {
+          "file": "checkpoints/reset/seed_61003.npz",
+          "seed": 61003,
+          "sha256": "c17759274fed82eac73ae7a46190e0cd0b54dd783c72a7c602a4f9d06f410994"
+        },
+        {
+          "file": "checkpoints/reset/seed_61004.npz",
+          "seed": 61004,
+          "sha256": "e89ca1f314b12ba7e2f4a60be4f43dfb91ea36106a3eee4d2ed9bab5fce7d5e0"
+        },
+        {
+          "file": "checkpoints/reset/seed_61005.npz",
+          "seed": 61005,
+          "sha256": "bc8f55d6ef41e5d041fba7ed5350c639173567816192dde362f133c2dd643045"
+        },
+        {
+          "file": "checkpoints/reset/seed_61006.npz",
+          "seed": 61006,
+          "sha256": "30a37377011c2e542b4536d39e44c125848f455710789b8024d7a7a54f9ce84f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61007.npz",
+          "seed": 61007,
+          "sha256": "1f789d7f7e8ed9d2826f2460a7921e5100438dd1a1aa61dc1f6c852299dbf54d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61008.npz",
+          "seed": 61008,
+          "sha256": "a9e3a45187ee8a0826cc8d1653b97f350f0a38c4f0e57a13034db70838745c2d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61009.npz",
+          "seed": 61009,
+          "sha256": "6a3b400bbdef1dcf1f7d69ec876f0c281ad6e62f26c034daaa0b35dbcf32bf16"
+        },
+        {
+          "file": "checkpoints/reset/seed_61010.npz",
+          "seed": 61010,
+          "sha256": "73ce8ffaf2e2001055816339191d1cf56c42985fdac4ab8d2de9f2320ebbed7b"
+        },
+        {
+          "file": "checkpoints/reset/seed_61011.npz",
+          "seed": 61011,
+          "sha256": "e622566d2d21f8cc570e8c57db3ad946998889351ab75332e235f9160fae49c0"
+        },
+        {
+          "file": "checkpoints/reset/seed_61012.npz",
+          "seed": 61012,
+          "sha256": "cb5bf56d792545c3937c94f554b904d8ef446700a0b338fa037b70a445b2bd44"
+        },
+        {
+          "file": "checkpoints/reset/seed_61013.npz",
+          "seed": 61013,
+          "sha256": "d36af6bc5fc811be778749a235d9d2f3ece78c6dc13f03df25c1eae63f08c524"
+        },
+        {
+          "file": "checkpoints/reset/seed_61014.npz",
+          "seed": 61014,
+          "sha256": "c2891a08ae00b98cf7941a41e9263b68d326893c3beb152a7eae9ad19f5ccc52"
+        },
+        {
+          "file": "checkpoints/reset/seed_61015.npz",
+          "seed": 61015,
+          "sha256": "7377257e423eafe08c9a4b503bbb32fc53d8be51f1dce6e0e45e1298f486c9d9"
+        },
+        {
+          "file": "checkpoints/reset/seed_61016.npz",
+          "seed": 61016,
+          "sha256": "b02acde87e3bcd1d8724a5887735e069e9355b2faa44fb80bd6e813be6ba0370"
+        },
+        {
+          "file": "checkpoints/reset/seed_61017.npz",
+          "seed": 61017,
+          "sha256": "0f55c5ff379729ce611d4d32b546b776cb459e137bb58365af66b70b9531f7ea"
+        },
+        {
+          "file": "checkpoints/reset/seed_61018.npz",
+          "seed": 61018,
+          "sha256": "d1f521df71a98887ad6d7010f7ee95af0e9b169894b242b13b0f6934951ea59a"
+        },
+        {
+          "file": "checkpoints/reset/seed_61019.npz",
+          "seed": 61019,
+          "sha256": "bd9738288b11774ae0796fedcbdc766246ba9aa770ec7782ef1758d4796d73f4"
+        },
+        {
+          "file": "checkpoints/reset/seed_61020.npz",
+          "seed": 61020,
+          "sha256": "ebece3894139d6c0257a81058bbc6221eab609a8ff204c39ef3a417ace6c91f9"
+        },
+        {
+          "file": "checkpoints/reset/seed_61021.npz",
+          "seed": 61021,
+          "sha256": "dd13ecae6fca037b30b832ecdba8392414f6370c62cee02ac0be2dc4b613d189"
+        },
+        {
+          "file": "checkpoints/reset/seed_61022.npz",
+          "seed": 61022,
+          "sha256": "3d2d54793bd9367e3cd3b7c10adaa2e2c4c39f45aba7979e8b4c7bcce8c93f94"
+        },
+        {
+          "file": "checkpoints/reset/seed_61023.npz",
+          "seed": 61023,
+          "sha256": "68ea7053362e557f79c915c0f14afaf7d142f194634a272510ad2ed0e5ba437f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61024.npz",
+          "seed": 61024,
+          "sha256": "f2b2e4f01084e2e2d88670ddab94cc3744c9a4a47abfc08b1fc5b223a3c60aba"
+        },
+        {
+          "file": "checkpoints/reset/seed_61025.npz",
+          "seed": 61025,
+          "sha256": "4a15ffb128fb2f89cbfa2bb30b122e956b3fe63250e90ad07601fd5ceb09da7e"
+        },
+        {
+          "file": "checkpoints/reset/seed_61026.npz",
+          "seed": 61026,
+          "sha256": "3099f75f7e0e13db9975a2a68d5de46269ed47b9abd42863a85f4b104331483a"
+        },
+        {
+          "file": "checkpoints/reset/seed_61027.npz",
+          "seed": 61027,
+          "sha256": "4aa9821b2083f472780c3237ed0c62bfa32dcb605846353930164ea942482cf6"
+        },
+        {
+          "file": "checkpoints/reset/seed_61028.npz",
+          "seed": 61028,
+          "sha256": "2955160c4298435f2af7509c835a79952af6afa7172ab0207441bc524e415a34"
+        },
+        {
+          "file": "checkpoints/reset/seed_61029.npz",
+          "seed": 61029,
+          "sha256": "5b7c0ff022da1204eae0e82804db269d23d835201ce6b8504b6b8b80f7268f99"
+        },
+        {
+          "file": "checkpoints/reset/seed_61030.npz",
+          "seed": 61030,
+          "sha256": "b48e10c10ea2584158197c7dcc05dd8f5f305e23b1e629cff9afd5004e5bd612"
+        },
+        {
+          "file": "checkpoints/reset/seed_61031.npz",
+          "seed": 61031,
+          "sha256": "38f82f1a811a8a13054b05bfe8cde56f6ef5bffe3b5c23395b796fc173462593"
+        },
+        {
+          "file": "checkpoints/reset/seed_61032.npz",
+          "seed": 61032,
+          "sha256": "33299e6930809c52c931a2b10a8659ff016e0f16d08d4c8d418421d1b1ff11ff"
+        },
+        {
+          "file": "checkpoints/reset/seed_61033.npz",
+          "seed": 61033,
+          "sha256": "0f0a03f223d2e2ce19465b9dcd32928df09ce0eeb92a70a83efc77178218a5fe"
+        },
+        {
+          "file": "checkpoints/reset/seed_61034.npz",
+          "seed": 61034,
+          "sha256": "c13e4b6ea13c6373a084c81e3b6a8d0dd3525f874e49242982b1ed1ef890a4cb"
+        },
+        {
+          "file": "checkpoints/reset/seed_61035.npz",
+          "seed": 61035,
+          "sha256": "446833a0ae336d12a7cef147e79a5005e331c9b3c8083027f5f1a79f9653d69b"
+        },
+        {
+          "file": "checkpoints/reset/seed_61036.npz",
+          "seed": 61036,
+          "sha256": "0ba4355b725650fb9ac89f2d057ebfff8992d37fcc596fa5b26aa0dfac81f247"
+        },
+        {
+          "file": "checkpoints/reset/seed_61037.npz",
+          "seed": 61037,
+          "sha256": "a239fe9d780a3239749f5266d3c6efcfbdb800e53c08422f4403cc401fb01ccf"
+        },
+        {
+          "file": "checkpoints/reset/seed_61038.npz",
+          "seed": 61038,
+          "sha256": "6a2e1cb7f3578f0a1da5264febf4f407fa20162bf8081479cf0edcc3f2746648"
+        },
+        {
+          "file": "checkpoints/reset/seed_61039.npz",
+          "seed": 61039,
+          "sha256": "c71c9963ab6917b7f5a1c39f786eda440ebdf08e2857a9ab960432ee0da7ba02"
+        },
+        {
+          "file": "checkpoints/reset/seed_61040.npz",
+          "seed": 61040,
+          "sha256": "bcf3a3f83d330a844d4d648b9464351b71063aef13d9a99bc007648eefa11b31"
+        },
+        {
+          "file": "checkpoints/reset/seed_61041.npz",
+          "seed": 61041,
+          "sha256": "396596fa970d81d7cbc9f868ae7d0cd0c18ab849c7129433ec6cb077038b78db"
+        },
+        {
+          "file": "checkpoints/reset/seed_61042.npz",
+          "seed": 61042,
+          "sha256": "ab980b953679c65559e2dde5fda04da173d244bcd9007dff33827c480fe62fa2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61043.npz",
+          "seed": 61043,
+          "sha256": "0c0c4e57470d7a0a099f69e48525482718f3eef73a8870da7832ceb55a327f24"
+        },
+        {
+          "file": "checkpoints/reset/seed_61044.npz",
+          "seed": 61044,
+          "sha256": "3413b1d551cda9808e4e74f19577c35547de67a7317fef3a50d42d8dd416978f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61045.npz",
+          "seed": 61045,
+          "sha256": "0af6c1264071a7c66c3fdd2c64d6b50df544286ddbce50d7d6344466a015bf4f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61046.npz",
+          "seed": 61046,
+          "sha256": "92d032cd1336c4cbbe2ee79b20b73709238d2d1e00744cbf5870b5cfbac88ef6"
+        },
+        {
+          "file": "checkpoints/reset/seed_61047.npz",
+          "seed": 61047,
+          "sha256": "4f89d0fdb739687d836400b2e898df8457c8e21d9b76b41c69649af489df6d86"
+        },
+        {
+          "file": "checkpoints/reset/seed_61048.npz",
+          "seed": 61048,
+          "sha256": "e21a73b6cd6475dda441dba06ba7cec0d05f9f62eeef6686eaab498d76f79392"
+        },
+        {
+          "file": "checkpoints/reset/seed_61049.npz",
+          "seed": 61049,
+          "sha256": "ab28462a1a7034e5badb539e35230a608c9cb677b00c515bac536154e7a6e840"
+        },
+        {
+          "file": "checkpoints/reset/seed_61050.npz",
+          "seed": 61050,
+          "sha256": "740450e70e04563e9fb6cbf59f29b56c427d8c67018dfbd67e77882756bce807"
+        },
+        {
+          "file": "checkpoints/reset/seed_61051.npz",
+          "seed": 61051,
+          "sha256": "13132f779964b7d699160f541eea4a36735ee85bd017c1b9484d3be2e9711dc1"
+        },
+        {
+          "file": "checkpoints/reset/seed_61052.npz",
+          "seed": 61052,
+          "sha256": "90a6caa37fe77046ca88766f61d6356aa872ed667f2b9b0acd8be267fe3e28df"
+        },
+        {
+          "file": "checkpoints/reset/seed_61053.npz",
+          "seed": 61053,
+          "sha256": "e1a7b496f2e5c0eb6d7fd30b33f0fb475cefdf0e9eb09446cabfa389209a1088"
+        },
+        {
+          "file": "checkpoints/reset/seed_61054.npz",
+          "seed": 61054,
+          "sha256": "e4a98f77c21e9ef8367e82516c4d9a1967aa10a437781a974cf54914da8140b6"
+        },
+        {
+          "file": "checkpoints/reset/seed_61055.npz",
+          "seed": 61055,
+          "sha256": "089a87550ab5d9a9414bd59da59041ab36aefe082f31315960c1a25a44315eae"
+        },
+        {
+          "file": "checkpoints/reset/seed_61056.npz",
+          "seed": 61056,
+          "sha256": "5473793b10931787e8616e37d3015a4857c4b9c799e59d6dfad333167ee25f3b"
+        },
+        {
+          "file": "checkpoints/reset/seed_61057.npz",
+          "seed": 61057,
+          "sha256": "f8ea62042e1324452d7b62e5fea3d5179253042c2e2087c98a184548b20bd457"
+        },
+        {
+          "file": "checkpoints/reset/seed_61058.npz",
+          "seed": 61058,
+          "sha256": "56cb8867bf9ad01cb08b5daa7524842e7e80cc22717071c2d3bb00467aa8139e"
+        },
+        {
+          "file": "checkpoints/reset/seed_61059.npz",
+          "seed": 61059,
+          "sha256": "49ae638483696096a4234097a9affff479b15a6c18368f8cb95b9cb5261adc0f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61060.npz",
+          "seed": 61060,
+          "sha256": "d3dcaabeb6c56c0f21c3b6dc8c07378800cd01ea64b0ec2a2dcdd56c92e39eed"
+        },
+        {
+          "file": "checkpoints/reset/seed_61061.npz",
+          "seed": 61061,
+          "sha256": "ffaba5d4ad2ae0c0a16d4fd55573013fc73f7247b2d936864cc15665a04319e6"
+        },
+        {
+          "file": "checkpoints/reset/seed_61062.npz",
+          "seed": 61062,
+          "sha256": "dad6f6f5fc85556d5ff338a8f07eba907cd896419786bb7e54721c099fc822da"
+        },
+        {
+          "file": "checkpoints/reset/seed_61063.npz",
+          "seed": 61063,
+          "sha256": "3838de8a6424c31830765b034d6f22c60c186085669bab453f6687d772ca435a"
+        },
+        {
+          "file": "checkpoints/reset/seed_61064.npz",
+          "seed": 61064,
+          "sha256": "65137d11dbf4a95518ec97d580023e8446f520edf772e737c8ee04cb11bcea5b"
+        },
+        {
+          "file": "checkpoints/reset/seed_61065.npz",
+          "seed": 61065,
+          "sha256": "5658e0c680a683eac5a597745d5b961f9cdce9eed69c277c21bc9f8959e8effc"
+        },
+        {
+          "file": "checkpoints/reset/seed_61066.npz",
+          "seed": 61066,
+          "sha256": "7c0039f469a74e0856ed57a758de79d7177c7cbcbf51a0ae43b4ef1301aae5a8"
+        },
+        {
+          "file": "checkpoints/reset/seed_61067.npz",
+          "seed": 61067,
+          "sha256": "54e6ff102f54a1bbb75e4a23b23e19d230f40186c88bf128c975037d453e2748"
+        },
+        {
+          "file": "checkpoints/reset/seed_61068.npz",
+          "seed": 61068,
+          "sha256": "5fbfd7ffa8b160432ddc0af32ea0c2c7cbc53dcfcfa252409f632f854d3c090d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61069.npz",
+          "seed": 61069,
+          "sha256": "f87602dbc9feeed0d20106d378a28cdca44a9d52a9e95a6d91ead44dfd935c82"
+        },
+        {
+          "file": "checkpoints/reset/seed_61070.npz",
+          "seed": 61070,
+          "sha256": "2932d5723342f26a6521a0cec01e1df754320cae7b4a5e6b1143e9f1c9159dd4"
+        },
+        {
+          "file": "checkpoints/reset/seed_61071.npz",
+          "seed": 61071,
+          "sha256": "20764f14285e43d5b5db10087b7b1baf97640afef5890fab5056fa718af34e41"
+        },
+        {
+          "file": "checkpoints/reset/seed_61072.npz",
+          "seed": 61072,
+          "sha256": "465d50a5be752132a84ec1c83a853054932e3346acf027b8231e6d083d68f2ed"
+        },
+        {
+          "file": "checkpoints/reset/seed_61073.npz",
+          "seed": 61073,
+          "sha256": "846dd2305a4b7a574fd3b0fb1858bc585009556c33d7bef99e4984a6ce5ab075"
+        },
+        {
+          "file": "checkpoints/reset/seed_61074.npz",
+          "seed": 61074,
+          "sha256": "ff31fdc44fa329c606c44e05b6e69a9dd5bfb4f4eb7e8520d6a4c00b395773b0"
+        },
+        {
+          "file": "checkpoints/reset/seed_61075.npz",
+          "seed": 61075,
+          "sha256": "9cca471155e2babf53fc90697bebb1589a51b611a02ac5878babf169e7803506"
+        },
+        {
+          "file": "checkpoints/reset/seed_61076.npz",
+          "seed": 61076,
+          "sha256": "f85225b4ddf23564cee4a3dfb8244383b16e510daca64d8f543fdff7cb323fed"
+        },
+        {
+          "file": "checkpoints/reset/seed_61077.npz",
+          "seed": 61077,
+          "sha256": "e2172571a4d054ddf3ed854e5fc7f5095ca19c66a6a691433917310fc8dcfd95"
+        },
+        {
+          "file": "checkpoints/reset/seed_61078.npz",
+          "seed": 61078,
+          "sha256": "51b40036e5c350e90c88564f4645cb00964c29cc9ba8b5dd9b0d57f76caa0cd4"
+        },
+        {
+          "file": "checkpoints/reset/seed_61079.npz",
+          "seed": 61079,
+          "sha256": "a9aa6da44bd84cf07b7117c82f4e10f9db34029f4d02fa7e4ce9ed8c1799d93c"
+        },
+        {
+          "file": "checkpoints/reset/seed_61080.npz",
+          "seed": 61080,
+          "sha256": "4160810560ca7d1b014e84aeeb44a4701cb0acd147884ac722b03036500e89f0"
+        },
+        {
+          "file": "checkpoints/reset/seed_61081.npz",
+          "seed": 61081,
+          "sha256": "68e7c320ec98c9450b1221a46c2e81d9074467c3f9d758d8b9322f321a9c8277"
+        },
+        {
+          "file": "checkpoints/reset/seed_61082.npz",
+          "seed": 61082,
+          "sha256": "eacc908ac93f84860d33722f2a64ed490c14bacb6669b4dddb3277fed745c762"
+        },
+        {
+          "file": "checkpoints/reset/seed_61083.npz",
+          "seed": 61083,
+          "sha256": "686b551d760c1e9ed38de394650318829042fb216cc13da17d0cd5fc48058745"
+        },
+        {
+          "file": "checkpoints/reset/seed_61084.npz",
+          "seed": 61084,
+          "sha256": "1c77cb3fce0fa8c18078bcaec092ae0602c4b39a34cc03a4d1fadf62e23659b4"
+        },
+        {
+          "file": "checkpoints/reset/seed_61085.npz",
+          "seed": 61085,
+          "sha256": "e84435d566d593eccf606a638aa5d40a2965ef17fd0b7031e6f81115a0c15586"
+        },
+        {
+          "file": "checkpoints/reset/seed_61086.npz",
+          "seed": 61086,
+          "sha256": "8634cdbc1f8f8b081e9b6f8764c62ea9c0a4d8466edbc2f41638a3e8ad13cacb"
+        },
+        {
+          "file": "checkpoints/reset/seed_61087.npz",
+          "seed": 61087,
+          "sha256": "d434bcde1fc34fc5f6a302ef27b64d8c4e3a81ef1047adeda3bcd4859a9c3dbe"
+        },
+        {
+          "file": "checkpoints/reset/seed_61088.npz",
+          "seed": 61088,
+          "sha256": "d62e11210230e31fc2cf6a03fb517fc64b9e15961ecf2fd345fa3a0f5d3cabc8"
+        },
+        {
+          "file": "checkpoints/reset/seed_61089.npz",
+          "seed": 61089,
+          "sha256": "27492896b113ca5a974a4bc9e19ddc41344680485b96a634e32aa41d6b215c71"
+        },
+        {
+          "file": "checkpoints/reset/seed_61090.npz",
+          "seed": 61090,
+          "sha256": "b2a6c0450f163e88f2d28675e62d04b1ddbde77db492c285a5a3041a4118fb86"
+        },
+        {
+          "file": "checkpoints/reset/seed_61091.npz",
+          "seed": 61091,
+          "sha256": "2f5f40cab225fe620feebc433b44ea5b1aeeeb1604399266ff36016a5b431c74"
+        },
+        {
+          "file": "checkpoints/reset/seed_61092.npz",
+          "seed": 61092,
+          "sha256": "f4139196a6e0f3c095d9b87ce7783bc2471c4843c1c723b3e1b0d7780dd0df19"
+        },
+        {
+          "file": "checkpoints/reset/seed_61093.npz",
+          "seed": 61093,
+          "sha256": "94a802448d31266b449136551e0b1a7f4b65ef496a7dc92a4d8294cf80372ae2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61094.npz",
+          "seed": 61094,
+          "sha256": "65d0ed9b9518051c1c004e988baad66bc8879fcb80a70d52363aac0968126939"
+        },
+        {
+          "file": "checkpoints/reset/seed_61095.npz",
+          "seed": 61095,
+          "sha256": "a788939cade22b2b3ab91cb0d1cc0acb23165b7bf2e7091b099d9c82e29b2e58"
+        },
+        {
+          "file": "checkpoints/reset/seed_61096.npz",
+          "seed": 61096,
+          "sha256": "d9f2f13955ba354afac399dd7c132340e0f2e1f8b6151e8962137bdb50887245"
+        },
+        {
+          "file": "checkpoints/reset/seed_61097.npz",
+          "seed": 61097,
+          "sha256": "a0262128d45382624154cbfe8cdb3574e18caba3494ecc2e908397733020e4b8"
+        },
+        {
+          "file": "checkpoints/reset/seed_61098.npz",
+          "seed": 61098,
+          "sha256": "c63a1b465eb47f5d278d979334f093422ee21ae2ad5dbf42593242c6d78eb95f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61099.npz",
+          "seed": 61099,
+          "sha256": "e85c361807104c7cecdf67a1fb34bc0fec08a5201f1d5c41dceb48e54f5e3548"
+        },
+        {
+          "file": "checkpoints/reset/seed_61100.npz",
+          "seed": 61100,
+          "sha256": "5c8f2141cc142e94aeb4cf71f7390cc3ee6cbf0edbe6692d72c10f8a2e59f5c7"
+        },
+        {
+          "file": "checkpoints/reset/seed_61101.npz",
+          "seed": 61101,
+          "sha256": "5be666a32c3ec7cf94f248408738c53b9ac1283b45650584b52ca065edbd29e3"
+        },
+        {
+          "file": "checkpoints/reset/seed_61102.npz",
+          "seed": 61102,
+          "sha256": "371e53e2c451e2854d8c281e0e34ea3a5806e60fbea3fd5f9fea1896a1f81b39"
+        },
+        {
+          "file": "checkpoints/reset/seed_61103.npz",
+          "seed": 61103,
+          "sha256": "ef93a1678e4c811d38f5af81ccbb100cc61a47e51175992b600bc9d823f79411"
+        },
+        {
+          "file": "checkpoints/reset/seed_61104.npz",
+          "seed": 61104,
+          "sha256": "f9425a39b5e7a0a3184bdef5ef46164047c1b15361eef439b1c8a5194b3313e2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61105.npz",
+          "seed": 61105,
+          "sha256": "1efbec4003f5e96b6ed17b486373674975c018bbc3432b5d8180a2cd0b8214ba"
+        },
+        {
+          "file": "checkpoints/reset/seed_61106.npz",
+          "seed": 61106,
+          "sha256": "091ab7e3668c23d2b7ef331b6a51506e22a1b17a3d7c74448f80d3b70c266be3"
+        },
+        {
+          "file": "checkpoints/reset/seed_61107.npz",
+          "seed": 61107,
+          "sha256": "d99b9051b94823999ac11b7188d97ac0ca46b9f8157b3602383c0319f1045bc7"
+        },
+        {
+          "file": "checkpoints/reset/seed_61108.npz",
+          "seed": 61108,
+          "sha256": "f9aa1aaab983d85cd2608e296977bab02bce371940f369441c27cb6f5e187f9c"
+        },
+        {
+          "file": "checkpoints/reset/seed_61109.npz",
+          "seed": 61109,
+          "sha256": "6cf943101677bfc80c149929b98e45455aa1f66ef1fa0dcfa4280531125ba817"
+        },
+        {
+          "file": "checkpoints/reset/seed_61110.npz",
+          "seed": 61110,
+          "sha256": "347c2e684663701d16166c2c57cfb4ac924983e0c3a5e0afe89ed776f30b4207"
+        },
+        {
+          "file": "checkpoints/reset/seed_61111.npz",
+          "seed": 61111,
+          "sha256": "e9a3b3d96a0f3876bcff58cd88024d4ca9e54e6f3004d08ebe45175dfda2ca8b"
+        },
+        {
+          "file": "checkpoints/reset/seed_61112.npz",
+          "seed": 61112,
+          "sha256": "530a356f7d109150f1baa7a9d386a46f871bee5d47b8412d91e82e163375cd8b"
+        },
+        {
+          "file": "checkpoints/reset/seed_61113.npz",
+          "seed": 61113,
+          "sha256": "15d1205adecae6f74a0ff6417434694421504d2d3fb9b9bb1dee9c72bf8e6154"
+        },
+        {
+          "file": "checkpoints/reset/seed_61114.npz",
+          "seed": 61114,
+          "sha256": "75e67cf167ba093db8626d828b7b9deea4929945f8bd5705c2ba46d59d58c6cf"
+        },
+        {
+          "file": "checkpoints/reset/seed_61115.npz",
+          "seed": 61115,
+          "sha256": "ba22fc58dd7c97d1c0460d1e81e1aa2f70a9d81e14cfa422f5458e85d9cf3a03"
+        },
+        {
+          "file": "checkpoints/reset/seed_61116.npz",
+          "seed": 61116,
+          "sha256": "204ddfb86f519b6766acf96289611503cd22802c17f5de62e47149e81a739815"
+        },
+        {
+          "file": "checkpoints/reset/seed_61117.npz",
+          "seed": 61117,
+          "sha256": "9f690256afed8681cd5b0ffb76b97d0673ac23db266f12e52f6872e164064afc"
+        },
+        {
+          "file": "checkpoints/reset/seed_61118.npz",
+          "seed": 61118,
+          "sha256": "7080bd1d706b05759366b0e656a01d7f6651c374462539d5c756599adef010f2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61119.npz",
+          "seed": 61119,
+          "sha256": "77aacd02d03a5fe773c7f0911f79307b9d50bb9fa78b1f49a1a3391f5409b1e9"
+        },
+        {
+          "file": "checkpoints/reset/seed_61120.npz",
+          "seed": 61120,
+          "sha256": "568c0181cfb24e222d0f905a0a867dc26b29d0e221130fd4d1ec744f2b65da3a"
+        },
+        {
+          "file": "checkpoints/reset/seed_61121.npz",
+          "seed": 61121,
+          "sha256": "9cdb9b92a8b907fba21a160311bf175673785795f1b670eac026fd0a4a3ca396"
+        },
+        {
+          "file": "checkpoints/reset/seed_61122.npz",
+          "seed": 61122,
+          "sha256": "99900357fed7566ce28d713832047921abb68513b0238d8c8e91ed5db4f94f3f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61123.npz",
+          "seed": 61123,
+          "sha256": "6865501471159cc463da77c1a4d83235cc0266d7d9c00c445db17197a6669ad2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61124.npz",
+          "seed": 61124,
+          "sha256": "1d383c2deb0146128f9077a100ecc1352d879f0dbca6355e6998ad0f9e03ad95"
+        },
+        {
+          "file": "checkpoints/reset/seed_61125.npz",
+          "seed": 61125,
+          "sha256": "667bea867c0b3b2f238ff689e0849b591aa038e0be8f9d8ef409e0e1e8b03ab2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61126.npz",
+          "seed": 61126,
+          "sha256": "e4550953086a0b478810e8d9cc2fcf5e2ee616cb5f02200c95778430383534dc"
+        },
+        {
+          "file": "checkpoints/reset/seed_61127.npz",
+          "seed": 61127,
+          "sha256": "d553e6a1c716f970cee9bd712f493a47d7e71d935759181a8aaa540f2533bd6d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61128.npz",
+          "seed": 61128,
+          "sha256": "28a8069c3951ecea5ac5ffa599053cb768b61373b19fe8e7b12b753bf46a7078"
+        },
+        {
+          "file": "checkpoints/reset/seed_61129.npz",
+          "seed": 61129,
+          "sha256": "eb76466289056d3cb5814f555c2036799193def03f0b6d19012cece1e6daa3f0"
+        },
+        {
+          "file": "checkpoints/reset/seed_61130.npz",
+          "seed": 61130,
+          "sha256": "b42b9d93d3381e7162dc93ac0861a4530f47014cd1d77ef2bc9f5e20dd4375b2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61131.npz",
+          "seed": 61131,
+          "sha256": "9ee6716021f40425004c02b19a70754132566c94e89cd01c3e340aa0c513f634"
+        },
+        {
+          "file": "checkpoints/reset/seed_61132.npz",
+          "seed": 61132,
+          "sha256": "d89e6643d5214a8a6544f24a526b1ab5bd04dc86e50017689b0eef43921320dd"
+        },
+        {
+          "file": "checkpoints/reset/seed_61133.npz",
+          "seed": 61133,
+          "sha256": "6a640731f899daa628b7e2d64913a6a0a277192d31a3341e010c3ca6d1183db8"
+        },
+        {
+          "file": "checkpoints/reset/seed_61134.npz",
+          "seed": 61134,
+          "sha256": "9edac90d0004bcd30e0a1a3b008c952c11224c47de5ac64d6bb52836af6b852f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61135.npz",
+          "seed": 61135,
+          "sha256": "e4d8a04863d3c352a9f78b0078cc6ba60c6512c7baf3ede643c6eecf59255361"
+        },
+        {
+          "file": "checkpoints/reset/seed_61136.npz",
+          "seed": 61136,
+          "sha256": "168019eec0821dcc5c50238dabf116334cb46ba5387048a0de73630224d0ea69"
+        },
+        {
+          "file": "checkpoints/reset/seed_61137.npz",
+          "seed": 61137,
+          "sha256": "64466d6e974ece8877e2954f3c1734679cc6ff30ab12cd3569d173593adda1cb"
+        },
+        {
+          "file": "checkpoints/reset/seed_61138.npz",
+          "seed": 61138,
+          "sha256": "f4cd8a19e2f0ed9b9e93de01276d49ccbf8ee1ab59a7fb6da8c33c5d61689e3e"
+        },
+        {
+          "file": "checkpoints/reset/seed_61139.npz",
+          "seed": 61139,
+          "sha256": "b00c50bae49b32b2c49f57eb882c5f7dd545643666ecc864abdd97365e510559"
+        },
+        {
+          "file": "checkpoints/reset/seed_61140.npz",
+          "seed": 61140,
+          "sha256": "fd8cf201be96aa28605becedadf6afa7252dc77642c68bc6804f3d47de682ec7"
+        },
+        {
+          "file": "checkpoints/reset/seed_61141.npz",
+          "seed": 61141,
+          "sha256": "48012d7cf1750e6ce689594713f660973ef8c9588c961c505b5c5c31da4223da"
+        },
+        {
+          "file": "checkpoints/reset/seed_61142.npz",
+          "seed": 61142,
+          "sha256": "ef23c6a0aa5b7b2cd6e52fa2f3ebe97e6dba408ae09a4f62f5d0dff1f53985c9"
+        },
+        {
+          "file": "checkpoints/reset/seed_61143.npz",
+          "seed": 61143,
+          "sha256": "0d5d8e5ddfa006863110dda95e424dc69d6eccc3b56d7f22a0c9b82df74aaa0f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61144.npz",
+          "seed": 61144,
+          "sha256": "74c67c0b3fa172b756cbf12e04246d75a090e83cd85d58eab7347d41a7e22cf8"
+        },
+        {
+          "file": "checkpoints/reset/seed_61145.npz",
+          "seed": 61145,
+          "sha256": "af1e3911f68de8cefb40dec7b2ae5777350f9c42456a60b8d82b8a9080444463"
+        },
+        {
+          "file": "checkpoints/reset/seed_61146.npz",
+          "seed": 61146,
+          "sha256": "c8e0e2ef5fd45737cdbdfafcd713c6de0a8e8868e663d2dd4d4ceba4cb012a5a"
+        },
+        {
+          "file": "checkpoints/reset/seed_61147.npz",
+          "seed": 61147,
+          "sha256": "04aea513b40b8852bebba853f3b6a8425753a50a9bb2b9c2e40ba1f3de87cf65"
+        },
+        {
+          "file": "checkpoints/reset/seed_61148.npz",
+          "seed": 61148,
+          "sha256": "816bcbf693955be8511d84aaf73f0b9e087edc11713c3209ec8a2cd80394177d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61149.npz",
+          "seed": 61149,
+          "sha256": "8cac8734625c9fc1587112487fa454a0f03868572a8fa881a4f2dc872cddd08d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61150.npz",
+          "seed": 61150,
+          "sha256": "01dc6f418d4a454dcf3106c69a191a3d8f23339272703151a3974b9f0953ddf3"
+        },
+        {
+          "file": "checkpoints/reset/seed_61151.npz",
+          "seed": 61151,
+          "sha256": "01fc618c84a19e8d7c751442d3c82bc1004b9ca131f4721b238621357b8845e0"
+        },
+        {
+          "file": "checkpoints/reset/seed_61152.npz",
+          "seed": 61152,
+          "sha256": "5ee56c0d8cdd800f5efc5170608d8038dae12a3a66a02644458be13d31a3eb9e"
+        },
+        {
+          "file": "checkpoints/reset/seed_61153.npz",
+          "seed": 61153,
+          "sha256": "c430dea1ec16873eac21138c7694af44f05351e91071ba417eb04f0723a4223f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61154.npz",
+          "seed": 61154,
+          "sha256": "b0f0c35b6fdcf2e3dc75d4468facc0532ebd21f07a4513bab67be85bbd5ef0c4"
+        },
+        {
+          "file": "checkpoints/reset/seed_61155.npz",
+          "seed": 61155,
+          "sha256": "e456b14757bcda70e1e1905f23ba04bc7f0f40e65585ade11e6cb5eed9d75148"
+        },
+        {
+          "file": "checkpoints/reset/seed_61156.npz",
+          "seed": 61156,
+          "sha256": "c90540fee0bf0c8b67dc75e3e85874dc38ab90ad8cfaf69880f762c015de2b7d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61157.npz",
+          "seed": 61157,
+          "sha256": "525e3a7a67ecd4c82aab9f036952cf6647a2afdda286630c66d644653515d4f0"
+        },
+        {
+          "file": "checkpoints/reset/seed_61158.npz",
+          "seed": 61158,
+          "sha256": "95091b261e55f42d7986a46eb03d947181cb3b58fb101a980aec1338902da3bb"
+        },
+        {
+          "file": "checkpoints/reset/seed_61159.npz",
+          "seed": 61159,
+          "sha256": "36d54cc00868d0fd92aed1320ce7eeadc132079b9f312fe4d5be586b1353d374"
+        },
+        {
+          "file": "checkpoints/reset/seed_61160.npz",
+          "seed": 61160,
+          "sha256": "dbef3f02545fc02b07557543a3335898bbf938f23722038865441fbffd7e5c43"
+        },
+        {
+          "file": "checkpoints/reset/seed_61161.npz",
+          "seed": 61161,
+          "sha256": "f05aff921dfe38b173c0dbba22d17025d6621772be867eca85f827873909590c"
+        },
+        {
+          "file": "checkpoints/reset/seed_61162.npz",
+          "seed": 61162,
+          "sha256": "24ab362d3ea199ff312838eb595eb41bfbe7c2583b454f32e2d78631c962134d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61163.npz",
+          "seed": 61163,
+          "sha256": "39719e630df6bfde972fe74af17279e5f4c8f4d39070a4e6e1a1f93c2d9df4b2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61164.npz",
+          "seed": 61164,
+          "sha256": "e9b32e01b568a97cd02b3d26584adb1a58c16ba6532d26b1637176941f4a8a8d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61165.npz",
+          "seed": 61165,
+          "sha256": "458c6a7e4e0ddc5ab9e46f07a24e4c8f12af44ed5997e8996d439e3e16d93b86"
+        },
+        {
+          "file": "checkpoints/reset/seed_61166.npz",
+          "seed": 61166,
+          "sha256": "2b6f23a69cc84db46432fad1636b83e269952ae1712d105291ab5c5c22925abb"
+        },
+        {
+          "file": "checkpoints/reset/seed_61167.npz",
+          "seed": 61167,
+          "sha256": "9aa5027aa6ac516b5ac20148e5cf4e5d497faf351a55320ded7cbc7de12eb0e7"
+        },
+        {
+          "file": "checkpoints/reset/seed_61168.npz",
+          "seed": 61168,
+          "sha256": "6ef5b7ba6023546428ef599b833f590816a09e46caf1322a1eb48de9b01866b5"
+        },
+        {
+          "file": "checkpoints/reset/seed_61169.npz",
+          "seed": 61169,
+          "sha256": "bd94b1435d0a9e3178661f49f8f0c931fa9da2e67db032442c8ceb93d3f1a0b2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61170.npz",
+          "seed": 61170,
+          "sha256": "5a08e411d60bd38559aad356326b172cec84d4a7ca2a96b82fadd3da9618127c"
+        },
+        {
+          "file": "checkpoints/reset/seed_61171.npz",
+          "seed": 61171,
+          "sha256": "97a2a58fcd513036c3c93e528b03384ba1b017a3fe808d3fe1e9de302549cbdc"
+        },
+        {
+          "file": "checkpoints/reset/seed_61172.npz",
+          "seed": 61172,
+          "sha256": "5c04f1fbf21f1326917acb3c2e79b0ba57285f4640604c11a922ae9d88d13841"
+        },
+        {
+          "file": "checkpoints/reset/seed_61173.npz",
+          "seed": 61173,
+          "sha256": "ca24f18797ea1181d706f9f75e256bc97d8c17f7434f7e07958e163140f76900"
+        },
+        {
+          "file": "checkpoints/reset/seed_61174.npz",
+          "seed": 61174,
+          "sha256": "6f32f12e16ce7a854be580dd754ee063d92be30d0d01f72aa388a225b65f87b2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61175.npz",
+          "seed": 61175,
+          "sha256": "92a5181ab28d8a4f2ce10cca4283b410898d719d4400c69e533f87d94aff146f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61176.npz",
+          "seed": 61176,
+          "sha256": "10efa1fb9db2d1402821914317258f416127c732b87257de9715d6421bcd7d57"
+        },
+        {
+          "file": "checkpoints/reset/seed_61177.npz",
+          "seed": 61177,
+          "sha256": "4882ca7711bc5dbf9067dc4cf4e8f5c3450626b29ee444ef7a48583188863c18"
+        },
+        {
+          "file": "checkpoints/reset/seed_61178.npz",
+          "seed": 61178,
+          "sha256": "33b3057608d15f4172ea0e9f2a5e7fb5f8402bd42dddb14f178861eaf1172390"
+        },
+        {
+          "file": "checkpoints/reset/seed_61179.npz",
+          "seed": 61179,
+          "sha256": "870164b012fe52f978b71347c26cf4c3049fdee90bdc81bc1acd05845c612cae"
+        },
+        {
+          "file": "checkpoints/reset/seed_61180.npz",
+          "seed": 61180,
+          "sha256": "103e8c87f4efd16dfb9844dd6bfb24b73142600a8c5ab3540e153fdf5a612404"
+        },
+        {
+          "file": "checkpoints/reset/seed_61181.npz",
+          "seed": 61181,
+          "sha256": "1923dacea6c3d99e8bb8a9bb983f1c86d1f17e968592f97e4fabefb036533d62"
+        },
+        {
+          "file": "checkpoints/reset/seed_61182.npz",
+          "seed": 61182,
+          "sha256": "b3e3428257b6f117ef13d2ca0821b85ab7434f93d856340f5078472c75f7265f"
+        },
+        {
+          "file": "checkpoints/reset/seed_61183.npz",
+          "seed": 61183,
+          "sha256": "bf5d6b30184ca5a2975624dcc4ba4f066c887e393962cd6542cbbe49ab2de3f2"
+        },
+        {
+          "file": "checkpoints/reset/seed_61184.npz",
+          "seed": 61184,
+          "sha256": "152c3cadf4adfe60989797a732ce9ee35a11368c08fb8d285457a395e8932332"
+        },
+        {
+          "file": "checkpoints/reset/seed_61185.npz",
+          "seed": 61185,
+          "sha256": "adcd78c2b7de3e8da850831f5b182b518e079ee09be05c450ec2ad0f0dbde506"
+        },
+        {
+          "file": "checkpoints/reset/seed_61186.npz",
+          "seed": 61186,
+          "sha256": "c97d8b59241e710926cdd22e510c64184f7dd62d7e95c48709771113d7e3b86d"
+        },
+        {
+          "file": "checkpoints/reset/seed_61187.npz",
+          "seed": 61187,
+          "sha256": "e9d52727ef6b7780661028851023e52cd973c4d8fa431508203c888cddac0d64"
+        },
+        {
+          "file": "checkpoints/reset/seed_61188.npz",
+          "seed": 61188,
+          "sha256": "9a45549e8c660b0a7dddd53d5e7ada4406764892d45cbd047d865efc35e97bd3"
+        },
+        {
+          "file": "checkpoints/reset/seed_61189.npz",
+          "seed": 61189,
+          "sha256": "edab7475c0e5117dbf534544003952a50aa73a22416fda09161c817dedc378fb"
+        },
+        {
+          "file": "checkpoints/reset/seed_61190.npz",
+          "seed": 61190,
+          "sha256": "62e05f3352c95e79a9d2e34eddb6b7153d93f5c6862ae6ad333408a30c178932"
+        },
+        {
+          "file": "checkpoints/reset/seed_61191.npz",
+          "seed": 61191,
+          "sha256": "4c560f8dcfc348bd7fefbc1bfdb997358fd4013b0a248243296e05393cd0dc8a"
+        },
+        {
+          "file": "checkpoints/reset/seed_61192.npz",
+          "seed": 61192,
+          "sha256": "ad3161fb5783340af73fa5f8f7e4f0cadd389005b55cae68884f9e808aa24147"
+        },
+        {
+          "file": "checkpoints/reset/seed_61193.npz",
+          "seed": 61193,
+          "sha256": "e7a2f96d0cb8a7452cf12dbc3fdde1091c24a24c8e9dd62a6d9864df7ff94fcf"
+        },
+        {
+          "file": "checkpoints/reset/seed_61194.npz",
+          "seed": 61194,
+          "sha256": "23e08736b80a031483671507836b7b492ebedb1b31efc41d64130742e3b9bc46"
+        },
+        {
+          "file": "checkpoints/reset/seed_61195.npz",
+          "seed": 61195,
+          "sha256": "edaeafd2eae01172d238767f7e8d9356be01a38e6c1b8b663e697f949819f7c4"
+        },
+        {
+          "file": "checkpoints/reset/seed_61196.npz",
+          "seed": 61196,
+          "sha256": "540a31318e2c0293242f6cec757923e569fff13e6b0b6e44361e28e5a328bc04"
+        },
+        {
+          "file": "checkpoints/reset/seed_61197.npz",
+          "seed": 61197,
+          "sha256": "04e90f29709d80333ab8ef2a2aff7481a1a87440af11cdf399d30095e7324fba"
+        },
+        {
+          "file": "checkpoints/reset/seed_61198.npz",
+          "seed": 61198,
+          "sha256": "a64a888cdc11b298d5b24710e3d60f81e2d3ba21073eca206a469ea55cbb1412"
+        },
+        {
+          "file": "checkpoints/reset/seed_61199.npz",
+          "seed": 61199,
+          "sha256": "44894830334d72e24db9d949b330f009ffdf4c7385a2c19661039112deb3fd69"
+        },
+        {
+          "file": "checkpoints/reset/seed_61200.npz",
+          "seed": 61200,
+          "sha256": "50520ec644ee5e3eff53891448bcf407eea9615cd532bac35478e2c470b4b1ce"
+        }
+      ],
+      "symmetry_checks": {
+        "aligned_rows_checked": 1200,
+        "gauge_max_weight_error": 3.1086244689504383e-15,
+        "permutation_max_weight_error": 0.0
+      }
+    }
+  },
+  "settings": {
+    "bootstrap_scope": "test seed pairs conditional on frozen fitted probe",
+    "bootstrap_seed": 7312029,
+    "covariate_adjustment": "train-only OLS residualization of aligned standardized weights against six standardized diagnostics and intercept",
+    "feature_input": "final endpoint weights only; diagnostics/logits explicit secondary baselines",
+    "hyperparameter_selection": "validation BA, then validation logloss, then lambda list order; no refit on validation",
+    "lambdas": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1
+    ],
+    "multiple_testing": "one unadjusted primary; Holm across all 19 secondary endpoints including negative control",
+    "n_bootstrap": 2000,
+    "n_primary_permutations": 999,
+    "n_secondary_permutations": 999,
+    "negative_label_seed": 7312030,
+    "orchestration": {
+      "checkpoint_wait_timeout_seconds": 7200.0,
+      "wait_for_checkpoints": true
+    },
+    "permutation_method": "independent within-pair swaps across all train/validation/test blocks, complete refit and validation lambda reselection",
+    "permutation_seed": 7312028,
+    "plan_sha256": "9bce80761d096c6a4b6c76f020307a74cd0f7028ae9ba0b80b603d0d3393705e",
+    "primary": "reset/both/C10/balanced_accuracy",
+    "probe_source_sha256": "48138fcc47946a9175876270c4245ec00faa00201aca4c2a16fb89f9e2f21bce",
+    "split_sha256": "2015a6dbdcd80817352d81e606eb178331fd8b7deefc4740069793981010c05e"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "dataset_manifest_sha256": "c8c5882f1fe9efc254c013582152eb1f84e139cf0f9604cb4882cbe001fb8f38",
+  "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee",
+  "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+  "training_source_sha256": "f4f9696f584390476bc058d80b64ee3d76e249409b3100588ea664bef0aac32e"
+}

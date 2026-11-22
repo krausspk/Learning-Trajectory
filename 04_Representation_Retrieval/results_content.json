@@ -1,0 +1,96 @@
+{
+  "title": "Ist die Herkunft in den Repräsentationen erkennbar?",
+  "subtitle": "Experiment 04: Initialisierungs-Retrieval anhand von Aktivierungen und CKA",
+  "finding": "Die CKA-basierten Repräsentationsvergleiche liefern keinen konsistenten Nachweis einer Wiedererkennung der eigenen Anfangsrepräsentation.",
+  "source_files": [
+    "retrieval_by_dataset.csv",
+    "aggregate.csv",
+    "per_query_ranks.csv",
+    "inference_diagnostics.json"
+  ],
+  "sections": [
+    {
+      "title": "Fragestellung und Messung",
+      "paragraphs": [
+        "Anfangs- und aktuelle Netze sehen exakt dieselben 3.000 festgelegten Testbilder des bereits gespeicherten Probes. Für jedes aktuelle Netz werden seine Repräsentationen mit den zehn Anfangsrepräsentationen desselben Datensatzes verglichen. Die Kosten sind 1 minus zentrierte lineare CKA. Es wird keine Neuronenpermutation optimiert.",
+        "Primär werden die unveränderten Hidden-Aktivierungen verwendet. Vorab festgelegte Ergänzungen sind standardisierte Hidden-Features und die Ausgangslogits. Die Standardisierung entfernt pro Feature positive Skaleneffekte; konstante Features werden nach Zentrierung auf null gesetzt. CKA vergleicht Repräsentationsähnlichkeit und misst nicht unmittelbar Klassifikationsgenauigkeit."
+      ],
+      "tables": []
+    },
+    {
+      "title": "Primäres Ergebnis bei E20",
+      "paragraphs": [],
+      "tables": [
+        {
+          "headers": [
+            "Datensatz",
+            "Mittlerer Rang",
+            "Top-1",
+            "p",
+            "p Holm"
+          ],
+          "rows": [
+            [
+              "MNIST",
+              "5,50",
+              "0 %",
+              "0,5417",
+              "1,0000"
+            ],
+            [
+              "Fashion-MNIST",
+              "4,80",
+              "10 %",
+              "0,0754",
+              "0,2262"
+            ],
+            [
+              "KMNIST",
+              "5,90",
+              "10 %",
+              "0,8453",
+              "1,0000"
+            ]
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "Statistische Evidenz",
+      "paragraphs": [
+        "Über die Datensätze ergibt sich mittlerer Rang 5,400, 95%-Jackknife-Intervall [4,761, 6,039], einseitiges p=0,3669 und Top-1=6,7 %. Zufällig sind Rang 5,5 und 10 % Top-1 zu erwarten.",
+        "Wie in Experiment02 werden 10.000 globale bijektive Herkunftslabel-Permutationen je Datensatz gerechnet, mit Holm-Korrektur nur für die drei primären Hidden-CKA-Endpunkte. Der Jackknife entfernt ganze Netzwerkidentitäten samt Anfangskandidaten. Standardisierte Hidden-CKA und Logit-CKA sind explorative Robustheitsanalysen."
+      ],
+      "tables": []
+    },
+    {
+      "title": "Einordnung gegenüber den Gewichtsanalysen",
+      "paragraphs": [
+        "Gewichte können eine wiedererkennbare Herkunft tragen, während die hier verwendeten Repräsentationsvergleiche keinen zuverlässigen Anfangs-Fingerprint zeigen. Das ist kein Beweis, dass sämtliche historische Information funktional bedeutungslos ist. Geprüft wird nur Wiedererkennung unter diesen drei Repräsentationsmaßen auf diesem Probe.",
+        "Ein negativer Anfangs-Ende-CKA-Test schließt auch nicht aus, dass dieselbe Initialisierung bei verschiedenen Batch-Reihenfolgen ähnliche Endrepräsentationen erzeugt. Genau diese andere Frage wird im gekreuzten Experiment05 zusätzlich untersucht. Die ältere Kohorte selbst trennt Initialisierung und Batch-Reihenfolge weiterhin nicht.",
+        "Methodenreferenz: Kornblith et al. (2019), Similarity of Neural Network Representations Revisited, ICML/PMLR97, https://proceedings.mlr.press/v97/kornblith19a.html."
+      ],
+      "tables": []
+    }
+  ],
+  "figures": [
+    {
+      "pdf": "representation_endpoint_matrices.pdf",
+      "title": "Kandidatenränge der Hidden-CKA",
+      "caption": "Die echte Herkunft liegt unter den CKA-Rängen am Endpunkt nicht konsistent auf der Diagonale vorn. Alle Query/Kandidaten-Kombinationen sehen denselben Probe und werden identisch verglichen."
+    },
+    {
+      "pdf": "representation_over_training.pdf",
+      "title": "Repräsentations-Retrieval über das Training",
+      "caption": "Die drei Panels vergleichen rohe Hidden-Aktivierungen, standardisierte Hidden-Features und Logits. E0 ist eine Selbstvergleichskontrolle. Die spätere Identifikation wird auf Run-Ebene getestet."
+    },
+    {
+      "pdf": "representation_endpoint_comparison.pdf",
+      "title": "Vergleich der drei Repräsentationsmaße",
+      "caption": "Diese Übersicht trennt den vorab festgelegten primären Hidden-CKA-Test von den beiden ergänzenden Maßen. Die zehn Netze pro Datensatz begrenzen die Präzision; kein positives Einzelresultat ersetzt den primären Test."
+    }
+  ],
+  "experiment": "04_Representation_Retrieval",
+  "provenance": "Alle Zahlen und Figuren stammen aus den neu berechneten eigenen Läufen. Dieser Bericht ergänzt die vorhandenen Dateien; bisherige Checkpoints und Ergebnisdateien werden nicht überschrieben. Tabellen, Konfiguration, Reproduktionscode und Prüfsummen stehen im gleichen Experimentordner. Quellen für diesen Bericht: retrieval_by_dataset.csv, aggregate.csv, per_query_ranks.csv, inference_diagnostics.json."
+}

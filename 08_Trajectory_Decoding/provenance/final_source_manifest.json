@@ -1,0 +1,57 @@
+{
+  "utc": "2026-11-16T12:16:01.830963+00:00",
+  "files": [
+    {
+      "path": "code/analyze.py",
+      "sha256": "cd84b5c483211ee29a18dc56a38c5cd93f983045f6ac224970a7c273f3a4e22c",
+      "bytes": 24734
+    },
+    {
+      "path": "code/audit_outputs.py",
+      "sha256": "05d3bdcf647272d648617837c1acafbd7660579fc44b7ce48b2a20d095b897fa",
+      "bytes": 5044
+    },
+    {
+      "path": "code/diagnose_feasibility.py",
+      "sha256": "2117c9ddb7bfc55d00f99a83cb1564372a33f3eeb4e55c5e11d7ae1c90df02b8",
+      "bytes": 16387
+    },
+    {
+      "path": "code/finish_when_ready.py",
+      "sha256": "dc86857f6816f991a4282777ed9f892736c0008ac5ae7b2fad8c01cb6516aa59",
+      "bytes": 872
+    },
+    {
+      "path": "code/reporting.py",
+      "sha256": "14883c09c136d13ca6b1bde48915ea8c4efe5a8dc80e6baf4797ed6e95ff3121",
+      "bytes": 49137
+    },
+    {
+      "path": "code/train_cohorts.py",
+      "sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+      "bytes": 15929
+    },
+    {
+      "path": "code/validate_results.py",
+      "sha256": "c2dcce458e8bdc997149465959a9b9c04b84f41cb10db7cb34bdf7b848da73a2",
+      "bytes": 19416
+    },
+    {
+      "path": "run_all.sh",
+      "sha256": "e3ab1e84dc88a3d9e71dcef727ae79e0a5570ec6bf4f4f76fe7ab505f26e9977",
+      "bytes": 1000
+    },
+    {
+      "path": "analysis_plan.json",
+      "sha256": "e40d9b981bdf561e0a23436fdae934900c43f2634314ca21dbba1535d23f703a",
+      "bytes": 3914
+    },
+    {
+      "path": "training_plan.json",
+      "sha256": "aaecb8c28fb30c25ae195119713bfaee31782a9cc00d89b946ad5084b169a3c9",
+      "bytes": 1287
+    }
+  ],
+  "snapshot": "provenance/final_source_snapshot",
+  "note": "Final reporting and output-audit additions; core training and analysis source fingerprints unchanged."
+}

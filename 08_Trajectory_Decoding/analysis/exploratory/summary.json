@@ -1,0 +1,31 @@
+{
+  "final_feature_early_perturbation_error": 0.0,
+  "renumbering_error": 0.0,
+  "reference_run_id": "F1",
+  "cohort": "exploratory",
+  "runs": 30,
+  "independent_seeds": 30,
+  "split_runs": {
+    "train": 18,
+    "validation": 6,
+    "test": 6
+  },
+  "split_seeds": {
+    "train": 18,
+    "validation": 6,
+    "test": 6
+  },
+  "final_C_accuracy_mean": 0.9002366666666666,
+  "final_C_accuracy_range": [
+    0.8573,
+    0.9731
+  ],
+  "final_C_loss_mean": 0.42986135767618805,
+  "source_sha256": "cd84b5c483211ee29a18dc56a38c5cd93f983045f6ac224970a7c273f3a4e22c",
+  "target_pca_explained_variance": {
+    "8": 0.5867676734924316,
+    "16": 0.8897212147712708,
+    "32": 0.962100625038147
+  },
+  "elapsed_seconds": 25.546649836998768
+}

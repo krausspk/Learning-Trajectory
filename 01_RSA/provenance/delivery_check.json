@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "rsa_rows": 3276,
+  "figure_pairs_png_pdf": 6,
+  "all_local_gallery_links_exist": true,
+  "original_files_unchanged": true,
+  "original_files_checked": 509,
+  "new_tests_passed": 11,
+  "optional_early_cohort_included": false,
+  "visual_qa_receipt": "provenance/visual_qa/receipt.json"
+}

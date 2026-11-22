@@ -1,0 +1,652 @@
+{
+  "utc": "2026-11-16T11:54:11.923200+00:00",
+  "cohort": "multi_bit",
+  "posthoc_descriptive_only": true,
+  "excluded_from_probe_features": true,
+  "protocol_or_training_changed": false,
+  "selection": "fixed existing snapshot run IDs",
+  "selection_csv": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/provenance/multi_bit_feasibility_snapshot.csv",
+  "selection_sha256": "93d762e1ea2e2397ba2affbeab45bcd61889847a60bd2b4af952333b816dfcf9",
+  "runs": 66,
+  "complete_seed_pairs": 32,
+  "split_information_available": false,
+  "config": {
+    "batch_size": 256,
+    "blocks": 200,
+    "c_epochs": 5,
+    "hidden_width": 64,
+    "learning_rate": 0.1,
+    "momentum": 0.9,
+    "test_batch_size": 2048,
+    "threads": 1,
+    "window_epochs": 1
+  },
+  "sample_dead_definition": "exactly zero ReLU activation on each of the fixed1024 test images; not proof of global neuron death",
+  "C_accuracy": {
+    "count": 66,
+    "mean": 0.27521666666666667,
+    "std": 0.20282928068344597,
+    "min": 0.0925,
+    "q25": 0.1028,
+    "median": 0.19619999999999999,
+    "q75": 0.349375,
+    "max": 0.8405
+  },
+  "C_loss": {
+    "count": 66,
+    "mean": 1.8167481916023025,
+    "std": 0.4578855551192711,
+    "min": 0.5027980224609375,
+    "q25": 1.5908034118652346,
+    "median": 1.9998216796875,
+    "q75": 2.0851305175781247,
+    "max": 2.3046974609375
+  },
+  "posthoc_descriptive_accuracy_counts": {
+    "below_0.5": 57,
+    "below_0.8": 64,
+    "below_0.9": 66,
+    "below_0.95": 66
+  },
+  "final_sample_dead_units": {
+    "count": 66,
+    "mean": 61.31818181818182,
+    "std": 1.865963070861313,
+    "min": 57.0,
+    "q25": 60.25,
+    "median": 61.0,
+    "q75": 63.0,
+    "max": 64.0
+  },
+  "before_C_sample_dead_units": {
+    "count": 66,
+    "mean": 60.84848484848485,
+    "std": 2.268462198477362,
+    "min": 54.0,
+    "q25": 59.0,
+    "median": 61.0,
+    "q75": 62.75,
+    "max": 64.0
+  },
+  "paired_accuracy_absolute_gap": {
+    "count": 32,
+    "mean": 0.153575,
+    "std": 0.14973144992543883,
+    "min": 0.0,
+    "q25": 0.03262500000000001,
+    "median": 0.09584999999999999,
+    "q75": 0.245775,
+    "max": 0.5446
+  },
+  "paired_loss_absolute_gap": {
+    "count": 32,
+    "mean": 0.36563354091644285,
+    "std": 0.2931207437550189,
+    "min": 0.00031162109375015845,
+    "q25": 0.20552200317382807,
+    "median": 0.2609330200195312,
+    "q75": 0.46897958984375,
+    "max": 1.1472564331054689
+  },
+  "spearman_sample_inactivity_vs_accuracy": -0.7555934861709187,
+  "descriptive_counts_not_preregistered_exclusion_rules": true,
+  "interpretation": "Assess common-final-performance feasibility without removing runs, retuning training or changing probes. High sample inactivity is descriptive, not causal proof. Unequal or failed C learning limits clean retention claims.",
+  "source_provenance": {
+    "script": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/code/diagnose_feasibility.py",
+    "script_sha256": "2117c9ddb7bfc55d00f99a83cb1564372a33f3eeb4e55c5e11d7ae1c90df02b8",
+    "manifest": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/trajectory_run_manifest.csv",
+    "manifest_sha256": "1ac899678c55d9199f5a4b036e34c0a224676674de32cfb083d644d2449f0b66",
+    "training_plan_sha256": "aaecb8c28fb30c25ae195119713bfaee31782a9cc00d89b946ad5084b169a3c9",
+    "splits": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/trajectory_probe_splits.json",
+    "splits_sha256": "0c4f3004fc3057157bce416be89a9d0a5d42ab003b3f3ef050538e8dde323513",
+    "original_data_module_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee",
+    "dataset_manifest_sha256": "c8c5882f1fe9efc254c013582152eb1f84e139cf0f9604cb4882cbe001fb8f38",
+    "test_image_path": "/home/patrick/projects/Learning-Trajectory/data/mnist/t10k-images-idx3-ubyte",
+    "test_image_sha256": "0fa7898d509279e482958e8ce81c8e77db3f2f8254e26661ceb7762c4d494ce7",
+    "normalization": [
+      0.1307,
+      0.3081
+    ],
+    "sample_indices": "0..1023 inclusive",
+    "sample_indices_dtype": "little-endian int64",
+    "sample_indices_sha256": "2f88e9ce00d238e7e011a7b140b413dcad818f1da41a721f914f1af604d0e217",
+    "normalized_images_shape": [
+      1024,
+      784
+    ],
+    "normalized_images_dtype": "little-endian float32",
+    "normalized_images_sha256": "34766b707fe18201fc7bbda055365c155263136c747f126bc3eb641ad9466834",
+    "numpy_version": "1.23.5",
+    "checkpoint_sources": [
+      {
+        "run_id": "multi_bit_s20000_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20000_h0.npz",
+        "sha256": "340e3fee5612733fb708e8ac460fa8e9fd792c2c524506486a988c6713162903",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20000_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20000_h1.npz",
+        "sha256": "49f59f14ef3bb214fbba2f6f5ea9e6821abf3bf85c9f67d61e50c62c27f26655",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20001_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20001_h0.npz",
+        "sha256": "deba3ceac1d579ce1e3da6278b563412fa63ce235e6717e6c9dbc46da8d13a1f",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20001_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20001_h1.npz",
+        "sha256": "472bbac9ebccfe8f21a516def284cbb4b2f87ed76484f1285622711714f18627",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20002_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20002_h0.npz",
+        "sha256": "6eea72c1e1da66bb8243283ddb81689c8bceec1e7aea451b196e1abadab3f36b",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20002_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20002_h1.npz",
+        "sha256": "bf9d597284ef1582e5975e5a912bd70b84d25fb7c227b11ae224307b12c69a38",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20003_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20003_h0.npz",
+        "sha256": "1dded417d5f1128eeac5f709b2b64872360a055373766d6a864934bd824a9c22",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20003_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20003_h1.npz",
+        "sha256": "4b3fa2f035c9cd526f5a17e093a3d87e08a2134e4098ddccdc7c9e3a60e854f4",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20004_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20004_h0.npz",
+        "sha256": "109f61f161a3406cec367391cbb476a360825359385639b5c7a1b1580fca3f94",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20004_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20004_h1.npz",
+        "sha256": "e290a1c75d8610608d9c4fa6bbb75ec92855ef8e5806aa1721a6630a456f47f6",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20005_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20005_h0.npz",
+        "sha256": "496d826ac60bdd06523adeb33607a3a079cf1835eb30dacfd85977b042acd435",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20005_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20005_h1.npz",
+        "sha256": "858c58a1a573e947238a54796a556eb315a374e9ea1c4ca1e67aeab0576cc2c0",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20006_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20006_h0.npz",
+        "sha256": "30876a678656f3ed39ca6936a6974da7e343caa07e77ba50bd8be7c395a96831",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20006_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20006_h1.npz",
+        "sha256": "b6b78a508da259680995a0d8cc7f299fbb0a737e4a470e3d70b1f744bf05aaaf",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20007_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20007_h0.npz",
+        "sha256": "7df0d629b6b1bbfcc5b4b76cacb462f693e8df99c4893160b98ce7621a0c9dab",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20007_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20007_h1.npz",
+        "sha256": "63fb22967be859675f4ff60c87781904c0ec6a685422be0df83e093d0c816f4a",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20008_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20008_h0.npz",
+        "sha256": "05e03581067f275518de8ac86f1427e05b035ee96925bdcf1f337107a416bd32",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20008_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20008_h1.npz",
+        "sha256": "bead21ba39062f974531f96ca49b19c173068188c991813bb32a9d2f57b22a5e",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20009_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20009_h0.npz",
+        "sha256": "769efde0be9a8c88fce7a586d04e3635568dab6cbfb7c762878f17903a4af9d4",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20009_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20009_h1.npz",
+        "sha256": "80007d75ff38365631a5c8a078fbf414eb65992ecb68d5f2f763e8c728a04143",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20010_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20010_h0.npz",
+        "sha256": "aaa20e1172c7bd7b1ba2f6c61169653a0dff4e4cbff37bb4febad472c55d1cd4",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20010_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20010_h1.npz",
+        "sha256": "2fb757696421a8e91a1e227d244bec25859bc1688664694d9c98d537d7f4eb35",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20011_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20011_h0.npz",
+        "sha256": "21953f8d2b92d274e2509282be73cb200eaf0090b5d3dd646a3f570b59e4895f",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20011_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20011_h1.npz",
+        "sha256": "c32a331d3a1789aad9fd6eb2d41ae601a93b02ae9d553a05a4ab5f00794018fc",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20012_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20012_h0.npz",
+        "sha256": "f6122255f2e173d3dbe782be4b18532bc4aab2b424261b7e618d7c5dfecfa1ef",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20012_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20012_h1.npz",
+        "sha256": "bbbcaf502b972c18d53a86d792e356548dd87c18687c3305b2bf26dab85c7958",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20013_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20013_h0.npz",
+        "sha256": "f7fac0bfb2a3b3e0c7f003c6bb04fbeb677e61ab3b6fee647b52dada44e38c81",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20013_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20013_h1.npz",
+        "sha256": "bb7a6dd5417834cb243e1c34c50049c36ccee147ca761400ba7eec786b20cec0",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20014_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20014_h0.npz",
+        "sha256": "67eaec625a98bbb432e65aea44d2d1037c5689e0021d988c378e5e0e587ee588",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20014_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20014_h1.npz",
+        "sha256": "441d07b238ffebae4d514080900d1bde50a0d223e3badd0690081a2c94093fc1",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20015_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20015_h0.npz",
+        "sha256": "da6bb1eef2cd75a8f4be77cfa0466e3fc3740887aeffb138378290035ac04e9f",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20015_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20015_h1.npz",
+        "sha256": "7973932a9e39a28e0c5374ab05fe578032c072ca6be9d2ae064198a390e5db6f",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20016_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20016_h0.npz",
+        "sha256": "72371b5cf71bba0192b71441ac903ebcbb9064025529cabf0c1d5387051444cd",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20016_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20016_h1.npz",
+        "sha256": "8a4571676fae968fcc2611039fa95c2c3e787cd89f82d7760522c1ae5325348a",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20017_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20017_h0.npz",
+        "sha256": "4c8d485e8b871f1e13656d8da02e0028b958b6070218444e7e739bcd837d09c3",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20017_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20017_h1.npz",
+        "sha256": "a2c6d94ec09050da1051f7302341ecc0fd6d362a124d54ebceb6bb5560488933",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20018_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20018_h0.npz",
+        "sha256": "9060fc411dd7d9c0609bc18945fac2be9d64d1c9d16d488694fbae220367c1de",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20018_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20018_h1.npz",
+        "sha256": "7d83a927437ee3cd31d765e4a6c25bdf70db99bbc757ca114156885e87a66854",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20019_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20019_h0.npz",
+        "sha256": "4b827653377e0348e358955ec230c9f5f7a0197988cd04befaa2921b34d78231",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20019_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20019_h1.npz",
+        "sha256": "947d099424fc88d4eda99131faed610c46727e5cc3b6e946c4ea698e3946c5a6",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20020_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20020_h0.npz",
+        "sha256": "f158263e3be3c722c9cd06315fe8f38574081eaacc52e5fa3cafdda44fb1024b",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20020_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20020_h1.npz",
+        "sha256": "35c8a29089883ced365c336e737964a4edc15ea5defaaa11d3326e344b120214",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20021_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20021_h0.npz",
+        "sha256": "6c4f7f295f91fefa6fac6890ed57e5339424f69eb0dce3eb381bc168157756fb",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20021_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20021_h1.npz",
+        "sha256": "ebac350eef04d3c467ee8f1bdce3b50525935d88ef140dbd4f439cf9c716d29d",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20022_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20022_h0.npz",
+        "sha256": "24572dbdf80df51777fc29bf003f34ca0033b2768cfd8dd7b1a915dbe27f41e3",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20022_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20022_h1.npz",
+        "sha256": "e11c90f056dce12beba180303d1af3a76e62bf6c5cc65fb81c2dcf18bc80ba5d",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20023_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20023_h0.npz",
+        "sha256": "68a70f8692771eddf32e4dda256aaecbc64b8015d0f548ea554da9295d8abee8",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20023_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20023_h1.npz",
+        "sha256": "fb2e17fd5b59b170f09edb05c12be40949cb14f0e3fdfabd01ac11623c91f8bc",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20024_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20024_h0.npz",
+        "sha256": "d961282381fee7410589f55180cf4cc9ee3e35681b7057c525753a5c93480d80",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20024_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20024_h1.npz",
+        "sha256": "7d5f7507561d24e175cd20e2f81b35af5bb52adcb86341dbbca352a417051944",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20025_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20025_h0.npz",
+        "sha256": "fc744fee90d838de3609545e77f2898ace876c603c24d2601e3e48679f022baa",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20025_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20025_h1.npz",
+        "sha256": "e0cc01f519ef7318c57217e3ff819a67756a15c9fc48094aed2c4ae3ff4bb4fa",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20026_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20026_h0.npz",
+        "sha256": "957421bcdab54bd177383bcbf7d8a0eda70991df61f0703e1aefeaf760bed7c2",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20026_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20026_h1.npz",
+        "sha256": "f162d39629eed910df538f86e989c286f21891cde5825ab5f4866c4daf49d214",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20027_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20027_h0.npz",
+        "sha256": "6f68f90b29f97aebdce7627d2ebb2e17a0633cd7bdcb017b96ac8592a2f3703e",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20027_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20027_h1.npz",
+        "sha256": "10094e839032a1da87999ab72bfb7f75c0c007623c13687f0bbd0963dd25ab80",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20028_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20028_h0.npz",
+        "sha256": "e1a6e3eb8ca6d5b35787d9af0d5db3ce5465843dbae1af5ca3993a6e13eff4af",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20028_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20028_h1.npz",
+        "sha256": "a1be253e9e6c889b206a4d417125d954422eb79920ae490301238b6859155799",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20029_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20029_h0.npz",
+        "sha256": "cb61ff045f09dc4057ac4fe5a4216d3fd955caa4b5700007b61d03c04d256b81",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20029_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20029_h1.npz",
+        "sha256": "b498fea3712df376cd82a66cff03ac23860c9db3e6be9a4e3bfb4f5a9f335139",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20030_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20030_h0.npz",
+        "sha256": "bce282f4158fe461bfba2a135ab14cb82112e7c9ad14c67452fce37af20d74c3",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20030_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20030_h1.npz",
+        "sha256": "32dd8e6d0d0f21add659c496e123eb9b656d6deb1d687460835dc7be7b7c1b2b",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20031_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20031_h0.npz",
+        "sha256": "dc0d258ec6e3d4d51054a36227145a90000c7fc048cf86d31526d8e87bc783df",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20031_h1",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20031_h1.npz",
+        "sha256": "6e1d687504f8175e178e75a63813abad1b67ee462323c53da0145fcdfa26cced",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20032_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20032_h0.npz",
+        "sha256": "684290028a3af2882dc22e944f16f96b77fbbdb891e390672d133e31dbbce3c6",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      },
+      {
+        "run_id": "multi_bit_s20033_h0",
+        "path": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/checkpoints/multi_bit/multi_bit_s20033_h0.npz",
+        "sha256": "5271d40dceb3ee7a5f53c3f8e152413aa1553e4925959d8b0c6b8809801d78fd",
+        "training_source_sha256": "8e47724072134ccefeb81c458cbc926b94f75d222e5a8492104eb3231503072c",
+        "shared_training_source_sha256": "a2fd52e1ad081ed3c20f1a1791a0cc077c7eb9df12e61fe0ef97b30d86c5de06",
+        "shared_data_source_sha256": "17e28d3a24f163a4db3c812208140b1285cc7c958b3400efcd7e982a60c281ee"
+      }
+    ]
+  },
+  "separate_pair_success_intervals": "/home/patrick/projects/Learning-Trajectory/08_Trajectory_Decoding/provenance/multi_bit_feasibility_validation_pair_success_intervals.csv"
+}

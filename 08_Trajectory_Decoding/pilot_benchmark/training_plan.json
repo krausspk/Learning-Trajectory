@@ -1,0 +1,46 @@
+{
+  "architecture": [
+    784,
+    64,
+    10
+  ],
+  "biases": "zero and frozen",
+  "checkpoint": "0, ceil(batches/2) and end of every epoch; accuracy/loss always evaluated on C",
+  "checkpoint_momentum_semantics": "stored after update, before any following phase reset",
+  "config": {
+    "batch_size": 256,
+    "blocks": 200,
+    "c_epochs": 5,
+    "hidden_width": 64,
+    "learning_rate": 0.1,
+    "momentum": 0.9,
+    "test_batch_size": 2048,
+    "threads": 1,
+    "window_epochs": 1
+  },
+  "cpu_deterministic": true,
+  "dataset": "mnist",
+  "early_stopping": false,
+  "label_offsets": {
+    "A": 0,
+    "B": 1,
+    "C": 3
+  },
+  "momentum": "reset at each A/B window boundary and start of C; preserve within C",
+  "multi_bit_rng": "numpy.default_rng(810000 + init_seed).integers(0,2,size=4); arm 1 complements arm 0",
+  "numpy": "1.23.5",
+  "paired_controls": "same initialization and global-epoch image order in both arms",
+  "python": "3.11.18",
+  "sample_sizes": {
+    "test": 10000,
+    "training": 60000
+  },
+  "seed_bases": {
+    "multi_bit": 20000,
+    "one_bit": 10000
+  },
+  "shuffle_rng": "torch.Generator().manual_seed(5000000 + init_seed * 100 + zero_based_epoch)",
+  "torch": "2.8.0+cpu",
+  "training_dtype": "float32",
+  "version": "trajectory-decoding-training-v1"
+}

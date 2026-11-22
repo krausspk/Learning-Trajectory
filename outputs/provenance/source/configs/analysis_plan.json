@@ -1,0 +1,18 @@
+{
+  "source_doi": "10.3389/fcogn.2026.1960468",
+  "status": "specified before reproduction computations",
+  "primary_endpoint": "main E20 between-minus-within canonical Alpha balanced, direct canonical profile Hungarian assignment",
+  "alpha": 2,
+  "main_runs_per_dataset": 10,
+  "main_checkpoints": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+  "cka_checkpoints": [0,1,2,5,10,20],
+  "task_checkpoints": [0,1,2,5,10,20],
+  "early_updates": [0,1,2,4,8,16,32,48,64,96,128,160,192,235,352,470],
+  "uncertainty": "dataset-stratified delete-one-complete-run jackknife; paired-seed-block jackknife for task cohort",
+  "interval": "estimate +/- 1.959963984540054 * jackknife standard error",
+  "early_onset": "first post-initialization sampled update with entire pointwise 95% contrast interval > 0; no multiplicity adjustment, as in paper",
+  "functional_progress": "mean over datasets of (accuracy(s)-accuracy(0))/(accuracy(470)-accuracy(0)); first checkpoint >= 0.9",
+  "gauge_envelopes": [1,1.25,1.5,2,4,8],
+  "validation": ["logit-preserving permutations", "positive ReLU gauge invariance", "independent direct metric and CKA calculations", "run archive shapes and finiteness", "pair counts", "deterministic renumbering stability"],
+  "comparison_policy": "Published values are references only and are never substituted for recomputed measurements. Numerical differences and unidentifiable protocol choices are reported. Exact replay requires original code/checkpoints."
+}

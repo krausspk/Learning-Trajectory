@@ -1,0 +1,19 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "folder": ".",
+      "variants": 42,
+      "all_endpoint_ranks_independently_match": true,
+      "max_rank_error": 0.0,
+      "all_control_tests_exploratory": true
+    },
+    {
+      "folder": "norm_rank_controls",
+      "variants": 6,
+      "all_endpoint_ranks_independently_match": true,
+      "max_rank_error": 0.0,
+      "all_control_tests_exploratory": true
+    }
+  ]
+}

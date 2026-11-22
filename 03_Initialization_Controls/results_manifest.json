@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-11-16T11:27:41.313409+00:00",
+  "report": "results.pdf",
+  "report_sha256": "7002f0989ea3445b29218cc0bf11e9f0e93d0f1c74d954178cd87f1d990eef5b",
+  "pages": 6,
+  "intro_pages": 2,
+  "figure_count": 4,
+  "content_sha256": "48afe8d7484f8bde46b0899f3aa61bc767a30bb6de2697e858debb6461edc086",
+  "generator": "/home/patrick/projects/Learning-Trajectory/scripts/build_results_pdf.py",
+  "generator_sha256": "28b4fe81879def5a67e8e7a06217467bc4a2bcc7f93a1fab5da27354a8d8a4cf",
+  "figure_sources": [
+    {
+      "source": "control_endpoint_summary.pdf",
+      "sha256": "753fcea1239cd96bc7e17d24310b27bf2633f9504bd0d77c5a9477d6215a83db",
+      "report_page": 3
+    },
+    {
+      "source": "control_trajectories.pdf",
+      "sha256": "2658e39675d7118562280fd344906f3406585ed841e384192df3f4849c414404",
+      "report_page": 4
+    },
+    {
+      "source": "layer_activity_controls.pdf",
+      "sha256": "6eae175302faeba16473409efea8b3672d8fc6527614612a7a4a42aef45f4da8",
+      "report_page": 5
+    },
+    {
+      "source": "residual_and_change_controls.pdf",
+      "sha256": "5aa084193dfc2596ec34cce6f94a376609705a22582731fe5150a88c84bf1fa6",
+      "report_page": 6
+    }
+  ],
+  "data_sources": {
+    "retrieval_by_dataset.csv": "be5012ddab01ed59761b3b1b29582c6069b94cdf16d3cff17916c38818e01788",
+    "norm_rank_controls/retrieval_by_dataset.csv": "a7139bebaeabbc24ec203d848126e8a4dd468439234644a94b4362086b9fecce",
+    "norm_rank_controls/aggregate.csv": "8bde9f7ae8ac6c6500618b70bec7c6f4dc66380a2d998003322eec7ab79020a8",
+    "data/historical_weight_changes_descriptive.csv": "a838e6beba17d3b70d8558bfec64f34bc1616238222d39fef6b101c30afdc4e2",
+    "data/query_mask_counts.csv": "fc8cf8bc2953b8dc68c70ae6bdb35ca065b6fb357c536228f99902bb09c03a0d",
+    "retrieval_config.json": "20ae1cd83521af9bc1fb65811a771c25107e59914538806fedbd68f6cae18550"
+  },
+  "visual_qa": {
+    "status": "passed",
+    "receipt": "results_qa/receipt.json",
+    "receipt_sha256": "1ed92612585bc9ada8ef1afc47ad6ef459c3d6694f06585e18cd7a44daf11397",
+    "report_sha256": "7002f0989ea3445b29218cc0bf11e9f0e93d0f1c74d954178cd87f1d990eef5b",
+    "pages_inspected": 6,
+    "dpi": 100
+  }
+}

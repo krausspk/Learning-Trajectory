@@ -1,0 +1,130 @@
+{
+  "post_hoc": true,
+  "primary_results_modified": false,
+  "purpose": "Diagnose how alignment conventions change early canonical Alpha while holding all newly trained weights fixed.",
+  "trigger": "The primary direct-profile update-4 contrast differed materially from the reported early-training value; this check was designed after seeing that discrepancy.",
+  "inference_limit": "Sensitivity to assignment is not evidence of an error in the publication or proof of which unpublished implementation was used. No parameters or seeds were selected to fit reported values.",
+  "cohort": "early",
+  "independent_runs": 15,
+  "runs_per_dataset": 5,
+  "checkpoints": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    48,
+    64,
+    96,
+    128,
+    160,
+    192,
+    235,
+    352,
+    470
+  ],
+  "unordered_pairs_per_checkpoint": 105,
+  "methods": [
+    "canonical_alpha",
+    "benchmark",
+    "git_rebasin"
+  ],
+  "method_definitions": {
+    "canonical_alpha": "Direct Hungarian assignment of canonical incoming-plus-outgoing Alpha profiles; unchanged primary definition.",
+    "benchmark": "Choose coarse canonical-PIF or direct canonical-Alpha profile assignment by minimum size-weighted canonical Alpha; evaluate balanced canonical Alpha.",
+    "git_rebasin": "Maximize raw whole-network Frobenius inner product by exact Hungarian assignment; evaluate balanced canonical Alpha."
+  },
+  "evaluation": "Canonically gauged layer-balanced Alpha (exponent=2) for every method, at every checkpoint.",
+  "uncertainty": "Dataset-stratified delete-one-complete-run jackknife, normal pointwise 95% intervals; never treat pairs as independent replicates.",
+  "onset_rule": "First saved post-initialization checkpoint whose complete 95% contrast interval is above zero.",
+  "onset_by_method": {
+    "canonical_alpha": 2,
+    "benchmark": 2,
+    "git_rebasin": 4
+  },
+  "update4_contrasts": {
+    "canonical_alpha": {
+      "estimate": 0.01625191638100637,
+      "se": 0.0009208982316409194,
+      "ci_low": 0.014446992682919435,
+      "ci_high": 0.018056840079093306
+    },
+    "benchmark": {
+      "estimate": 0.12596012644095644,
+      "se": 0.015847413663604,
+      "ci_low": 0.09489982955683915,
+      "ci_high": 0.15702042332507374
+    },
+    "git_rebasin": {
+      "estimate": 0.02051072870043008,
+      "se": 0.0016782918854065648,
+      "ci_low": 0.01722134373670863,
+      "ci_high": 0.02380011366415153
+    }
+  },
+  "published_update4_reference": {
+    "estimate": 0.1322,
+    "ci_low": 0.1072,
+    "ci_high": 0.1571,
+    "source": "Main paper section 3.9 / Figure 6; Supplement S7, page13",
+    "role": "Comparison only; not an optimization or acceptance target"
+  },
+  "direct_recomputation": {
+    "pairs_checked": 1680,
+    "max_absolute_error": 4.996003610813204e-16,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  "permutation_array_axes": [
+    "checkpoint",
+    "unordered_pair",
+    "method",
+    "hidden_neuron"
+  ],
+  "files": {
+    "pairs": "early_alignment_pairs.csv",
+    "estimates": "early_alignment_estimates.csv",
+    "jackknife": "early_alignment_jackknife.csv",
+    "permutations": "early_alignment_permutations.npz",
+    "direct_checks": "direct_recomputation_checks.csv"
+  },
+  "input_and_source_sha256": {
+    "outputs/checkpoints/early/F1.npz": "75546546d42024d60d379395ad8a7f02cf39003a9b068a090d3ee031457323f4",
+    "outputs/checkpoints/early/F2.npz": "899e81eb9a3e68cbedb75255d6ab6b2f882825769fd8ea03d183f4d6c1eaba79",
+    "outputs/checkpoints/early/F3.npz": "b5afbdb5175b09df6f78cb19de017799889e65c889c457d74e0368637cb6a875",
+    "outputs/checkpoints/early/F4.npz": "bfbfecbe73ac795dd5b55e5b123067b3e1f1a7212fa59e78d9f7c6c47d0aa8fe",
+    "outputs/checkpoints/early/F5.npz": "0eb9da02ec95044e5857586ee828f13f94ee2998d3fe0bc97a291a6d4c5819a0",
+    "outputs/checkpoints/early/K1.npz": "6875cb4da61af7cbf79c71865e6e0e9f6e8a307e47b827ba52cf997bf735a2da",
+    "outputs/checkpoints/early/K2.npz": "e3c2a5955d6de9dc06ed7b2aa8d0afd56072f4a48f52848ece0a3dcba3f0e5d7",
+    "outputs/checkpoints/early/K3.npz": "745a92c8c8c9cfcca23abbac6d053a6f9a60f741dec9d8d83877a3957b32b01d",
+    "outputs/checkpoints/early/K4.npz": "635543e217062344bd7cf41f999b8152e6cc748f2d187ee213af1992dab55a68",
+    "outputs/checkpoints/early/K5.npz": "599595c418cd4139e51dd0341732d846f5193f2b1e5484b380993677b148710c",
+    "outputs/checkpoints/early/M1.npz": "68854e61d5eeb050dc7a4d85aacbad69060ef43446a410aa5a7c7143ebce9c4e",
+    "outputs/checkpoints/early/M2.npz": "c8866b02dfb87a57875464bebd117257c4fd74b342dfcb17fb7bf41901d25bb6",
+    "outputs/checkpoints/early/M3.npz": "7d7b2c2e1329d9635852762e2ab8b1647a9fc615354dda0476aba54f051b3757",
+    "outputs/checkpoints/early/M4.npz": "da3e44252d6334fb2db54d4cf042d52ae3915b985ef5f6fb7393be90ed405aed",
+    "outputs/checkpoints/early/M5.npz": "d0f4ea71239401c9c69ac95ca04d247469951ef8a9f532d07d0c93f976dc6ebc",
+    "outputs/pairs/early/checkpoint_0000.csv": "8f3b0a2db575bd0437e985a3dbe4ef1cedac58fe1ca182bf110e0709a461e134",
+    "outputs/pairs/early/checkpoint_0001.csv": "a0f4c5ea11d0e8a18c4ba94e1bfa52dc5bd8ac0aadb5e360cc7c9b2c752a3c0c",
+    "outputs/pairs/early/checkpoint_0002.csv": "190846f63168a8d9a4b5a21a624af2bb83dc96c12ee98a6e75d4a5ca202d0994",
+    "outputs/pairs/early/checkpoint_0004.csv": "e766d939711cc0edda19f0e871ad911f15a3591da4bc76d220f4dde929f153d5",
+    "outputs/pairs/early/checkpoint_0008.csv": "e7df44c7e1c76945f62c2c38b6a8076790e515f3169943f2e8a67c69dfbfba68",
+    "outputs/pairs/early/checkpoint_0016.csv": "d22505d353583d39fb1f748a0af1efbe26b5bbaddece3b318995235a0cda04e7",
+    "outputs/pairs/early/checkpoint_0032.csv": "e37c2d87d9f467ae00e4a6e62b4ca72fcb36cb60bfb98c35db01fc70db8fc5d5",
+    "outputs/pairs/early/checkpoint_0048.csv": "16dbff572fdd6a8e0cd21941cfb9280eaaa95f8ed602ca1201200e9229dbb800",
+    "outputs/pairs/early/checkpoint_0064.csv": "a4eeb21a8a2b9a6aef363b8626842489113161f697f452b322b3b47972330f81",
+    "outputs/pairs/early/checkpoint_0096.csv": "0b428d1489a4f9100880df27655aa258cdeb146e7ac5a2ddbde06fa38174aeea",
+    "outputs/pairs/early/checkpoint_0128.csv": "f851403bd0f852d886b4aa53296fcdacb1ce7ad2caa5df2c0bc9edc398e96413",
+    "outputs/pairs/early/checkpoint_0160.csv": "a60e4f30f1737b2aac52be526ce0c1d7c958519adc79a5a0d8bd708f736ac03d",
+    "outputs/pairs/early/checkpoint_0192.csv": "5bc34953393da71660d2bba6b25a5bf51a26face3c8e49a581d6a261bc898348",
+    "outputs/pairs/early/checkpoint_0235.csv": "3e47f5bbdcbcc659c2876d62fa66d4670d846a3d7fe11f9cb35ef45b98d344d5",
+    "outputs/pairs/early/checkpoint_0352.csv": "b8cbfc74e8a75041436869dabf076060463526382c7b00f6df31e35f2e07b19b",
+    "outputs/pairs/early/checkpoint_0470.csv": "d557119d9e47cf12d1caa9a6a7603ac489074d25215939e170ca2a19f31cc88a",
+    "/home/patrick/projects/Learning-Trajectory/src/learning_trajectory/sensitivity.py": "b8f7013a5960811e874b7a6277aba53f84f191c9f4fd66c78f2ef1b43b8759fd",
+    "/home/patrick/projects/Learning-Trajectory/src/learning_trajectory/metrics.py": "c14505dcdfabdc006fb982d8d7f4dd18d17538845ad658146944851cb3eb4be7",
+    "/home/patrick/projects/Learning-Trajectory/src/learning_trajectory/statistics.py": "0e22a58eb370327e43f473f71b804d112f78c98d324e80622e6e8f1c2dc67070"
+  },
+  "fingerprint": "9d23620a8d82564e0c9f2cc2cb1f049ff9c44641f040c78898db24650ba57cfa"
+}

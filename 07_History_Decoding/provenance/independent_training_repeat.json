@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "seed": 61001,
+  "scope": "Independent full paired-history repeat: timing benchmark versus amended-plan main run; training protocol identical",
+  "checks": {
+    "initial_W0": true,
+    "initial_W1": true,
+    "W0": true,
+    "W1": true,
+    "accuracy": true,
+    "loss": true,
+    "diagnostics": true,
+    "logits": true
+  }
+}

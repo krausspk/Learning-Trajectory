@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "regression_rows": 2106,
+  "event_rows": 40,
+  "primary_timepoint_metrics_independently_recomputed": 60,
+  "linear_event_metrics_and_permutation_p_recomputed": 30,
+  "test_only_examples": true,
+  "endpoint_excluded": true,
+  "baseline_translation_identity": true,
+  "holm_recomputed": true,
+  "analysis_freeze_hash_unchanged": true,
+  "numeric_tolerance_note": "float32 saved trajectory predictions versus float64 CSV scoring: rtol2e-5/atol2e-6",
+  "audit_source_sha256": "05d3bdcf647272d648617837c1acafbd7660579fc44b7ce48b2a20d095b897fa"
+}

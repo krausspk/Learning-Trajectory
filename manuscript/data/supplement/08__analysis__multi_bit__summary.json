@@ -1,0 +1,31 @@
+{
+  "final_feature_early_perturbation_error": 0.0,
+  "renumbering_error": 0.0,
+  "reference_run_id": "multi_bit_s20000_h0",
+  "cohort": "multi_bit",
+  "runs": 400,
+  "independent_seeds": 200,
+  "split_runs": {
+    "train": 240,
+    "validation": 80,
+    "test": 80
+  },
+  "split_seeds": {
+    "train": 120,
+    "validation": 40,
+    "test": 40
+  },
+  "final_C_accuracy_mean": 0.2988785,
+  "final_C_accuracy_range": [
+    0.0924,
+    0.8625
+  ],
+  "final_C_loss_mean": 1.7602644636383056,
+  "source_sha256": "cd84b5c483211ee29a18dc56a38c5cd93f983045f6ac224970a7c273f3a4e22c",
+  "target_pca_explained_variance": {
+    "8": 0.2833351194858551,
+    "16": 0.3308868408203125,
+    "32": 0.39845192432403564
+  },
+  "elapsed_seconds": 146.87564434800152
+}

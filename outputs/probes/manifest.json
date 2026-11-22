@@ -1,0 +1,29 @@
+{
+  "dataset_order": [
+    "mnist",
+    "fashion_mnist",
+    "kmnist"
+  ],
+  "main": {
+    "matrix_sha256": "53d37ce6f228398f811fe923ad73171898172aa980992cc2a09a75f6c28142d1",
+    "path": "outputs/probes/main.npz",
+    "sha256": "82f8b9c6a39198281dfdf5b42468b1cd9ef3d5e3999ba881cf10aaf45982ae02",
+    "shape": [
+      3000,
+      784
+    ]
+  },
+  "main_selection": "100 without replacement per nominal class per dataset, concatenated dataset then class",
+  "rng": "numpy.random.RandomState (MT19937)",
+  "seed": 5052026,
+  "task": {
+    "matrix_sha256": "23d0ff0a51673347f8f5f84650337c1e9d3d0ca7c29dffb7311008fcf79413f7",
+    "path": "outputs/probes/task.npz",
+    "sha256": "4ca95b3b9f7c2f838c8dee6f2cfa2ca51cd7bd26013bca7db26440d5fbf01d21",
+    "shape": [
+      2000,
+      784
+    ]
+  },
+  "task_selection": "first 200 per digit in official MNIST test IDX order, concatenated by digit"
+}

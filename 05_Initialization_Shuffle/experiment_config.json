@@ -1,0 +1,320 @@
+{
+  "version": "1.0.0",
+  "experiment": "05_Initialization_Shuffle",
+  "completed_utc": "2026-11-16T11:50:37.705166+00:00",
+  "analysis_plan": {
+    "created_utc": "2026-11-16T11:19:30.746072+00:00",
+    "source_manifest": "outputs/manifests/main.json",
+    "datasets": [
+      "mnist",
+      "fashion_mnist",
+      "kmnist"
+    ],
+    "checkpoints": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "runs_per_dataset": 10,
+    "n_permutations": 10000,
+    "previous_files_read_only": true,
+    "experiment": 5,
+    "design": "complete factorial initialization x minibatch order within each dataset",
+    "initializations": {
+      "mnist": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "fashion_mnist": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210
+      ],
+      "kmnist": [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310
+      ]
+    },
+    "shuffle_base_seeds": [
+      11001,
+      12001,
+      13001,
+      14001,
+      15001
+    ],
+    "shuffle_schedule": "torch.randperm(N, Generator.manual_seed(shuffle_base_seed + zero_based_epoch))",
+    "expected_runs": 150,
+    "training": {
+      "architecture": [
+        784,
+        64,
+        10
+      ],
+      "activation": "ReLU",
+      "biases": "zero and frozen",
+      "optimizer": "SGD",
+      "lr": 0.1,
+      "momentum": 0.9,
+      "batch_size": 256,
+      "epochs": 10,
+      "threads_per_worker": 1,
+      "workers": 4,
+      "weight_decay": 0
+    },
+    "checkpoint_storage": "all 21 NPZ arrays plus PT full optimizer/RNG/model/order states",
+    "initial_source": "exact existing E0 weights, checked bitwise for both layers",
+    "new_training": true,
+    "analysis_design": "primary design to be fixed in a separate analysis_design.json before training outcomes are examined",
+    "primary_intent": "initialization identity retrieval across independently manipulated shuffle levels, conditional on dataset"
+  },
+  "analysis_plan_sha256": "bcc20ba73526eb6ed2060e3569576739a9721d91c061c36dc20720cd34387459",
+  "analysis_design": {
+    "status": "specified before crossed training and before outcome inspection",
+    "experiment": 5,
+    "training_design": {
+      "datasets": [
+        "mnist",
+        "fashion_mnist",
+        "kmnist"
+      ],
+      "initializations_per_dataset": 10,
+      "shuffle_levels": 5,
+      "shuffle_seeds": [
+        11001,
+        12001,
+        13001,
+        14001,
+        15001
+      ],
+      "n_training_runs": 150,
+      "checkpoints": "E0 through E20, inclusive",
+      "initial_states": "the ten original main-cohort initializations per dataset, each reused for every shuffle level",
+      "analysis_guard": "no real analysis before a complete validated 150-run manifest and root authorization"
+    },
+    "weight_distance": {
+      "key": "normalized_frobenius|total|optimal|canonical",
+      "definition": "Canonical hidden-neuron gauge, one shared unit norm for W0/W1, joint Hungarian permutation, total Frobenius distance",
+      "source": "unchanged 02_Initialization_Retrieval/code/distances.py",
+      "identity_policy": "all compared network pairs use the same blind distance calculation"
+    },
+    "primary": {
+      "endpoint": "E20 cross-shuffle end-to-end retrieval of initial identity",
+      "datasets": "one primary test per dataset; Holm family size three",
+      "comparisons": "all 20 ordered pairs of distinct shuffle levels; 10 query identities and 10 candidate identities in each comparison",
+      "statistic": "mean average-tie correct-candidate rank, first averaged over comparisons for each initialization and then over ten initializations; smaller is better",
+      "chance_mean_rank": 5.5,
+      "chance_top1": 0.1,
+      "null": "For every Monte Carlo draw, independently relabel initialization identities within shuffle levels 2-5 and hold shuffle level 1 fixed. The same per-level bijection is used in every comparison involving that level.",
+      "mapping_convention": "p[s,label] is the physical initialization index assigned to common label in shuffle s; a matched pair has physical indices p[source,label] and p[target,label]. Equivalently the target for physical query i is p[target,inverse(p[source])[i]].",
+      "n_permutations": 10000,
+      "p_value": "one-sided add-one Monte Carlo probability of mean rank at most the observation",
+      "jackknife": "delete one initialization and all five associated training runs, rerank nine candidates, calculate SE for rank_score=(n-mean_rank)/(n-1), and transform intervals to the full ten-candidate scale",
+      "ci_scope": "variation across ten initializations, conditional on the five selected shuffle levels; not 50 independent initializations",
+      "shuffle_sensitivity": "separate leave-one-shuffle estimates, without treating overlapping comparisons as independent replicates"
+    },
+    "secondary": {
+      "final_hidden_representations": "Also construct the complete E20 50x50 raw-hidden 1-minus-biased-centered-linear-CKA matrix on the same hashed original 3000-example probe. Apply the same cross-shuffle initialization retrieval, cross-initialization shuffle retrieval, factor-block nulls, block jackknives, and distance contrasts. All representational endpoints are secondary/exploratory; the primary weight metric does not change. No matching of hidden features and no use of initial representations for this endpoint.",
+      "end_to_initial": "All 21 checkpoints: 50 queries against 10 initial candidates; average each initialization over its five shuffles. Null uses one candidate-initialization bijection consistently across all five queries of each initial identity. E0 is sanity only.",
+      "shuffle_retrieval": "E20 end-to-end retrieval of shuffle identity across all 90 ordered pairs of distinct initialization blocks, with five candidates. Independently relabel shuffle identities within initialization blocks 2-10 while block 1 is fixed. Jackknife deletes a complete shuffle level across all ten initializations; intervals are conditional on the selected initializations.",
+      "distance_groups": {
+        "same_initialization_different_shuffle": 100,
+        "different_initialization_same_shuffle": 225,
+        "different_initialization_different_shuffle": 900
+      },
+      "initialization_distance_contrast": "mean(different initialization, different shuffle) minus mean(same initialization, different shuffle), tested with the primary initialization-label null",
+      "shuffle_distance_contrast": "mean(different initialization, different shuffle) minus mean(different initialization, same shuffle), tested with the shuffle-label null",
+      "distance_inference": "whole initialization or shuffle blocks, respectively; individual network-pair distances are not independent replicates",
+      "performance": "For accuracy and loss at every checkpoint, decompose the complete 10x5 table into additive initialization SS, shuffle SS, and interaction/residual SS. One outcome per cell means interaction and residual cannot be separated; no ANOVA p-values.",
+      "aggregation": "equal mean across the three fixed dataset strata; independent within-dataset null draws and sum of within-stratum jackknife variances; secondary summary, not another primary family",
+      "interpretation": "The crossed design separates sensitivity to initial weights and batch ordering within the specified training protocol. Identifiability and geometric separation are distinct; a nonsignificant retrieval result does not prove zero influence."
+    },
+    "seeds": {
+      "base_seed": 2026112100,
+      "initialization_identity_null": [
+        2026112101,
+        2026112102,
+        2026112103
+      ],
+      "shuffle_identity_null": [
+        2026112201,
+        2026112202,
+        2026112203
+      ],
+      "end_to_initial_identity_null": [
+        2026112301,
+        2026112302,
+        2026112303
+      ],
+      "generator": "numpy.random.RandomState; iid uniform bijections with replacement; common null mappings across related statistics and checkpoints"
+    },
+    "ties_and_intervals": {
+      "ties": "exact saved float64 distances; average ranks and fractional top1 credit",
+      "top1": "chance-corrected before jackknife when candidate count changes; returned to full-candidate scale",
+      "mrr": "reciprocal average ranks; exact chance is the average reciprocal rank over all candidate cells, including ties",
+      "ci": "normal observed estimate plus/minus 1.95996 SE, unclipped; boundary-perfect estimates may give degenerate jackknife intervals",
+      "multiplicity": "Holm only for the three prespecified E20 initialization-retrieval endpoints; all other p-values exploratory"
+    }
+  },
+  "analysis_design_sha256": "800deee3076136f030ac655970ff6ff561a90a267a77876d3a7239fd64354fa0",
+  "training": {
+    "passed": true,
+    "runs": 150,
+    "checkpoints": 3150,
+    "files_hashed": 300,
+    "manifest_sha256": "732b0a17c1152db9cfc7b48eb963f6243db8599bb43c56bca154d4f01183d0ef",
+    "context_fingerprint": "11957b396212ce656b5b0104b852243119cbe9182046ed50f43f27cfc9dd5b05",
+    "deep_validation_receipt_sha256": "5c5740665f4c23dffec23603fcd718b9937f301a974f3762ccb781a302f17a87",
+    "verification": "unchanged full NPZ/PT bytes bound to successful deep training validation; E0 and shared-order metadata rechecked"
+  },
+  "analysis": {
+    "passed": true,
+    "analysis_validation_sha256": "888be18a56a6f46e1b908f5a0cf59d690b703730288559152dd290930b8848d8",
+    "analysis_fingerprint": "af4e35e5addf3172fd0c8646bacf885e6192f4b1dec1e9c1792f4d94fb2dbae7",
+    "sources": {
+      "analysis": {
+        "path": "/home/patrick/projects/Learning-Trajectory/05_Initialization_Shuffle/code/analysis.py",
+        "sha256": "e7ddbcab9cb2c009a00f35886272b6b8e2bb6d722aed23aae699f710a5732da4"
+      },
+      "design": {
+        "path": "/home/patrick/projects/Learning-Trajectory/05_Initialization_Shuffle/analysis_design.json",
+        "sha256": "800deee3076136f030ac655970ff6ff561a90a267a77876d3a7239fd64354fa0"
+      },
+      "manifest": {
+        "path": "/home/patrick/projects/Learning-Trajectory/05_Initialization_Shuffle/data/manifest.json",
+        "sha256": "732b0a17c1152db9cfc7b48eb963f6243db8599bb43c56bca154d4f01183d0ef"
+      },
+      "weight_distance": {
+        "path": "/home/patrick/projects/Learning-Trajectory/02_Initialization_Retrieval/code/distances.py",
+        "sha256": "21f6a457cdc75411b84997c18ba4ef5ecb8514b8d7722fb80d108fca5de9a9f4"
+      },
+      "cka_distance": {
+        "path": "/home/patrick/projects/Learning-Trajectory/04_Representation_Retrieval/code/representations.py",
+        "sha256": "a5d05a88a45a69c6555f2847f0562ea2085914f7429cdf81cb7e755e4145a050"
+      },
+      "inference_helpers": {
+        "path": "/home/patrick/projects/Learning-Trajectory/02_Initialization_Retrieval/code/inference.py",
+        "sha256": "6a78b62661e9b3b7183028f9c7aed3bf4db11e416416296a2d94cccff83bac26"
+      },
+      "probe": {
+        "path": "/home/patrick/projects/Learning-Trajectory/outputs/probes/main.npz",
+        "sha256": "82f8b9c6a39198281dfdf5b42468b1cd9ef3d5e3999ba881cf10aaf45982ae02"
+      }
+    },
+    "metric_keys": [
+      "normalized_frobenius|total|optimal|canonical",
+      "one_minus_cka|hidden|none|raw"
+    ],
+    "primary_key": "normalized_frobenius|total|optimal|canonical",
+    "primary_checkpoint": 20,
+    "n_permutations": 10000,
+    "permutation_seeds": {
+      "mnist": {
+        "initialization": 2026112101,
+        "shuffle": 2026112201,
+        "trajectory": 2026112301
+      },
+      "fashion_mnist": {
+        "initialization": 2026112102,
+        "shuffle": 2026112202,
+        "trajectory": 2026112302
+      },
+      "kmnist": {
+        "initialization": 2026112103,
+        "shuffle": 2026112203,
+        "trajectory": 2026112303
+      }
+    },
+    "ci_conditioning": "initialization JK conditions on five observed shuffle levels; shuffle JK conditions on ten observed initializations",
+    "performance_decomposition": "one observation per cell: interaction and residual are not separable, no ANOVA p-values"
+  },
+  "presentation": {
+    "results_pdf_present": true,
+    "qa_receipts": {
+      "provenance/visual_qa/receipt.json": {
+        "sha256": "6a26e21d7e8f879af7024c042b9e0a33d91f35b6dd7813d88a0817f24e8f7789",
+        "status": "passed"
+      },
+      "results_qa/receipt.json": {
+        "sha256": "13905f180eb7294a65147320d944133a0fc1fc5336b8861a5ffe96e97fe92281",
+        "status": "recorded"
+      }
+    },
+    "results_pdf_sha256": "e009be045d9abfc808ecbc353dd11cbfd68b1cd5825be7eb9652fbf03e876dd7",
+    "pages": 9,
+    "results_manifest_sha256": "d24409b32ae45d0db689fbdd362a3b9bc990b7697ebcca6081b56d22dfb1ba19",
+    "pdf_visual_qa": {
+      "status": "passed",
+      "receipt": "results_qa/receipt.json",
+      "receipt_sha256": "13905f180eb7294a65147320d944133a0fc1fc5336b8861a5ffe96e97fe92281",
+      "report_sha256": "e009be045d9abfc808ecbc353dd11cbfd68b1cd5825be7eb9652fbf03e876dd7",
+      "pages_inspected": 9,
+      "dpi": 100
+    },
+    "plot_sources_sha256": "36a0ebe1e377510389c267ee8c192abe2ee4c2947b118ba69fc1cdac70e4c42b"
+  },
+  "code_sha256": {
+    "05_Initialization_Shuffle/code/analysis.py": "e7ddbcab9cb2c009a00f35886272b6b8e2bb6d722aed23aae699f710a5732da4",
+    "05_Initialization_Shuffle/code/finalize.py": "0282b1a43f082ee508aac7ca7c93ac7fa2029c9977aab1c54d17ef09db0709d2",
+    "05_Initialization_Shuffle/code/plots.py": "109eb6ddd42bf8f36432cf395087b2d6b7a2151dae2dadefc63023016f70c409",
+    "05_Initialization_Shuffle/code/reporting.py": "7e15c0d5917203c402f7c4c8a3d01d1f71cec83a1ab9d964c171f3fb2b14a6c8",
+    "05_Initialization_Shuffle/code/run.py": "517a88d28c37f1d0811a4daa84af38042b354319064b3a005b4d6bd2078447ad",
+    "05_Initialization_Shuffle/code/test_training.py": "c165ecfaac56f36a129a69b5f45a4eb06b7d393bc8e5557caf99c3fe000526fb",
+    "05_Initialization_Shuffle/code/training.py": "a12f57c7cf93c3d38bc529b7da8383c248d787110b12a2aa6a0d9cd3b72a081a"
+  },
+  "test_code_sha256": {
+    "05_Initialization_Shuffle/tests/test_analysis.py": "48b720fbaffc45f8e10d26202c61d42b5c02216f76ba97bfa72c54db247fde41",
+    "05_Initialization_Shuffle/tests/test_stage_cli.py": "03ea13d320f59a747198211d67b3e72d5424d8820291884a29a38db9568fd3f4"
+  },
+  "software": {
+    "python": "3.11.18",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "pandas": "2.0.3",
+    "matplotlib": "3.7.5",
+    "torch": "2.8.0+cpu"
+  },
+  "independence": "The 50 networks per dataset form a 10-initialization x 5-shuffle crossed design, not 50 independent initializations.",
+  "reproduction_command": ".venv/bin/python 05_Initialization_Shuffle/code/run.py --stage all",
+  "read_only_validation_command": ".venv/bin/python 05_Initialization_Shuffle/code/run.py --stage validate"
+}

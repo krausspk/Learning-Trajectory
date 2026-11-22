@@ -1,0 +1,92 @@
+{
+  "bootstrap_resamples": 10000,
+  "cell_count": 222,
+  "contraction_disagreements": {
+    "all_three_contraction_cells": 0,
+    "alpha_matching_contraction_without_git": 0,
+    "git_contraction_cells": 0,
+    "git_contraction_not_confirmed_alpha": 0,
+    "git_contraction_not_confirmed_pif": 0,
+    "pif_contraction_without_git": 0
+  },
+  "created_at": "2026-11-16T13:37:10.017010+01:00",
+  "method_counts": {
+    "expanded": {
+      "alpha_change": {
+        "above": 184,
+        "below": 21,
+        "cells": 216,
+        "overlaps": 11,
+        "undefined": 0
+      },
+      "ratio_alpha_matching": {
+        "above": 215,
+        "below": 0,
+        "cells": 216,
+        "overlaps": 1,
+        "undefined": 0
+      },
+      "ratio_git": {
+        "above": 216,
+        "below": 0,
+        "cells": 216,
+        "overlaps": 0,
+        "undefined": 0
+      },
+      "ratio_pif": {
+        "above": 216,
+        "below": 0,
+        "cells": 216,
+        "overlaps": 0,
+        "undefined": 0
+      }
+    },
+    "pilot": {
+      "alpha_change": {
+        "above": 4,
+        "below": 0,
+        "cells": 6,
+        "overlaps": 2,
+        "undefined": 0
+      },
+      "ratio_alpha_matching": {
+        "above": 6,
+        "below": 0,
+        "cells": 6,
+        "overlaps": 0,
+        "undefined": 0
+      },
+      "ratio_git": {
+        "above": 6,
+        "below": 0,
+        "cells": 6,
+        "overlaps": 0,
+        "undefined": 0
+      },
+      "ratio_pif": {
+        "above": 6,
+        "below": 0,
+        "cells": 6,
+        "overlaps": 0,
+        "undefined": 0
+      }
+    }
+  },
+  "passed": true,
+  "run_count": 2460,
+  "script_sha256": "be61f3a2b3abb1dee676311e1fb94e8ef4f449b87ae8e705d6ea24b61ed656fa",
+  "seed": 620260118,
+  "source_inputs_unchanged": true,
+  "source_sha256": {
+    "expanded/fashion_mnist_E10/recovery_metrics.csv": "9bd4860555b3eefb5c011bb96a604c4d9e8d675f889060c2fe13ac089a537d40",
+    "expanded/fashion_mnist_E2/recovery_metrics.csv": "28b19260cea58dadc317ce35fc7477399617e8d83cd67a63bb597b19ba0d6051",
+    "expanded/fashion_mnist_E20/recovery_metrics.csv": "0d4dba94d8b861e5882beac1dd365191cd68854343354f292162fd1357f9b800",
+    "expanded/kmnist_E10/recovery_metrics.csv": "1eb7e2dcbc3c307bbd1442a3a676b382b40acfeb0227d5e81ca5a34493e8199e",
+    "expanded/kmnist_E2/recovery_metrics.csv": "15206dda5937e751d44adc4660bc325e05aaab15aa0f13e960c9dacfd60bd214",
+    "expanded/kmnist_E20/recovery_metrics.csv": "91372d232f323d9c3e6c05a82b7ae50929ccdf521ceaec16b702558a4502dc97",
+    "expanded/mnist_E10/recovery_metrics.csv": "7a381c75e4b68a1075a40f2a9b43b1bf5d2c923031ccd648686341a41137b275",
+    "expanded/mnist_E2/recovery_metrics.csv": "e52b03df2869e13f30507bff5e325131bbfb86b37a3b0b90e9a370301f6a2db5",
+    "expanded/mnist_E20/recovery_metrics.csv": "b6661eca8175b64cf71e126e82e8b7ee5cabe1a88ca5ea43465cba3dc5e22e9e",
+    "recovery_metrics.csv": "d19dec30905f85285e4d442474fd63c3e94ac058a9ac172b7d57b38271877cc7"
+  }
+}

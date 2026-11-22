@@ -1,0 +1,5 @@
+analysis,checkpoint,metric_key,metric,layer,alignment,gauge,contrast,jackknife_se,ci_low,ci_high,p_perm_greater,n_datasets,inferential_role
+initialization_retrieval,20,normalized_frobenius|total|optimal|canonical,normalized_frobenius,total,optimal,canonical,0.126266534602181,0.00320417961858627,0.119986470716936,0.132546598487425,9.99900009999e-05,3,exploratory
+shuffle_retrieval,20,normalized_frobenius|total|optimal|canonical,normalized_frobenius,total,optimal,canonical,0.00418746212186253,0.000590718481534715,0.00302967752679375,0.00534524671693131,9.99900009999e-05,3,exploratory
+initialization_retrieval,20,one_minus_cka|hidden|none|raw,one_minus_cka,hidden,none,raw,0.038357803402688,0.00142328400045406,0.035568223693158,0.0411473831122179,9.99900009999e-05,3,exploratory
+shuffle_retrieval,20,one_minus_cka|hidden|none|raw,one_minus_cka,hidden,none,raw,0.00485721326712878,0.00056381031920033,0.0037521675939089,0.00596225894034866,9.99900009999e-05,3,exploratory

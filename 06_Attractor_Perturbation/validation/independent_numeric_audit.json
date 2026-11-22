@@ -1,0 +1,142 @@
+{
+  "audited_at": "2026-11-16T12:51:23.834595+01:00",
+  "early_and_final_contraction": {
+    "final_contractions": 0,
+    "first_update_contractions": 300,
+    "maximum_final_ratio": 19.630550690985924,
+    "minimum_final_ratio": 1.0236066904357073,
+    "minimum_ratio_after_injection": 0.9456298934671198
+  },
+  "implementation": "Direct float64 canonical balancing, scipy Hungarian assignment, pooled Frobenius norm; no project metric imports",
+  "inference_limits": [
+    "All initial perturbations remain inside the fixed structural region: immediate structural departure-and-return was not tested at these amplitudes.",
+    "All initial candidates and source baselines fail fixed endpoint accuracy; combined outside-to-inside events do not establish perturbation-induced structural return.",
+    "Moving-reference-envelope entries are distinct from fixed-region return; small early contraction does not persist to the final horizon.",
+    "This audit verifies reported point estimates and event logic; it does not add independent experimental seeds or validate population coverage of bootstrap intervals."
+  ],
+  "input_sha256": {
+    "checkpoints/I10_E20_preserve_both_e0.00_d0_same.npz": "e798a575144580d88bbc9d8b11c6315084340fde861ca256368c917b373ba20d",
+    "checkpoints/I1_E20_preserve_both_e0.00_d0_same.npz": "bd353f7a046facc07341caff3fbd31cc06fa38fd9e46761c2f02f6c8d01a33ba",
+    "checkpoints/I2_E20_preserve_both_e0.00_d0_same.npz": "e3a0843f7d8e857328b46e2840dbd512113ee3feebcdb10c9f7df8466c7f650b",
+    "checkpoints/I3_E20_preserve_both_e0.00_d0_same.npz": "50435aab9abfd1fdd82d6bc7e0a04150e36ff565d49cb3058ae74f394d86167e",
+    "checkpoints/I4_E20_preserve_both_e0.00_d0_same.npz": "46d84d999dff119ff314b62b7f0eeb56793ab701313425073aca8a6dd0d3722d",
+    "checkpoints/I5_E20_preserve_both_e0.00_d0_same.npz": "266fccfc39f13c8cfd28b5f96071d0cbe850f0d86213d765b68005954e98c3a6",
+    "checkpoints/I6_E20_preserve_both_e0.00_d0_same.npz": "d724c7d76b683fbf8804ff9390472e084cd99fc5315e3e5c30d73c7269eaf50a",
+    "checkpoints/I7_E20_preserve_both_e0.00_d0_same.npz": "6971ba0d1e80ac6fba91c1b4faa56983bd2db63c96c1c8fbf672a28f64a78b84",
+    "checkpoints/I8_E20_preserve_both_e0.00_d0_same.npz": "4d08cb68a2ac21e7d0510db3675784b313e101ac5b6a985402d210d5827dc820",
+    "checkpoints/I9_E20_preserve_both_e0.00_d0_same.npz": "b50922fb9dbe3c6effca6379a3d50b2c026e3f8c850b6b76fd7e458d396645f0",
+    "checkpoints/M1_E20_preserve_both_e0.00_d0_same.npz": "2fffe21c5ff7b78ffa18458ef9b3b30a3fb66b3195d11ca832de1fa3f9d97ba5",
+    "checkpoints/M1_E20_preserve_both_e0.01_d1_same.npz": "90c3eae7852e982a5c480782604fef0708359f02a97bd8af130fe33ffcf3bae2",
+    "endpoint_metrics.csv": "0c2d04cdc834fa99191c1fb5f76b26736fa1ee4177dc312d9f5a628b614ccc93",
+    "endpoint_summary.csv": "5fb8ccd873e690042c1a62cea3151362911020445e59549f8f5ce9f8cf908d56",
+    "loss_interpolations.json": "2531cfaa60d998367c484ad3d46805f6a86dfd70a575edfd3a116b84a860abba",
+    "pilot_jobs.json": "1f552cb72d62ff023f1d3b5405e6d262a771759be5983631dc19ca0b07a93b79",
+    "recovery_metrics.csv": "d19dec30905f85285e4d442474fd63c3e94ac058a9ac172b7d57b38271877cc7",
+    "reference_jobs.json": "6f172bdbccb12335fb7aa72d2cf785ee692f27207f7d3112976c969e24cc5ee4",
+    "region_thresholds.json": "856ebbafd1bacc99d6e5ef8f63d081241cf4475ebef88735338906d828850837"
+  },
+  "passed": true,
+  "references": {
+    "first_pair_distance": 20.317642526022606,
+    "maximum_pairwise_error": 0.0,
+    "recomputed_q95": 20.693572416639995,
+    "selected_combined_member": false,
+    "selected_functional_member": true,
+    "selected_median_distance": 20.757492694166555,
+    "selected_structural_member": false
+  },
+  "region_events": {
+    "fixed_combined_outside_to_inside": 180,
+    "fixed_structural_ever_outside": 103,
+    "fixed_structural_ever_outside_and_final_inside": 0,
+    "fixed_structural_outside_to_inside": 0,
+    "initially_above_fixed_loss": 46,
+    "initially_below_fixed_accuracy": 300,
+    "initially_outside_fixed_combined": 300,
+    "initially_outside_fixed_structure": 0,
+    "initially_outside_moving_structure": 148,
+    "moving_combined_outside_to_inside": 61,
+    "moving_structural_ever_outside": 176,
+    "moving_structural_outside_to_inside": 53,
+    "perturbation_induced_return": 0,
+    "total_perturbations": 300
+  },
+  "scope": "Independent numerical and logical audit of completed MNIST pilot; no training or full analysis rerun",
+  "script_sha256": "56a609fd24edf316382623b8265c11c58e93469625d462f7ac587531dff008bf",
+  "seed_level_means": [
+    {
+      "csv_mean": 16.13406110523562,
+      "epsilon": 0.01,
+      "error": 0.0,
+      "momentum": "preserve",
+      "n_seeds": 10,
+      "recomputed_mean": 16.13406110523562,
+      "reported_ci_high": 17.294334977202965,
+      "reported_ci_low": 14.964080071171724
+    },
+    {
+      "csv_mean": 15.64582981237433,
+      "epsilon": 0.01,
+      "error": 0.0,
+      "momentum": "reset",
+      "n_seeds": 10,
+      "recomputed_mean": 15.64582981237433,
+      "reported_ci_high": 16.916185759971533,
+      "reported_ci_low": 14.195730998760798
+    },
+    {
+      "csv_mean": 3.3437411878086643,
+      "epsilon": 0.05,
+      "error": 0.0,
+      "momentum": "preserve",
+      "n_seeds": 10,
+      "recomputed_mean": 3.3437411878086643,
+      "reported_ci_high": 3.5504600388762952,
+      "reported_ci_low": 3.121129111192209
+    },
+    {
+      "csv_mean": 3.3053596857095364,
+      "epsilon": 0.05,
+      "error": 0.0,
+      "momentum": "reset",
+      "n_seeds": 10,
+      "recomputed_mean": 3.3053596857095364,
+      "reported_ci_high": 3.5267367995612284,
+      "reported_ci_low": 3.0558036553014984
+    },
+    {
+      "csv_mean": 1.1645849097736756,
+      "epsilon": 0.2,
+      "error": 0.0,
+      "momentum": "preserve",
+      "n_seeds": 10,
+      "recomputed_mean": 1.1645849097736756,
+      "reported_ci_high": 1.2018271606728177,
+      "reported_ci_low": 1.1278017542075318
+    },
+    {
+      "csv_mean": 1.1609839429947733,
+      "epsilon": 0.2,
+      "error": 4.440892098500626e-16,
+      "momentum": "reset",
+      "n_seeds": 10,
+      "recomputed_mean": 1.1609839429947737,
+      "reported_ci_high": 1.1963985016065544,
+      "reported_ci_low": 1.1200334485533114
+    }
+  ],
+  "selected_barrier": {
+    "csv": 0.0,
+    "interpolation_points": 11,
+    "recomputed": 0.0
+  },
+  "selected_fork": {
+    "checkpoints_verified": 15,
+    "final_distance": 3.1371891573425015,
+    "final_ratio": 17.151595931890785,
+    "initial_distance": 0.18290946042574238,
+    "job_id": "M1_E20_preserve_both_e0.01_d1_same",
+    "maximum_distance_error": 4.440892098500626e-16,
+    "maximum_ratio_error": 1.1102230246251565e-16
+  }
+}

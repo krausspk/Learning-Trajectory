@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-16T11:44:17.048752+00:00",
+  "status": "controlled analyses not started; analysis protocol fixed after exploratory pipeline checks",
+  "files": {
+    "analysis_plan.json": "e40d9b981bdf561e0a23436fdae934900c43f2634314ca21dbba1535d23f703a",
+    "code/analyze.py": "cd84b5c483211ee29a18dc56a38c5cd93f983045f6ac224970a7c273f3a4e22c",
+    "trajectory_probe_splits.json": "e3069a804b3c490c6f9dfb33d66fbebd0fcd2cd72cda09ce041f5b3b8f09da22"
+  },
+  "note": "The splits file currently records exploration only; controlled seeds are deterministically specified in analysis_plan.json and code."
+}

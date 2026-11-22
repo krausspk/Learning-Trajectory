@@ -1,0 +1,50 @@
+{
+  "one_minus_cka|hidden|none|raw": {
+    "metric": "one_minus_cka",
+    "alignment": "none",
+    "formula": "1 - ||Xc.T @ Yc||_F^2 / (||Xc.T @ Xc||_F * ||Yc.T @ Yc||_F)",
+    "estimator": "biased centered linear CKA; rows are the same 3000 fixed probe examples in the same order",
+    "orientation": "distances[k,t,i,j]: representation of query run i at E=t versus candidate run j at E=0",
+    "identity_policy": "same label-blind calculation for all 100 entries; no diagonal substitution or preference",
+    "zero_variance": "Individual constant columns contribute zero; an entirely constant centered representation raises an error. No replacement experiment.",
+    "neuron_assignment": "none",
+    "training_performed": false,
+    "layer": "hidden",
+    "gauge": "raw",
+    "features": "saved ReLU hidden activations H from original activation archive, mean-centered per feature",
+    "inferential_role": "prespecified_primary",
+    "scaling_caution": "Raw hidden CKA is invariant to whole-matrix scaling and orthogonal feature rotations, but not arbitrary independent positive neuron rescaling."
+  },
+  "one_minus_cka|hidden|none|standardized": {
+    "metric": "one_minus_cka",
+    "alignment": "none",
+    "formula": "1 - ||Xc.T @ Yc||_F^2 / (||Xc.T @ Xc||_F * ||Yc.T @ Yc||_F)",
+    "estimator": "biased centered linear CKA; rows are the same 3000 fixed probe examples in the same order",
+    "orientation": "distances[k,t,i,j]: representation of query run i at E=t versus candidate run j at E=0",
+    "identity_policy": "same label-blind calculation for all 100 entries; no diagonal substitution or preference",
+    "zero_variance": "Individual constant columns contribute zero; an entirely constant centered representation raises an error. No replacement experiment.",
+    "neuron_assignment": "none",
+    "training_performed": false,
+    "layer": "hidden",
+    "gauge": "standardized",
+    "features": "saved H; center each feature then divide nonconstant columns by their population SD; exactly zero-variance columns are set to zero",
+    "inferential_role": "prespecified_exploratory_robustness",
+    "scaling_caution": "Standardization removes positive per-neuron scaling on the fixed probe; no candidate-dependent fitting."
+  },
+  "one_minus_cka|logits|none|raw": {
+    "metric": "one_minus_cka",
+    "alignment": "none",
+    "formula": "1 - ||Xc.T @ Yc||_F^2 / (||Xc.T @ Xc||_F * ||Yc.T @ Yc||_F)",
+    "estimator": "biased centered linear CKA; rows are the same 3000 fixed probe examples in the same order",
+    "orientation": "distances[k,t,i,j]: representation of query run i at E=t versus candidate run j at E=0",
+    "identity_policy": "same label-blind calculation for all 100 entries; no diagonal substitution or preference",
+    "zero_variance": "Individual constant columns contribute zero; an entirely constant centered representation raises an error. No replacement experiment.",
+    "neuron_assignment": "none",
+    "training_performed": false,
+    "layer": "logits",
+    "gauge": "raw",
+    "features": "saved H @ corresponding saved W1; original biases are verified to be fixed zeros; center each logit feature across the probe",
+    "inferential_role": "prespecified_exploratory_robustness",
+    "scaling_caution": "Uses logits, not softmax probabilities; includes no neuron correspondence or weight-space distance."
+  }
+}

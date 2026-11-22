@@ -1,0 +1,10 @@
+{
+  "selected_cohort": "early",
+  "preserved_cohorts": [
+    "early",
+    "main",
+    "task"
+  ],
+  "summary_files_unchanged": true,
+  "passed": true
+}

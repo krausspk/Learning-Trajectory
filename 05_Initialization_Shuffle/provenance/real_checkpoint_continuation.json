@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "source_run": "M_i01_s01",
+  "resume_checkpoint": 10,
+  "resume_update": 1175,
+  "checkpoint_type": "end_of_epoch_5",
+  "continued_to_checkpoint": 20,
+  "continued_to_update": 2350,
+  "all_arrays_bitwise_equal": {
+    "checkpoints": true,
+    "updates": true,
+    "W0": true,
+    "momentum_W0": true,
+    "W1": true,
+    "momentum_W1": true,
+    "bias0": true,
+    "bias1": true,
+    "accuracy": true,
+    "loss": true
+  },
+  "source_archive_sha256": "528c6bc7cf6047842e11f3ef10ae8e0b499377961e615f4093c29258f4b31df5",
+  "source_full_state_sha256": "66844264b964a67984df0721b7ab102f88bdcae94063353f0c69521d6ab40cac",
+  "training_source_sha256": "a12f57c7cf93c3d38bc529b7da8383c248d787110b12a2aa6a0d9cd3b72a081a",
+  "elapsed_seconds": 3.112467613998888
+}
