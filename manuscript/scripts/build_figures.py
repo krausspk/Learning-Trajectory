@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 OUT = ROOT / 'figure'
 OUT.mkdir(exist_ok=True)
+(ROOT / 'provenance').mkdir(exist_ok=True)
 DS = ['mnist', 'fashion_mnist', 'kmnist']
 NAMES = ['MNIST', 'Fashion-MNIST', 'KMNIST']
 COLORS = ['#2478A6', '#C76347', '#558760']

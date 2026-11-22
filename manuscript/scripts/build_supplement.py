@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 OUT = ROOT / 'supplement_tables'
 OUT.mkdir(exist_ok=True)
+(ROOT / 'provenance').mkdir(exist_ok=True)
 DS = ['mnist', 'fashion_mnist', 'kmnist']
 NAMES = dict(zip(DS, ['MNIST', 'Fashion', 'KMNIST']))
 used = set()
